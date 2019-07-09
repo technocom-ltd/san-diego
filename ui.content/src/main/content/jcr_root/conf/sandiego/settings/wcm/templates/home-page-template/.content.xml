@@ -2,11 +2,11 @@
 <jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
     jcr:primaryType="cq:Template">
     <jcr:content
-        cq:lastModified="{Date}2019-07-02T17:32:42.112+07:00"
+        cq:lastModified="{Date}2019-07-05T09:16:38.698+07:00"
         cq:lastModifiedBy="admin"
         cq:templateType="/conf/sandiego/settings/wcm/template-types/empty-page"
         jcr:description="This template is used for creating secure pages"
         jcr:primaryType="cq:PageContent"
         jcr:title="Home Page Template"
-        status="draft"/>
+        status="enabled"/>
 </jcr:root>

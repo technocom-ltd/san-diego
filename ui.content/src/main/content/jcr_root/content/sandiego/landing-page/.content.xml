@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-07-03T07:09:38.119+07:00"
+        cq:lastModified="{Date}2019-07-08T09:11:56.323+07:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/sandiego/settings/wcm/templates/landing-page-template"
         jcr:primaryType="cq:PageContent"
@@ -31,6 +31,263 @@
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="sandiego/components/content/image"
                     fileReference="/content/dam/core-components-examples/library/sample-assets/mountain-range.jpg"/>
+                <responsivegrid
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                    <teaser
+                        cq:styleIds="[1562128937629]"
+                        jcr:created="{Date}2019-07-03T11:36:17.886+07:00"
+                        jcr:createdBy="admin"
+                        jcr:description="&lt;p>We will guide the enterprise toward solutions that meet the diverse needs of our County customers through continuous improvement, thought leadership and operational excellence.&lt;/p>&#xd;&#xa;"
+                        jcr:lastModified="{Date}2019-07-03T11:42:40.323+07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="IT services for County Employees and San Diego County residents"
+                        sling:resourceType="sandiego/components/content/teaser"
+                        actionsEnabled="false"
+                        descriptionFromPage="false"
+                        fileReference="/content/dam/sandiego/landing-page/landing-cover.png"
+                        textIsRich="true"
+                        titleFromPage="false"/>
+                    <responsivegrid
+                        cq:styleIds="[1562063752018,1562146269852]"
+                        jcr:created="{Date}2019-07-03T16:29:39.816+07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-07-03T16:32:01.163+07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/responsivegrid">
+                        <cq:responsive jcr:primaryType="nt:unstructured"/>
+                        <text
+                            cq:styleIds="[1562140939840,1562141164468]"
+                            jcr:created="{Date}2019-07-03T13:55:42.243+07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2019-07-03T15:21:22.506+07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="sandiego/components/content/text"
+                            text="&lt;p style=&quot;text-align: center;&quot;>&lt;b>Our IT Services Catalog&lt;/b>&lt;/p>&#xa;"
+                            textIsRich="true"/>
+                        <text_copy
+                            cq:styleIds="[1562141179654,1562142057373]"
+                            jcr:created="{Date}2019-07-03T13:55:42.243+07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2019-07-03T15:21:16.497+07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="sandiego/components/content/text"
+                            text="&lt;p style=&quot;text-align: center;&quot;>&lt;b>County App Center&lt;/b>&lt;/p>&#xa;"
+                            textIsRich="true"/>
+                        <text_copy_480131023
+                            jcr:created="{Date}2019-07-03T13:55:42.243+07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2019-07-03T13:57:31.471+07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="sandiego/components/content/text"
+                            text="&lt;p style=&quot;text-align: center;&quot;>County of San Diego mobile apps let you take advantage of our services when you're on the go&lt;/p>&#xa;"
+                            textIsRich="true"/>
+                        <responsivegrid
+                            cq:styleIds="[1562551578252]"
+                            jcr:created="{Date}2019-07-08T08:33:51.621+07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2019-07-08T09:11:56.302+07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="wcm/foundation/components/responsivegrid">
+                            <cq:responsive jcr:primaryType="nt:unstructured"/>
+                            <teaser
+                                cq:styleIds="[1562145943477]"
+                                jcr:created="{Date}2019-07-08T08:33:58.012+07:00"
+                                jcr:createdBy="admin"
+                                jcr:description="&lt;p>Report non-emergency problems to the County of San Diego and track the progress of a reported problem.&lt;/p>&#xd;&#xa;"
+                                jcr:lastModified="{Date}2019-07-08T08:36:34.645+07:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Tell Us Now"
+                                sling:resourceType="sandiego/components/content/teaser"
+                                actionsEnabled="true"
+                                descriptionFromPage="false"
+                                fileReference="/content/dam/sandiego/landing-page/tell-us-now.png"
+                                textIsRich="true"
+                                titleFromPage="false">
+                                <actions jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        jcr:primaryType="nt:unstructured"
+                                        link="https://www.youtube.com"
+                                        text="Read more >"/>
+                                </actions>
+                            </teaser>
+                            <teaser_copy
+                                cq:styleIds="[1562145943477]"
+                                jcr:created="{Date}2019-07-08T08:33:58.012+07:00"
+                                jcr:createdBy="admin"
+                                jcr:description="&lt;p>SD Food Info is a quick and easy way to view the latest inspection results for your favorite food facility in San Diego County.&lt;/p>&#xd;&#xa;"
+                                jcr:lastModified="{Date}2019-07-08T08:37:18.907+07:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="SD Food Info"
+                                sling:resourceType="sandiego/components/content/teaser"
+                                actionsEnabled="true"
+                                descriptionFromPage="false"
+                                fileReference="/content/dam/sandiego/landing-page/sd-food-info.png"
+                                textIsRich="true"
+                                titleFromPage="false">
+                                <actions jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        jcr:primaryType="nt:unstructured"
+                                        link="https://www.youtube.com"
+                                        text="Read more >"/>
+                                </actions>
+                            </teaser_copy>
+                        </responsivegrid>
+                        <text_1838461443
+                            cq:styleIds="[1562141179654,1562140939840]"
+                            jcr:created="{Date}2019-07-03T16:49:29.919+07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2019-07-03T16:49:56.160+07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="sandiego/components/content/text"
+                            text="&lt;p style=&quot;text-align: center;&quot;>&lt;b>Technologies&lt;/b>&lt;/p>&#xa;"
+                            textIsRich="true"/>
+                        <text_2055319974
+                            jcr:created="{Date}2019-07-03T16:50:07.292+07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2019-07-03T16:50:14.579+07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="sandiego/components/content/text"
+                            text="&lt;p style=&quot;text-align: center;&quot;>County of San Diego mobile apps let you take advantage of our services when you're on the go&lt;/p>&#xa;"
+                            textIsRich="true"/>
+                        <responsivegrid_49021
+                            cq:styleIds="[1562402961098]"
+                            jcr:created="{Date}2019-07-07T21:07:05.181+07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2019-07-07T21:13:01.547+07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="wcm/foundation/components/responsivegrid">
+                            <cq:responsive jcr:primaryType="nt:unstructured"/>
+                            <image
+                                cq:styleIds="[1562148181459]"
+                                jcr:created="{Date}2019-07-07T21:07:13.674+07:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2019-07-07T21:07:36.234+07:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="sandiego/components/content/image"
+                                fileReference="/content/dam/sandiego/landing-page/technologies-wordpress.png"/>
+                            <image_2107234308_cop_1411328351
+                                cq:styleIds="[1562148181459]"
+                                jcr:created="{Date}2019-07-07T21:09:06.622+07:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2019-07-07T22:27:21.580+07:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="sandiego/components/content/image"
+                                fileReference="/content/dam/sandiego/landing-page/technologies-java.png"/>
+                            <image_1196940096
+                                cq:styleIds="[1562148181459]"
+                                jcr:created="{Date}2019-07-07T21:08:36.233+07:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2019-07-07T21:08:44.491+07:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="sandiego/components/content/image"
+                                fileReference="/content/dam/sandiego/landing-page/technologies-microsoft.png"/>
+                            <image_2107234308_cop_1008499955
+                                cq:styleIds="[1562148181459]"
+                                jcr:created="{Date}2019-07-07T21:09:06.622+07:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2019-07-07T22:27:21.580+07:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="sandiego/components/content/image"
+                                fileReference="/content/dam/sandiego/landing-page/technologies-java.png"/>
+                            <image_2107234308
+                                cq:styleIds="[1562148181459]"
+                                jcr:created="{Date}2019-07-07T21:09:06.622+07:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2019-07-07T21:09:11.274+07:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="sandiego/components/content/image"
+                                fileReference="/content/dam/sandiego/landing-page/technologies-react.png"/>
+                            <image_2107234308_cop
+                                cq:styleIds="[1562148181459]"
+                                jcr:created="{Date}2019-07-07T21:09:06.622+07:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2019-07-07T22:27:21.580+07:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="sandiego/components/content/image"
+                                fileReference="/content/dam/sandiego/landing-page/technologies-java.png"/>
+                            <image_2107234308_cop_604993194
+                                cq:styleIds="[1562148181459]"
+                                jcr:created="{Date}2019-07-07T21:09:06.622+07:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2019-07-07T22:27:21.580+07:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="sandiego/components/content/image"
+                                fileReference="/content/dam/sandiego/landing-page/technologies-java.png"/>
+                            <image_2107234308_cop_2066830197
+                                cq:styleIds="[1562148181459]"
+                                jcr:created="{Date}2019-07-07T21:09:06.622+07:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2019-07-07T22:27:21.580+07:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="sandiego/components/content/image"
+                                fileReference="/content/dam/sandiego/landing-page/technologies-java.png"/>
+                            <image_2107234308_cop_28099017
+                                cq:styleIds="[1562148181459]"
+                                jcr:created="{Date}2019-07-07T21:09:06.622+07:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2019-07-07T22:27:21.580+07:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="sandiego/components/content/image"
+                                fileReference="/content/dam/sandiego/landing-page/technologies-java.png"/>
+                            <image_2107234308_cop_1274903964
+                                cq:styleIds="[1562148181459]"
+                                jcr:created="{Date}2019-07-07T21:09:06.622+07:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2019-07-07T21:09:11.274+07:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="sandiego/components/content/image"
+                                fileReference="/content/dam/sandiego/landing-page/technologies-react.png"/>
+                            <image_2107234308_cop_29644764
+                                cq:styleIds="[1562148181459]"
+                                jcr:created="{Date}2019-07-07T21:09:06.622+07:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2019-07-07T22:27:21.580+07:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="sandiego/components/content/image"
+                                fileReference="/content/dam/sandiego/landing-page/technologies-java.png"/>
+                        </responsivegrid_49021>
+                        <button
+                            cq:styleIds="[1562203338362,1562509891296]"
+                            jcr:created="{Date}2019-07-07T21:13:56.373+07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2019-07-07T21:32:07.515+07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="See all technologies"
+                            sling:resourceType="sandiego/components/content/button"
+                            type="submit"/>
+                    </responsivegrid>
+                    <procurement_request
+                        jcr:created="{Date}2019-07-04T09:15:01.414+07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-07-04T09:15:01.414+07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="sandiego/components/content/landing-page/procurement-request"/>
+                </responsivegrid>
             </responsivegrid>
         </root>
     </jcr:content>

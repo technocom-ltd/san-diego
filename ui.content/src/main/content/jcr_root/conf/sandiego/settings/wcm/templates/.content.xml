@@ -6,4 +6,5 @@
     <rep:policy/>
     <landing-page-template/>
     <home-page-template/>
+    <test-secure-page/>
 </jcr:root>
