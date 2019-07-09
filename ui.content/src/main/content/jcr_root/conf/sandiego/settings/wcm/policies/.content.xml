@@ -136,6 +136,27 @@
                         </cq:styleGroups>
                     </policy_1562569710381>
                 </options>
+                <button jcr:primaryType="nt:unstructured">
+                    <policy_1562655547081
+                        jcr:lastModified="{Date}2019-07-09T14:03:08.275+07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Form Buttom Policy"
+                        sling:resourceType="wcm/core/components/policy/policy">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0 jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="cmp-form-button--custom"
+                                        cq:styleId="1562655549231"
+                                        cq:styleLabel="custom"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                        </cq:styleGroups>
+                    </policy_1562655547081>
+                </button>
             </form>
             <content jcr:primaryType="nt:unstructured">
                 <teaser jcr:primaryType="nt:unstructured">
