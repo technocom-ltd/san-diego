@@ -1,0 +1,24 @@
+/* SEA Button default style */
+
+@button-width: 210px;
+
+.cmp-form-button {
+  height: @button-height-base;
+  width: @button-width;
+  border: 1px solid @blue-deep;
+  box-sizing: border-box;
+  border-radius: 8px;
+
+  font: @font-weight-bold @font-size-base @font-family-base;
+  color: @blue-deep;
+  background-color: @white-base;
+  transition: all 0.4s;
+  opacity: 1;
+  outline: none;
+
+
+  &:hover {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+}
