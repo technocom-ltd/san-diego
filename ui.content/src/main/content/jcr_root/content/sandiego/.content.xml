@@ -2,9 +2,9 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:allowedTemplates="/conf/sandiego/settings/wcm/templates/.*"
+        cq:allowedTemplates="[/conf/sandiego/settings/wcm/templates/.*,/apps/sandiego/templates/.*]"
         cq:deviceGroups="[/etc/mobile/groups/responsive]"
-        cq:lastModified="{Date}2019-07-03T05:37:21.411+07:00"
+        cq:lastModified="{Date}2019-07-06T23:36:12.585+07:00"
         cq:lastModifiedBy="admin"
         jcr:primaryType="cq:PageContent"
         jcr:title="SanDiego Site"
@@ -17,4 +17,5 @@
         </image>
     </jcr:content>
     <landing-page/>
+    <test-secure/>
 </jcr:root>
