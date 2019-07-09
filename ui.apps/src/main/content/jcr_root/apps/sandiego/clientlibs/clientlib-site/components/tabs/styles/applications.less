@@ -1,0 +1,67 @@
+.cmp-tabs--applications {
+  .cmp-tabs {
+    .cmp-tabs__tablist {
+      display: flex;
+      justify-content: center;
+      font: @font-weight-bold @font-size-base @font-family-base;
+      color: @black-light;
+      margin: 40px 0;
+
+
+      .cmp-tabs__tab {
+        outline: none;
+        opacity: 0.5;
+        border-bottom: 0.25px solid @black-light;
+
+        &:hover {
+          color: @blue-deep;
+        }
+
+      }
+
+      .cmp-tabs__tab--active {
+        transition: opacity 0.8s;
+        border-bottom: 2px solid;
+        color: @blue-deep;
+        opacity: 1;
+        border-color: inherit;
+      }
+    }
+
+    .cmp-tabs__tabpanel {
+      opacity: 0;
+    }
+
+    .cmp-tabs__tabpanel--active {
+      animation: application-anim 1s ease forwards;
+      -webkit-animation: application-anim 1s ease forwards;
+    }
+  }
+}
+
+
+@-webkit-keyframes application-anim {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+
+  }
+}
+
+@keyframes application-anim {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+
+  }
+}

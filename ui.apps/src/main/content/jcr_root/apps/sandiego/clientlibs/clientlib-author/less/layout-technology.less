@@ -2,11 +2,21 @@
   margin-top: 20px;
 
   > .aem-Grid {
-    display: block;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    grid-auto-rows: 80px;
+    grid-gap: 10px;
 
-    div {
-      display: block;
-      opacity: 1;
+    &::before,
+    &::after {
+      content: none;
     }
+
+    > div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
   }
 }

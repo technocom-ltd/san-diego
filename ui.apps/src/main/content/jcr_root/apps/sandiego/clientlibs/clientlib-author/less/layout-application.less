@@ -1,0 +1,19 @@
+.cmp-layout-container--application {
+  margin-top: 20px;
+
+  > .aem-Grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
+    grid-auto-rows: 464px;
+    grid-gap: 40px;
+
+    &::before,
+    &::after {
+      content: none;
+    }
+
+    > div {
+      display: block;
+    }
+  }
+}
