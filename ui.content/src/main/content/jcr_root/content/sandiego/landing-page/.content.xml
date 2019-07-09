@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2019-07-03T07:09:38.119+07:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/sandiego/settings/wcm/templates/landing-page-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Landing Page"
+        sling:resourceType="sandiego/components/structure/page">
+        <root jcr:primaryType="nt:unstructured">
+            <responsivegrid
+                cq:styleIds="[1562063752018]"
+                jcr:lastModified="{Date}2019-07-03T05:50:32.383+07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <title
+                    jcr:created="{Date}2019-07-02T17:58:07.312+07:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-07-02T17:58:14.160+07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Landing Page"
+                    sling:resourceType="sandiego/components/content/title"/>
+                <image
+                    jcr:created="{Date}2019-07-03T07:09:38.115+07:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-07-03T07:09:38.115+07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="sandiego/components/content/image"
+                    fileReference="/content/dam/core-components-examples/library/sample-assets/mountain-range.jpg"/>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+    <about-us/>
+    <infomation-technology/>
+    <technology/>
+    <procurement/>
+</jcr:root>
