@@ -1,0 +1,18 @@
+@image-height: 80px;
+
+
+.cmp-image--technology {
+  .cmp-image {
+    .cmp-image__image {
+      margin: 0;
+      max-height: @image-height;
+      object-fit: contain;
+
+      transition: all 0.4s;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+}

@@ -3,3 +3,7 @@
 js/util.js
 components/page/page.js
 components/navigation/navigation.js
+components/app-navigation/app-navigation.js
+components/header/header.js
+components/teaser/teaser.js
+components/button/button.js

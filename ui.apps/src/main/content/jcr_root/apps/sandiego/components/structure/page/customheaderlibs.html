@@ -20,7 +20,7 @@
 <sly data-sly-use.clientLib="/libs/granite/sightly/templates/clientlib.html" data-sly-call="${clientlib.css @ categories='sea.base'}" />
 
 <!--/* Load authoring related client libraries */-->
-<sly data-sly-test="${wcmmode.preview || wcmmode.edit}" data-sly-call="${clientLib.all @ categories='sea.author'}" />
+<sly data-sly-test="${wcmmode.preview ||wcmmode.edit}" data-sly-call="${clientLib.all @ categories='sea.author'}" />
 
 <!--/* Include Context Hub */-->
 <sly data-sly-resource="${'contexthub' @ resourceType='granite/contexthub/components/contexthub'}" />

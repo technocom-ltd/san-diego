@@ -1,0 +1,52 @@
+.cmp-text--title {
+
+  display: block;
+  position: relative;
+
+  .cmp-text {
+    background: #EBEBEB;
+    padding: 16px 40px;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  .cmp-text::before {
+    content: '\00d7';
+    position: absolute;
+    //    top: 50%;
+    right: 30px;
+    font-size: 30px;
+    transform: rotate(45deg);
+    transition: all 0.6s ease-in-out;
+    //    font-family: Arial, sans-serif;
+  }
+}
+
+.cmp-text--content {
+  .cmp-text {
+    background: #F8F8F8;
+    //    padding: 0;
+    padding: 0 40px;
+
+    max-height: 0;
+    //    height: 0;
+    overflow: hidden;
+
+    transition: all 0.6s ease-in-out;
+  }
+}
+
+.cmp-text--title:hover {
+
+  .cmp-text::before {
+    transform: rotate(0)
+  }
+}
+
+.cmp-text--title:hover + .cmp-text--content > .cmp-text {
+  padding: 26px 40px;
+  max-height: 999px;
+  ;
+}

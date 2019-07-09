@@ -1,0 +1,79 @@
+  .app-navigation-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    flex-direction: column;
+
+    .app-navigation__group-wrapper {
+      display: flex;
+      justify-content: center;
+    }
+
+    .app-navigation__group {
+      font-weight: @font-weight-bold;
+      list-style: none;
+      display: block;
+      padding: 0;
+      margin: 0;
+      padding-bottom: 13px;
+      border-bottom: 0.5px solid #DCDCDC;
+    }
+
+
+    .app-navigation__item {
+      padding: 0 28px;
+      position: relative;
+      display: inline-block;
+      line-height: 20px;
+      box-sizing: border-box;
+    }
+
+    .app-navigation__link {
+      color: @black-light;
+      opacity: 0.5;
+
+      &:hover {
+        cursor: pointer;
+        color: @blue-deep;
+        opacity: 1;
+      }
+    }
+
+    .app-navigation__item--focus {
+      position: absolute;
+      width: 0;
+      height: 2px;
+      background-color: @blue-deep;
+      left: 0;
+      bottom: -14px;
+      transition: all 0.4s;
+    }
+
+    .app-navigation__link:hover + .app-navigation__item--focus {
+      width: 100%;
+    }
+
+    .app-navigation__item--active {
+      color: @blue-deep;
+      opacity: 1;
+    }
+
+    .app-navigation__item--active + .app-navigation__item--focus {
+      width: 100%;
+    }
+
+    .app-navigation__apps-wrapper {
+      margin-top: 40px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .app-navigation__apps-wrapper > div:nth-child(2n) {
+      margin: 0 40px;
+    }
+
+    .applicatino-navigation__button-wrapper {
+      margin-top: 64px;
+    }
+  }

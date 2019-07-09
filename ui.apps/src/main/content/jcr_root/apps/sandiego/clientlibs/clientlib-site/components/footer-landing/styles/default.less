@@ -18,25 +18,32 @@
 
   .container {
     .container-content();
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas:
+      "a a a b b b b b c c d d";
+
     padding: 70px 0;
+    grid-gap: 20px;
+
+    transition: all 0.4s;
+
+    @media (max-width: @screen-medium) {
+      grid-template-areas:
+        ". a a a a a . b b b b ."
+        ". c c c c . . . d d . .";
+      grid-gap: 40px;
+    }
   }
 
   .footer-info {
-    width: @column-width;
     display: block;
     position: relative;
-  }
 
-  .footer-info {
-    width: @column-width;
-    display: block;
-    position: relative;
+    grid-area: a;
   }
 
   .footer-contact {
-    width: @column-width * 1.5;
     height: 172px;
     display: flex;
     position: relative;
@@ -44,18 +51,21 @@
     flex-direction: column;
     justify-content: space-between;
 
+    grid-area: b;
   }
 
   .footer-sms {
-    width: @column-width / 2;
     display: block;
     position: relative;
+
+    grid-area: d;
   }
 
   .footer-connected {
-    width: 152px;
     display: block;
     position: relative;
+    max-width: 180px;
+    grid-area: c;
   }
 
 
@@ -93,6 +103,17 @@
 
     bottom: 0;
     right: 0;
+
+    transition: all 0.4s;
+
+
+    &:hover {
+      width: 80px;
+      height: 80px;
+      bottom: 10px;
+      right: 10px;
+      cursor: pointer;
+    }
   }
 
   .footer-image-inbox {

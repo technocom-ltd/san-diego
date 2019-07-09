@@ -1,0 +1,46 @@
+@text-width-normal: 800px;
+@text-width-mobile: 500px;
+
+.procurement-request {
+  padding: 0;
+  background: @blue-deep;
+  margin-top: 100px;
+
+  .container {
+    .container-content();
+    max-width: @max-width;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 56px 0;
+
+    transition: all 0.4s;
+
+
+    @media (max-width: @screen-medium) {
+      flex-direction: column;
+
+      padding: 30px 0;
+
+      img {
+        display: none;
+      }
+
+      button {
+        margin-top: 16px;
+      }
+    }
+  }
+
+  .procurement-request__container {}
+
+  .procurement-request__text {
+    font: @font-weight-normal @font-size-base @font-family-base;
+    color: @white-base;
+    width: @text-width-normal;
+
+    @media (max-width: @screen-medium) {
+      width: @text-width-mobile;
+    }
+  }
+}
