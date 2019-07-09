@@ -1,5 +1,6 @@
 .cmp-tabs--applications {
   .cmp-tabs {
+
     .cmp-tabs__tablist {
       display: flex;
       justify-content: center;
@@ -33,14 +34,46 @@
     }
 
     .cmp-tabs__tabpanel--active {
-      animation: application-anim 1s ease forwards;
-      -webkit-animation: application-anim 1s ease forwards;
+      animation: slide-left 0.4s ease forwards;
+      -webkit-animation: slide-left 0.4s ease forwards;
     }
+  }
+
+  .cmp-tabs > div:nth-child(7) ~ .cmp-tabs__tabpanel--active {
+    animation: slide-up 0.4s ease forwards;
+    -webkit-animation: slide-up 0.4s ease forwards;
+  }
+}
+
+@-webkit-keyframes slide-left {
+  0% {
+    opacity: 1;
+    transform: translateX(500px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+
+  }
+}
+
+@keyframes slide-left {
+  0% {
+    opacity: 1;
+    transform: translateX(500px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+
   }
 }
 
 
-@-webkit-keyframes application-anim {
+
+@-webkit-keyframes slide-up {
   0% {
     opacity: 0;
     transform: translateY(20px);
@@ -53,7 +86,7 @@
   }
 }
 
-@keyframes application-anim {
+@keyframes slide-up {
   0% {
     opacity: 0;
     transform: translateY(20px);
