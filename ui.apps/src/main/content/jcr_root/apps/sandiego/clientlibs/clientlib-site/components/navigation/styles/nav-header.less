@@ -88,31 +88,7 @@
 
     }
 
-    .cmp-navigation__item--active .cmp-navigation__item-link {
-      text-decoration: underline;
-      color: @black-base;
+    @media (max-width: @screen-medium) {
+        display: none;
     }
-
-    /* arror down */
-    .cmp-navigation__item-link::after {
-      content: '';
-      margin-left: 5px;
-      margin-bottom: 3px;
-      border: solid @black-light;
-      border-width: 0 1.2px 1.2px 0;
-      display: none;
-      padding: 3px;
-      transform: rotate(45deg);
-      -webkit-transform: rotate(45deg);
-    }
-
-    /* Display arrow down for dropdown menu */
-    .have-dropdown > .cmp-navigation__item-link::after {
-      display: inline-block;
-    }
-  }
-
-  @media (max-width: @screen-medium) {
-    display: none;
-  }
 }

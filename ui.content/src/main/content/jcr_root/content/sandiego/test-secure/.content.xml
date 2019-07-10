@@ -9,4 +9,9 @@
         jcr:title="test-secure"
         sling:resourceType="sandiego/components/structure/page"/>
     <about-us/>
+    <documentation/>
+    <process-procedures/>
+    <orginization/>
+    <discussion/>
+    <technology/>
 </jcr:root>
