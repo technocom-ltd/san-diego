@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-07-09T16:41:57.178+07:00"
+        cq:lastModified="{Date}2019-07-09T14:47:04.699+07:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/sandiego/settings/wcm/templates/test-secure-page"
         jcr:primaryType="cq:PageContent"
@@ -396,7 +396,7 @@
                     cq:styleIds="[1562655549231]"
                     jcr:created="{Date}2019-07-09T14:01:04.147+07:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2019-07-09T14:03:22.960+07:00"
+                    jcr:lastModified="{Date}2019-07-09T14:46:38.244+07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Cancel"
