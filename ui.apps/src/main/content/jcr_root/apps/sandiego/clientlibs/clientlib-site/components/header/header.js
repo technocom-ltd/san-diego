@@ -25,7 +25,7 @@ $(document).ready(function () {
   $
     (".landing-header-input")
     .click(function (event) {
-      event.stopPropagation();
+        event.stopPropagation();
     })
 
   $(document).click(function () {
