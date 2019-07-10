@@ -9,12 +9,12 @@
                 <responsivegrid jcr:primaryType="nt:unstructured">
                     <content-default
                         jcr:description="Test Secure Layout Content"
-                        jcr:lastModified="{Date}2019-07-08T13:35:55.311+07:00"
+                        jcr:lastModified="{Date}2019-07-09T11:00:55.880+07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Test Secure Layout Content"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/libs/wcm/foundation/components/responsivegrid,/libs/fd/af/components/guidedateinput,/apps/sandiego/components/content/about-us/text-content,/apps/sandiego/components/content/landing-page/app-navigation,/apps/sandiego/components/content/breadcrumb,/apps/sandiego/components/content/button,/apps/sandiego/components/content/carousel,/apps/sandiego/components/content/landing-page/footer,/apps/sandiego/components/content/landing-page/header,/apps/sandiego/components/content/image,/apps/sandiego/components/content/landing-page/procurement-request,/apps/sandiego/components/content/teaser,/apps/sandiego/components/content/landing-page/technology-navigation,/apps/sandiego/components/content/text,/apps/sandiego/components/content/title,/apps/sandiego/components/form/button,/apps/sandiego/components/form/container,/apps/sandiego/components/form/hidden,/apps/sandiego/components/form/options,/apps/sandiego/components/form/text]"
+                        components="[/libs/wcm/foundation/components/responsivegrid,/libs/fd/af/components/guidedateinput,/apps/sandiego/components/content/about-us/text-content,/apps/sandiego/components/content/landing-page/app-navigation,/apps/sandiego/components/content/breadcrumb,/apps/sandiego/components/content/button,/apps/sandiego/components/content/carousel,/apps/sandiego/components/content/landing-page/footer,/apps/sandiego/components/content/landing-page/header,/apps/sandiego/components/content/image,/apps/sandiego/components/content/landing-page/procurement-request,/apps/sandiego/components/content/tabs,/apps/sandiego/components/content/teaser,/apps/sandiego/components/content/landing-page/technology-navigation,/apps/sandiego/components/content/text,/apps/sandiego/components/content/title,/apps/sandiego/components/form/button,/apps/sandiego/components/form/container,/apps/sandiego/components/form/hidden,/apps/sandiego/components/form/options,/apps/sandiego/components/form/text]"
                         policyResourceType="wcm/foundation/components/responsivegrid">
                         <cq:authoring jcr:primaryType="nt:unstructured">
                             <assetToComponentMapping jcr:primaryType="nt:unstructured">
@@ -334,7 +334,7 @@
                 </text>
                 <image jcr:primaryType="nt:unstructured">
                     <policy_1562148142300
-                        jcr:lastModified="{Date}2019-07-06T15:38:16.407+07:00"
+                        jcr:lastModified="{Date}2019-07-09T11:10:28.191+07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Landing Image Policy"
@@ -342,7 +342,7 @@
                         allowedRenditionWidths="[200,400,600,800,1000,1200]"
                         allowUpload="true"
                         altValueFromDAM="true"
-                        disableLazyLoading="false"
+                        disableLazyLoading="true"
                         displayPopupTitle="false"
                         isDecorative="false"
                         jpegQuality="{Long}100"
@@ -394,7 +394,7 @@
                 </image>
                 <button jcr:primaryType="nt:unstructured">
                     <policy_1562203313209
-                        jcr:lastModified="{Date}2019-07-07T21:31:56.234+07:00"
+                        jcr:lastModified="{Date}2019-07-09T11:13:14.959+07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Sandiego Landing Button Policy"
@@ -419,6 +419,11 @@
                                         cq:styleClasses="cmp-form-button--technology"
                                         cq:styleId="1562509891296"
                                         cq:styleLabel="Technology Expand"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item3
+                                        cq:styleClasses="cmp-form-button--application"
+                                        cq:styleId="1562645585649"
+                                        cq:styleLabel="Application Expand"
                                         jcr:primaryType="nt:unstructured"/>
                                 </cq:styles>
                             </item0>
@@ -483,6 +488,28 @@
                         </policy_1562431368075>
                     </technologies-container>
                 </landing-page>
+                <tabs jcr:primaryType="nt:unstructured">
+                    <policy_1562645275480
+                        jcr:lastModified="{Date}2019-07-09T11:11:33.428+07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Tabs Landing Policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="/libs/wcm/foundation/components/responsivegrid">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0 jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="cmp-tabs--applications"
+                                        cq:styleId="1562645487499"
+                                        cq:styleLabel="Applications"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                        </cq:styleGroups>
+                    </policy_1562645275480>
+                </tabs>
             </content>
         </components>
     </sandiego>

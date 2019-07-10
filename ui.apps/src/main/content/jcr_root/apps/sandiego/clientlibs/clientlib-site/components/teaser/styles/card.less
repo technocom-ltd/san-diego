@@ -18,30 +18,39 @@
 @teaser-width: 352px;
 @teaser-height: 464px;
 @teaser-img-height: 126px;
+@teaser-padding-vertical: 40px;
+@teaser-padding-horizontal: 32px;
+
+
 
 .cmp-teaser--card {
 
-  @teaser-width: 352px;
-  @teaser-height: 464px;
+
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
 
   .cmp-teaser {
     position: relative;
+    width: 100%;
+    height: 100%;
     max-width: @teaser-width;
     max-height: @teaser-height;
-    height: 100%;
     overflow: hidden;
     background-color: @white-base;
-    margin-bottom: @gutter-padding;
     border: 0.5px solid @grey;
-    padding: 40px 32px;
+    padding: @teaser-padding-vertical @teaser-padding-horizontal;
     border-radius: 16px;
-
     transition: all 0.4s;
+    box-sizing: border-box;
 
     &:hover {
       box-shadow: 0px 24px 100px rgba(87, 87, 87, 0.1);
       border: 0.5px solid @white-base;
-      cursor: pointer;
     }
 
     @media (max-width: @screen-small) {
@@ -81,11 +90,9 @@
 
     .cmp-teaser__title-link {
       color: @teaser-light-color;
-      font-family: @font-family-base;
+      font: @font-weight-bold @font-size-base @font-family-base;
       width: 100%;
       text-align: left;
-      font-size: @font-size-base;
-      font-weight: @font-weight-bold;
       margin-top: 40px;
     }
 
@@ -100,20 +107,31 @@
       position: absolute;
       left: 32px;
       bottom: 40px;
-
     }
 
     .cmp-teaser__action-link {
+      font: @font-weight-bold @font-size-base @font-family-base;
+
       border: none;
       color: @blue-deep;
       margin: 0;
       padding: 0;
       background-color: transparent;
       text-transform: none;
+      overflow: visible;
 
       &:hover {
         text-decoration: underline;
       }
     }
+
+    .cmp-teaser__action-link::after {
+      content: '     \2794';
+      font: @font-weight-bold @font-size-base @font-family-base;
+
+
+    }
+
+
   }
 }

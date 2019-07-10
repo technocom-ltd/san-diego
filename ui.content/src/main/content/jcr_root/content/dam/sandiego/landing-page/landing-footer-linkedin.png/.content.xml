@@ -9,7 +9,7 @@
         cq:parentPath="/content/dam/sandiego/landing-page"
         dam:assetState="processed"
         dam:relativePath="sandiego/landing-page/landing-footer-linkedin.png"
-        jcr:lastModified="{Date}2019-07-08T10:24:31.518+07:00"
+        jcr:lastModified="{Date}2019-07-09T10:50:12.860+07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -24,11 +24,11 @@
             dam:Physicalwidthindpi="{Long}288"
             dam:Physicalwidthininches="{Decimal}0.44442808628082275"
             dam:Progressive="no"
-            dam:sha1="c8bf83bd915d5828429c4a68c95355154c7d1e6b"
+            dam:sha1="fe01b9bf62776418ad3659d8f43e958cb8d01842"
             dam:size="{Long}1763"
             dc:format="image/png"
             dc:modified="{Date}2019-07-08T10:24:31.107+07:00"
-            jcr:lastModified="{Date}2019-07-08T10:24:31.106+07:00"
+            jcr:lastModified="{Date}2019-07-09T10:50:12.169+07:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"

@@ -16,6 +16,7 @@
 // Wrap bindings in anonymous namespace to prevent collisions
 $(document).ready(function () {
   var techButton = $(".cmp-form-button--technology > button");
+  var appButton = $(".cmp-form-button--application > button");
 
   techButton.click(function () {
     if (techButton.text() == 'See all technologies') {
@@ -24,9 +25,19 @@ $(document).ready(function () {
 
     } else {
       $(".cmp-layout-container--technology .aem-Grid").removeClass("show-all");
-
       techButton.html('See all technologies');
     }
   });
+
+  appButton.click(function () {
+    if (appButton.text() == 'See all applications') {
+      $(".cmp-layout-container--application .aem-Grid").addClass("show-all");
+      appButton.html('Hide');
+
+    } else {
+      $(".cmp-layout-container--application .aem-Grid").removeClass("show-all");
+      appButton.html('See all applications');
+    }
+  })
 
 });
