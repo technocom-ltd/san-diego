@@ -68,6 +68,26 @@
                             </item0>
                         </cq:styleGroups>
                     </content-default>
+                    <policy_6591661045500
+                        jcr:lastModified="{Date}2019-07-10T11:39:38.101+07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Landing Page Thao Nguyen Policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/sandiego/components/content/breadcrumb,/apps/sandiego/components/content/button,/apps/sandiego/components/content/carousel,/apps/sandiego/components/content/landing-page-2/header,/apps/sandiego/components/content/image,/apps/sandiego/components/content/navigation,/apps/sandiego/components/content/search,/apps/sandiego/components/content/tabs,/apps/sandiego/components/content/teaser,/apps/sandiego/components/content/text]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0 jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="cmp-layout-container--fixed"
+                                        cq:styleId="1562727602719"
+                                        cq:styleLabel="Fixed Container"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                        </cq:styleGroups>
+                    </policy_6591661045500>
                 </responsivegrid>
             </components>
         </foundation>
@@ -184,10 +204,34 @@
                             </item0>
                         </cq:styleGroups>
                     </policy_1562128907216>
+                    <policy_7952528483600
+                        jcr:lastModified="{Date}2019-07-10T11:27:47.713+07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Slide Thao Nguyen"
+                        sling:resourceType="wcm/core/components/policy/policy">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0 jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="cmp-teaser--slide-new "
+                                        cq:styleId="1562729028502"
+                                        cq:styleLabel="Slide"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item1
+                                        cq:styleClasses="cmp-teaser--card-new"
+                                        cq:styleId="1562732863580"
+                                        cq:styleLabel="Card"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                        </cq:styleGroups>
+                    </policy_7952528483600>
                 </teaser>
                 <text jcr:primaryType="nt:unstructured">
                     <policy_1562136775044
-                        jcr:lastModified="{Date}2019-07-03T15:21:05.571+07:00"
+                        jcr:lastModified="{Date}2019-07-10T11:22:05.971+07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="SanDiego Text Policy"
@@ -429,6 +473,25 @@
                             </item0>
                         </cq:styleGroups>
                     </policy_1562203313209>
+                    <policy_12690162866000
+                        jcr:lastModified="{Date}2019-07-10T11:45:41.055+07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Button Thao Nguyen Policy"
+                        sling:resourceType="wcm/core/components/policy/policy">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0 jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="cmp-form-button--new-custom"
+                                        cq:styleId="1562733817313"
+                                        cq:styleLabel="custom"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                        </cq:styleGroups>
+                    </policy_12690162866000>
                 </button>
                 <carousel jcr:primaryType="nt:unstructured">
                     <policy_1562213785497
@@ -510,6 +573,30 @@
                         </cq:styleGroups>
                     </policy_1562645275480>
                 </tabs>
+                <navigation jcr:primaryType="nt:unstructured">
+                    <policy_1562729311141
+                        jcr:lastModified="{Date}2019-07-10T11:05:33.063+07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Navigation Thao Nguyen Policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        collectAllPages="true"
+                        navigationRoot="/content/sandiego/landing-page-2/nav-1"
+                        skipNavigationRoot="true">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0 jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="cmp-navigation--header-new"
+                                        cq:styleId="1562731487424"
+                                        cq:styleLabel="Custom"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                        </cq:styleGroups>
+                    </policy_1562729311141>
+                </navigation>
             </content>
         </components>
     </sandiego>

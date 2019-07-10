@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2019-07-10T10:14:00.834+07:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/sandiego/settings/wcm/templates/landing-page-template-of-thao-nguyen"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="About Us"
+        sling:resourceType="sandiego/components/structure/page">
+        <root
+            jcr:lastModified="{Date}2019-07-10T09:57:25.026+07:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:created="{Date}2019-07-10T09:57:33.844+07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-07-10T09:57:59.639+07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid"/>
+        </root>
+    </jcr:content>
+</jcr:root>

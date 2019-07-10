@@ -1,0 +1,154 @@
+/*
+ *  Copyright 2018 Adobe Systems Incorporated
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ */
+/* WKND teaser - default.less*/
+
+@slide-height: 540px;
+@slide-mobile-height: 400px;
+@slide-content-width: 642px;
+@slide-mobile-content-width: 450px;
+
+
+
+.cmp-teaser--slide-new {
+
+  padding: 0;
+
+  .cmp-teaser {
+    min-height: @slide-height;
+    position: relative;
+    overflow: hidden;
+
+    @media (max-width: @screen-medium) {
+      min-height: @slide-mobile-height;
+    }
+
+    .cmp-image__image {
+      height: @slide-height;
+      object-fit: cover;
+      object-position: center;
+      width: 100%;
+      padding: 0;
+      margin: 0;
+      transition: all 0.4s;
+
+      @media (max-width: @screen-medium) {
+        height: @slide-mobile-height;
+      }
+    }
+
+    .cmp-teaser__content {
+      .container-content();
+      left: 0;
+      right: 0;
+      position: absolute;
+      text-align: center;
+      top: 8em;
+      transition: all 0.4s;
+      max-width: @slide-content-width;
+
+      @media (max-width: @screen-medium) {
+        top: 6em;
+      }
+
+      @media (max-width: @screen-small) {
+        top: 6em;
+        text-align: center;
+      }
+
+    }
+
+    .cmp-teaser__title {
+      font-family: @font-family-base;
+      color: @white-base;
+      font-weight: @font-weight-bold;
+      bottom: 20px;
+      font-size: @font-size-xlarge;
+      text-shadow: 0px 2px 4px rgba(87, 87, 87, 0.2);
+      align-self: center;
+
+      @media (max-width: @screen-medium) {
+        max-width: @slide-mobile-content-width;
+      }
+    }
+
+    .cmp-teaser__description {
+      color: @white-base;
+      font-size: @font-size-base;
+      margin-bottom: 2em;
+      max-width: @slide-content-width - 35px;
+      text-shadow: 0px 2px 4px rgba(87, 87, 87, 0.2);
+
+      @media (max-width: @screen-medium) {
+        max-width: @slide-mobile-content-width;
+      }
+    }
+
+    .cmp-teaser__action-link {
+      background-color: @brand-primary;
+      text-transform: uppercase;
+      font-size: @font-size-small;
+      padding: 0.75em 3.5em;
+      margin-top: .5em;
+      font-weight: @font-weight-bold;
+    }
+
+    .cmp-teaser__arrow-down {
+      position: absolute;
+      bottom: 60px;
+      left: 50%;
+    }
+
+    .cmp-teaser__arrow-down span {
+      display: block;
+      width: 20px;
+      height: 20px;
+      border-bottom: 2.5px solid @white-base;
+      border-right: 2.5px solid @white-base;
+      transform: rotate(45deg);
+      //      margin: -10px;
+      animation: animate 3s infinite;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+
+    .cmp-teaser__arrow-down span:nth-child(2) {
+      animation-delay: -0.2s;
+    }
+
+    .cmp-teaser__arrow-down span:nth-child(3) {
+      animation-delay: -0.4s;
+    }
+
+    @keyframes animate {
+      0% {
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px, -20px);
+      }
+
+      50% {
+        opacity: 1;
+      }
+
+      100% {
+        opacity: 0;
+        transform: rotate(45deg) translate(20px, 20px);
+      }
+    }
+
+  }
+}

@@ -1,0 +1,25 @@
+/* SEA Button application style */
+
+.cmp-form-button--new-custom {
+  margin-top: 40px;
+  display: flex !important;
+  justify-content: center;
+
+  .cmp-form-button {
+    height: @button-height-base;
+    background-color: @grey;
+    box-sizing: border-box;
+    font: @font-weight-bold @font-size-base @font-family-base;
+    color: @blue-deep;
+    transition: all 0.4s;
+    opacity: 1;
+    outline: none;
+    text-transform: uppercase;
+
+    &:hover {
+      opacity: 0.8;
+      cursor: pointer;
+    }
+
+  }
+}

@@ -1,0 +1,118 @@
+/*
+ *  Copyright 2018 Adobe Systems Incorporated
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ */
+/* WKND Navigation Header styles */
+
+@mobile-nav-bg-color: #000;
+@mobile-nav-link-color: #fff;
+
+.cmp-navigation--header-new {
+
+
+  .cmp-navigation {
+    display: block;
+    white-space: nowrap;
+
+    .cmp-navigation__group {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    .cmp-navigation__item {
+      display: inline-block;
+      position: relative;
+    }
+
+    .cmp-navigation__item-link {
+      color: @black-light;
+      font-size: @font-size-small;
+      text-transform: uppercase;
+      font-weight: @font-weight-bold;
+      padding: 15px 17px;
+      text-decoration: none;
+      width: 100%;
+
+      transition: all 0.4s;
+
+      &:hover,
+      &:focus {
+        background: @grey;
+      }
+    }
+
+    /* Dropdown define */
+    .cmp-navigation__item--level-0 .cmp-navigation__group {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      background: @white-base;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+      padding: 0;
+      height: auto;
+      max-height: 0;
+      min-width: calc(100% - 16px);
+
+      //      min-width: 0;
+      overflow: hidden;
+      right: 16px;
+    }
+
+    .cmp-navigation__item--level-0:hover .cmp-navigation__group {
+      max-height: 1000px;
+      //      min-width: calc(100% - 16px);
+      transition: all 0.6s ease-in-out;
+    }
+
+
+    .cmp-navigation__item--level-1 {
+      color: black;
+      padding: 12px 16px;
+      width: 100%;
+      text-decoration: none;
+      display: block;
+
+    }
+
+    .cmp-navigation__item--active .cmp-navigation__item-link {
+      text-decoration: underline;
+      color: @black-base;
+    }
+
+    /* arror down */
+    .cmp-navigation__item-link::after {
+      content: '';
+      margin-left: 5px;
+      margin-bottom: 3px;
+      border: solid @black-light;
+      border-width: 0 1.2px 1.2px 0;
+      display: none;
+      padding: 3px;
+      transform: rotate(45deg);
+      -webkit-transform: rotate(45deg);
+    }
+
+    /* Display arrow down for dropdown menu */
+    .have-dropdown > .cmp-navigation__item-link::after {
+      display: inline-block;
+    }
+  }
+
+  @media (max-width: @screen-medium) {
+    display: none;
+  }
+}
