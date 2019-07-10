@@ -1,32 +1,51 @@
 .cmp-form-text--custom {
-    padding-bottom: 40px;
+  padding-bottom: 40px;
 
-    .cmp-form-text {
-        label {
-            font-family: @font-family-base;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 14px;
-            line-height: 20px;
-        }
-
-        .cmp-form-text__text {
-            border: 1px solid @grey;
-            box-sizing: border-box;
-            border-radius: 8px;
-            max-width: 581px;
-            width: 100%;
-            height: 48px;
-            background: @white-base;
-            font-family: @font-family-base;
-            font-style: normal;
-            font-size: 14px;
-            padding: 16px 40px 11px 16px;
-            line-height: 20px;
-            margin-top: 14px;
-            outline: none;
-        }
+  .cmp-form-text {
+    label {
+      font-family: @font-family-base;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 20px;
     }
+
+    .cmp-form-text__text {
+      border: 1px solid @grey;
+      box-sizing: border-box;
+      border-radius: 8px;
+      max-width: 581px;
+      width: 100%;
+      height: 48px;
+      background: @white-base;
+      font-family: @font-family-base;
+      font-style: normal;
+      font-size: 14px;
+      padding: 16px 40px 11px 16px;
+      line-height: 20px;
+      margin-top: 14px;
+      outline: none;
+    }
+
+    input[type="date"]:after {
+      font-family: @font-family-base;
+      font-weight: 900;
+      content: "\f073";
+      color: #555;
+      padding: 0 5px;
+    }
+
+    input[type="date"]::-webkit-calendar-picker-indicator {
+      color: rgba(0, 0, 0, 0);
+      opacity: 1;
+      background-image: url('data:image/svg+xml;charset=utf8,%3Csvg fill="%23000" fill-opacity=".54" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM7 10h5v5H7z"/%3E%3Cpath d="M0 0h24v24H0z" fill="none"/%3E%3C/svg%3E');
+      width: 14px;
+      height: 18px;
+      cursor: pointer;
+      border-radius: 50%;
+      margin-left: 4px;
+    }
+  }
 
 
 }

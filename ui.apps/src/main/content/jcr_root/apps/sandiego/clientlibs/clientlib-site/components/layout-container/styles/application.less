@@ -11,13 +11,17 @@
          content: none;
        }
 
-       > div {
+       > div:nth-child(n+4) {
          display: none;
        }
 
        > div:nth-child(-n+3) {
          display: flex;
        }
+     }
+
+     .hide-all > div:nth-child(n+4) {
+       display: none;
      }
 
      .show-all > div:nth-child(n+4) {
@@ -47,6 +51,27 @@
        100% {
          opacity: 1;
          transform: translateY(0)
+       }
+     }
+
+     @-webkit-keyframes fade {
+       0% {
+         max-height: 999px;
+       }
+
+       100% {
+         max-height: 0;
+       }
+     }
+
+     @keyframes fade {
+       0% {
+         max-height: 999px;
+       }
+
+       100% {
+         max-height: 0;
+         display: none;
        }
      }
    }
