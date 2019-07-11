@@ -1,0 +1,27 @@
+@small-circle-size: 100px;
+@big-circle-size: 158px;
+@tree-height: 820px;
+@animation-duration: 1s;
+
+.tree-image {
+
+  transform: translateY(0);
+  position: relative;
+
+
+  .tree-image__container {
+
+    > span {
+      height: @tree-height - @big-circle-size;
+      ;
+    }
+  }
+
+  .tree-image__image {
+    opacity: 1;
+  }
+
+  .tree-image__text {
+    opacity: 1;
+  }
+}

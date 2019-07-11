@@ -7,3 +7,5 @@ components/app-navigation/app-navigation.js
 components/header/header.js
 components/teaser/teaser.js
 components/button/button.js
+components/search/search.js
+

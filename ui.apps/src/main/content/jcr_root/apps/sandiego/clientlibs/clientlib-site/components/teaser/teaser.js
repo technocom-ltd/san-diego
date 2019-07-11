@@ -23,3 +23,37 @@ $(document).ready(function () {
     }, 1000);
   })
 });
+
+
+(function (element, $) {
+  'use strict';
+  var target = $(element),
+    target_2 = $('.cmp-teaser--process-info .cmp-teaser'),
+    scroll,
+    classNameHalf = 'half-animation',
+    classNameFull = 'full-animation';
+
+
+  $(window).scroll(function () {
+
+    scroll = $(window).scrollTop();
+    if (scroll > 700) {
+      target_2.eq(0).addClass('slide-up');
+      target_2.eq(1).addClass('slide-up');
+      target.addClass(classNameHalf);
+      if (scroll > 1000) {
+        target_2.eq(2).addClass('slide-up');
+        target_2.eq(3).addClass('slide-up');
+        target.addClass(classNameFull);
+      } else {
+        target_2.eq(2).removeClass('slide-up');
+        target_2.eq(3).removeClass('slide-up');
+        target.removeClass(classNameFull);
+      }
+    } else {
+      target_2.eq(0).removeClass('slide-up');
+      target_2.eq(1).removeClass('slide-up');
+      target.removeClass(classNameHalf);
+    }
+  });
+}('.tree-image__container', jQuery));

@@ -69,12 +69,12 @@
                         </cq:styleGroups>
                     </content-default>
                     <policy_6591661045500
-                        jcr:lastModified="{Date}2019-07-11T08:29:49.260+07:00"
+                        jcr:lastModified="{Date}2019-07-11T12:03:38.805+07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Landing Page Thao Nguyen Policy"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/sandiego/components/content/breadcrumb,/apps/sandiego/components/content/button,/apps/sandiego/components/content/carousel,/apps/sandiego/components/content/landing-page-2/header,/apps/sandiego/components/content/image,/apps/sandiego/components/content/navigation,/apps/sandiego/components/content/search,/apps/sandiego/components/content/tabs,/apps/sandiego/components/content/teaser,/apps/sandiego/components/content/text]">
+                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/sandiego/components/content/breadcrumb,/apps/sandiego/components/content/button,/apps/sandiego/components/content/carousel,/apps/sandiego/components/content/landing-page-2/header,/apps/sandiego/components/content/image,/apps/sandiego/components/content/navigation,/apps/sandiego/components/content/search,/apps/sandiego/components/content/tabs,/apps/sandiego/components/content/teaser,/apps/sandiego/components/content/text,/apps/sandiego/components/content/landing-page-2/tree-image,/apps/sandiego/components/form/text]">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                         <cq:styleGroups jcr:primaryType="nt:unstructured">
                             <item0 jcr:primaryType="nt:unstructured">
@@ -652,6 +652,28 @@
                         </cq:styleGroups>
                     </policy_1562729311141>
                 </navigation>
+                <search jcr:primaryType="nt:unstructured">
+                    <policy_1562811855241
+                        jcr:lastModified="{Date}2019-07-11T09:25:02.992+07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Search Landing Policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        searchRoot="/content/sandiego/landing-page-2">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0 jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="cmp-search--teaser"
+                                        cq:styleId="1562811892384"
+                                        cq:styleLabel="Teaser"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                        </cq:styleGroups>
+                    </policy_1562811855241>
+                </search>
             </content>
         </components>
     </sandiego>

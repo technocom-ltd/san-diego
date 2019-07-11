@@ -2,3 +2,6 @@
 header.less
 layout-technology.less
 layout-application.less
+navigation-middle.less
+process-info.less
+image-tree.less

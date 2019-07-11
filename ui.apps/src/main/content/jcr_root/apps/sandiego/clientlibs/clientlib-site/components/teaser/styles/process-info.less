@@ -21,7 +21,7 @@
 @teaser-padding-vertical: 40px;
 @teaser-padding-horizontal: 32px;
 @teaser-description-width: 267px;
-
+@animation-duration: 1s;
 
 .cmp-teaser--process-info {
 
@@ -31,8 +31,10 @@
   display: flex;
   position: relative;
   padding: 0;
-  margin: 0;
+  margin: 2em;
+  margin-bottom: 0;
   justify-content: center;
+
 
   .cmp-teaser {
     position: relative;
@@ -52,6 +54,12 @@
       width: @teaser-height;
       margin-left: auto !important;
       margin-right: auto !important;
+    }
+
+    .cmp-teaser__content {
+      opacity: 0;
+      transform: translateY(@teaser-height);
+      transition: all @animation-duration ease-in-out @animation-duration;
     }
 
     .cmp-teaser__title {
@@ -80,6 +88,14 @@
       font-size: 24px;
       margin-right: auto;
       margin-left: auto;
+    }
+  }
+
+  .slide-up {
+    .cmp-teaser__content {
+      opacity: 1;
+      transform: translateY(0);
+      transition: all @animation-duration ease-in-out @animation-duration;
     }
   }
 }
