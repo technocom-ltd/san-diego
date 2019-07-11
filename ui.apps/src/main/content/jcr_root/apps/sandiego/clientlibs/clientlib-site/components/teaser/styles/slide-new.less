@@ -55,12 +55,14 @@
       right: 0;
       position: absolute;
       text-align: center;
-      top: 8em;
+      top: 9em;
       transition: all 0.4s;
       max-width: @slide-content-width;
 
       @media (max-width: @screen-medium) {
         top: 6em;
+        max-width: @slide-mobile-content-width;
+
       }
 
       @media (max-width: @screen-small) {
@@ -77,11 +79,9 @@
       bottom: 20px;
       font-size: @font-size-xlarge;
       text-shadow: 0px 2px 4px rgba(87, 87, 87, 0.2);
-      align-self: center;
+      text-align: center;
 
-      @media (max-width: @screen-medium) {
-        max-width: @slide-mobile-content-width;
-      }
+
     }
 
     .cmp-teaser__description {

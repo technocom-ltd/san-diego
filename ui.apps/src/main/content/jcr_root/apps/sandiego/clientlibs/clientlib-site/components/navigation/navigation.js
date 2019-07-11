@@ -65,3 +65,21 @@ jQuery(function ($) {
   applyComponentStyles();
 
 });
+
+(function (element, $) {
+  'use strict';
+  var target = $(element),
+    className = "sticky-top",
+    scroll,
+    mobileBreakpoint = 992;
+
+  $(window).scroll(function () {
+
+    scroll = $(window).scrollTop();
+    if (scroll > 500) {
+      target.addClass(className);
+    } else {
+      target.removeClass(className);
+    }
+  });
+}('.cmp-navigation--middle', jQuery));

@@ -15,13 +15,17 @@
  */
 /* WKND teaser - card.less*/
 
-@teaser-width: 352px;
-@teaser-height: 400px;
-@teaser-img-height: 100px;
+@teaser-news-width: 358px;
+@teaser-news-height: 464px;
+@teaser-news-img-height: 362px;
 @teaser-padding-vertical: 40px;
 @teaser-padding-horizontal: 32px;
 
-.cmp-teaser--card-new {
+
+
+.cmp-teaser--news {
+
+
   width: 100%;
   height: 100%;
   display: flex;
@@ -34,101 +38,62 @@
     position: relative;
     width: 100%;
     height: 100%;
-    max-width: @teaser-width;
-    max-height: @teaser-height;
+    max-width: @teaser-news-width;
+    max-height: @teaser-news-height;
     overflow: hidden;
     background-color: @white-base;
-    padding: @teaser-padding-vertical @teaser-padding-horizontal;
-    border-radius: 16px;
     transition: all 0.4s;
     box-sizing: border-box;
 
+    &:hover {}
+
     @media (max-width: @screen-small) {
-      width: @teaser-height;
+      width: @teaser-news-height;
       margin-left: auto !important;
       margin-right: auto !important;
     }
 
     .cmp-teaser__image {
       width: 100%;
+      overflow: hidden;
       padding-top: 0px;
       display: flex;
       justify-content: center;
-
-      .cmp-image {
-        height: @teaser-img-height;
-        width: @teaser-img-height;
-        border-radius: 50%;
-        overflow: hidden;
-
-      }
+      margin: 0;
 
       .cmp-image__image {
         margin-top: 0px;
-        object-fit: none;
-        object-position: center;
+        object-fit: cover;
+        object-position: top;
+        height: @teaser-news-img-height;
         width: 100%;
-        height: 100%;
         -webkit-transition: all .2s;
         -moz-transition: all .2s;
         -o-transition: all .2s;
         transition: all .25s;
+        margin: 0;
+
       }
     }
 
     .cmp-teaser__title {
       font-family: @font-family-base;
       width: 100%;
-      text-align: center;
-      font-size: @font-size-base;
-      font-weight: @font-weight-bold;
-      margin-top: 40px;
-    }
-
-    .cmp-teaser__title-link {
-      color: @teaser-light-color;
-      font: @font-weight-bold @font-size-base @font-family-base;
-      width: 100%;
       text-align: left;
-      margin-top: 40px;
+      font-size: @font-size-base;
+      font-weight: @font-weight-normal;
+      margin-top: 24px;
+      line-height: 1.5;
+
     }
 
     .cmp-teaser__description {
       font-family: @font-family-base;
       width: 100%;
-      text-align: center;
-      font-size: @font-size-base;
-    }
-
-    .cmp-teaser__action-container {
-      position: absolute;
-      left: 32px;
-      bottom: 40px;
-    }
-
-    .cmp-teaser__action-link {
-      font: @font-weight-bold @font-size-base @font-family-base;
-
-      border: none;
-      color: @blue-deep;
+      text-align: left;
+      font-size: @font-size-large;
+      line-height: 1.5;
       margin: 0;
-      padding: 0;
-      background-color: transparent;
-      text-transform: none;
-      overflow: visible;
-
-      &:hover {
-        text-decoration: underline;
-      }
     }
-
-    .cmp-teaser__action-link::after {
-      content: '     \2794';
-      font: @font-weight-bold @font-size-base @font-family-base;
-
-
-    }
-
-
   }
 }
