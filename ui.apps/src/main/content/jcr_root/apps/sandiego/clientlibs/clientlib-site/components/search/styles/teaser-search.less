@@ -1,8 +1,18 @@
 @teaser-search-width: 578px;
+@teaser-search-width-mobile: 400px;
 @teaser-search-height: 48px;
 
+@teaser-search-position: -300px;
+@teaser-search-position-mobile: -150px;
+
+
 .cmp-search--teaser {
-  transform: translateY(-300px);
+  transform: translateY(@teaser-search-position);
+  transition: all 0.4s;
+
+  @media (max-width: @screen-medium) {
+    transform: translateY(@teaser-search-position-mobile);
+  }
 
   .cmp-search {
     margin-left: auto;
@@ -10,6 +20,12 @@
 
     width: @teaser-search-width;
     height: @teaser-search-height;
+
+    transition: all 0.4s;
+
+    @media (max-width: @screen-medium) {
+      width: @teaser-search-width-mobile;
+    }
 
     .cmp-search__form {
       height: 100%;

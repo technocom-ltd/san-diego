@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-07-12T13:34:26.911+07:00"
+        cq:lastModified="{Date}2019-07-12T15:01:32.492+07:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/sandiego/settings/wcm/templates/landing-page-template-of-thao-nguyen"
         jcr:primaryType="cq:PageContent"
@@ -329,6 +329,11 @@
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="sandiego/components/content/image"
                             fileReference="/content/dam/core-components-examples/library/sample-assets/snowy-mountain-glacier.jpg"/>
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                behavior="hide"/>
+                        </cq:responsive>
                     </tree_image>
                 </responsivegrid_1970655543>
                 <responsivegrid_304244404
@@ -363,6 +368,9 @@
                                 <default
                                     jcr:primaryType="nt:unstructured"
                                     width="4"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    width="12"/>
                             </cq:responsive>
                         </text>
                         <text_copy_482492795
@@ -379,6 +387,9 @@
                                 <default
                                     jcr:primaryType="nt:unstructured"
                                     width="4"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    behavior="newline"/>
                             </cq:responsive>
                         </text_copy_482492795>
                         <text_copy
@@ -395,6 +406,9 @@
                                 <default
                                     jcr:primaryType="nt:unstructured"
                                     width="4"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    behavior="newline"/>
                             </cq:responsive>
                         </text_copy>
                     </responsivegrid>
@@ -418,10 +432,10 @@
                         sling:resourceType="wcm/foundation/components/responsivegrid">
                         <cq:responsive jcr:primaryType="nt:unstructured"/>
                         <text
-                            cq:styleIds="[1562140939840,1562141179654,1562774915463]"
+                            cq:styleIds="[1562141179654,1562774915463,1562140939840]"
                             jcr:created="{Date}2019-07-10T11:55:22.321+07:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-07-12T07:53:41.175+07:00"
+                            jcr:lastModified="{Date}2019-07-12T14:55:01.312+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="sandiego/components/content/text"
@@ -431,6 +445,13 @@
                                 <default
                                     jcr:primaryType="nt:unstructured"
                                     width="6"/>
+                                <tablet
+                                    jcr:primaryType="nt:unstructured"
+                                    behavior="none"
+                                    width="6"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    width="12"/>
                             </cq:responsive>
                         </text>
                         <image
@@ -445,6 +466,12 @@
                                 <default
                                     jcr:primaryType="nt:unstructured"
                                     width="6"/>
+                                <tablet
+                                    jcr:primaryType="nt:unstructured"
+                                    behavior="newline"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    width="12"/>
                             </cq:responsive>
                         </image>
                     </responsivegrid_85230>
@@ -506,6 +533,9 @@
                                     <default
                                         jcr:primaryType="nt:unstructured"
                                         width="4"/>
+                                    <phone
+                                        jcr:primaryType="nt:unstructured"
+                                        width="12"/>
                                 </cq:responsive>
                             </teaser_copy_copy>
                             <teaser_copy_copy_cop
@@ -527,6 +557,9 @@
                                     <default
                                         jcr:primaryType="nt:unstructured"
                                         width="4"/>
+                                    <phone
+                                        jcr:primaryType="nt:unstructured"
+                                        behavior="newline"/>
                                 </cq:responsive>
                             </teaser_copy_copy_cop>
                             <teaser_copy_copy_cop_374948019
@@ -548,6 +581,9 @@
                                     <default
                                         jcr:primaryType="nt:unstructured"
                                         width="4"/>
+                                    <phone
+                                        jcr:primaryType="nt:unstructured"
+                                        behavior="newline"/>
                                 </cq:responsive>
                             </teaser_copy_copy_cop_374948019>
                         </responsivegrid>
@@ -573,6 +609,9 @@
                                     <default
                                         jcr:primaryType="nt:unstructured"
                                         width="4"/>
+                                    <phone
+                                        jcr:primaryType="nt:unstructured"
+                                        width="12"/>
                                 </cq:responsive>
                             </teaser_copy_13868791>
                             <teaser_copy_13868791_442984277
@@ -594,6 +633,9 @@
                                     <default
                                         jcr:primaryType="nt:unstructured"
                                         width="4"/>
+                                    <phone
+                                        jcr:primaryType="nt:unstructured"
+                                        behavior="newline"/>
                                 </cq:responsive>
                             </teaser_copy_13868791_442984277>
                             <teaser_copy_13868791_1209561079
@@ -615,6 +657,9 @@
                                     <default
                                         jcr:primaryType="nt:unstructured"
                                         width="4"/>
+                                    <phone
+                                        jcr:primaryType="nt:unstructured"
+                                        behavior="newline"/>
                                 </cq:responsive>
                             </teaser_copy_13868791_1209561079>
                         </item_1562858852452>
@@ -640,6 +685,9 @@
                                     <default
                                         jcr:primaryType="nt:unstructured"
                                         width="4"/>
+                                    <phone
+                                        jcr:primaryType="nt:unstructured"
+                                        width="12"/>
                                 </cq:responsive>
                             </teaser_copy_13868791_878946041>
                             <teaser_copy_13868791
@@ -661,6 +709,9 @@
                                     <default
                                         jcr:primaryType="nt:unstructured"
                                         width="4"/>
+                                    <phone
+                                        jcr:primaryType="nt:unstructured"
+                                        width="12"/>
                                 </cq:responsive>
                             </teaser_copy_13868791>
                         </item_1562858968957>
@@ -694,7 +745,10 @@
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default
                                     jcr:primaryType="nt:unstructured"
-                                    width="1"/>
+                                    width="2"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    width="2"/>
                             </cq:responsive>
                         </image>
                         <text
@@ -710,7 +764,12 @@
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default
                                     jcr:primaryType="nt:unstructured"
-                                    width="11"/>
+                                    offset="0"
+                                    width="9"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="5"/>
                             </cq:responsive>
                         </text>
                     </responsivegrid>
@@ -725,6 +784,12 @@
                             <default
                                 jcr:primaryType="nt:unstructured"
                                 width="3"/>
+                            <tablet
+                                jcr:primaryType="nt:unstructured"
+                                width="6"/>
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                width="12"/>
                         </cq:responsive>
                         <text
                             cq:styleIds="[1562142057373]"
@@ -735,7 +800,13 @@
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="sandiego/components/content/text"
                             text="&lt;p>&lt;b>Contact us&lt;/b>&lt;/p>&#xa;"
-                            textIsRich="true"/>
+                            textIsRich="true">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    width="12"/>
+                            </cq:responsive>
+                        </text>
                         <text_1620210095
                             cq:styleIds="[1562774929650,1562904221595]"
                             jcr:created="{Date}2019-07-10T13:34:06.003+07:00"
@@ -745,7 +816,13 @@
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="sandiego/components/content/text"
                             text="&lt;p>County Administration Center (CAC) 1600 Pacific Highway, Room 306F San Diego, CA 92101&lt;/p>&#xa;"
-                            textIsRich="true"/>
+                            textIsRich="true">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    width="12"/>
+                            </cq:responsive>
+                        </text_1620210095>
                         <text_1021855193
                             cq:styleIds="[1562774929650,1562142057373]"
                             jcr:created="{Date}2019-07-10T13:34:20.803+07:00"
@@ -755,7 +832,13 @@
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="sandiego/components/content/text"
                             text="&lt;p>&lt;b>Phone:&lt;/b> 619-531-5570 &lt;/p>&#xa;&lt;p>&lt;b>Email:&lt;/b> webmaster@sdcounty.ca.gov&lt;/p>&#xa;"
-                            textIsRich="true"/>
+                            textIsRich="true">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    width="12"/>
+                            </cq:responsive>
+                        </text_1021855193>
                         <image
                             cq:styleIds="[1562913139346]"
                             jcr:created="{Date}2019-07-11T08:36:54.681+07:00"
@@ -769,6 +852,9 @@
                                 <default
                                     jcr:primaryType="nt:unstructured"
                                     width="1"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    width="2"/>
                             </cq:responsive>
                         </image>
                         <image_copy
@@ -784,6 +870,9 @@
                                 <default
                                     jcr:primaryType="nt:unstructured"
                                     width="1"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    width="2"/>
                             </cq:responsive>
                         </image_copy>
                         <image_939393364
@@ -799,6 +888,9 @@
                                 <default
                                     jcr:primaryType="nt:unstructured"
                                     width="1"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    width="2"/>
                             </cq:responsive>
                         </image_939393364>
                     </responsivegrid_copy>
@@ -814,6 +906,13 @@
                                 jcr:primaryType="nt:unstructured"
                                 offset="1"
                                 width="3"/>
+                            <tablet
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="6"/>
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                behavior="newline"/>
                         </cq:responsive>
                         <text
                             cq:styleIds="[1562142057373]"
@@ -824,7 +923,13 @@
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="sandiego/components/content/text"
                             text="&lt;p>&lt;b>Road map&lt;/b>&lt;/p>&#xa;"
-                            textIsRich="true"/>
+                            textIsRich="true">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    width="0"/>
+                            </cq:responsive>
+                        </text>
                         <navigation
                             cq:styleIds="[1562902023097]"
                             jcr:created="{Date}2019-07-12T10:21:01.801+07:00"
@@ -838,6 +943,9 @@
                                     jcr:primaryType="nt:unstructured"
                                     offset="0"
                                     width="4"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    width="0"/>
                             </cq:responsive>
                         </navigation>
                     </responsivegrid_copy_>
@@ -852,6 +960,12 @@
                             <default
                                 jcr:primaryType="nt:unstructured"
                                 width="5"/>
+                            <tablet
+                                jcr:primaryType="nt:unstructured"
+                                behavior="newline"/>
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                behavior="newline"/>
                         </cq:responsive>
                         <text
                             cq:styleIds="[1562142057373]"

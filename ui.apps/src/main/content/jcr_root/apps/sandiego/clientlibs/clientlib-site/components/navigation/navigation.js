@@ -37,9 +37,7 @@ jQuery(function ($) {
       // Navigation Panel.
       $(
           '<div id="mobileNav" class="cmp-navigation--mobile">' +
-          '<div class="landing-header-logo-wrapper">' +
-          $(".landing-header-logo-wrapper").html() +
-          '</div>' +
+          $('.cmp-navigation--middle').html() +
           '<nav class="cmp-navigation">' +
           $(this).html() +
           '</nav>' +
@@ -56,9 +54,6 @@ jQuery(function ($) {
           target: $body,
           visibleClass: 'navPanel-visible'
         });
-
-      $("#mobileNav img").attr("src", '/content/dam/sandiego/landing-page/landing-footer-logo.png');
-
     });
   }
 
