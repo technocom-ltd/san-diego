@@ -1,0 +1,35 @@
+@image-galery-image-size: 115px;
+
+.image-galery__container {
+
+  display: grid;
+  grid-template-columns: repeat(4, @image-galery-image-size);
+
+  grid-auto-rows: @image-galery-image-size;
+  grid-gap: 6px;
+
+  .image-galery__image {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+    .cmp-image {
+
+      width: 100%;
+      height: 100%;
+
+
+      .cmp-image__image {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        transition: all 4s;
+
+        &:hover {
+          transform: scale(1.2);
+        }
+      }
+    }
+  }
+}

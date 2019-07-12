@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-07-11T12:03:38.809+07:00"
+        cq:lastModified="{Date}2019-07-12T13:32:25.131+07:00"
         cq:lastModifiedBy="admin"
         jcr:primaryType="nt:unstructured"
         sling:resourceType="wcm/core/components/policies/mappings">
@@ -45,6 +45,14 @@
                                 sling:resourceType="wcm/core/components/policies/mapping"/>
                             <search
                                 cq:policy="sandiego/components/content/search/policy_1562811855241"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="wcm/core/components/policies/mapping"/>
+                            <carousel
+                                cq:policy="sandiego/components/content/carousel/policy_51200370788300"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="wcm/core/components/policies/mapping"/>
+                            <image
+                                cq:policy="sandiego/components/content/image/policy_1562148142300"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="wcm/core/components/policies/mapping"/>
                         </content>

@@ -69,12 +69,12 @@
                         </cq:styleGroups>
                     </content-default>
                     <policy_6591661045500
-                        jcr:lastModified="{Date}2019-07-11T12:03:38.805+07:00"
+                        jcr:lastModified="{Date}2019-07-12T10:44:45.950+07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Landing Page Thao Nguyen Policy"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/sandiego/components/content/breadcrumb,/apps/sandiego/components/content/button,/apps/sandiego/components/content/carousel,/apps/sandiego/components/content/landing-page-2/header,/apps/sandiego/components/content/image,/apps/sandiego/components/content/navigation,/apps/sandiego/components/content/search,/apps/sandiego/components/content/tabs,/apps/sandiego/components/content/teaser,/apps/sandiego/components/content/text,/apps/sandiego/components/content/landing-page-2/tree-image,/apps/sandiego/components/form/text]">
+                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/sandiego/components/content/breadcrumb,/apps/sandiego/components/content/button,/apps/sandiego/components/content/carousel,/apps/sandiego/components/content/landing-page-2/header,/apps/sandiego/components/content/image,/apps/sandiego/components/content/landing-page-2/image-galery,/apps/sandiego/components/content/navigation,/apps/sandiego/components/content/search,/apps/sandiego/components/content/tabs,/apps/sandiego/components/content/teaser,/apps/sandiego/components/content/text,/apps/sandiego/components/content/landing-page-2/tree-image,/apps/sandiego/components/form/text]">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                         <cq:styleGroups jcr:primaryType="nt:unstructured">
                             <item0 jcr:primaryType="nt:unstructured">
@@ -98,6 +98,11 @@
                                         cq:styleClasses="cmp-layout-container--footer"
                                         cq:styleId="1562808582351"
                                         cq:styleLabel="Footer"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item4
+                                        cq:styleClasses="cmp-layout-container--light-color"
+                                        cq:styleId="1562900739111"
+                                        cq:styleLabel="Dark Light"
                                         jcr:primaryType="nt:unstructured"/>
                                 </cq:styles>
                             </item0>
@@ -256,7 +261,7 @@
                 </teaser>
                 <text jcr:primaryType="nt:unstructured">
                     <policy_1562136775044
-                        jcr:lastModified="{Date}2019-07-10T23:09:16.273+07:00"
+                        jcr:lastModified="{Date}2019-07-12T11:12:11.060+07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="SanDiego Text Policy"
@@ -382,39 +387,54 @@
                                         cq:styleLabel="Margin High"
                                         jcr:primaryType="nt:unstructured"/>
                                     <item1
-                                        cq:styleClasses="cmp-text--large"
-                                        cq:styleId="1562141164468"
-                                        cq:styleLabel="Font Size Large"
-                                        jcr:primaryType="nt:unstructured"/>
-                                    <item2
-                                        cq:styleClasses="cmp-text--medium"
-                                        cq:styleId="1562141179654"
-                                        cq:styleLabel="Font Size Medium"
-                                        jcr:primaryType="nt:unstructured"/>
-                                    <item3
                                         cq:styleClasses="cmp-margin-medium"
                                         cq:styleId="1562142057373"
                                         cq:styleLabel="Margin Medium"
                                         jcr:primaryType="nt:unstructured"/>
+                                    <item2
+                                        cq:styleClasses="cmp-margin-normal"
+                                        cq:styleId="1562904221595"
+                                        cq:styleLabel="Margin Normal"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item3
+                                        cq:styleClasses="cmp-text--large"
+                                        cq:styleId="1562141164468"
+                                        cq:styleLabel="Font Size Large"
+                                        jcr:primaryType="nt:unstructured"/>
                                     <item4
+                                        cq:styleClasses="cmp-text--medium"
+                                        cq:styleId="1562141179654"
+                                        cq:styleLabel="Font Size Medium"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item5
                                         cq:styleClasses="cmp-text--process"
                                         cq:styleId="1562753168552"
                                         cq:styleLabel="Process Info"
                                         jcr:primaryType="nt:unstructured"/>
-                                    <item5
+                                    <item6
                                         cq:styleClasses="cmp-text--height-double"
                                         cq:styleId="1562774915463"
                                         cq:styleLabel="Line Hight double"
-                                        jcr:primaryType="nt:unstructured"/>
-                                    <item6
-                                        cq:styleClasses="cmp-text--height-single"
-                                        cq:styleId="1562774923238"
-                                        cq:styleLabel="Line Hight single"
                                         jcr:primaryType="nt:unstructured"/>
                                     <item7
                                         cq:styleClasses="cmp-text--height-normal"
                                         cq:styleId="1562774929650"
                                         cq:styleLabel="Line Hight normal"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item8
+                                        cq:styleClasses="cmp-text--height-single"
+                                        cq:styleId="1562774923238"
+                                        cq:styleLabel="Line Hight single"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item9
+                                        cq:styleClasses="cmp-margin-padding-less"
+                                        cq:styleId="1562904710601"
+                                        cq:styleLabel="No Padding"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item10
+                                        cq:styleClasses="cmp-margin-margin-less"
+                                        cq:styleId="1562904720922"
+                                        cq:styleLabel="No Margin"
                                         jcr:primaryType="nt:unstructured"/>
                                 </cq:styles>
                             </item0>
@@ -423,7 +443,7 @@
                 </text>
                 <image jcr:primaryType="nt:unstructured">
                     <policy_1562148142300
-                        jcr:lastModified="{Date}2019-07-09T11:10:28.191+07:00"
+                        jcr:lastModified="{Date}2019-07-12T13:32:25.126+07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Landing Image Policy"
@@ -475,6 +495,11 @@
                                         cq:styleClasses="cmp-image--technology"
                                         cq:styleId="1562148181459"
                                         cq:styleLabel="Technology"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item1
+                                        cq:styleClasses="cmp-image--small-size"
+                                        cq:styleId="1562913139346"
+                                        cq:styleLabel="Small"
                                         jcr:primaryType="nt:unstructured"/>
                                 </cq:styles>
                             </item0>
@@ -572,6 +597,28 @@
                             </item0>
                         </cq:styleGroups>
                     </policy_1562213785497>
+                    <policy_51200370788300
+                        jcr:lastModified="{Date}2019-07-11T22:44:50.931+07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Carousel Thao Nguyen Policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        autopauseDisabled="false"
+                        autoplay="false"
+                        components="/libs/wcm/foundation/components/responsivegrid">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0 jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="cmp-carousel--news"
+                                        cq:styleId="1562859884736"
+                                        cq:styleLabel="News"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                        </cq:styleGroups>
+                    </policy_51200370788300>
                 </carousel>
                 <landing-page jcr:primaryType="nt:unstructured">
                     <app-navigation jcr:primaryType="nt:unstructured"/>
@@ -630,7 +677,7 @@
                 </tabs>
                 <navigation jcr:primaryType="nt:unstructured">
                     <policy_1562729311141
-                        jcr:lastModified="{Date}2019-07-10T14:46:48.103+07:00"
+                        jcr:lastModified="{Date}2019-07-12T10:27:09.856+07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Navigation Thao Nguyen Policy"
@@ -646,6 +693,11 @@
                                         cq:styleClasses="cmp-navigation--middle"
                                         cq:styleId="1562731487424"
                                         cq:styleLabel="Custom"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item1
+                                        cq:styleClasses="cmp-navigation--footer"
+                                        cq:styleId="1562902023097"
+                                        cq:styleLabel="Footer"
                                         jcr:primaryType="nt:unstructured"/>
                                 </cq:styles>
                             </item0>

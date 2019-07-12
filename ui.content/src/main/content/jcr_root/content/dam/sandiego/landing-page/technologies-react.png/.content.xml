@@ -9,12 +9,12 @@
         cq:parentPath="/content/dam/sandiego/landing-page"
         dam:assetState="processed"
         dam:relativePath="sandiego/landing-page/technologies-react.png"
-        jcr:lastModified="{Date}2019-07-09T10:50:13.728+07:00"
+        jcr:lastModified="{Date}2019-07-11T16:49:13.993+07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}32"
-            dam:extracted="{Date}2019-07-09T10:50:12.970+07:00"
+            dam:extracted="{Date}2019-07-11T16:49:13.585+07:00"
             dam:Fileformat="PNG"
             dam:MIMEtype="image/png"
             dam:Numberofimages="{Long}1"

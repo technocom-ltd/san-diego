@@ -39,5 +39,30 @@ $(document).ready(function () {
       appButton.html('See all applications');
     }
   })
-
 });
+
+(function (element, $) {
+  'use strict';
+  var target = $(element),
+    className = "sticky-top",
+    scroll,
+    mobileBreakpoint = 992;
+
+  target.click(function () {
+    alert('right button clicked');
+  })
+
+}('.cmp-form-button--arrow-right button', jQuery));
+
+(function (element, $) {
+  'use strict';
+  var target = $(element),
+    className = "sticky-top",
+    scroll,
+    mobileBreakpoint = 992;
+
+  target.click(function () {
+    alert('right button clicked');
+  })
+
+}('.cmp-form-button--arrow-left button', jQuery));
