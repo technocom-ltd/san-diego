@@ -24,17 +24,31 @@
   .generate-grid(default, @max_col);
 }
 
-/* phone breakpoint */
-@media (max-width: @screen-small) {
+/* xsmall breakpoint */
+@media (max-width: @screen-xsmall - 1) {
   .aem-Grid {
-    .generate-grid(phone, @max_col);
+    .generate-grid(xsmall, @max_col);
   }
 }
 
-/* tablet breakpoint */
-@media (min-width: (@screen-small + 1)) and (max-width: @screen-large) {
+/* small breakpoint */
+@media (min-width: @screen-xsmall) and (max-width: @screen-small - 1) {
   .aem-Grid {
-    .generate-grid(tablet, @max_col);
+    .generate-grid(small, @max_col);
+  }
+}
+
+/* medium breakpoint */
+@media (min-width: @screen-small) and (max-width: @screen-medium - 1) {
+  .aem-Grid {
+    .generate-grid(medium, @max_col);
+  }
+}
+
+/* large breakpoint */
+@media (min-width: @screen-medium) and (max-width: @screen-large - 1) {
+  .aem-Grid {
+    .generate-grid(large, @max_col);
   }
 }
 
