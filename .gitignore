@@ -74,3 +74,9 @@ buildNumber.properties
 ### IntelliJ ###
 .idea/
 *.iml
+
+### Brackets ### 
+ui.apps/.brackets.json
+
+### AEM ###
+ui.content/src/main/content/META-INF/vault/filter.xml
