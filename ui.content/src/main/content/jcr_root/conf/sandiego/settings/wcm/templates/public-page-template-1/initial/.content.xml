@@ -15,6 +15,13 @@
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/foundation/components/responsivegrid"/>
+            <header
+                jcr:created="{Date}2019-07-13T21:18:38.513+07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-07-13T21:22:20.588+07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="sandiego/components/content/public-page/landing/header"/>
         </root>
     </jcr:content>
 </jcr:root>
