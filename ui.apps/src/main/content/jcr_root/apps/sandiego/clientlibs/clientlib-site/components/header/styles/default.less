@@ -96,13 +96,17 @@
     font-weight: @font-weight-normal;
     margin-left: 16px;
 
-    @media (max-width: @screen-medium) {}
+
   }
 
   .landing-header-title {
     font-size: @font-size-medium;
     font-weight: @font-weight-bold;
     white-space: nowrap;
+
+    @media (max-width: @screen-small) {
+      font-size: @font-size-base;
+    }
   }
 
   .landing-header-search-container {

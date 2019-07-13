@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workspaceFilter version="1.0">
-    <filter root="/conf/sandiego" mode="merge"/>
-    <filter root="/content/sandiego" mode="merge"/>
-    <filter root="/content/dam/sandiego" mode="merge"/>
+  <filter root="/conf/sandiego" mode="replace" />
+  <filter root="/content/sandiego" mode="replace" />
+  <filter root="/content/dam/sandiego" mode="replace" />
 </workspaceFilter>

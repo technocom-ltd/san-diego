@@ -3,7 +3,7 @@
 .image-galery__container {
 
   display: grid;
-  grid-template-columns: repeat(4, @image-galery-image-size);
+  grid-template-columns: repeat(auto-fit, minmax(@image-galery-image-size, 1fr));
 
   grid-auto-rows: @image-galery-image-size;
   grid-gap: 6px;
