@@ -9,26 +9,40 @@
                 <responsivegrid jcr:primaryType="nt:unstructured">
                     <content-default
                         jcr:description="Policy for editable layout containers"
+                        jcr:lastModified="{Date}2019-07-13T16:34:11.734+07:00"
+                        jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="SanDiego Site Default"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[group:SEA.Content,/apps/sandiego/components/form/container]"
+                        components="[/libs/wcm/foundation/components/responsivegrid,group:SEA.Content,/apps/sandiego/components/form/container]"
                         policyResourceType="wcm/foundation/components/responsivegrid">
                         <cq:authoring jcr:primaryType="nt:unstructured">
-                            <assetToComponentMapping jcr:primaryType="nt:unstructured">
-                                <image
-                                    jcr:primaryType="nt:unstructured"
-                                    assetGroup="media"
-                                    assetMimetype="image/*"
-                                    droptarget="image"
-                                    resourceType="sandiego/components/content/image"
-                                    type="Images"/>
-                            </assetToComponentMapping>
+                            <assetToComponentMapping jcr:primaryType="nt:unstructured"/>
                         </cq:authoring>
                         <jcr:content
                             jcr:primaryType="nt:unstructured"
                             mergeList="{Boolean}true"/>
                     </content-default>
+                    <policy_109738412366600
+                        jcr:lastModified="{Date}2019-07-13T16:44:05.594+07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Public Page Pocily"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/sandiego/components/content/core/carousel,/apps/sandiego/components/content/core/image,/apps/sandiego/components/content/core/navigation,/apps/sandiego/components/content/core/search,/apps/sandiego/components/content/core/tabs,/apps/sandiego/components/content/core/teaser,/apps/sandiego/components/content/core/text,/apps/sandiego/components/content/core/title,group:SEA.Content Form]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0 jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="cmp-layout-container--fixed"
+                                        cq:styleId="1563011012274"
+                                        cq:styleLabel="Fixed Container"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                        </cq:styleGroups>
+                    </policy_109738412366600>
                 </responsivegrid>
             </components>
         </foundation>
