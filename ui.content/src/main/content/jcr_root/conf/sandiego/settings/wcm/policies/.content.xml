@@ -24,7 +24,7 @@
                             mergeList="{Boolean}true"/>
                     </content-default>
                     <policy_109738412366600
-                        jcr:lastModified="{Date}2019-07-13T22:46:23.944+07:00"
+                        jcr:lastModified="{Date}2019-07-13T23:53:09.007+07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Public Page Pocily"
@@ -64,7 +64,7 @@
                 <core jcr:primaryType="nt:unstructured">
                     <text jcr:primaryType="nt:unstructured">
                         <policy_1563029344686
-                            jcr:lastModified="{Date}2019-07-13T21:49:40.092+07:00"
+                            jcr:lastModified="{Date}2019-07-14T00:04:59.018+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Landing Text Policy"
@@ -73,7 +73,7 @@
                             <rtePlugins jcr:primaryType="nt:unstructured">
                                 <paraformat
                                     jcr:primaryType="nt:unstructured"
-                                    features="-">
+                                    features="*">
                                     <formats
                                         jcr:primaryType="nt:unstructured"
                                         override="true">
@@ -121,7 +121,7 @@
                                 </paraformat>
                                 <misctools
                                     jcr:primaryType="nt:unstructured"
-                                    features="-">
+                                    features="sourceedit">
                                     <specialCharsConfig jcr:primaryType="nt:unstructured">
                                         <chars
                                             jcr:primaryType="nt:unstructured"
@@ -147,13 +147,13 @@
                                 </misctools>
                                 <edit
                                     jcr:primaryType="nt:unstructured"
-                                    features="-"/>
+                                    features="paste-plaintext"/>
                                 <findreplace
                                     jcr:primaryType="nt:unstructured"
                                     features="-"/>
                                 <undo
                                     jcr:primaryType="nt:unstructured"
-                                    features="-"/>
+                                    features="*"/>
                                 <spellcheck
                                     jcr:primaryType="nt:unstructured"
                                     features="-"/>
@@ -174,7 +174,7 @@
                                     features="-"/>
                                 <table
                                     jcr:primaryType="nt:unstructured"
-                                    features="*"/>
+                                    features="-"/>
                                 <justify
                                     jcr:primaryType="nt:unstructured"
                                     features="*"/>
@@ -230,6 +230,78 @@
                             </plugins>
                         </policy_1563031586518>
                     </image>
+                    <teaser jcr:primaryType="nt:unstructured">
+                        <policy_1563034158125
+                            jcr:lastModified="{Date}2019-07-14T00:05:18.748+07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Public Teaser Policy"
+                            sling:resourceType="wcm/core/components/policy/policy">
+                            <jcr:content jcr:primaryType="nt:unstructured"/>
+                            <cq:styleGroups jcr:primaryType="nt:unstructured">
+                                <item0 jcr:primaryType="nt:unstructured">
+                                    <cq:styles jcr:primaryType="nt:unstructured">
+                                        <item0
+                                            cq:styleClasses="cmp-teaser--landing-hero"
+                                            cq:styleId="1563034178916"
+                                            cq:styleLabel="Landing Hero"
+                                            jcr:primaryType="nt:unstructured"/>
+                                        <item1
+                                            cq:styleClasses="cmp-teaser--landing-intro"
+                                            cq:styleId="1563037506292"
+                                            cq:styleLabel="Landing Intro"
+                                            jcr:primaryType="nt:unstructured"/>
+                                    </cq:styles>
+                                </item0>
+                            </cq:styleGroups>
+                        </policy_1563034158125>
+                    </teaser>
+                    <navigation jcr:primaryType="nt:unstructured">
+                        <policy_1563036159134
+                            jcr:lastModified="{Date}2019-07-13T23:46:02.760+07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Public Navigation Policy"
+                            sling:resourceType="wcm/core/components/policy/policy"
+                            collectAllPages="false"
+                            navigationRoot="/content/sandiego/landing-page"
+                            skipNavigationRoot="true">
+                            <jcr:content jcr:primaryType="nt:unstructured"/>
+                            <cq:styleGroups jcr:primaryType="nt:unstructured">
+                                <item0 jcr:primaryType="nt:unstructured">
+                                    <cq:styles jcr:primaryType="nt:unstructured">
+                                        <item0
+                                            cq:styleClasses="cmp-navigation--landing-middle"
+                                            cq:styleId="1563036183434"
+                                            cq:styleLabel="Landing Middle"
+                                            jcr:primaryType="nt:unstructured"/>
+                                    </cq:styles>
+                                </item0>
+                            </cq:styleGroups>
+                        </policy_1563036159134>
+                    </navigation>
+                    <search jcr:primaryType="nt:unstructured">
+                        <policy_1563036656502
+                            jcr:lastModified="{Date}2019-07-13T23:51:21.607+07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Public Search Policy"
+                            sling:resourceType="wcm/core/components/policy/policy"
+                            searchRoot="/content/sandiego/landing-page">
+                            <jcr:content jcr:primaryType="nt:unstructured"/>
+                            <cq:styleGroups jcr:primaryType="nt:unstructured">
+                                <item0 jcr:primaryType="nt:unstructured">
+                                    <cq:styles jcr:primaryType="nt:unstructured">
+                                        <item0
+                                            cq:styleClasses="cmp-search--landing-hero"
+                                            cq:styleId="1563036674673"
+                                            cq:styleLabel="Landing Hero"
+                                            jcr:primaryType="nt:unstructured"/>
+                                    </cq:styles>
+                                </item0>
+                            </cq:styleGroups>
+                        </policy_1563036656502>
+                    </search>
                 </core>
             </content>
         </components>

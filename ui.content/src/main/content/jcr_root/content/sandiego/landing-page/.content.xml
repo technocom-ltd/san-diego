@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-07-13T23:03:05.055+07:00"
+        cq:lastModified="{Date}2019-07-14T00:14:00.404+07:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/sandiego/settings/wcm/templates/public-page-template-1"
         jcr:primaryType="cq:PageContent"
@@ -17,8 +17,141 @@
                 jcr:lastModified="{Date}2019-07-13T22:45:22.393+07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="wcm/foundation/components/responsivegrid"/>
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <teaser
+                    cq:styleIds="[1563034178916]"
+                    jcr:created="{Date}2019-07-13T23:08:44.022+07:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-07-13T23:31:46.888+07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Welcome to the center of IT innovation for advancing the delivery of County service."
+                    sling:resourceType="sandiego/components/content/core/teaser"
+                    actionsEnabled="false"
+                    descriptionFromPage="false"
+                    fileReference="/content/dam/sandiego/public-pages/landing/hero.png"
+                    textIsRich="true"
+                    titleFromPage="false"/>
+                <navigation
+                    cq:styleIds="[1563036183434]"
+                    jcr:created="{Date}2019-07-13T23:37:03.829+07:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-07-13T23:46:15.639+07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="sandiego/components/content/core/navigation"
+                    collectAllPages="true"
+                    navigationRoot="/content/sandiego/landing-page/v2"
+                    skipNavigationRoot="true"/>
+                <search
+                    cq:styleIds="[1563036674673]"
+                    jcr:created="{Date}2019-07-13T23:46:50.773+07:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-07-13T23:51:37.054+07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="sandiego/components/content/core/search"/>
+                <responsivegrid
+                    cq:styleIds="[1563011012274]"
+                    jcr:created="{Date}2019-07-13T23:52:19.198+07:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-07-13T23:53:21.455+07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                    <cq:responsive jcr:primaryType="nt:unstructured"/>
+                    <text
+                        jcr:created="{Date}2019-07-13T23:57:54.709+07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-07-13T23:58:17.294+07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="sandiego/components/content/core/text"
+                        text="&lt;h2 style=&quot;text-align: center;&quot;>&lt;b>Who we are and What we do?&lt;/b>&lt;/h2>&#xa;"
+                        textIsRich="true"/>
+                    <text_1684374515
+                        jcr:created="{Date}2019-07-13T23:58:32.094+07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-07-13T23:58:40.395+07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="sandiego/components/content/core/text"
+                        text="&lt;p style=&quot;text-align: center;&quot;>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ev&lt;/p>&#xa;"
+                        textIsRich="true">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="2"
+                                width="8"/>
+                        </cq:responsive>
+                    </text_1684374515>
+                    <teaser
+                        cq:styleIds="[1563037506292]"
+                        jcr:created="{Date}2019-07-14T00:00:21.079+07:00"
+                        jcr:createdBy="admin"
+                        jcr:description="&lt;p>The optimal business management of information technology by County Business Groups and departments.&lt;/p>&#xd;&#xa;"
+                        jcr:lastModified="{Date}2019-07-14T00:05:29.224+07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Leading"
+                        sling:resourceType="sandiego/components/content/core/teaser"
+                        actionsEnabled="false"
+                        descriptionFromPage="false"
+                        fileReference="/content/dam/sandiego/public-pages/landing/leading.png"
+                        textIsRich="true"
+                        titleFromPage="false">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                width="4"/>
+                        </cq:responsive>
+                    </teaser>
+                    <teaser_copy_1428750577
+                        cq:styleIds="[1563037506292]"
+                        jcr:created="{Date}2019-07-14T00:00:21.079+07:00"
+                        jcr:createdBy="admin"
+                        jcr:description="&lt;p>The optimal business management of information technology by County Business Groups and departments.&lt;/p>&#xd;&#xa;"
+                        jcr:lastModified="{Date}2019-07-14T00:13:46.399+07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Guiding"
+                        sling:resourceType="sandiego/components/content/core/teaser"
+                        actionsEnabled="false"
+                        descriptionFromPage="false"
+                        fileReference="/content/dam/sandiego/public-pages/landing/guiding.png"
+                        textIsRich="true"
+                        titleFromPage="false">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                width="4"/>
+                        </cq:responsive>
+                    </teaser_copy_1428750577>
+                    <teaser_copy
+                        cq:styleIds="[1563037506292]"
+                        jcr:created="{Date}2019-07-14T00:00:21.079+07:00"
+                        jcr:createdBy="admin"
+                        jcr:description="&lt;p>The optimal business management of information technology by County Business Groups and departments.&lt;/p>&#xd;&#xa;"
+                        jcr:lastModified="{Date}2019-07-14T00:14:00.401+07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Facilitating"
+                        sling:resourceType="sandiego/components/content/core/teaser"
+                        actionsEnabled="false"
+                        descriptionFromPage="false"
+                        fileReference="/content/dam/sandiego/public-pages/landing/facilitating.png"
+                        textIsRich="true"
+                        titleFromPage="false">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                width="4"/>
+                        </cq:responsive>
+                    </teaser_copy>
+                </responsivegrid>
+            </responsivegrid>
         </root>
     </jcr:content>
     <v1/>
+    <v2/>
 </jcr:root>

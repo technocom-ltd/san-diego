@@ -3,5 +3,7 @@
     jcr:primaryType="sling:Folder">
     <jcr:content
         jcr:primaryType="nt:unstructured"
-        jcr:title="Public Pages"/>
+        jcr:title="Public Pages">
+        <folderThumbnail/>
+    </jcr:content>
 </jcr:root>

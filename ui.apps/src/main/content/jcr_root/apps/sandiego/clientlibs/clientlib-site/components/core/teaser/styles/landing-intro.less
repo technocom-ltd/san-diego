@@ -1,0 +1,98 @@
+/*
+ *  Copyright 2018 Adobe Systems Incorporated
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ */
+/* SEA teaser - landing-intro.less*/
+
+@teaser-width: 352px;
+@teaser-height: 400px;
+@teaser-img-height: 100px;
+@teaser-padding-vertical: 40px;
+@teaser-padding-horizontal: 32px;
+
+.cmp-teaser--landing-intro {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+
+  .cmp-teaser {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-width: @teaser-width;
+    max-height: @teaser-height;
+    overflow: hidden;
+    background-color: @white;
+    padding: @teaser-padding-vertical @teaser-padding-horizontal;
+    border-radius: 16px;
+    transition: all 0.4s;
+    box-sizing: border-box;
+
+    @media (max-width: @screen-small) {
+      margin-left: auto !important;
+      margin-right: auto !important;
+    }
+
+    .cmp-teaser__image {
+      width: 100%;
+      padding-top: 0px;
+      display: flex;
+      justify-content: center;
+
+      .cmp-image {
+        height: @teaser-img-height;
+        width: @teaser-img-height;
+        border-radius: 50%;
+        overflow: hidden;
+
+      }
+
+      .cmp-image__image {
+        margin-top: 0px;
+        object-fit: contain;
+        object-position: center;
+
+        width: 100%;
+        height: 100%;
+        -webkit-transition: all .2s;
+        -moz-transition: all .2s;
+        -o-transition: all .2s;
+        transition: all .25s;
+      }
+    }
+
+
+    .cmp-teaser__title {
+      font-family: @font-family-base;
+      width: 100%;
+      text-align: center;
+      font-size: @font-size-large;
+      font-weight: @font-weight-bold;
+      margin-top: 40px;
+      color: @black-80;
+    }
+
+    .cmp-teaser__description {
+      font-family: @font-family-base;
+      width: 100%;
+      text-align: center;
+      font-size: @font-size-base;
+      color: @black-80;
+    }
+  }
+}
