@@ -13,14 +13,20 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-/* Teaser Styles */
 
-@teaser-light-color: #fff;
-@teaser-dark-color: @text-color;
+@small-size-image: 32px;
 
-@import (once) "styles/default.less";
-@import (once) "styles/landing-hero.less";
-@import (once) "styles/landing-intro.less";
-@import (once) "styles/landing-process.less";
-@import (once) "styles/landing-request.less";
-@import (once) "styles/landing-news.less";
+.cmp-image--landing-footer-social {
+  .cmp-image {
+    width: @small-size-image;
+    height: @small-size-image;
+
+    .cmp-image__image {
+      width: 100%;
+      height: 100%;
+      //    margin-top: @gutter-padding / 2;
+      //    margin-bottom: @gutter-padding / 2;
+    }
+
+  }
+}
