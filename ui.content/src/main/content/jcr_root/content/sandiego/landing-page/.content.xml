@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-07-14T10:53:56.808+07:00"
+        cq:lastModified="{Date}2019-07-14T11:09:40.477+07:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/sandiego/settings/wcm/templates/public-page-template-1"
         jcr:primaryType="cq:PageContent"
@@ -373,13 +373,53 @@
                     </responsivegrid>
                 </responsivegrid_323705367>
                 <responsivegrid_1820297681
+                    cq:styleIds="[1563076889096]"
                     jcr:created="{Date}2019-07-14T10:53:56.784+07:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2019-07-14T10:53:56.784+07:00"
+                    jcr:lastModified="{Date}2019-07-14T11:02:26.179+07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wcm/foundation/components/responsivegrid">
                     <cq:responsive jcr:primaryType="nt:unstructured"/>
+                    <responsivegrid
+                        cq:styleIds="[1563011012274]"
+                        jcr:created="{Date}2019-07-14T11:02:33.943+07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-07-14T11:02:40.341+07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/responsivegrid">
+                        <cq:responsive jcr:primaryType="nt:unstructured"/>
+                        <text
+                            jcr:created="{Date}2019-07-14T11:03:19.540+07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2019-07-14T11:09:40.469+07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="sandiego/components/content/core/text"
+                            text="&lt;h3>&amp;nbsp;&lt;/h3>&#xa;&lt;h3>&lt;b>The 2019-2024&lt;br>&#xa; Information Technology Strategic Plan&lt;/b>&lt;br>&#xa;&lt;span style=&quot;font-weight: normal;&quot;>is now available.&lt;/span>&lt;/h3>&#xa;&lt;p>&lt;a title=&quot;Pdf here&quot; href=&quot;/content/dam/sandiego/public-pages/landing/hero.png&quot; target=&quot;_top&quot;>VIEW PDF &amp;nbsp;&lt;/a> &amp;nbsp;&amp;nbsp;&lt;/p>&#xa;"
+                            textIsRich="true">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    width="6"/>
+                            </cq:responsive>
+                        </text>
+                        <image
+                            jcr:created="{Date}2019-07-14T11:04:30.362+07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2019-07-14T11:06:36.387+07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="sandiego/components/content/image"
+                            fileReference="/content/dam/sandiego/public-pages/landing/strategic-plan.png">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    width="6"/>
+                            </cq:responsive>
+                        </image>
+                    </responsivegrid>
                 </responsivegrid_1820297681>
             </responsivegrid>
         </root>

@@ -24,7 +24,7 @@
                             mergeList="{Boolean}true"/>
                     </content-default>
                     <policy_109738412366600
-                        jcr:lastModified="{Date}2019-07-14T01:16:38.005+07:00"
+                        jcr:lastModified="{Date}2019-07-14T11:01:58.895+07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Public Page Pocily"
@@ -48,6 +48,11 @@
                                         cq:styleClasses="cmp-layout-container--landing-request"
                                         cq:styleId="1563041774798"
                                         cq:styleLabel="Landing Request"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item3
+                                        cq:styleClasses="cmp-layout-container--landing-strategic-plan"
+                                        cq:styleId="1563076889096"
+                                        cq:styleLabel="Landing Strategic Plan"
                                         jcr:primaryType="nt:unstructured"/>
                                 </cq:styles>
                             </item0>
