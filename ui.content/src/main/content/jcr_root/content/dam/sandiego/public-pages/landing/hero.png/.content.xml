@@ -1,42 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+<jcr:root xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:mixinTypes="[mix:referenceable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="ca77bf6e-9fdc-4461-8962-ee29f158a75c">
+    jcr:uuid="9449577a-33b4-4a13-bdd7-60cd80ee48dc">
     <jcr:content
         dam:assetState="processed"
         dam:relativePath="sandiego/public-pages/landing/hero.png"
-        jcr:lastModified="{Date}2019-07-13T22:29:43.197+07:00"
+        jcr:lastModified="{Date}2019-07-14T20:13:19.171+07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:Bitsperpixel="{Long}32"
-            dam:extracted="{Date}2019-07-13T22:29:42.530+07:00"
-            dam:Fileformat="PNG"
-            dam:MIMEtype="image/png"
-            dam:Numberofimages="{Long}1"
-            dam:Numberoftextualcomments="{Long}0"
-            dam:Physicalheightindpi="{Long}72"
-            dam:Physicalheightininches="{Decimal}8.332291603088379"
-            dam:Physicalwidthindpi="{Long}72"
-            dam:Physicalwidthininches="{Decimal}19.997499465942383"
-            dam:Progressive="no"
+            dam:extracted="{Date}2019-07-14T20:13:18.656+07:00"
             dam:sha1="9277b8be4e449827f8a27d7f1d81837ac95c983b"
             dam:size="{Long}1290961"
             dc:format="image/png"
             jcr:mixinTypes="[cq:Taggable]"
-            jcr:primaryType="nt:unstructured"
-            tiff:ImageLength="{Long}600"
-            tiff:ImageWidth="{Long}1440"/>
+            jcr:primaryType="nt:unstructured"/>
         <related jcr:primaryType="nt:unstructured"/>
         <usages
-            dam:score="{Long}4"
+            dam:score="{Long}2"
             jcr:primaryType="nt:unstructured"
             usedBy="[aem]">
             <aem
                 jcr:primaryType="nt:unstructured"
-                count="{Long}4"
-                lastUsed="{Date}2019-07-13T22:58:43.366+07:00"/>
+                count="{Long}2"
+                lastUsed="{Date}2019-07-14T21:01:07.330+07:00"/>
         </usages>
     </jcr:content>
 </jcr:root>

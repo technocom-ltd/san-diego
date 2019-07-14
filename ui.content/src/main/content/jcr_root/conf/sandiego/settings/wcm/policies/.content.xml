@@ -24,12 +24,12 @@
                             mergeList="{Boolean}true"/>
                     </content-default>
                     <policy_109738412366600
-                        jcr:lastModified="{Date}2019-07-14T11:01:58.895+07:00"
+                        jcr:lastModified="{Date}2019-07-14T20:48:29.123+07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Public Page Pocily"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/sandiego/components/content/core/carousel,/apps/sandiego/components/content/core/image,/apps/sandiego/components/content/core/navigation,/apps/sandiego/components/content/core/search,/apps/sandiego/components/content/core/tabs,/apps/sandiego/components/content/core/teaser,/apps/sandiego/components/content/core/text,/apps/sandiego/components/content/core/title,group:SEA.Content Form,/apps/sandiego/components/content/public-page/landing/process-image]">
+                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/sandiego/components/content/core/carousel,/apps/sandiego/components/content/core/image,/apps/sandiego/components/content/core/navigation,/apps/sandiego/components/content/core/search,/apps/sandiego/components/content/core/tabs,/apps/sandiego/components/content/core/teaser,/apps/sandiego/components/content/core/text,/apps/sandiego/components/content/core/title,/apps/sandiego/components/content/public-page/landing/image-galery,/apps/sandiego/components/content/public-page/landing/process-image]">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                         <cq:styleGroups jcr:primaryType="nt:unstructured">
                             <item0 jcr:primaryType="nt:unstructured">
@@ -53,6 +53,11 @@
                                         cq:styleClasses="cmp-layout-container--landing-strategic-plan"
                                         cq:styleId="1563076889096"
                                         cq:styleLabel="Landing Strategic Plan"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item4
+                                        cq:styleClasses="cmp-layout-container--landing-footer"
+                                        cq:styleId="1563111529058"
+                                        cq:styleLabel="Landing Footer"
                                         jcr:primaryType="nt:unstructured"/>
                                 </cq:styles>
                             </item0>
@@ -100,7 +105,7 @@
                 <core jcr:primaryType="nt:unstructured">
                     <text jcr:primaryType="nt:unstructured">
                         <policy_1563029344686
-                            jcr:lastModified="{Date}2019-07-14T00:04:59.018+07:00"
+                            jcr:lastModified="{Date}2019-07-14T20:58:40.085+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Landing Text Policy"
@@ -215,11 +220,42 @@
                                     jcr:primaryType="nt:unstructured"
                                     features="*"/>
                             </rtePlugins>
+                            <cq:styleGroups jcr:primaryType="nt:unstructured">
+                                <item0 jcr:primaryType="nt:unstructured">
+                                    <cq:styles jcr:primaryType="nt:unstructured">
+                                        <item0
+                                            cq:styleClasses="cmp-margin--less"
+                                            cq:styleId="1563112655809"
+                                            cq:styleLabel="Marginless"
+                                            jcr:primaryType="nt:unstructured"/>
+                                        <item1
+                                            cq:styleClasses="cmp-margin--high"
+                                            cq:styleId="1563112671433"
+                                            cq:styleLabel="Margin High"
+                                            jcr:primaryType="nt:unstructured"/>
+                                        <item2
+                                            cq:styleClasses="cmp-margin--medium"
+                                            cq:styleId="1563112684784"
+                                            cq:styleLabel="Margin Medium"
+                                            jcr:primaryType="nt:unstructured"/>
+                                        <item3
+                                            cq:styleClasses="cmp-margin--normal"
+                                            cq:styleId="1563112695376"
+                                            cq:styleLabel="Margin Normal"
+                                            jcr:primaryType="nt:unstructured"/>
+                                        <item4
+                                            cq:styleClasses="cmp-margin--small"
+                                            cq:styleId="1563112711157"
+                                            cq:styleLabel="Margin Small"
+                                            jcr:primaryType="nt:unstructured"/>
+                                    </cq:styles>
+                                </item0>
+                            </cq:styleGroups>
                         </policy_1563029344686>
                     </text>
                     <image jcr:primaryType="nt:unstructured">
                         <policy_1563031586518
-                            jcr:lastModified="{Date}2019-07-13T22:48:57.320+07:00"
+                            jcr:lastModified="{Date}2019-07-14T20:40:43.504+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Landing Image Policy"
@@ -264,11 +300,27 @@
                                     jcr:primaryType="nt:unstructured"
                                     features="-"/>
                             </plugins>
+                            <cq:styleGroups jcr:primaryType="nt:unstructured">
+                                <item0 jcr:primaryType="nt:unstructured">
+                                    <cq:styles jcr:primaryType="nt:unstructured">
+                                        <item0
+                                            cq:styleClasses="cmp-image--landing-footer-logo"
+                                            cq:styleId="1563111618850"
+                                            cq:styleLabel="Landing Footer Logo"
+                                            jcr:primaryType="nt:unstructured"/>
+                                        <item1
+                                            cq:styleClasses="cmp-image--landing-footer-social"
+                                            cq:styleId="1563111632944"
+                                            cq:styleLabel="Landing Footer Social"
+                                            jcr:primaryType="nt:unstructured"/>
+                                    </cq:styles>
+                                </item0>
+                            </cq:styleGroups>
                         </policy_1563031586518>
                     </image>
                     <teaser jcr:primaryType="nt:unstructured">
                         <policy_1563034158125
-                            jcr:lastModified="{Date}2019-07-14T10:28:27.405+07:00"
+                            jcr:lastModified="{Date}2019-07-14T20:32:52.967+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Public Teaser Policy"
@@ -297,6 +349,11 @@
                                             cq:styleId="1563074881149"
                                             cq:styleLabel="Landing Request"
                                             jcr:primaryType="nt:unstructured"/>
+                                        <item4
+                                            cq:styleClasses="cmp-teaser--landing-news"
+                                            cq:styleId="1563111163964"
+                                            cq:styleLabel="Landing News"
+                                            jcr:primaryType="nt:unstructured"/>
                                     </cq:styles>
                                 </item0>
                             </cq:styleGroups>
@@ -304,7 +361,7 @@
                     </teaser>
                     <navigation jcr:primaryType="nt:unstructured">
                         <policy_1563036159134
-                            jcr:lastModified="{Date}2019-07-13T23:46:02.760+07:00"
+                            jcr:lastModified="{Date}2019-07-14T20:47:00.602+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Public Navigation Policy"
@@ -320,6 +377,11 @@
                                             cq:styleClasses="cmp-navigation--landing-middle"
                                             cq:styleId="1563036183434"
                                             cq:styleLabel="Landing Middle"
+                                            jcr:primaryType="nt:unstructured"/>
+                                        <item1
+                                            cq:styleClasses="cmp-navigation--landing-footer"
+                                            cq:styleId="1563112009992"
+                                            cq:styleLabel="Landing Footer"
                                             jcr:primaryType="nt:unstructured"/>
                                     </cq:styles>
                                 </item0>
@@ -348,6 +410,30 @@
                             </cq:styleGroups>
                         </policy_1563036656502>
                     </search>
+                    <carousel jcr:primaryType="nt:unstructured">
+                        <policy_1563111013993
+                            jcr:lastModified="{Date}2019-07-14T20:31:16.753+07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Public Carosel Policy"
+                            sling:resourceType="wcm/core/components/policy/policy"
+                            autopauseDisabled="false"
+                            autoplay="false"
+                            components="/libs/wcm/foundation/components/responsivegrid">
+                            <jcr:content jcr:primaryType="nt:unstructured"/>
+                            <cq:styleGroups jcr:primaryType="nt:unstructured">
+                                <item0 jcr:primaryType="nt:unstructured">
+                                    <cq:styles jcr:primaryType="nt:unstructured">
+                                        <item0
+                                            cq:styleClasses="cmp-carousel--landing-news"
+                                            cq:styleId="1563111036382"
+                                            cq:styleLabel="Landing News"
+                                            jcr:primaryType="nt:unstructured"/>
+                                    </cq:styles>
+                                </item0>
+                            </cq:styleGroups>
+                        </policy_1563111013993>
+                    </carousel>
                 </core>
             </content>
         </components>

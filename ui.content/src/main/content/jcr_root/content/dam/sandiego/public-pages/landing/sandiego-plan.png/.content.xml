@@ -2,23 +2,29 @@
 <jcr:root xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:mixinTypes="[mix:referenceable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="aad5e54a-319b-46c4-9390-529321afa88f">
+    jcr:uuid="9c8e22f3-e1af-4db9-b6e4-82beb5a4d961">
     <jcr:content
         dam:assetState="processed"
-        dam:relativePath="sandiego/public-pages/landing/search.svg"
-        jcr:lastModified="{Date}2019-07-14T20:09:56.152+07:00"
+        dam:relativePath="sandiego/public-pages/landing/sandiego-plan.png"
+        jcr:lastModified="{Date}2019-07-14T20:13:19.593+07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2019-07-14T20:09:55.148+07:00"
-            dam:sha1="a7aa8acaacc13cec0c76dd0005d302093f853f50"
-            dam:size="{Long}692"
-            dc:format="image/svg+xml"
-            dc:modified="{Date}2019-07-14T20:09:52.162+07:00"
-            jcr:lastModified="{Date}2019-07-14T20:09:52.162+07:00"
-            jcr:lastModifiedBy="admin"
+            dam:extracted="{Date}2019-07-14T20:13:19.486+07:00"
+            dam:sha1="93a1b6136ea48728bbac2dcc72545d0fa17b2a4a"
+            dam:size="{Long}275847"
+            dc:format="image/png"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>
         <related jcr:primaryType="nt:unstructured"/>
+        <usages
+            dam:score="{Long}1"
+            jcr:primaryType="nt:unstructured"
+            usedBy="[aem]">
+            <aem
+                jcr:primaryType="nt:unstructured"
+                count="{Long}1"
+                lastUsed="{Date}2019-07-14T20:26:19.139+07:00"/>
+        </usages>
     </jcr:content>
 </jcr:root>
