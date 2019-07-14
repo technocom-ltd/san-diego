@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-07-14T22:23:46.406+07:00"
+        cq:lastModified="{Date}2019-07-14T23:03:08.633+07:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/sandiego/settings/wcm/templates/public-page-template-1"
         jcr:primaryType="cq:PageContent"
@@ -390,7 +390,7 @@
                             cq:styleIds="[1563074881149]"
                             jcr:created="{Date}2019-07-14T10:19:18.470+07:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-07-14T10:42:18.156+07:00"
+                            jcr:lastModified="{Date}2019-07-14T23:03:08.618+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Procurement/ House Brick/ Technology report"
@@ -500,11 +500,11 @@
                     <text
                         jcr:created="{Date}2019-07-14T20:28:21.912+07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-07-14T20:38:00.564+07:00"
+                        jcr:lastModified="{Date}2019-07-14T23:00:39.373+07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="sandiego/components/content/core/text"
-                        text="&lt;h2 style=&quot;text-align: center;&quot;>&amp;nbsp;&lt;/h2>&#xa;&lt;h2 style=&quot;text-align: center;&quot;>&lt;b>What's News&lt;/b>&lt;/h2>&#xa;"
+                        text="&lt;h2 style=&quot;text-align: center;&quot;>&amp;nbsp;&lt;/h2>&#xa;&lt;h2 style=&quot;text-align: center;&quot;>&lt;b>What's News&lt;/b>&lt;/h2>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;"
                         textIsRich="true"/>
                     <carousel
                         cq:styleIds="[1563111036382]"

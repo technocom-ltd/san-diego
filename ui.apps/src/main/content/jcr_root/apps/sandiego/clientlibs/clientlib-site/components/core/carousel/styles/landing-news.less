@@ -68,11 +68,13 @@
       border: none;
       cursor: pointer;
       transition: opacity 0.2s linear 0s;
-      //            top: calc(50% - @{cmp-carousel-action-bg-size});
-      //      top: 50%;
       margin-left: @cmp-carousel-action-icon-offset;
       margin-right: @cmp-carousel-action-icon-offset;
       outline: none;
+
+      &:hover {
+        opacity: 0.6;
+      }
     }
 
     .cmp-carousel__action--disabled {}

@@ -16,9 +16,9 @@
   @media (max-width: @screen-medium) {
     top: 0;
     left: 0;
-    padding: 12px 30px;
+    padding: 12px;
     height: 80px;
-    position: absolute;
+    position: fixed;
   }
 
   .cmp-landing-header__container {
@@ -70,6 +70,10 @@
   }
 
   .cmp-landing-header__navigation {
+
+    @media (max-width: @screen-medium) {
+      display: none;
+    }
 
     .cmp-navigation {
       display: block;

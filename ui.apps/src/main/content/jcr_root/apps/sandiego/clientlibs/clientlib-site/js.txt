@@ -1,5 +1,7 @@
 #base=.
 
 js/util.js
-components/page/page.js
-components/navigation/navigation.js
+components/core/page/page.js
+components/core/navigation/navigation.js
+components/core/teaser/teaser.js
+components/core/search/search.js
