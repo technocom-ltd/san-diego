@@ -6,11 +6,11 @@
     <jcr:content
         dam:assetState="processed"
         dam:relativePath="sandiego/public-pages/landing/rss-dark.png"
-        jcr:lastModified="{Date}2019-07-14T20:13:19.576+07:00"
+        jcr:lastModified="{Date}2019-07-14T21:57:00.858+07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2019-07-14T20:13:19.454+07:00"
+            dam:extracted="{Date}2019-07-14T21:57:00.770+07:00"
             dam:sha1="e668f69b1e5edfd09fc82732d641715c5fd0eebc"
             dam:size="{Long}3040"
             dc:format="image/png"

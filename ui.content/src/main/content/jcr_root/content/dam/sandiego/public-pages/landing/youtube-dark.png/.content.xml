@@ -6,11 +6,11 @@
     <jcr:content
         dam:assetState="processed"
         dam:relativePath="sandiego/public-pages/landing/youtube-dark.png"
-        jcr:lastModified="{Date}2019-07-14T20:13:19.590+07:00"
+        jcr:lastModified="{Date}2019-07-14T21:57:01.005+07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2019-07-14T20:13:19.500+07:00"
+            dam:extracted="{Date}2019-07-14T21:57:00.918+07:00"
             dam:sha1="b9710e91199f312c4469f92284249c8b343df8c5"
             dam:size="{Long}2216"
             dc:format="image/png"

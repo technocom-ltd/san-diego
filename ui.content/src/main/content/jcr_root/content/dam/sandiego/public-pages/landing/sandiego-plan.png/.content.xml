@@ -6,11 +6,11 @@
     <jcr:content
         dam:assetState="processed"
         dam:relativePath="sandiego/public-pages/landing/sandiego-plan.png"
-        jcr:lastModified="{Date}2019-07-14T20:13:19.593+07:00"
+        jcr:lastModified="{Date}2019-07-14T21:57:01.387+07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2019-07-14T20:13:19.486+07:00"
+            dam:extracted="{Date}2019-07-14T21:57:01.284+07:00"
             dam:sha1="93a1b6136ea48728bbac2dcc72545d0fa17b2a4a"
             dam:size="{Long}275847"
             dc:format="image/png"

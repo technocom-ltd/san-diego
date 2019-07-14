@@ -6,11 +6,11 @@
     <jcr:content
         dam:assetState="processed"
         dam:relativePath="sandiego/public-pages/landing/hero.png"
-        jcr:lastModified="{Date}2019-07-14T20:13:19.171+07:00"
+        jcr:lastModified="{Date}2019-07-14T21:57:01.199+07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2019-07-14T20:13:18.656+07:00"
+            dam:extracted="{Date}2019-07-14T21:57:01.005+07:00"
             dam:sha1="9277b8be4e449827f8a27d7f1d81837ac95c983b"
             dam:size="{Long}1290961"
             dc:format="image/png"

@@ -24,31 +24,16 @@
   .generate-grid(default, @max_col);
 }
 
-/* xsmall breakpoint */
-@media (max-width: @screen-xsmall - 1) {
+ /* phone breakpoint */
+ @media (max-width: @screen-small) {
   .aem-Grid {
-    .generate-grid(xsmall, @max_col);
+      .generate-grid(phone, @max_col);
   }
 }
-
-/* small breakpoint */
-@media (min-width: @screen-xsmall) and (max-width: @screen-small - 1) {
+/* tablet breakpoint */
+@media (min-width: (@screen-small + 1)) and (max-width: @screen-large) {
   .aem-Grid {
-    .generate-grid(small, @max_col);
-  }
-}
-
-/* medium breakpoint */
-@media (min-width: @screen-small) and (max-width: @screen-medium - 1) {
-  .aem-Grid {
-    .generate-grid(medium, @max_col);
-  }
-}
-
-/* large breakpoint */
-@media (min-width: @screen-medium) and (max-width: @screen-large - 1) {
-  .aem-Grid {
-    .generate-grid(large, @max_col);
+      .generate-grid(tablet, @max_col);
   }
 }
 
@@ -57,6 +42,6 @@
 }
 
 .responsivegrid.aem-GridColumn {
-  padding-left: 0;
-  padding-right: 0;
+padding-left: 0;
+padding-right: 0;
 }

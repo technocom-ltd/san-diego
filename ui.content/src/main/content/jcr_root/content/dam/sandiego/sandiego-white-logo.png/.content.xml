@@ -6,11 +6,11 @@
     <jcr:content
         dam:assetState="processed"
         dam:relativePath="sandiego/sandiego-white-logo.png"
-        jcr:lastModified="{Date}2019-07-14T20:42:00.532+07:00"
+        jcr:lastModified="{Date}2019-07-14T21:57:00.797+07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2019-07-14T20:42:00.493+07:00"
+            dam:extracted="{Date}2019-07-14T21:57:00.705+07:00"
             dam:sha1="8165dd3deb4fe4d27faa2f80f6a560303eaeab92"
             dam:size="{Long}61949"
             dc:format="image/png"

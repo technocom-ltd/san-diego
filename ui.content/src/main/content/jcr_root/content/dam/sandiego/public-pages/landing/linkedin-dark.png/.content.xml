@@ -6,11 +6,11 @@
     <jcr:content
         dam:assetState="processed"
         dam:relativePath="sandiego/public-pages/landing/linkedin-dark.png"
-        jcr:lastModified="{Date}2019-07-14T20:13:19.220+07:00"
+        jcr:lastModified="{Date}2019-07-14T21:57:00.843+07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2019-07-14T20:13:19.074+07:00"
+            dam:extracted="{Date}2019-07-14T21:57:00.732+07:00"
             dam:sha1="95055201a38f81e42496971760c3fab160985da0"
             dam:size="{Long}2126"
             dc:format="image/png"
