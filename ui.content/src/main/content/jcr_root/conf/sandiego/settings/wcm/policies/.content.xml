@@ -24,12 +24,12 @@
                             mergeList="{Boolean}true"/>
                     </content-default>
                     <policy_109738412366600
-                        jcr:lastModified="{Date}2019-07-13T23:53:09.007+07:00"
+                        jcr:lastModified="{Date}2019-07-14T01:16:38.005+07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Public Page Pocily"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/sandiego/components/content/core/carousel,/apps/sandiego/components/content/core/image,/apps/sandiego/components/content/core/navigation,/apps/sandiego/components/content/core/search,/apps/sandiego/components/content/core/tabs,/apps/sandiego/components/content/core/teaser,/apps/sandiego/components/content/core/text,/apps/sandiego/components/content/core/title,group:SEA.Content Form]">
+                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/sandiego/components/content/core/carousel,/apps/sandiego/components/content/core/image,/apps/sandiego/components/content/core/navigation,/apps/sandiego/components/content/core/search,/apps/sandiego/components/content/core/tabs,/apps/sandiego/components/content/core/teaser,/apps/sandiego/components/content/core/text,/apps/sandiego/components/content/core/title,group:SEA.Content Form,/apps/sandiego/components/content/public-page/landing/process-image]">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                         <cq:styleGroups jcr:primaryType="nt:unstructured">
                             <item0 jcr:primaryType="nt:unstructured">
@@ -38,6 +38,16 @@
                                         cq:styleClasses="cmp-layout-container--fixed"
                                         cq:styleId="1563011012274"
                                         cq:styleLabel="Fixed Container"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item1
+                                        cq:styleClasses="cmp-layout-container--landing-intro"
+                                        cq:styleId="1563039497960"
+                                        cq:styleLabel="Landing Intro"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item2
+                                        cq:styleClasses="cmp-layout-container--landing-request"
+                                        cq:styleId="1563041774798"
+                                        cq:styleLabel="Landing Request"
                                         jcr:primaryType="nt:unstructured"/>
                                 </cq:styles>
                             </item0>
@@ -59,6 +69,27 @@
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                     </form-container>
                 </container>
+                <button jcr:primaryType="nt:unstructured">
+                    <policy_1563038814168
+                        jcr:lastModified="{Date}2019-07-14T00:27:15.103+07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Public Form Button Policy"
+                        sling:resourceType="wcm/core/components/policy/policy">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0 jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="cmp-form-button--landing-intro"
+                                        cq:styleId="1563038826406"
+                                        cq:styleLabel="Landing Intro"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                        </cq:styleGroups>
+                    </policy_1563038814168>
+                </button>
             </form>
             <content jcr:primaryType="nt:unstructured">
                 <core jcr:primaryType="nt:unstructured">
@@ -232,7 +263,7 @@
                     </image>
                     <teaser jcr:primaryType="nt:unstructured">
                         <policy_1563034158125
-                            jcr:lastModified="{Date}2019-07-14T00:05:18.748+07:00"
+                            jcr:lastModified="{Date}2019-07-14T10:28:27.405+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Public Teaser Policy"
@@ -250,6 +281,16 @@
                                             cq:styleClasses="cmp-teaser--landing-intro"
                                             cq:styleId="1563037506292"
                                             cq:styleLabel="Landing Intro"
+                                            jcr:primaryType="nt:unstructured"/>
+                                        <item2
+                                            cq:styleClasses="cmp-teaser--landing-process"
+                                            cq:styleId="1563040211853"
+                                            cq:styleLabel="Landing Process"
+                                            jcr:primaryType="nt:unstructured"/>
+                                        <item3
+                                            cq:styleClasses="cmp-teaser--landing-request"
+                                            cq:styleId="1563074881149"
+                                            cq:styleLabel="Landing Request"
                                             jcr:primaryType="nt:unstructured"/>
                                     </cq:styles>
                                 </item0>
