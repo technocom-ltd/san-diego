@@ -1,3 +1,6 @@
+@text-color-1: @text-color-second;
+@text-color-2: @text-color-third;
+
 .cmp-text--double {
   .cmp-text {
     p {
@@ -46,6 +49,22 @@
   .cmp-text {
     p {
       font-size: @font-size-small;
+    }
+  }
+}
+
+.cpm-text--color-1 {
+  .cmp-text {
+    p {
+      color: @text-color-1;
+    }
+  }
+}
+
+.cpm-text--color-2 {
+  .cmp-text {
+    p {
+      color: @text-color-2;
     }
   }
 }

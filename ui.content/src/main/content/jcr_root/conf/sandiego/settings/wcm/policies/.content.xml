@@ -105,7 +105,7 @@
                 <core jcr:primaryType="nt:unstructured">
                     <text jcr:primaryType="nt:unstructured">
                         <policy_1563029344686
-                            jcr:lastModified="{Date}2019-07-15T13:49:36.019+07:00"
+                            jcr:lastModified="{Date}2019-07-15T14:29:43.199+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Landing Text Policy"
@@ -279,6 +279,16 @@
                                             cq:styleClasses="cmp-text--size-small"
                                             cq:styleId="1563167131238"
                                             cq:styleLabel="Size Small"
+                                            jcr:primaryType="nt:unstructured"/>
+                                        <item11
+                                            cq:styleClasses="cpm-text--color-1"
+                                            cq:styleId="1563175763856"
+                                            cq:styleLabel="Color 1"
+                                            jcr:primaryType="nt:unstructured"/>
+                                        <item12
+                                            cq:styleClasses="cpm-text--color-2"
+                                            cq:styleId="1563175775331"
+                                            cq:styleLabel="Color 2"
                                             jcr:primaryType="nt:unstructured"/>
                                     </cq:styles>
                                 </item0>
