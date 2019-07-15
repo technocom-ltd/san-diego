@@ -1,0 +1,51 @@
+.cmp-text--double {
+  .cmp-text {
+    p {
+      line-height: 2;
+    }
+  }
+}
+
+.cmp-text--single {
+  .cmp-text {
+    p {
+      line-height: 1;
+    }
+  }
+}
+
+.cmp-text--size-xlarge {
+  .cmp-text {
+    p {
+      font-size: @font-size-xlarge;
+    }
+  }
+}
+
+.cmp-text--size-large {
+  .cmp-text {
+    p {
+      font-size: @font-size-large;
+
+      @media (max-width: @screen-small ) {
+        font-size: @font-size-large - 2;
+      }
+    }
+  }
+}
+
+.cmp-text--size-medium {
+  .cmp-text {
+    p {
+      font-size: @font-size-medium;
+    }
+  }
+}
+
+.cmp-text--size-small {
+  .cmp-text {
+    p {
+      font-size: @font-size-small;
+    }
+  }
+}

@@ -105,7 +105,7 @@
                 <core jcr:primaryType="nt:unstructured">
                     <text jcr:primaryType="nt:unstructured">
                         <policy_1563029344686
-                            jcr:lastModified="{Date}2019-07-14T20:58:40.085+07:00"
+                            jcr:lastModified="{Date}2019-07-15T13:49:36.019+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Landing Text Policy"
@@ -221,7 +221,9 @@
                                     features="*"/>
                             </rtePlugins>
                             <cq:styleGroups jcr:primaryType="nt:unstructured">
-                                <item0 jcr:primaryType="nt:unstructured">
+                                <item0
+                                    cq:styleGroupMultiple="true"
+                                    jcr:primaryType="nt:unstructured">
                                     <cq:styles jcr:primaryType="nt:unstructured">
                                         <item0
                                             cq:styleClasses="cmp-margin--less"
@@ -247,6 +249,36 @@
                                             cq:styleClasses="cmp-margin--small"
                                             cq:styleId="1563112711157"
                                             cq:styleLabel="Margin Small"
+                                            jcr:primaryType="nt:unstructured"/>
+                                        <item5
+                                            cq:styleClasses="cmp-text--single"
+                                            cq:styleId="1563166672447"
+                                            cq:styleLabel="Single Space"
+                                            jcr:primaryType="nt:unstructured"/>
+                                        <item6
+                                            cq:styleClasses="cmp-text--double"
+                                            cq:styleId="1563166694339"
+                                            cq:styleLabel="Double Space"
+                                            jcr:primaryType="nt:unstructured"/>
+                                        <item7
+                                            cq:styleClasses="cmp-text--size-xlarge"
+                                            cq:styleId="1563167105887"
+                                            cq:styleLabel="Size xLarge"
+                                            jcr:primaryType="nt:unstructured"/>
+                                        <item8
+                                            cq:styleClasses="cmp-text--size-large"
+                                            cq:styleId="1563167122777"
+                                            cq:styleLabel="Size Large"
+                                            jcr:primaryType="nt:unstructured"/>
+                                        <item9
+                                            cq:styleClasses="cmp-text--size-medium"
+                                            cq:styleId="1563167129808"
+                                            cq:styleLabel="Size Medium"
+                                            jcr:primaryType="nt:unstructured"/>
+                                        <item10
+                                            cq:styleClasses="cmp-text--size-small"
+                                            cq:styleId="1563167131238"
+                                            cq:styleLabel="Size Small"
                                             jcr:primaryType="nt:unstructured"/>
                                     </cq:styles>
                                 </item0>

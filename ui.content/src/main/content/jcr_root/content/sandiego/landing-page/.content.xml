@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-07-14T23:03:08.633+07:00"
+        cq:lastModified="{Date}2019-07-15T14:13:14.616+07:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/sandiego/settings/wcm/templates/public-page-template-1"
         jcr:primaryType="cq:PageContent"
@@ -437,24 +437,65 @@
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wcm/foundation/components/responsivegrid">
                         <cq:responsive jcr:primaryType="nt:unstructured"/>
-                        <text
-                            jcr:created="{Date}2019-07-14T11:03:19.540+07:00"
+                        <responsivegrid
+                            jcr:created="{Date}2019-07-15T13:48:39.750+07:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-07-14T22:20:31.858+07:00"
+                            jcr:lastModified="{Date}2019-07-15T13:48:39.750+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="sandiego/components/content/core/text"
-                            text="&lt;h3>&lt;b>The 2019-2024&lt;/b>&lt;br>&#xa;&lt;/h3>&#xa;&lt;h3>&lt;b> Information Technology Strategic Plan&lt;/b>&lt;br>&#xa;&lt;span style=&quot;font-weight: normal;&quot;>is now available.&lt;/span>&lt;/h3>&#xa;&lt;p>&lt;a title=&quot;Pdf here&quot; href=&quot;/content/dam/sandiego/public-pages/landing/hero.png&quot; target=&quot;_top&quot;>VIEW PDF &amp;nbsp;&lt;/a> &amp;nbsp;&amp;nbsp;&lt;/p>&#xa;"
-                            textIsRich="true">
+                            sling:resourceType="wcm/foundation/components/responsivegrid">
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default
+                                    jcr:primaryType="nt:unstructured"
+                                    width="6"/>
+                                <tablet
                                     jcr:primaryType="nt:unstructured"
                                     width="6"/>
                                 <phone
                                     jcr:primaryType="nt:unstructured"
                                     width="12"/>
                             </cq:responsive>
-                        </text>
+                            <text
+                                cq:styleIds="[1563167122777,1563112671433]"
+                                jcr:created="{Date}2019-07-14T11:03:19.540+07:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2019-07-15T13:50:06.801+07:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="sandiego/components/content/core/text"
+                                text="&lt;p>&lt;b>The 2019-2024&lt;/b>&lt;/p>&#xa;&lt;p>&lt;b>Information Technology Strategic Plan&lt;/b>&lt;/p>&#xa;&lt;p>&lt;span style=&quot;font-weight: normal;&quot;>is now available.&lt;/span>&lt;/p>&#xa;"
+                                textIsRich="true">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        width="6"/>
+                                    <phone
+                                        jcr:primaryType="nt:unstructured"
+                                        width="12"/>
+                                    <tablet
+                                        jcr:primaryType="nt:unstructured"
+                                        width="6"/>
+                                </cq:responsive>
+                            </text>
+                            <text_868485715
+                                jcr:created="{Date}2019-07-15T13:46:43.225+07:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2019-07-15T14:10:00.481+07:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="sandiego/components/content/core/text"
+                                text="&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&lt;a href=&quot;/content/dam/sandiego/sandiego-logo.png&quot; target=&quot;_blank&quot;>VIEW PDF&lt;/a>&lt;/p>&#xa;"
+                                textIsRich="true">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        width="6"/>
+                                    <phone
+                                        jcr:primaryType="nt:unstructured"
+                                        width="12"/>
+                                </cq:responsive>
+                            </text_868485715>
+                        </responsivegrid>
                         <image
                             jcr:created="{Date}2019-07-14T11:04:30.362+07:00"
                             jcr:createdBy="admin"
@@ -484,6 +525,9 @@
                                 <phone
                                     jcr:primaryType="nt:unstructured"
                                     width="12"/>
+                                <tablet
+                                    jcr:primaryType="nt:unstructured"
+                                    width="6"/>
                             </cq:responsive>
                         </image_1984231024>
                     </responsivegrid>
@@ -529,14 +573,14 @@
                                 jcr:created="{Date}2019-07-14T20:31:44.604+07:00"
                                 jcr:createdBy="admin"
                                 jcr:description="&lt;p>Lorem Ipsum is simply dummy text of the&amp;nbsp;&lt;/p>&#xd;&#xa;"
-                                jcr:lastModified="{Date}2019-07-14T20:33:11.127+07:00"
+                                jcr:lastModified="{Date}2019-07-15T14:10:36.419+07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="19/07/2019"
                                 sling:resourceType="sandiego/components/content/core/teaser"
                                 actionsEnabled="false"
                                 descriptionFromPage="false"
-                                fileReference="/content/dam/sandiego/public-pages/landing/hero.png"
+                                fileReference="/content/dam/core-components-examples/library/sample-assets/snowy-mountain-glacier.jpg"
                                 textIsRich="true"
                                 titleFromPage="false">
                                 <cq:responsive jcr:primaryType="nt:unstructured">
@@ -553,14 +597,14 @@
                                 jcr:created="{Date}2019-07-14T20:31:44.604+07:00"
                                 jcr:createdBy="admin"
                                 jcr:description="&lt;p>Lorem Ipsum is simply dummy text of the&amp;nbsp;&lt;/p>&#xd;&#xa;"
-                                jcr:lastModified="{Date}2019-07-14T20:33:27.341+07:00"
+                                jcr:lastModified="{Date}2019-07-15T14:10:40.382+07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="19/07/2019"
                                 sling:resourceType="sandiego/components/content/core/teaser"
                                 actionsEnabled="false"
                                 descriptionFromPage="false"
-                                fileReference="/content/dam/core-components-examples/library/sample-assets/mountain-range.jpg"
+                                fileReference="/content/dam/core-components-examples/library/sample-assets/lava-rock-formation.jpg"
                                 textIsRich="true"
                                 titleFromPage="false">
                                 <cq:responsive jcr:primaryType="nt:unstructured">
@@ -849,6 +893,15 @@
                                         width="2"/>
                                 </cq:responsive>
                             </image_copy_29229980>
+                            <text_1936286309
+                                jcr:created="{Date}2019-07-15T14:13:10.159+07:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2019-07-15T14:13:14.598+07:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="sandiego/components/content/core/text"
+                                text="&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;"
+                                textIsRich="true"/>
                         </responsivegrid>
                         <responsivegrid_686661094
                             jcr:created="{Date}2019-07-14T20:46:05.560+07:00"
