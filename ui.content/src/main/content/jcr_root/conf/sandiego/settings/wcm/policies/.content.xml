@@ -9,12 +9,12 @@
                 <responsivegrid jcr:primaryType="nt:unstructured">
                     <content-default
                         jcr:description="Policy for editable layout containers"
-                        jcr:lastModified="{Date}2019-07-13T22:57:42.519+07:00"
+                        jcr:lastModified="{Date}2019-07-15T11:16:23.082+07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="SanDiego Site Default"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/libs/foundation/components/image,/libs/wcm/foundation/components/responsivegrid,/apps/sandiego/components/content/core/image,/apps/sandiego/components/content/image,/apps/sandiego/components/content/public-page/landing/header]"
+                        components="[/libs/foundation/components/image,/libs/wcm/foundation/components/responsivegrid,/apps/sandiego/components/content/core/image,/apps/sandiego/components/content/public-page/home-page-1/header,/apps/sandiego/components/content/public-page/landing/header]"
                         policyResourceType="wcm/foundation/components/responsivegrid">
                         <cq:authoring jcr:primaryType="nt:unstructured">
                             <assetToComponentMapping jcr:primaryType="nt:unstructured"/>
@@ -63,6 +63,37 @@
                             </item0>
                         </cq:styleGroups>
                     </policy_109738412366600>
+                    <policy_8333267279816
+                        jcr:lastModified="{Date}2019-07-15T14:52:25.649+07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Home Page 1 Landing Header"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/sandiego/components/content/core/image,/apps/sandiego/components/content/core/navigation,/apps/sandiego/components/content/core/teaser,/apps/sandiego/components/content/core/text,/apps/sandiego/components/content/public-page/landing-1/text-box-background,/apps/sandiego/components/content/public-page/landing-1/text-box]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_8333267279816>
+                    <policy_8492871555453
+                        jcr:lastModified="{Date}2019-07-15T10:50:58.161+07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Public Page Pocily"
+                        sling:resourceType="wcm/core/components/policy/policy">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0 jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="cmp-layout-container--fixed"
+                                        cq:styleId="1563162643233"
+                                        cq:styleLabel="Fixed Container"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item1
+                                        cq:styleId="1563162648117"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                        </cq:styleGroups>
+                    </policy_8492871555453>
                 </responsivegrid>
             </components>
         </foundation>
@@ -105,7 +136,7 @@
                 <core jcr:primaryType="nt:unstructured">
                     <text jcr:primaryType="nt:unstructured">
                         <policy_1563029344686
-                            jcr:lastModified="{Date}2019-07-14T20:58:40.085+07:00"
+                            jcr:lastModified="{Date}2019-07-15T11:22:50.624+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Landing Text Policy"
@@ -162,7 +193,7 @@
                                 </paraformat>
                                 <misctools
                                     jcr:primaryType="nt:unstructured"
-                                    features="sourceedit">
+                                    features="-">
                                     <specialCharsConfig jcr:primaryType="nt:unstructured">
                                         <chars
                                             jcr:primaryType="nt:unstructured"
@@ -188,7 +219,7 @@
                                 </misctools>
                                 <edit
                                     jcr:primaryType="nt:unstructured"
-                                    features="paste-plaintext"/>
+                                    features="-"/>
                                 <findreplace
                                     jcr:primaryType="nt:unstructured"
                                     features="-"/>
@@ -317,10 +348,73 @@
                                 </item0>
                             </cq:styleGroups>
                         </policy_1563031586518>
+                        <policy_8974067302062
+                            jcr:lastModified="{Date}2019-07-15T10:59:56.166+07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Image policy"
+                            sling:resourceType="wcm/core/components/policy/policy"
+                            allowedRenditionWidths="[200,400,600,800,1000,1200]"
+                            allowUpload="false"
+                            altValueFromDAM="false"
+                            disableLazyLoading="true"
+                            displayPopupTitle="false"
+                            isDecorative="false"
+                            jpegQuality="{Long}100"
+                            titleValueFromDAM="false"
+                            uuidDisabled="false">
+                            <jcr:content jcr:primaryType="nt:unstructured"/>
+                            <plugins jcr:primaryType="nt:unstructured">
+                                <crop
+                                    jcr:primaryType="nt:unstructured"
+                                    features="*">
+                                    <aspectRatios jcr:primaryType="nt:unstructured">
+                                        <item0
+                                            jcr:primaryType="nt:unstructured"
+                                            name="Wide Landscape"
+                                            ratio="0.6180"/>
+                                        <item1
+                                            jcr:primaryType="nt:unstructured"
+                                            name="Landscape"
+                                            ratio="0.8284"/>
+                                        <item2
+                                            jcr:primaryType="nt:unstructured"
+                                            name="Square"
+                                            ratio="1"/>
+                                        <item3
+                                            jcr:primaryType="nt:unstructured"
+                                            name="Portrait"
+                                            ratio="1.6180"/>
+                                    </aspectRatios>
+                                </crop>
+                                <rotate
+                                    jcr:primaryType="nt:unstructured"
+                                    features="right"/>
+                                <flip
+                                    jcr:primaryType="nt:unstructured"
+                                    features="-"/>
+                            </plugins>
+                            <cq:styleGroups jcr:primaryType="nt:unstructured">
+                                <item0 jcr:primaryType="nt:unstructured">
+                                    <cq:styles jcr:primaryType="nt:unstructured">
+                                        <item0
+                                            cq:styleClasses="cmp-image--landing-footer-logo"
+                                            cq:styleId="1563163151179"
+                                            cq:styleLabel="Landing Footer Logo"
+                                            jcr:primaryType="nt:unstructured"/>
+                                        <item1
+                                            cq:styleClasses="cmp-image--landing-footer-social"
+                                            cq:styleId="1563163164669"
+                                            cq:styleLabel="Landing Footer Social"
+                                            jcr:primaryType="nt:unstructured"/>
+                                    </cq:styles>
+                                </item0>
+                            </cq:styleGroups>
+                        </policy_8974067302062>
                     </image>
                     <teaser jcr:primaryType="nt:unstructured">
                         <policy_1563034158125
-                            jcr:lastModified="{Date}2019-07-14T20:32:52.967+07:00"
+                            jcr:lastModified="{Date}2019-07-15T14:43:12.424+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Public Teaser Policy"
@@ -353,6 +447,16 @@
                                             cq:styleClasses="cmp-teaser--landing-news"
                                             cq:styleId="1563111163964"
                                             cq:styleLabel="Landing News"
+                                            jcr:primaryType="nt:unstructured"/>
+                                        <item5
+                                            cq:styleClasses="cmp-teaser--banner-left"
+                                            cq:styleId="1563173732554"
+                                            cq:styleLabel="Landing Left"
+                                            jcr:primaryType="nt:unstructured"/>
+                                        <item6
+                                            cq:styleClasses="cmp-teaser--landing-1-process"
+                                            cq:styleId="1563176586188"
+                                            cq:styleLabel="Landing 1 process"
                                             jcr:primaryType="nt:unstructured"/>
                                     </cq:styles>
                                 </item0>
@@ -387,6 +491,38 @@
                                 </item0>
                             </cq:styleGroups>
                         </policy_1563036159134>
+                        <policy_10932657227173
+                            jcr:lastModified="{Date}2019-07-15T11:40:12.749+07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Public Navigation Policy 1"
+                            sling:resourceType="wcm/core/components/policy/policy"
+                            collectAllPages="false"
+                            navigationRoot="/content/sandiego/home-page-1/nav-2"
+                            skipNavigationRoot="true">
+                            <jcr:content jcr:primaryType="nt:unstructured"/>
+                            <cq:styleGroups jcr:primaryType="nt:unstructured">
+                                <item0 jcr:primaryType="nt:unstructured">
+                                    <cq:styles jcr:primaryType="nt:unstructured">
+                                        <item0
+                                            cq:styleClasses="cmp-navigation--landing-middle"
+                                            cq:styleId="1563165102243"
+                                            cq:styleLabel="Landing Middle"
+                                            jcr:primaryType="nt:unstructured"/>
+                                        <item1
+                                            cq:styleClasses="cmp-navigation--landing-footer"
+                                            cq:styleId="1563165107319"
+                                            cq:styleLabel="Landing Footer"
+                                            jcr:primaryType="nt:unstructured"/>
+                                        <item2
+                                            cq:styleClasses="cmp-navigation--landing-1-header"
+                                            cq:styleId="1563165593056"
+                                            cq:styleLabel="Landing 1 Header"
+                                            jcr:primaryType="nt:unstructured"/>
+                                    </cq:styles>
+                                </item0>
+                            </cq:styleGroups>
+                        </policy_10932657227173>
                     </navigation>
                     <search jcr:primaryType="nt:unstructured">
                         <policy_1563036656502
