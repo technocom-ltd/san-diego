@@ -1,21 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:mixinTypes="[mix:referenceable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="74aebce3-c5a8-47b9-b0fc-d2d212aed47a">
     <jcr:content
         dam:assetState="processed"
         dam:relativePath="sandiego/public-pages/landing/linkedin-dark.png"
-        jcr:lastModified="{Date}2019-07-14T21:57:00.843+07:00"
+        jcr:lastModified="{Date}2019-07-15T07:54:49.059+07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2019-07-14T21:57:00.732+07:00"
+            dam:Bitsperpixel="{Long}32"
+            dam:extracted="{Date}2019-07-15T07:54:47.880+07:00"
+            dam:Fileformat="PNG"
+            dam:MIMEtype="image/png"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}288"
+            dam:Physicalheightininches="{Decimal}0.44442808628082275"
+            dam:Physicalwidthindpi="{Long}288"
+            dam:Physicalwidthininches="{Decimal}0.44442808628082275"
+            dam:Progressive="no"
             dam:sha1="95055201a38f81e42496971760c3fab160985da0"
             dam:size="{Long}2126"
             dc:format="image/png"
             jcr:mixinTypes="[cq:Taggable]"
-            jcr:primaryType="nt:unstructured"/>
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}128"
+            tiff:ImageWidth="{Long}128"/>
         <related jcr:primaryType="nt:unstructured"/>
         <usages
             dam:score="{Long}1"
