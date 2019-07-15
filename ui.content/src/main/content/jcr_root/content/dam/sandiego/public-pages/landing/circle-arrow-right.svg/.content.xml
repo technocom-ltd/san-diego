@@ -2,20 +2,20 @@
 <jcr:root xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:mixinTypes="[mix:referenceable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="aad5e54a-319b-46c4-9390-529321afa88f">
+    jcr:uuid="3b4f14b7-baea-432c-95d3-b519b64c6dcc">
     <jcr:content
         dam:assetState="processed"
-        dam:relativePath="sandiego/public-pages/landing/search.svg"
-        jcr:lastModified="{Date}2019-07-15T17:55:20.953+07:00"
+        dam:relativePath="sandiego/public-pages/landing/circle-arrow-right.svg"
+        jcr:lastModified="{Date}2019-07-15T17:55:20.980+07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2019-07-15T17:55:20.448+07:00"
-            dam:sha1="a7aa8acaacc13cec0c76dd0005d302093f853f50"
-            dam:size="{Long}692"
+            dam:extracted="{Date}2019-07-15T17:55:20.472+07:00"
+            dam:sha1="daca66556d408ee3c4c9354fecbf09327ee9b48d"
+            dam:size="{Long}564"
             dc:format="image/svg+xml"
-            dc:modified="{Date}2019-07-14T20:09:52.162+07:00"
-            jcr:lastModified="{Date}2019-07-15T17:13:34.395+07:00"
+            dc:modified="{Date}2019-07-15T17:13:35.275+07:00"
+            jcr:lastModified="{Date}2019-07-15T17:13:35.275+07:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>
