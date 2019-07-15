@@ -89,50 +89,52 @@
       }
     }
   }
-}
-
-.sticky-top {
-  margin-top: 0;
-  z-index: 1000;
-  position: fixed;
-  top: 120px;
-
-  @media (max-width: @screen-medium) {
-    top: 0px;
-  }
-
-  .cmp-navigation {
-    width: 100%;
-    transition: all 0.4s;
 
 
-    .cmp-navigation__group {
-      width: @max-width;
-      height: 60px;
-      margin-top: -20px;
-      justify-content: space-between;
-      transition: all 0.4s;
-      transition: width 0s;
+  &.sticky-top {
+    margin-top: 0;
+    z-index: 1000;
+    position: fixed;
+    top: 120px;
 
-      @media (max-width: @screen-medium) {
-        padding: 0 15px;
-      }
+    @media (max-width: @screen-medium) {
+      top: 0px;
     }
 
-    .cmp-navigation__item-link {
-      //      padding: 12px 47px;
-      padding: 0;
+    .cmp-navigation {
+      width: 100%;
       transition: all 0.4s;
 
-      &:hover,
-      &:focus {
-        background: none;
-        text-decoration: underline;
+      .cmp-navigation__group {
+        width: @max-width;
+        height: 60px;
+        margin-top: -20px;
+        justify-content: space-between;
+        transition: all 0.4s;
+        transition: width 0s;
+
+        @media (max-width: @screen-medium) {
+          padding: 0 15px;
+        }
       }
 
+      .cmp-navigation__item-link {
+        //      padding: 12px 47px;
+        padding: 0;
+        transition: all 0.4s;
+
+        &:hover,
+        &:focus {
+          background: none;
+          text-decoration: underline;
+        }
+
+      }
     }
   }
 }
+
+
 
 @keyframes scale {
   from {
