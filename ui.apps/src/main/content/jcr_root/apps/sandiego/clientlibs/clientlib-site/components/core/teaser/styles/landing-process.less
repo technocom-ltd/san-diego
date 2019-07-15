@@ -32,6 +32,10 @@
   margin: 2em;
   justify-content: center;
 
+  @media (max-width: @screen-small) {
+    margin: 0;
+  }
+
   .cmp-teaser {
     position: relative;
     width: 100%;
@@ -41,7 +45,6 @@
     overflow: hidden;
     background-color: @white;
     padding: @teaser-padding-vertical @teaser-padding-horizontal;
-    border-radius: 16px;
     transition: all 0.4s;
     box-sizing: border-box;
     margin: 0;
@@ -55,6 +58,11 @@
       opacity: 0;
       transform: translateY(@teaser-height);
       transition: all @animation-duration ease-in-out @animation-duration;
+
+      @media (max-width: @screen-small) {
+        opacity: 1;
+        transform: none;
+      }
     }
 
     .cmp-teaser__title {
@@ -65,6 +73,10 @@
       font-weight: @font-weight-bold;
       margin-top: 40px;
       color: @black;
+
+      @media (max-width: @screen-small) {
+        margin-top: 20px;
+      }
     }
 
 

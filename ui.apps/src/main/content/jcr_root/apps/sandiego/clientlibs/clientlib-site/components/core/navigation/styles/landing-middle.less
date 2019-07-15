@@ -65,7 +65,7 @@
     }
 
     .cmp-navigation__item-link {
-      color: @black-80;
+      color: @text-color-third;
       font-size: @font-size-small;
       text-transform: uppercase;
       font-weight: @font-weight-bold;
@@ -115,6 +115,13 @@
     .cmp-navigation__item-link {
       padding: 12px 47px;
       transition: all 0.4s;
+
+      &:hover,
+      &:focus {
+        background: none;
+        text-decoration: underline;
+      }
+
     }
   }
 }
