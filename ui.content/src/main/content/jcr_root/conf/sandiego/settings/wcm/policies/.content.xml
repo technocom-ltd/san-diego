@@ -64,16 +64,16 @@
                         </cq:styleGroups>
                     </policy_109738412366600>
                     <policy_8333267279816
-                        jcr:lastModified="{Date}2019-07-15T17:17:17.777+07:00"
+                        jcr:lastModified="{Date}2019-07-16T09:18:45.795+07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Home Page 1 Landing Header"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/sandiego/components/content/core/carousel,/apps/sandiego/components/content/core/image,/apps/sandiego/components/content/core/navigation,/apps/sandiego/components/content/core/teaser,/apps/sandiego/components/content/core/text,/apps/sandiego/components/content/public-page/landing-1/text-box-background,/apps/sandiego/components/content/public-page/landing-1/text-box,/apps/sandiego/components/content/public-page/landing-1/header]">
+                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/sandiego/components/content/core/carousel,/apps/sandiego/components/content/core/image,/apps/sandiego/components/content/core/navigation,/apps/sandiego/components/content/core/teaser,/apps/sandiego/components/content/core/text,/apps/sandiego/components/content/public-page/landing-1/text-box-background,/apps/sandiego/components/content/public-page/landing-1/text-box,/apps/sandiego/components/content/public-page/landing-1/header,/apps/sandiego/components/content/public-page/landing/footer-logo]">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                     </policy_8333267279816>
                     <policy_8492871555453
-                        jcr:lastModified="{Date}2019-07-15T10:50:58.161+07:00"
+                        jcr:lastModified="{Date}2019-07-16T09:21:19.318+07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Public Page Pocily"
@@ -88,7 +88,9 @@
                                         cq:styleLabel="Fixed Container"
                                         jcr:primaryType="nt:unstructured"/>
                                     <item1
+                                        cq:styleClasses="cmp-layout-container--landing-footer"
                                         cq:styleId="1563162648117"
+                                        cq:styleLabel="Landing Footer"
                                         jcr:primaryType="nt:unstructured"/>
                                 </cq:styles>
                             </item0>
@@ -136,7 +138,7 @@
                 <core jcr:primaryType="nt:unstructured">
                     <text jcr:primaryType="nt:unstructured">
                         <policy_1563029344686
-                            jcr:lastModified="{Date}2019-07-15T14:29:43.199+07:00"
+                            jcr:lastModified="{Date}2019-07-15T16:34:27.295+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Landing Text Policy"
@@ -396,7 +398,7 @@
                             </cq:styleGroups>
                         </policy_1563031586518>
                         <policy_8974067302062
-                            jcr:lastModified="{Date}2019-07-15T10:59:56.166+07:00"
+                            jcr:lastModified="{Date}2019-07-16T10:06:27.106+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Image policy"
@@ -453,6 +455,16 @@
                                             cq:styleClasses="cmp-image--landing-footer-social"
                                             cq:styleId="1563163164669"
                                             cq:styleLabel="Landing Footer Social"
+                                            jcr:primaryType="nt:unstructured"/>
+                                        <item2
+                                            cq:styleClasses="cmp-image--landing-footer-background"
+                                            cq:styleId="1563245647198"
+                                            cq:styleLabel="Landing Footer  Background"
+                                            jcr:primaryType="nt:unstructured"/>
+                                        <item3
+                                            cq:styleClasses="cmp-image--landing-chat"
+                                            cq:styleId="1563246383287"
+                                            cq:styleLabel="Landing Chat"
                                             jcr:primaryType="nt:unstructured"/>
                                     </cq:styles>
                                 </item0>

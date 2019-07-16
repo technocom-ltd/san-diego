@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-07-15T18:15:45.468+07:00"
+        cq:lastModified="{Date}2019-07-15T10:23:30.827+07:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/sandiego/settings/wcm/templates/public-page-template-1"
         jcr:primaryType="cq:PageContent"
@@ -72,11 +72,11 @@
                         <text
                             jcr:created="{Date}2019-07-13T23:57:54.709+07:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-07-15T16:48:31.732+07:00"
+                            jcr:lastModified="{Date}2019-07-13T23:58:17.294+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="sandiego/components/content/core/text"
-                            text="&lt;h2 style=&quot;text-align: center;&quot;>&lt;b>Who we are and what we do&lt;/b>&lt;/h2>&#xa;"
+                            text="&lt;h2 style=&quot;text-align: center;&quot;>&lt;b>Who we are and What we do?&lt;/b>&lt;/h2>&#xa;"
                             textIsRich="true"/>
                         <text_1684374515
                             jcr:created="{Date}2019-07-13T23:58:32.094+07:00"
@@ -102,14 +102,14 @@
                             jcr:created="{Date}2019-07-14T00:00:21.079+07:00"
                             jcr:createdBy="admin"
                             jcr:description="&lt;p>The optimal business management of information technology by County Business Groups and departments.&lt;/p>&#xd;&#xa;"
-                            jcr:lastModified="{Date}2019-07-15T18:15:36.311+07:00"
+                            jcr:lastModified="{Date}2019-07-15T10:23:14.870+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Leading"
                             sling:resourceType="sandiego/components/content/core/teaser"
                             actionsEnabled="false"
                             descriptionFromPage="false"
-                            fileReference="/content/dam/sandiego/public-pages/landing/Leading.png"
+                            fileReference="/content/dam/sandiego/public-pages/landing/leading.png"
                             textIsRich="true"
                             titleFromPage="false">
                             <cq:responsive jcr:primaryType="nt:unstructured">
@@ -126,14 +126,14 @@
                             jcr:created="{Date}2019-07-14T00:00:21.079+07:00"
                             jcr:createdBy="admin"
                             jcr:description="&lt;p>The optimal business management of information technology by County Business Groups and departments.&lt;/p>&#xd;&#xa;"
-                            jcr:lastModified="{Date}2019-07-15T18:15:40.415+07:00"
+                            jcr:lastModified="{Date}2019-07-15T10:23:24.429+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Guiding"
                             sling:resourceType="sandiego/components/content/core/teaser"
                             actionsEnabled="false"
                             descriptionFromPage="false"
-                            fileReference="/content/dam/sandiego/public-pages/landing/Guiding.png"
+                            fileReference="/content/dam/sandiego/public-pages/landing/guiding.png"
                             textIsRich="true"
                             titleFromPage="false">
                             <cq:responsive jcr:primaryType="nt:unstructured">
@@ -150,14 +150,14 @@
                             jcr:created="{Date}2019-07-14T00:00:21.079+07:00"
                             jcr:createdBy="admin"
                             jcr:description="&lt;p>The optimal business management of information technology by County Business Groups and departments.&lt;/p>&#xd;&#xa;"
-                            jcr:lastModified="{Date}2019-07-15T18:15:45.448+07:00"
+                            jcr:lastModified="{Date}2019-07-15T10:23:30.809+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Facilitating"
                             sling:resourceType="sandiego/components/content/core/teaser"
                             actionsEnabled="false"
                             descriptionFromPage="false"
-                            fileReference="/content/dam/sandiego/public-pages/landing/Facilitating.png"
+                            fileReference="/content/dam/sandiego/public-pages/landing/facilitating.png"
                             textIsRich="true"
                             titleFromPage="false">
                             <cq:responsive jcr:primaryType="nt:unstructured">
@@ -191,21 +191,20 @@
                     sling:resourceType="wcm/foundation/components/responsivegrid">
                     <cq:responsive jcr:primaryType="nt:unstructured"/>
                     <text
-                        cq:styleIds="[1563112671433]"
                         jcr:created="{Date}2019-07-14T00:46:20.608+07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-07-15T17:57:35.842+07:00"
+                        jcr:lastModified="{Date}2019-07-14T00:46:51.985+07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="sandiego/components/content/core/text"
-                        text="&lt;h2 style=&quot;text-align: center;&quot;>&lt;b>How the process works?&lt;/b>&lt;/h2>&#xa;"
+                        text="&lt;h2 style=&quot;text-align: center;&quot;>&lt;b>How the Process Works?&lt;/b>&lt;/h2>&#xa;"
                         textIsRich="true"/>
                     <teaser
                         cq:styleIds="[1563040211853]"
                         jcr:created="{Date}2019-07-14T00:49:08.565+07:00"
                         jcr:createdBy="admin"
-                        jcr:description="&lt;p>Access the County site and log in to your account.&lt;/p>&#xd;&#xa;"
-                        jcr:lastModified="{Date}2019-07-15T17:57:44.966+07:00"
+                        jcr:description="&lt;p>Access to county site&amp;nbsp; and login with you internal account.&lt;/p>&#xd;&#xa;"
+                        jcr:lastModified="{Date}2019-07-14T00:52:19.680+07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="1"
@@ -228,8 +227,8 @@
                         cq:styleIds="[1563040211853]"
                         jcr:created="{Date}2019-07-14T00:49:08.565+07:00"
                         jcr:createdBy="admin"
-                        jcr:description="&lt;p>Download and complete your required documents.&lt;/p>&#xd;&#xa;"
-                        jcr:lastModified="{Date}2019-07-15T17:57:57.155+07:00"
+                        jcr:description="&lt;p>Download your needed document and fill in. Then submit it.&lt;/p>&#xd;&#xa;"
+                        jcr:lastModified="{Date}2019-07-14T00:54:27.033+07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="2"
@@ -252,8 +251,8 @@
                         cq:styleIds="[1563040211853]"
                         jcr:created="{Date}2019-07-14T00:49:08.565+07:00"
                         jcr:createdBy="admin"
-                        jcr:description="&lt;p>Submit your documents and wait for EA approval.&lt;/p>&#xd;&#xa;"
-                        jcr:lastModified="{Date}2019-07-15T17:58:11.294+07:00"
+                        jcr:description="&lt;p>Submit your document and wait for EA approval&lt;/p>&#xd;&#xa;"
+                        jcr:lastModified="{Date}2019-07-14T00:54:42.558+07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="3"
@@ -277,8 +276,8 @@
                         cq:styleIds="[1563040211853]"
                         jcr:created="{Date}2019-07-14T00:49:08.565+07:00"
                         jcr:createdBy="admin"
-                        jcr:description="&lt;p>Receive notification of approval.&lt;/p>&#xd;&#xa;"
-                        jcr:lastModified="{Date}2019-07-15T17:58:28.072+07:00"
+                        jcr:description="&lt;p>Receive notification of appoval&lt;/p>&#xd;&#xa;"
+                        jcr:lastModified="{Date}2019-07-14T00:54:57.117+07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="4"
@@ -768,7 +767,6 @@
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default
                                     jcr:primaryType="nt:unstructured"
-                                    offset="0"
                                     width="11"/>
                                 <phone
                                     jcr:primaryType="nt:unstructured"
@@ -967,7 +965,6 @@
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default
                                     jcr:primaryType="nt:unstructured"
-                                    offset="0"
                                     width="6"/>
                                 <phone
                                     jcr:primaryType="nt:unstructured"
