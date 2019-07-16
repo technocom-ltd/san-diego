@@ -1,0 +1,110 @@
+/*
+ *  Copyright 2018 Adobe Systems Incorporated
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ */
+/* SEA teaser - landing-intro.less*/
+
+@teaser-width: 352px;
+@teaser-height: 213px;
+@teaser-img-height: 100px;
+@teaser-padding-vertical: 16px;
+@teaser-padding-horizontal: 10px;
+
+.cmp-teaser--secure-home-new-doc {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  padding: 0 10px;
+  margin: 0;
+  justify-content: center;
+
+  .cmp-teaser {
+    position: relative;
+    width: 100%;
+    height: @teaser-height;
+    max-height: @teaser-height;
+    overflow: hidden;
+    background-color: @gray-6;
+    padding-bottom: 0;
+    transition: all 0.4s;
+    padding: @teaser-padding-vertical @teaser-padding-horizontal;
+
+    box-sizing: border-box;
+
+    @media (max-width: @screen-small) {
+      margin-left: auto !important;
+      margin-right: auto !important;
+    }
+
+    .cmp-teaser__content {
+      position: static;
+      width: 100%;
+    }
+
+    .cmp-teaser__title {
+      font-family: @font-family-base;
+      width: 100%;
+      text-align: center;
+      font-size: @font-size-medium;
+      font-weight: @font-weight-bold;
+      color: @text-color;
+      margin: 0;
+    }
+
+    .cmp-teaser__description {
+      font-family: @font-family-base;
+      width: 100%;
+      text-align: left;
+      font-size: @font-size-base;
+      color: @text-color-third;
+      margin: 8px 0 0 0;
+    }
+
+    .cmp-teaser__action-container {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background-color: @black-30;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.4s;
+
+      &:hover {
+        cursor: pointer;
+        opacity: 0.8;
+      }
+
+      .cmp-teaser__action-link {
+        font-family: @font-family-base;
+        font-weight: @font-weight-light;
+        font-size: 38px;
+        height: 38px;
+        width: 100%;
+        line-height: 38px;
+        background-color: transparent;
+        color: @white;
+        padding: 0;
+        margin: 0 auto;
+        transform: translateY(-4px);
+        transition: all 0.4s;
+
+        text-align: center;
+      }
+
+    }
+  }
+}
