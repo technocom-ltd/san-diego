@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-07-15T20:03:17.314+07:00"
+        cq:lastModified="{Date}2019-07-16T16:29:40.749+07:00"
         cq:lastModifiedBy="admin"
         cq:policy="sandiego/components/structure/page/policy_1563195495049"
         jcr:primaryType="nt:unstructured"
@@ -14,7 +14,30 @@
             <responsivegrid
                 cq:policy="wcm/foundation/components/responsivegrid/policy_25754911010600"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="wcm/core/components/policies/mapping"/>
+                sling:resourceType="wcm/core/components/policies/mapping">
+                <wcm jcr:primaryType="nt:unstructured">
+                    <foundation jcr:primaryType="nt:unstructured">
+                        <components jcr:primaryType="nt:unstructured">
+                            <responsivegrid
+                                cq:policy="wcm/foundation/components/responsivegrid/policy_25754911010600"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="wcm/core/components/policies/mapping"/>
+                        </components>
+                    </foundation>
+                </wcm>
+                <sandiego jcr:primaryType="nt:unstructured">
+                    <components jcr:primaryType="nt:unstructured">
+                        <content jcr:primaryType="nt:unstructured">
+                            <core jcr:primaryType="nt:unstructured">
+                                <text
+                                    cq:policy="sandiego/components/content/core/text/policy_1563029344686"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="wcm/core/components/policies/mapping"/>
+                            </core>
+                        </content>
+                    </components>
+                </sandiego>
+            </responsivegrid>
         </root>
     </jcr:content>
 </jcr:root>
