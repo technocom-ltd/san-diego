@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-07-16T20:43:39.317+07:00"
+        cq:lastModified="{Date}2019-07-16T23:36:11.152+07:00"
         cq:lastModifiedBy="admin"
         cq:styleIds="[1563195521690]"
         cq:template="/conf/sandiego/settings/wcm/templates/secure-page-template-2"
@@ -139,7 +139,68 @@
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="sandiego/components/content/core/text"
                             text="&lt;h3>Notifications&lt;/h3>&#xd;&#xa;"
-                            textIsRich="true"/>
+                            textIsRich="true">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    width="12"/>
+                            </cq:responsive>
+                        </text_copy>
+                        <notification_item
+                            jcr:created="{Date}2019-07-16T22:32:16.039+07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2019-07-16T22:32:16.039+07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="sandiego/components/content/secure-page/home-2/notification-item">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    width="12"/>
+                            </cq:responsive>
+                        </notification_item>
+                        <notification_item_co
+                            jcr:created="{Date}2019-07-16T22:32:16.039+07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2019-07-16T22:32:16.039+07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="sandiego/components/content/secure-page/home-2/notification-item">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    width="12"/>
+                            </cq:responsive>
+                        </notification_item_co>
+                        <notification_item_co_757374623
+                            jcr:created="{Date}2019-07-16T22:32:16.039+07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2019-07-16T22:32:16.039+07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="sandiego/components/content/secure-page/home-2/notification-item">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    width="12"/>
+                            </cq:responsive>
+                        </notification_item_co_757374623>
+                        <text
+                            cq:styleIds="[1563112684784]"
+                            jcr:created="{Date}2019-07-16T22:53:09.390+07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2019-07-16T22:54:33.905+07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="sandiego/components/content/core/text"
+                            text="&lt;p style=&quot;text-align: right;&quot;>&lt;b>&lt;a href=&quot;https://www.youtube.com/watch?v=LSMDNL4n0kM&quot; target=&quot;_blank&quot;>See older notifications&lt;/a>&lt;/b>&lt;/p>&#xa;"
+                            textIsRich="true">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    width="12"/>
+                            </cq:responsive>
+                        </text>
                     </responsivegrid_144060364>
                     <responsivegrid_12385
                         jcr:created="{Date}2019-07-16T16:30:35.401+07:00"
@@ -177,15 +238,6 @@
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="sandiego/components/content/core/text"
                                 text="&lt;h3>Start a new document&lt;/h3>&#xa;"
-                                textIsRich="true"/>
-                            <text
-                                jcr:created="{Date}2019-07-16T17:12:35.918+07:00"
-                                jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2019-07-16T17:13:34.224+07:00"
-                                jcr:lastModifiedBy="admin"
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="sandiego/components/content/core/text"
-                                text="&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;"
                                 textIsRich="true"/>
                             <teaser
                                 cq:styleIds="[1563270902154]"
@@ -593,7 +645,117 @@
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="sandiego/components/content/core/text"
                             text="&lt;h3>Team calendar&lt;/h3>&#xa;"
-                            textIsRich="true"/>
+                            textIsRich="true">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    width="12"/>
+                            </cq:responsive>
+                        </text_copy>
+                        <calendar_item
+                            jcr:created="{Date}2019-07-16T23:06:47.220+07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2019-07-16T23:06:47.220+07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="sandiego/components/content/secure-page/home-2/calendar-item">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    width="12"/>
+                            </cq:responsive>
+                        </calendar_item>
+                        <calendar_item_copy_1815185058
+                            jcr:created="{Date}2019-07-16T23:06:47.220+07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2019-07-16T23:06:47.220+07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="sandiego/components/content/secure-page/home-2/calendar-item">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    width="12"/>
+                            </cq:responsive>
+                        </calendar_item_copy_1815185058>
+                        <calendar_item_copy
+                            jcr:created="{Date}2019-07-16T23:06:47.220+07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2019-07-16T23:06:47.220+07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="sandiego/components/content/secure-page/home-2/calendar-item">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    width="12"/>
+                            </cq:responsive>
+                        </calendar_item_copy>
+                        <calendar_item_copy_377362584
+                            jcr:created="{Date}2019-07-16T23:06:47.220+07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2019-07-16T23:06:47.220+07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="sandiego/components/content/secure-page/home-2/calendar-item">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    width="12"/>
+                            </cq:responsive>
+                        </calendar_item_copy_377362584>
+                        <calendar_item_copy_778560356
+                            jcr:created="{Date}2019-07-16T23:06:47.220+07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2019-07-16T23:06:47.220+07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="sandiego/components/content/secure-page/home-2/calendar-item">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    width="12"/>
+                            </cq:responsive>
+                        </calendar_item_copy_778560356>
+                        <calendar_item_copy_1705989822
+                            jcr:created="{Date}2019-07-16T23:06:47.220+07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2019-07-16T23:06:47.220+07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="sandiego/components/content/secure-page/home-2/calendar-item">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    width="12"/>
+                            </cq:responsive>
+                        </calendar_item_copy_1705989822>
+                        <calendar_item_copy_1426159734
+                            jcr:created="{Date}2019-07-16T23:06:47.220+07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2019-07-16T23:06:47.220+07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="sandiego/components/content/secure-page/home-2/calendar-item">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    width="12"/>
+                            </cq:responsive>
+                        </calendar_item_copy_1426159734>
+                        <calendar_item_copy_1738015205
+                            jcr:created="{Date}2019-07-16T23:06:47.220+07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2019-07-16T23:06:47.220+07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="sandiego/components/content/secure-page/home-2/calendar-item">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    width="12"/>
+                            </cq:responsive>
+                        </calendar_item_copy_1738015205>
                     </responsivegrid_14406>
                 </responsivegrid>
             </responsivegrid>

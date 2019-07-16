@@ -1,0 +1,48 @@
+.cmp-calendar-item {
+
+  padding: 16px 0;
+
+  .cmp-calendar-item__container {
+    display: flex;
+
+    > div:nth-child(2) {
+      margin-left: 16px;
+    }
+  }
+
+  .cmp-calendar-item__date {
+    min-width: 64px;
+    min-height: 75px;
+    padding: 8px;
+    box-sizing: border-box;
+    background: @gray-6;
+
+    > div:nth-child(1) {
+      font-size: 36px;
+      font-weight: @font-weight-light;
+      color: @text-color-third;
+      line-height: 1;
+    }
+
+    > div:nth-child(2) {
+      margin-top: 5px;
+      font-size: @font-size-xsmall;
+      font-weight: @font-weight-light;
+      color: @text-color;
+
+    }
+  }
+
+  .cmp-calendar-item__title {
+    font: @font-weight-bold @font-size-base @font-family-base;
+
+  }
+
+  .cmp-calendar-item__icon {}
+
+  .cmp-calendar-item__file {
+    margin-top: 16px;
+    font: @font-weight-normal @font-size-xsmall @font-family-base;
+
+  }
+}
