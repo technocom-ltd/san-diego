@@ -2,7 +2,7 @@
 <jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="nt:file">
     <jcr:content
-        dam:folderThumbnailPaths="[/content/dam/sandiego/public-pages/landing/process-check.png,/content/dam/sandiego/public-pages/landing/sandiego-plan.png,/content/dam/sandiego/public-pages/landing/Facilitating.png]"
+        dam:folderThumbnailPaths="[/content/dam/sandiego/public-pages/landing/process-check.png,/content/dam/sandiego/public-pages/landing/sandiego-plan.png,/content/dam/sandiego/public-pages/landing/search.svg]"
         jcr:primaryType="nt:unstructured"
         bgcolor="{Long}-1"
         height="{Long}240"

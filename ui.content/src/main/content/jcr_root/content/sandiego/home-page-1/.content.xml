@@ -47,7 +47,13 @@
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="sandiego/components/content/core/text"
                         text="&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;"
-                        textIsRich="true"/>
+                        textIsRich="true">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                behavior="hide"/>
+                        </cq:responsive>
+                    </text>
                     <responsivegrid_1040960066
                         cq:styleIds="[1563162643233]"
                         jcr:created="{Date}2019-07-15T11:52:54.513+07:00"
