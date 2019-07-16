@@ -14,8 +14,23 @@
  *  limitations under the License.
  */
 
-@import (once) "styles/default.less";
-@import (once) "styles/landing-footer-logo.less";
-@import (once) "styles/landing-footer-social.less";
-@import (once) "styles/landing-footer-background.less";
-@import (once) "styles/landing-chat.less";
+@small-size-image: 32px;
+
+.cmp-image--landing-footer-background {
+  width: auto !important;
+
+  .cmp-image {
+    width: @small-size-image;
+    height: @small-size-image;
+
+    .cmp-image__image {
+      padding: 25px;
+      background: #FFFFFF;
+      border: 1px #FFFFFF solid;
+      border-radius: 5px;
+      width: 100%;
+      height: 100%;
+    }
+
+  }
+}
