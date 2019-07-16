@@ -6,12 +6,12 @@
     <jcr:content
         dam:assetState="processed"
         dam:relativePath="sandiego/public-pages/landing-1/Vector.png"
-        jcr:lastModified="{Date}2019-07-15T14:09:57.616+07:00"
+        jcr:lastModified="{Date}2019-07-15T14:59:50.152+07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}32"
-            dam:extracted="{Date}2019-07-15T14:09:57.399+07:00"
+            dam:extracted="{Date}2019-07-15T14:59:50.069+07:00"
             dam:Fileformat="PNG"
             dam:MIMEtype="image/png"
             dam:Numberofimages="{Long}1"

@@ -27,6 +27,9 @@
   background: transition;
   transform: translateY(0);
   transition: transform 0.4s;
+  position: fixed;
+  left: 0;
+  right: 0;
 
   @media (max-width: @screen-medium) {
     display: none;
@@ -35,7 +38,6 @@
   .cmp-navigation {
     display: flex;
     justify-content: center;
-    border-top: 1px solid @black-20;
 
     .cmp-navigation__group {
       list-style: none;
@@ -49,6 +51,7 @@
       align-items: center;
       background-color: @white;
       transition: all 0.4s;
+      border-top: 1px solid #dcdcdc;
     }
 
 

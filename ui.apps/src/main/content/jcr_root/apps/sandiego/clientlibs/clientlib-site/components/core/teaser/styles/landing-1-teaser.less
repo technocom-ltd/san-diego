@@ -36,6 +36,8 @@
         display: flex;
         align-items: flex-end;
         text-transform: uppercase;
+        background-color: #ffffff00;
+        padding: 0;
       }
 
       .cmp-teaser__action-link::after {
@@ -47,6 +49,60 @@
   }
 }
 
+.cmp-teaser--banner-middle {
+  margin-top: 70px;
+  padding-right: 50px;
+  background-color: #F7F7F7;
+  width: 95% !important;
+
+  .cmp-teaser {
+    .cmp-teaser__title {
+      font-family: Sarabun;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 32px;
+      line-height: 150%;
+      display: flex;
+      align-items: end;
+      padding-top: 41px;
+      height: 87px;
+    }
+
+    .cmp-teaser__description {
+      font-family: Sarabun;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 200%;
+      display: flex;
+      align-items: flex-end;
+      margin-top: 56px;
+    }
+
+    .cmp-teaser__action-container {
+      padding: 80px 0 30px 0;
+
+      .cmp-teaser__action-link {
+        font-family: Sarabun;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        display: flex;
+        align-items: flex-end;
+        text-transform: uppercase;
+        background-color: #ffffff00;
+        padding: 0;
+      }
+
+      .cmp-teaser__action-link::after {
+        content: url("/content/dam/sandiego/public-pages/landing-1/icon.png");
+        font: @font-weight-bold @font-size-base @font-family-base;
+        padding-left: 15px;
+      }
+    }
+  }
+}
 
 .cmp-teaser--bottom-new {
   margin-bottom: 100px;
@@ -173,7 +229,6 @@
 
 .cmp-teaser--bottom-right {
   margin-bottom: 32px;
-  max-width: 540px;
   height: 342px;
   background-color: #F7F7F7;
   padding: 36px 94px 0px 32px;

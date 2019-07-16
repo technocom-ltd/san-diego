@@ -22,6 +22,7 @@
 @black-20: #DCDCDC;
 @black-30: #C4C4C4;
 @black-40: #A9A9A9;
+@black-60: #7B7B7B;
 @black-80: #575757;
 @black-100: #333333;
 
@@ -47,14 +48,16 @@
 //** Background color for `<body>`.
 @body-bg: #fff;
 //** Global text color on `<body>`.
-@text-color: #000;
+@text-color: @black-100;
+@text-color-second: @black-80;
+@text-color-third: @black-60;
 
 @brand-secondary: #EBEBEB;
 
 @brand-third: #fff;
 
 //** Global textual link color.
-@link-color: #0045FF;
+@link-color: @black-100;
 //** Link hover color set via `darken()` function.
 @link-hover-color: @link-color;
 //** Link hover decoration.

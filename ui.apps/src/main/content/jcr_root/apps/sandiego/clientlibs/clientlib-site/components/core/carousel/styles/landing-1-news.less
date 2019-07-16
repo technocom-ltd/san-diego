@@ -18,10 +18,11 @@
 @cmp-carousel-indicator-size: 10px;
 @cmp-carousel-indicator-height: 60px;
 @cmp-carousel-action-bg-size: 50px;
+@cmp-carousel-action-news-bg-size: 150px;
 @cmp-carousel-action-icon-size: 10px;
 @cmp-carousel-action-icon-offset: 12px;
 
-.cmp-carousel--landing-news {
+.cmp-carousel--landing-1-news {
 
   padding: 0;
   margin-bottom: 40px;
@@ -51,7 +52,7 @@
     .cmp-carousel__actions {
       margin-top: 2em;
       display: flex;
-      justify-content: center;
+      justify-content: flex-end;
     }
 
     .cmp-carousel__action {
@@ -60,9 +61,9 @@
       opacity: 1;
       background-color: @black-20;
       color: @text-color;
-      border-radius: 50%;
+      border-radius: 8px;
       height: @cmp-carousel-action-bg-size;
-      width: @cmp-carousel-action-bg-size;
+      width: @cmp-carousel-action-news-bg-size;
       display: block;
       padding: 0px;
       border: none;
@@ -83,17 +84,27 @@
       position: relative;
 
       .cmp-carousel__action-icon {
-        position: absolute;
-        top: calc(50% - 10px);
-        left: calc(50% - 10px);
-        width: @cmp-carousel-action-icon-size;
-        height: @cmp-carousel-action-icon-size;
-        border: 2px solid;
-        border-top: 0;
-        border-left: 0;
-        transform: rotate(135deg);
-        opacity: 1;
+        //        position: absolute;
+        //        top: calc(50% - 10px);
+        //        left: calc(50% - 10px);
+        //        width: @cmp-carousel-action-icon-size;
+        //        height: @cmp-carousel-action-icon-size;
+        //        border: 2px solid;
+        //        border-top: 0;
+        //        border-left: 0;
+        //        transform: rotate(135deg);
+        //        opacity: 1;
+      }
 
+      .cmp-carousel__action-text::before {
+        content: '<';
+        margin-right: 16px;
+        //        width: @cmp-carousel-action-icon-size;
+        //        height: @cmp-carousel-action-icon-size;
+        //        border: 2px solid;
+        //        border-top: 0;
+        //        border-left: 0;
+        //        transform: rotate(135deg);
       }
     }
 
@@ -101,17 +112,28 @@
       position: relative;
 
       .cmp-carousel__action-icon {
-        position: absolute;
-        top: calc(50% - 10px);
-        right: calc(50% - 10px);
-        width: @cmp-carousel-action-icon-size;
-        height: @cmp-carousel-action-icon-size;
-        border: 2px solid;
-        border-top: 0;
-        border-left: 0;
-        transform: rotate(-45deg);
-        opacity: 1;
+        //        position: absolute;
+        //        top: calc(50% - 10px);
+        //        right: calc(50% - 10px);
+        //        width: @cmp-carousel-action-icon-size;
+        //        height: @cmp-carousel-action-icon-size;
+        //        border: 2px solid;
+        //        border-top: 0;
+        //        border-left: 0;
+        //        transform: rotate(-45deg);
+        //        opacity: 1;
 
+      }
+
+      .cmp-carousel__action-text::after {
+        content: '>';
+        margin-left: 16px;
+        //        width: @cmp-carousel-action-icon-size;
+        //        height: @cmp-carousel-action-icon-size;
+        //        border: 2px solid;
+        //        border-top: 0;
+        //        border-left: 0;
+        //        transform: rotate(135deg);
       }
     }
 
@@ -126,7 +148,7 @@
     .cmp-carousel__action-icon {}
 
     .cmp-carousel__action-text {
-      display: none;
+      display: block;
 
     }
 
