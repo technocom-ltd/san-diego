@@ -9,12 +9,12 @@
                 <responsivegrid jcr:primaryType="nt:unstructured">
                     <content-default
                         jcr:description="Policy for editable layout containers"
-                        jcr:lastModified="{Date}2019-07-15T11:16:23.082+07:00"
+                        jcr:lastModified="{Date}2019-07-15T15:06:39.284+07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="SanDiego Site Default"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/libs/foundation/components/image,/libs/wcm/foundation/components/responsivegrid,/apps/sandiego/components/content/core/image,/apps/sandiego/components/content/public-page/home-page-1/header,/apps/sandiego/components/content/public-page/landing/header]"
+                        components="[/libs/foundation/components/image,/libs/wcm/foundation/components/responsivegrid,/apps/sandiego/components/content/core/image,/apps/sandiego/components/content/public-page/landing-1/header,/apps/sandiego/components/content/public-page/landing/header]"
                         policyResourceType="wcm/foundation/components/responsivegrid">
                         <cq:authoring jcr:primaryType="nt:unstructured">
                             <assetToComponentMapping jcr:primaryType="nt:unstructured"/>
@@ -64,12 +64,12 @@
                         </cq:styleGroups>
                     </policy_109738412366600>
                     <policy_8333267279816
-                        jcr:lastModified="{Date}2019-07-15T14:52:25.649+07:00"
+                        jcr:lastModified="{Date}2019-07-15T17:17:17.777+07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Home Page 1 Landing Header"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/sandiego/components/content/core/image,/apps/sandiego/components/content/core/navigation,/apps/sandiego/components/content/core/teaser,/apps/sandiego/components/content/core/text,/apps/sandiego/components/content/public-page/landing-1/text-box-background,/apps/sandiego/components/content/public-page/landing-1/text-box]">
+                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/sandiego/components/content/core/carousel,/apps/sandiego/components/content/core/image,/apps/sandiego/components/content/core/navigation,/apps/sandiego/components/content/core/teaser,/apps/sandiego/components/content/core/text,/apps/sandiego/components/content/public-page/landing-1/text-box-background,/apps/sandiego/components/content/public-page/landing-1/text-box,/apps/sandiego/components/content/public-page/landing-1/header]">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                     </policy_8333267279816>
                     <policy_8492871555453
@@ -321,6 +321,11 @@
                                             cq:styleId="1563175775331"
                                             cq:styleLabel="Color 2"
                                             jcr:primaryType="nt:unstructured"/>
+                                        <item13
+                                            cq:styleClasses="cpm-text--button-1"
+                                            cq:styleId="1563183260256"
+                                            cq:styleLabel="Button 1"
+                                            jcr:primaryType="nt:unstructured"/>
                                     </cq:styles>
                                 </item0>
                             </cq:styleGroups>
@@ -456,7 +461,7 @@
                     </image>
                     <teaser jcr:primaryType="nt:unstructured">
                         <policy_1563034158125
-                            jcr:lastModified="{Date}2019-07-15T14:43:12.424+07:00"
+                            jcr:lastModified="{Date}2019-07-15T17:24:42.650+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Public Teaser Policy"
@@ -499,6 +504,21 @@
                                             cq:styleClasses="cmp-teaser--landing-1-process"
                                             cq:styleId="1563176586188"
                                             cq:styleLabel="Landing 1 process"
+                                            jcr:primaryType="nt:unstructured"/>
+                                        <item7
+                                            cq:styleClasses="cmp-teaser--banner-middle"
+                                            cq:styleId="1563185684504"
+                                            cq:styleLabel="Landing Middle"
+                                            jcr:primaryType="nt:unstructured"/>
+                                        <item8
+                                            cq:styleClasses="cmp-teaser--bottom-left "
+                                            cq:styleId="1563186253944"
+                                            cq:styleLabel="Landing Bottom Left"
+                                            jcr:primaryType="nt:unstructured"/>
+                                        <item9
+                                            cq:styleClasses="cmp-teaser--bottom-right "
+                                            cq:styleId="1563186274521"
+                                            cq:styleLabel="Landing Bottom Right"
                                             jcr:primaryType="nt:unstructured"/>
                                     </cq:styles>
                                 </item0>
@@ -590,14 +610,14 @@
                     </search>
                     <carousel jcr:primaryType="nt:unstructured">
                         <policy_1563111013993
-                            jcr:lastModified="{Date}2019-07-14T20:31:16.753+07:00"
+                            jcr:lastModified="{Date}2019-07-15T17:30:03.798+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Public Carosel Policy"
                             sling:resourceType="wcm/core/components/policy/policy"
                             autopauseDisabled="false"
                             autoplay="false"
-                            components="/libs/wcm/foundation/components/responsivegrid">
+                            components="[/libs/wcm/foundation/components/responsivegrid,/apps/sandiego/components/content/core/teaser]">
                             <jcr:content jcr:primaryType="nt:unstructured"/>
                             <cq:styleGroups jcr:primaryType="nt:unstructured">
                                 <item0 jcr:primaryType="nt:unstructured">
@@ -606,6 +626,11 @@
                                             cq:styleClasses="cmp-carousel--landing-news"
                                             cq:styleId="1563111036382"
                                             cq:styleLabel="Landing News"
+                                            jcr:primaryType="nt:unstructured"/>
+                                        <item1
+                                            cq:styleClasses="cmp-carousel--landing-1-news"
+                                            cq:styleId="1563186595681"
+                                            cq:styleLabel="Landing 1 News"
                                             jcr:primaryType="nt:unstructured"/>
                                     </cq:styles>
                                 </item0>

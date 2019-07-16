@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-07-15T14:50:36.690+07:00"
+        cq:lastModified="{Date}2019-07-15T17:30:11.393+07:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/sandiego/settings/wcm/templates/proposal-1"
         jcr:primaryType="cq:PageContent"
@@ -39,6 +39,15 @@
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="sandiego/components/content/core/navigation"/>
                     </responsivegrid>
+                    <text
+                        jcr:created="{Date}2019-07-15T15:14:03.817+07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-07-15T15:17:05.068+07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="sandiego/components/content/core/text"
+                        text="&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;"
+                        textIsRich="true"/>
                     <responsivegrid_1040960066
                         cq:styleIds="[1563162643233]"
                         jcr:created="{Date}2019-07-15T11:52:54.513+07:00"
@@ -236,6 +245,15 @@
                                 titleFromPage="false"/>
                         </responsivegrid>
                     </responsivegrid_774575266>
+                    <text_822092138
+                        jcr:created="{Date}2019-07-15T15:25:04.797+07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-07-15T15:25:09.697+07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="sandiego/components/content/core/text"
+                        text="&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;"
+                        textIsRich="true"/>
                     <responsivegrid_433765258
                         cq:styleIds="[1563162643233]"
                         jcr:created="{Date}2019-07-15T14:46:09.456+07:00"
@@ -257,18 +275,6 @@
                                     jcr:primaryType="nt:unstructured"
                                     width="6"/>
                             </cq:responsive>
-                            <teaser
-                                jcr:created="{Date}2019-07-15T14:48:34.646+07:00"
-                                jcr:createdBy="admin"
-                                jcr:description="&lt;p>&lt;b>The 2019-2024&lt;br>&#xd;&#xa;Information Technology Strategic Plan&lt;/b>&lt;br>&#xd;&#xa;is now available.&lt;/p>&#xd;&#xa;"
-                                jcr:lastModified="{Date}2019-07-15T14:48:55.366+07:00"
-                                jcr:lastModifiedBy="admin"
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="sandiego/components/content/core/teaser"
-                                actionsEnabled="false"
-                                descriptionFromPage="false"
-                                textIsRich="true"
-                                titleFromPage="false"/>
                             <responsivegrid
                                 jcr:created="{Date}2019-07-15T14:49:16.934+07:00"
                                 jcr:createdBy="admin"
@@ -277,13 +283,26 @@
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="wcm/foundation/components/responsivegrid">
                                 <cq:responsive jcr:primaryType="nt:unstructured"/>
-                                <button
-                                    jcr:created="{Date}2019-07-15T14:50:36.682+07:00"
+                                <text
+                                    cq:styleIds="[1563167122777]"
+                                    jcr:created="{Date}2019-07-15T15:21:13.657+07:00"
                                     jcr:createdBy="admin"
-                                    jcr:lastModified="{Date}2019-07-15T14:50:36.682+07:00"
+                                    jcr:lastModified="{Date}2019-07-15T15:24:59.150+07:00"
                                     jcr:lastModifiedBy="admin"
                                     jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="sandiego/components/form/button"/>
+                                    sling:resourceType="sandiego/components/content/core/text"
+                                    text="&lt;p>&lt;b>The 2019-2024&lt;br>&#xa;Information Technology Strategic Plan&lt;/b>&lt;br>&#xa;is now available.&lt;/p>&#xa;"
+                                    textIsRich="true"/>
+                                <text_1315822812
+                                    cq:styleIds="[1563112671433,1563183260256]"
+                                    jcr:created="{Date}2019-07-15T15:21:39.511+07:00"
+                                    jcr:createdBy="admin"
+                                    jcr:lastModified="{Date}2019-07-15T16:34:43.482+07:00"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="sandiego/components/content/core/text"
+                                    text="&lt;p>&lt;a href=&quot;/content/dam/sandiego/sandiego-logo.png&quot; target=&quot;_blank&quot;>VIEW PDF&lt;/a>&lt;/p>&#xa;"
+                                    textIsRich="true"/>
                             </responsivegrid>
                         </responsivegrid_copy>
                         <responsivegrid
@@ -298,8 +317,317 @@
                                     jcr:primaryType="nt:unstructured"
                                     width="6"/>
                             </cq:responsive>
+                            <image
+                                jcr:created="{Date}2019-07-15T15:22:57.643+07:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2019-07-15T15:23:24.602+07:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="sandiego/components/content/core/image"
+                                alt="logo"
+                                altValueFromDAM="false"
+                                displayPopupTitle="false"
+                                fileReference="/content/dam/sandiego/public-pages/landing/sandiego-plan.png"
+                                isDecorative="false"
+                                titleValueFromDAM="false"/>
                         </responsivegrid>
                     </responsivegrid_433765258>
+                    <text_box_background
+                        jcr:created="{Date}2019-07-15T15:52:34.682+07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-07-15T15:52:34.682+07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="sandiego/components/content/public-page/landing-1/text-box-background">
+                        <text1
+                            jcr:lastModified="{Date}2019-07-15T16:40:26.051+07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="sandiego/components/content/core/text"
+                            text="&lt;p>Learn more about&lt;br>&#xa;&lt;b>California Senate Bill 272 The California Public Records Act: Local Agencies: Inventory List&lt;/b>&lt;/p>&#xa;"
+                            textIsRich="true"/>
+                        <button
+                            cq:styleIds="[1563183260256]"
+                            jcr:lastModified="{Date}2019-07-15T16:36:57.974+07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="sandiego/components/content/core/text"
+                            text="&lt;p>&lt;a href=&quot;/content/dam/sandiego/sandiego-logo.png&quot;>VIEW PDF&lt;/a>&lt;/p>&#xd;&#xa;"
+                            textIsRich="true"/>
+                    </text_box_background>
+                    <responsivegrid_250690878
+                        cq:styleIds="[1563162643233]"
+                        jcr:created="{Date}2019-07-15T16:46:08.864+07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-07-15T16:46:12.121+07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/responsivegrid">
+                        <cq:responsive jcr:primaryType="nt:unstructured"/>
+                        <text_box
+                            jcr:created="{Date}2019-07-15T16:46:58.177+07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2019-07-15T16:46:58.177+07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="sandiego/components/content/public-page/landing-1/text-box">
+                            <text1
+                                jcr:lastModified="{Date}2019-07-15T16:48:28.718+07:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="sandiego/components/content/core/text"
+                                text="&lt;p>Partnering&lt;/p>&#xa;"
+                                textIsRich="true"/>
+                            <text2
+                                jcr:lastModified="{Date}2019-07-15T16:48:48.192+07:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="sandiego/components/content/core/text"
+                                text="&lt;p>Information about the process and required documentation&lt;/p>&#xa;"
+                                textIsRich="true"/>
+                        </text_box>
+                    </responsivegrid_250690878>
+                    <responsivegrid_49642
+                        jcr:created="{Date}2019-07-15T16:54:05.525+07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-07-15T16:54:05.525+07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/responsivegrid">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                width="4"/>
+                        </cq:responsive>
+                        <teaser
+                            cq:styleIds="[1563185684504]"
+                            jcr:created="{Date}2019-07-15T16:54:31.197+07:00"
+                            jcr:createdBy="admin"
+                            jcr:description="&lt;p>There are fully instruction for completing all documents to request for Quotation.&lt;br>&#xd;&#xa;Click read more for more information.&lt;/p>&#xd;&#xa;"
+                            jcr:lastModified="{Date}2019-07-15T17:15:05.066+07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Request for Quotation (RFQ)"
+                            sling:resourceType="sandiego/components/content/core/teaser"
+                            actionsEnabled="true"
+                            descriptionFromPage="false"
+                            textIsRich="true"
+                            titleFromPage="false">
+                            <actions jcr:primaryType="nt:unstructured">
+                                <item0
+                                    jcr:primaryType="nt:unstructured"
+                                    link="https://www.google.com/"
+                                    text="read more"/>
+                            </actions>
+                        </teaser>
+                    </responsivegrid_49642>
+                    <responsivegrid_49642_1433004647
+                        jcr:created="{Date}2019-07-15T16:54:05.525+07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-07-15T16:54:05.525+07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/responsivegrid">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                width="4"/>
+                        </cq:responsive>
+                        <teaser
+                            cq:styleIds="[1563185684504]"
+                            jcr:created="{Date}2019-07-15T16:55:12.655+07:00"
+                            jcr:createdBy="admin"
+                            jcr:description="&lt;p>There are fully instruction for completing all documents to request for Proposal.&lt;br>&#xd;&#xa;Click read more for more information.&lt;/p>&#xd;&#xa;"
+                            jcr:lastModified="{Date}2019-07-15T17:15:07.880+07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Request for Proposal (RFP)"
+                            sling:resourceType="sandiego/components/content/core/teaser"
+                            actionsEnabled="true"
+                            descriptionFromPage="false"
+                            textIsRich="true"
+                            titleFromPage="false">
+                            <actions jcr:primaryType="nt:unstructured">
+                                <item0
+                                    jcr:primaryType="nt:unstructured"
+                                    link="https://www.google.com/"
+                                    text="read more"/>
+                            </actions>
+                        </teaser>
+                    </responsivegrid_49642_1433004647>
+                    <responsivegrid_496422416
+                        jcr:created="{Date}2019-07-15T16:54:05.525+07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-07-15T16:54:05.525+07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/responsivegrid">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                width="4"/>
+                        </cq:responsive>
+                        <teaser
+                            cq:styleIds="[1563185684504]"
+                            jcr:created="{Date}2019-07-15T16:55:42.288+07:00"
+                            jcr:createdBy="admin"
+                            jcr:description="&lt;p>There are fully instruction for completing all documents to request for Procurement.&lt;br>&#xd;&#xa;Click read more for more information.&lt;/p>&#xd;&#xa;"
+                            jcr:lastModified="{Date}2019-07-15T17:15:10.843+07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Procurement"
+                            sling:resourceType="sandiego/components/content/core/teaser"
+                            actionsEnabled="true"
+                            descriptionFromPage="false"
+                            textIsRich="true"
+                            titleFromPage="false">
+                            <actions jcr:primaryType="nt:unstructured">
+                                <item0
+                                    jcr:primaryType="nt:unstructured"
+                                    link="https://www.google.com/"
+                                    text="read more"/>
+                            </actions>
+                        </teaser>
+                    </responsivegrid_496422416>
+                    <text_box
+                        jcr:created="{Date}2019-07-15T17:15:24.559+07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-07-15T17:15:24.559+07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="sandiego/components/content/public-page/landing-1/text-box">
+                        <text1
+                            jcr:lastModified="{Date}2019-07-15T17:16:18.298+07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="sandiego/components/content/core/text"
+                            text="&lt;p>News&lt;/p>&#xa;"
+                            textIsRich="true"/>
+                        <text2
+                            jcr:lastModified="{Date}2019-07-15T17:16:32.174+07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="sandiego/components/content/core/text"
+                            text="&lt;p>All news about information technology in the County of San Diego&lt;/p>&#xa;"
+                            textIsRich="true"/>
+                    </text_box>
+                    <responsivegrid_536375417
+                        cq:styleIds="[1563162643233]"
+                        jcr:created="{Date}2019-07-15T17:17:41.836+07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-07-15T17:17:45.254+07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/responsivegrid">
+                        <cq:responsive jcr:primaryType="nt:unstructured"/>
+                        <carousel
+                            cq:styleIds="[1563186595681]"
+                            jcr:created="{Date}2019-07-15T17:19:30.698+07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2019-07-15T17:30:11.381+07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="sandiego/components/content/core/carousel">
+                            <responsivegrid
+                                jcr:created="{Date}2019-07-15T17:19:35.399+07:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2019-07-15T17:19:35.399+07:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="wcm/foundation/components/responsivegrid">
+                                <cq:responsive jcr:primaryType="nt:unstructured"/>
+                                <responsivegrid_copy
+                                    jcr:created="{Date}2019-07-15T17:19:50.493+07:00"
+                                    jcr:createdBy="admin"
+                                    jcr:lastModified="{Date}2019-07-15T17:19:50.493+07:00"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                                    <cq:responsive jcr:primaryType="nt:unstructured">
+                                        <default
+                                            jcr:primaryType="nt:unstructured"
+                                            width="6"/>
+                                    </cq:responsive>
+                                    <teaser
+                                        cq:styleIds="[1563186253944]"
+                                        jcr:created="{Date}2019-07-15T17:21:16.513+07:00"
+                                        jcr:createdBy="admin"
+                                        jcr:description="&lt;p>June 27 2019&lt;/p>&#xd;&#xa;"
+                                        jcr:lastModified="{Date}2019-07-15T17:25:00.106+07:00"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Earthquake Early Warning Tested in San Diego County"
+                                        sling:resourceType="sandiego/components/content/core/teaser"
+                                        actionsEnabled="false"
+                                        descriptionFromPage="false"
+                                        fileReference="/content/dam/sandiego/public-pages/landing-1/empty inage.png"
+                                        textIsRich="true"
+                                        titleFromPage="false"/>
+                                </responsivegrid_copy>
+                                <responsivegrid
+                                    jcr:created="{Date}2019-07-15T17:19:50.493+07:00"
+                                    jcr:createdBy="admin"
+                                    jcr:lastModified="{Date}2019-07-15T17:19:50.493+07:00"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                                    <cq:responsive jcr:primaryType="nt:unstructured">
+                                        <default
+                                            jcr:primaryType="nt:unstructured"
+                                            width="6"/>
+                                    </cq:responsive>
+                                    <responsivegrid
+                                        jcr:created="{Date}2019-07-15T17:20:17.928+07:00"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2019-07-15T17:20:17.928+07:00"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="wcm/foundation/components/responsivegrid">
+                                        <cq:responsive jcr:primaryType="nt:unstructured"/>
+                                        <teaser
+                                            cq:styleIds="[1563186274521]"
+                                            jcr:created="{Date}2019-07-15T17:21:56.015+07:00"
+                                            jcr:createdBy="admin"
+                                            jcr:description="&lt;p>June 27 2019&lt;/p>&#xd;&#xa;"
+                                            jcr:lastModified="{Date}2019-07-15T17:25:04.833+07:00"
+                                            jcr:lastModifiedBy="admin"
+                                            jcr:primaryType="nt:unstructured"
+                                            jcr:title="County Offices Close for Independence Day"
+                                            sling:resourceType="sandiego/components/content/core/teaser"
+                                            actionsEnabled="false"
+                                            descriptionFromPage="false"
+                                            fileReference="/content/dam/sandiego/public-pages/landing-1/empty inage.png"
+                                            textIsRich="true"
+                                            titleFromPage="false"/>
+                                    </responsivegrid>
+                                    <responsivegrid_388011344
+                                        jcr:created="{Date}2019-07-15T17:20:22.600+07:00"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2019-07-15T17:20:22.600+07:00"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="wcm/foundation/components/responsivegrid">
+                                        <cq:responsive jcr:primaryType="nt:unstructured"/>
+                                        <teaser
+                                            cq:styleIds="[1563186274521]"
+                                            jcr:created="{Date}2019-07-15T17:22:20.590+07:00"
+                                            jcr:createdBy="admin"
+                                            jcr:description="&lt;p>June 27 2019&lt;/p>&#xd;&#xa;"
+                                            jcr:lastModified="{Date}2019-07-15T17:25:09.429+07:00"
+                                            jcr:lastModifiedBy="admin"
+                                            jcr:primaryType="nt:unstructured"
+                                            jcr:title="County to Use Wireless Emergency Alert to Test Earthquake Warning"
+                                            sling:resourceType="sandiego/components/content/core/teaser"
+                                            actionsEnabled="false"
+                                            descriptionFromPage="false"
+                                            fileReference="/content/dam/sandiego/public-pages/landing-1/empty inage.png"
+                                            textIsRich="true"
+                                            titleFromPage="false"/>
+                                    </responsivegrid_388011344>
+                                </responsivegrid>
+                            </responsivegrid>
+                        </carousel>
+                    </responsivegrid_536375417>
                 </responsivegrid>
                 <header
                     jcr:created="{Date}2019-07-15T10:51:54.321+07:00"

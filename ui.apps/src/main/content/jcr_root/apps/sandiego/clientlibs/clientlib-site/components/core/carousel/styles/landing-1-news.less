@@ -1,0 +1,162 @@
+/*
+ *  Copyright 2018 Adobe Systems Incorporated
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ */
+/* SEA Carousel - landing-news.less*/
+
+@cmp-carousel-indicator-size: 10px;
+@cmp-carousel-indicator-height: 60px;
+@cmp-carousel-action-bg-size: 50px;
+@cmp-carousel-action-news-bg-size: 150px;
+@cmp-carousel-action-icon-size: 10px;
+@cmp-carousel-action-icon-offset: 12px;
+
+.cmp-carousel--landing-1-news {
+
+  padding: 0;
+  margin-bottom: 40px;
+
+  .cmp-carousel {
+    .cmp-carousel__content {
+      perspective: 1000px;
+      overflow: hidden;
+
+    }
+
+    .cmp-carousel__item {
+      transform: translateX(1000px);
+      display: none;
+      opacity: 1;
+      transition: all 0.4s;
+
+    }
+
+    .cmp-carousel__item--active {
+      transform: translateX(0);
+      display: block;
+      opacity: 1;
+      transition: all 0.4s;
+    }
+
+    .cmp-carousel__actions {
+      margin-top: 2em;
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .cmp-carousel__action {
+      position: relative;
+      line-height: @cmp-carousel-action-bg-size;
+      opacity: 1;
+      background-color: @black-20;
+      color: @text-color;
+      border-radius: 8px;
+      height: @cmp-carousel-action-bg-size;
+      width: @cmp-carousel-action-news-bg-size;
+      display: block;
+      padding: 0px;
+      border: none;
+      cursor: pointer;
+      transition: opacity 0.2s linear 0s;
+      margin-left: @cmp-carousel-action-icon-offset;
+      margin-right: @cmp-carousel-action-icon-offset;
+      outline: none;
+
+      &:hover {
+        opacity: 0.6;
+      }
+    }
+
+    .cmp-carousel__action--disabled {}
+
+    .cmp-carousel__action--previous {
+      position: relative;
+
+      .cmp-carousel__action-icon {
+        //        position: absolute;
+        //        top: calc(50% - 10px);
+        //        left: calc(50% - 10px);
+        //        width: @cmp-carousel-action-icon-size;
+        //        height: @cmp-carousel-action-icon-size;
+        //        border: 2px solid;
+        //        border-top: 0;
+        //        border-left: 0;
+        //        transform: rotate(135deg);
+        //        opacity: 1;
+      }
+
+      .cmp-carousel__action-text::before {
+        content: '<';
+        margin-right: 16px;
+        //        width: @cmp-carousel-action-icon-size;
+        //        height: @cmp-carousel-action-icon-size;
+        //        border: 2px solid;
+        //        border-top: 0;
+        //        border-left: 0;
+        //        transform: rotate(135deg);
+      }
+    }
+
+    .cmp-carousel__action--next {
+      position: relative;
+
+      .cmp-carousel__action-icon {
+        //        position: absolute;
+        //        top: calc(50% - 10px);
+        //        right: calc(50% - 10px);
+        //        width: @cmp-carousel-action-icon-size;
+        //        height: @cmp-carousel-action-icon-size;
+        //        border: 2px solid;
+        //        border-top: 0;
+        //        border-left: 0;
+        //        transform: rotate(-45deg);
+        //        opacity: 1;
+
+      }
+
+      .cmp-carousel__action-text::after {
+        content: '>';
+        margin-left: 16px;
+        //        width: @cmp-carousel-action-icon-size;
+        //        height: @cmp-carousel-action-icon-size;
+        //        border: 2px solid;
+        //        border-top: 0;
+        //        border-left: 0;
+        //        transform: rotate(135deg);
+      }
+    }
+
+    .cmp-carousel__action--pause {
+      display: none;
+    }
+
+    .cmp-carousel__action--play {
+      display: none;
+    }
+
+    .cmp-carousel__action-icon {}
+
+    .cmp-carousel__action-text {
+      display: block;
+
+    }
+
+    .cmp-carousel__indicators {
+      display: none;
+    }
+
+    .cmp-carousel__indicator {}
+  }
+
+}

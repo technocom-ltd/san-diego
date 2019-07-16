@@ -3,37 +3,37 @@
     jcr:isCheckedOut="{Boolean}true"
     jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="ee3abb40-5857-4ab4-ab40-965bb717e9e5">
+    jcr:uuid="bf86302e-8b6b-4595-8903-6caf4ec1e1ef">
     <jcr:content
         cq:name="icon.png"
         cq:parentPath="/content/dam/sandiego/public-pages/landing-1"
         dam:assetState="processed"
         dam:relativePath="sandiego/public-pages/landing-1/icon.png"
-        jcr:lastModified="{Date}2019-07-15T18:12:40.701+07:00"
+        jcr:lastModified="{Date}2019-07-15T16:00:22.562+07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}32"
-            dam:extracted="{Date}2019-07-15T18:12:35.349+07:00"
+            dam:extracted="{Date}2019-07-15T16:00:22.342+07:00"
             dam:Fileformat="PNG"
             dam:MIMEtype="image/png"
             dam:Numberofimages="{Long}1"
             dam:Numberoftextualcomments="{Long}0"
-            dam:Physicalheightindpi="{Long}216"
-            dam:Physicalheightininches="{Decimal}0.14814704656600952"
-            dam:Physicalwidthindpi="{Long}216"
-            dam:Physicalwidthininches="{Decimal}0.24999815225601196"
+            dam:Physicalheightindpi="{Long}72"
+            dam:Physicalheightininches="{Decimal}0.15275868773460388"
+            dam:Physicalwidthindpi="{Long}72"
+            dam:Physicalwidthininches="{Decimal}0.2499687522649765"
             dam:Progressive="no"
-            dam:sha1="6065e1c6ecd0f6aa99507e7b253ce0bf86145bfd"
-            dam:size="{Long}466"
+            dam:sha1="d18d608fc3333e41e11b477954471db4b887655f"
+            dam:size="{Long}240"
             dc:format="image/png"
             dc:modified="{Date}2019-07-15T18:12:40.561+07:00"
             jcr:lastModified="{Date}2019-07-15T18:12:40.561+07:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
-            tiff:ImageLength="{Long}32"
-            tiff:ImageWidth="{Long}54"/>
+            tiff:ImageLength="{Long}11"
+            tiff:ImageWidth="{Long}18"/>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>
 </jcr:root>
