@@ -6,6 +6,8 @@
   height: 90px;
   margin-top: 80px;
 
+  @media only screen and (max-width:@screen-small) {}
+
   .cmp-text-box--page-1 {
     .cmp-text {
       > p {
@@ -18,10 +20,13 @@
         line-height: 300%;
         display: flex;
         align-items: center;
+
+        @media only screen and (max-width:@screen-small) {
+          font-size: @font-size-medium;
+          width: 110px;
+        }
       }
     }
-
-
   }
 
   .cmp-text-box--page-2 {
@@ -35,9 +40,18 @@
     align-items: center;
     color: #A9A9A9;
 
+    @media only screen and (max-width:@screen-small) {
+      padding-left: 0px;
+    }
+
     p {
       border-left: 1px solid #DCDCDC;
       padding-left: 70px;
+
+      @media only screen and (max-width:@screen-small) {
+        font-size: @font-size-small;
+        padding-left: 10px;
+      }
     }
   }
 }
@@ -47,6 +61,13 @@
   background-color: #F7F7F7;
   height: 128px;
   margin-top: 76px;
+
+  @media only screen and (max-width:@screen-small) {
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+  }
 
   .cmp-text-box-background---page-1 {
     max-width: 744px;
@@ -64,8 +85,16 @@
   }
 
   .cmp-text-box-background---page-2 {
-    padding-left: 220px;
-    padding-top: 62px;
+    float: right;
+    padding-top: 55px;
+    margin-left: 285px;
+
+    @media only screen and (max-width:@screen-small) {
+      padding-top: 0px;
+      padding-bottom: 40px;
+      margin-left: 0px;
+    }
+
 
     .cmp-text {
       p {
