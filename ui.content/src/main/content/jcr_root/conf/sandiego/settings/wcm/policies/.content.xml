@@ -96,6 +96,15 @@
                             </item0>
                         </cq:styleGroups>
                     </policy_8492871555453>
+                    <policy_25754911010600
+                        jcr:lastModified="{Date}2019-07-15T19:48:27.972+07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Secure Layout Policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/sandiego/components/content/core/carousel,/apps/sandiego/components/content/core/image,/apps/sandiego/components/content/core/list,/apps/sandiego/components/content/core/navigation,/apps/sandiego/components/content/core/search,/apps/sandiego/components/content/core/tabs,/apps/sandiego/components/content/core/teaser,/apps/sandiego/components/content/core/text,/apps/sandiego/components/content/core/title]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_25754911010600>
                 </responsivegrid>
             </components>
         </foundation>
@@ -651,6 +660,29 @@
                     </carousel>
                 </core>
             </content>
+            <structure jcr:primaryType="nt:unstructured">
+                <page jcr:primaryType="nt:unstructured">
+                    <policy_1563195495049
+                        jcr:lastModified="{Date}2019-07-15T20:03:17.309+07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Default Page Policy"
+                        sling:resourceType="wcm/core/components/policy/policy">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0 jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="cmp-page--secure"
+                                        cq:styleId="1563195521690"
+                                        cq:styleLabel="Secure Page"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                        </cq:styleGroups>
+                    </policy_1563195495049>
+                </page>
+            </structure>
         </components>
     </sandiego>
 </jcr:root>
