@@ -157,7 +157,47 @@
                             </item0>
                         </cq:styleGroups>
                     </policy_1563038814168>
+                    <policy_44343711006300
+                        jcr:lastModified="{Date}2019-07-16T20:20:27.557+07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Secure Form Button Policy"
+                        sling:resourceType="wcm/core/components/policy/policy">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0 jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="cmp-form-button--secure-filter"
+                                        cq:styleId="1563283208933"
+                                        cq:styleLabel="Secure Filter"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                        </cq:styleGroups>
+                    </policy_44343711006300>
                 </button>
+                <text jcr:primaryType="nt:unstructured">
+                    <policy_1563274347225
+                        jcr:lastModified="{Date}2019-07-16T17:52:59.507+07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Secure Page Policy"
+                        sling:resourceType="wcm/core/components/policy/policy">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0 jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="cmp-form-text--secure-filter"
+                                        cq:styleId="1563274357550"
+                                        cq:styleLabel="Filter Input"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                        </cq:styleGroups>
+                    </policy_1563274347225>
+                </text>
             </form>
             <content jcr:primaryType="nt:unstructured">
                 <core jcr:primaryType="nt:unstructured">
