@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2019-07-17T16:55:37.637+07:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/sandiego/settings/wcm/templates/secure-template-1"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="nav 2"
+        sling:resourceType="sandiego/components/structure/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:created="{Date}2019-07-17T10:35:46.865+07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-07-17T10:35:49.217+07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid"/>
+        </root>
+    </jcr:content>
+    <process-procedures/>
+    <team-calendar/>
+    <organization/>
+    <nod/>
+    <sod/>
+    <discussion/>
+    <documentation/>
+    <docvault/>
+</jcr:root>
