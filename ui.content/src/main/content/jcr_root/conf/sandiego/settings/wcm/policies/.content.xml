@@ -104,12 +104,12 @@
                         </cq:styleGroups>
                     </policy_8492871555453>
                     <policy_25754911010600
-                        jcr:lastModified="{Date}2019-07-16T16:28:32.278+07:00"
+                        jcr:lastModified="{Date}2019-07-16T23:06:31.802+07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Secure Layout Policy"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/libs/foundation/components/chart,/libs/wcm/foundation/components/responsivegrid,/apps/sandiego/components/content/core/carousel,/apps/sandiego/components/content/core/image,/apps/sandiego/components/content/core/list,/apps/sandiego/components/content/core/navigation,/apps/sandiego/components/content/core/search,/apps/sandiego/components/content/core/tabs,/apps/sandiego/components/content/core/teaser,/apps/sandiego/components/content/core/text,/apps/sandiego/components/content/core/title,/apps/sandiego/components/content/secure-page/home-2/button-icon,/apps/sandiego/components/content/secure-page/home-2/chart-nod,/apps/sandiego/components/content/secure-page/home-2/chart-sdd]">
+                        components="[/libs/foundation/components/chart,/libs/wcm/foundation/components/responsivegrid,/apps/sandiego/components/content/core/carousel,/apps/sandiego/components/content/core/image,/apps/sandiego/components/content/core/list,/apps/sandiego/components/content/core/navigation,/apps/sandiego/components/content/core/search,/apps/sandiego/components/content/core/tabs,/apps/sandiego/components/content/core/teaser,/apps/sandiego/components/content/core/text,/apps/sandiego/components/content/core/title,group:SEA.Content Form,/apps/sandiego/components/content/secure-page/home-2/button-icon,/apps/sandiego/components/content/secure-page/home-2/chart-nod,/apps/sandiego/components/content/secure-page/home-2/chart-sdd,/apps/sandiego/components/content/secure-page/home-2/calendar-item,/apps/sandiego/components/content/secure-page/home-2/notification-item]">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                         <cq:styleGroups jcr:primaryType="nt:unstructured">
                             <item0 jcr:primaryType="nt:unstructured">
@@ -164,7 +164,47 @@
                             </item0>
                         </cq:styleGroups>
                     </policy_1563038814168>
+                    <policy_44343711006300
+                        jcr:lastModified="{Date}2019-07-16T20:20:27.557+07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Secure Form Button Policy"
+                        sling:resourceType="wcm/core/components/policy/policy">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0 jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="cmp-form-button--secure-filter"
+                                        cq:styleId="1563283208933"
+                                        cq:styleLabel="Secure Filter"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                        </cq:styleGroups>
+                    </policy_44343711006300>
                 </button>
+                <text jcr:primaryType="nt:unstructured">
+                    <policy_1563274347225
+                        jcr:lastModified="{Date}2019-07-16T17:52:59.507+07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Secure Page Policy"
+                        sling:resourceType="wcm/core/components/policy/policy">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0 jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="cmp-form-text--secure-filter"
+                                        cq:styleId="1563274357550"
+                                        cq:styleLabel="Filter Input"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                        </cq:styleGroups>
+                    </policy_1563274347225>
+                </text>
             </form>
             <content jcr:primaryType="nt:unstructured">
                 <core jcr:primaryType="nt:unstructured">
@@ -568,6 +608,25 @@
                                 </item0>
                             </cq:styleGroups>
                         </policy_1563034158125>
+                        <policy_31190928201700
+                            jcr:lastModified="{Date}2019-07-16T16:55:20.346+07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Secure Page Policy"
+                            sling:resourceType="wcm/core/components/policy/policy">
+                            <jcr:content jcr:primaryType="nt:unstructured"/>
+                            <cq:styleGroups jcr:primaryType="nt:unstructured">
+                                <item0 jcr:primaryType="nt:unstructured">
+                                    <cq:styles jcr:primaryType="nt:unstructured">
+                                        <item0
+                                            cq:styleClasses="cmp-teaser--secure-home-new-doc"
+                                            cq:styleId="1563270902154"
+                                            cq:styleLabel="New Document"
+                                            jcr:primaryType="nt:unstructured"/>
+                                    </cq:styles>
+                                </item0>
+                            </cq:styleGroups>
+                        </policy_31190928201700>
                     </teaser>
                     <navigation jcr:primaryType="nt:unstructured">
                         <policy_1563036159134
@@ -632,20 +691,20 @@
                     </navigation>
                     <search jcr:primaryType="nt:unstructured">
                         <policy_1563036656502
-                            jcr:lastModified="{Date}2019-07-13T23:51:21.607+07:00"
+                            jcr:lastModified="{Date}2019-07-17T08:08:51.829+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
-                            jcr:title="Public Search Policy"
+                            jcr:title="Secure Search Policy"
                             sling:resourceType="wcm/core/components/policy/policy"
-                            searchRoot="/content/sandiego/landing-page">
+                            searchRoot="/content/sandiego/secure-homepage">
                             <jcr:content jcr:primaryType="nt:unstructured"/>
                             <cq:styleGroups jcr:primaryType="nt:unstructured">
                                 <item0 jcr:primaryType="nt:unstructured">
                                     <cq:styles jcr:primaryType="nt:unstructured">
                                         <item0
-                                            cq:styleClasses="cmp-search--landing-hero"
+                                            cq:styleClasses="cmp-search--secure-home-header"
                                             cq:styleId="1563036674673"
-                                            cq:styleLabel="Landing Hero"
+                                            cq:styleLabel="Secure Header"
                                             jcr:primaryType="nt:unstructured"/>
                                     </cq:styles>
                                 </item0>
