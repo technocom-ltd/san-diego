@@ -104,7 +104,7 @@
                         </cq:styleGroups>
                     </policy_8492871555453>
                     <policy_25754911010600
-                        jcr:lastModified="{Date}2019-07-16T23:06:31.802+07:00"
+                        jcr:lastModified="{Date}2019-07-17T15:54:20.684+07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Secure Layout Policy"
@@ -123,6 +123,11 @@
                                         cq:styleClasses="cmp-layout-container--secure-shadow"
                                         cq:styleId="1563245931129"
                                         cq:styleLabel="Shadow"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item2
+                                        cq:styleClasses="cmp-layout-container--secure-team-calendar"
+                                        cq:styleId="1563353651344"
+                                        cq:styleLabel="Team Calendar"
                                         jcr:primaryType="nt:unstructured"/>
                                 </cq:styles>
                             </item0>

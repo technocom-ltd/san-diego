@@ -9,10 +9,9 @@
 
     > div:nth-child(2) {
       margin-left: 16px;
+      position: relative;
     }
   }
-
-
 
   .cmp-notification-item__type {
     margin-top: 6px;
@@ -30,10 +29,23 @@
     line-height: @secure-notification-item-size;
   }
 
+
   .cmp-notification-item__title {
     font: @font-weight-bold @font-size-base @font-family-base;
-    padding-right: 24px;
+    padding-right: 32px;
+  }
 
+  .cmp-notification-item__title::after {
+    position: absolute;
+    right: 0;
+    top: 4px;
+    transform: rotate(90deg);
+    content: '\2026';
+    pointer-events: visible;
+
+    &:hover {
+      cursor: pointer;
+    }
   }
 
   .cmp-notification-item__time {
@@ -41,7 +53,6 @@
     font: @font-weight-normal @font-size-small @font-family-base;
     color: @text-color-third;
     margin-top: 8px;
-
   }
 
   .cmp-notification-item__status {
