@@ -9,12 +9,12 @@
         cq:parentPath="/content/dam/sandiego/public-pages/landing-1"
         dam:assetState="processed"
         dam:relativePath="sandiego/public-pages/landing-1/san-diego.jpg"
-        jcr:lastModified="{Date}2019-07-16T15:44:04.954+07:00"
+        jcr:lastModified="{Date}2019-07-16T17:09:49.718+07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2019-07-16T15:44:04.261+07:00"
+            dam:extracted="{Date}2019-07-16T17:09:49.569+07:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -28,7 +28,7 @@
             dam:size="{Long}162886"
             dc:format="image/jpeg"
             dc:modified="{Date}2019-07-16T15:44:03.081+07:00"
-            jcr:lastModified="{Date}2019-07-16T15:44:03.081+07:00"
+            jcr:lastModified="{Date}2019-07-16T17:09:49.565+07:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"

@@ -73,14 +73,16 @@
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                     </policy_8333267279816>
                     <policy_8492871555453
-                        jcr:lastModified="{Date}2019-07-16T09:21:19.318+07:00"
+                        jcr:lastModified="{Date}2019-07-17T08:47:14.308+07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Public Page Pocily"
                         sling:resourceType="wcm/core/components/policy/policy">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                         <cq:styleGroups jcr:primaryType="nt:unstructured">
-                            <item0 jcr:primaryType="nt:unstructured">
+                            <item0
+                                cq:styleGroupMultiple="true"
+                                jcr:primaryType="nt:unstructured">
                                 <cq:styles jcr:primaryType="nt:unstructured">
                                     <item0
                                         cq:styleClasses="cmp-layout-container--fixed"
@@ -91,6 +93,11 @@
                                         cq:styleClasses="cmp-layout-container--landing-footer"
                                         cq:styleId="1563162648117"
                                         cq:styleLabel="Landing Footer"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item2
+                                        cq:styleClasses="cmp-margin--high"
+                                        cq:styleId="1563327781539"
+                                        cq:styleLabel="Margin High"
                                         jcr:primaryType="nt:unstructured"/>
                                 </cq:styles>
                             </item0>

@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-07-16T15:18:02.639+07:00"
+        cq:lastModified="{Date}2019-07-17T08:48:26.020+07:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/sandiego/settings/wcm/templates/proposal-1"
         jcr:primaryType="cq:PageContent"
@@ -55,18 +55,19 @@
                         </cq:responsive>
                     </text>
                     <responsivegrid_1040960066
-                        cq:styleIds="[1563162643233]"
+                        cq:styleIds="[1563162643233,1563327781539]"
                         jcr:created="{Date}2019-07-15T11:52:54.513+07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-07-15T11:52:58.371+07:00"
+                        jcr:lastModified="{Date}2019-07-17T08:47:33.982+07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wcm/foundation/components/responsivegrid">
                         <cq:responsive jcr:primaryType="nt:unstructured"/>
                         <responsivegrid_copy
+                            cq:styleIds="[1563327781539]"
                             jcr:created="{Date}2019-07-15T11:53:15.407+07:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-07-15T11:53:15.407+07:00"
+                            jcr:lastModified="{Date}2019-07-17T08:45:46.653+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wcm/foundation/components/responsivegrid">
@@ -112,9 +113,10 @@
                             </teaser>
                         </responsivegrid_copy>
                         <responsivegrid
+                            cq:styleIds="[1563327781539]"
                             jcr:created="{Date}2019-07-15T11:53:15.407+07:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-07-15T11:53:15.407+07:00"
+                            jcr:lastModified="{Date}2019-07-17T08:47:54.300+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wcm/foundation/components/responsivegrid">
@@ -154,10 +156,10 @@
                                 </cq:responsive>
                             </image>
                             <responsivegrid
-                                cq:styleIds="[1563162643233]"
+                                cq:styleIds="[1563162643233,1563327781539]"
                                 jcr:created="{Date}2019-07-16T10:03:17.299+07:00"
                                 jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2019-07-16T14:54:32.616+07:00"
+                                jcr:lastModified="{Date}2019-07-17T08:48:04.124+07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="wcm/foundation/components/responsivegrid">
@@ -175,26 +177,6 @@
                                         offset="0"
                                         width="12"/>
                                 </cq:responsive>
-                                <image
-                                    cq:styleIds="[1563246383287]"
-                                    jcr:created="{Date}2019-07-16T10:03:45.485+07:00"
-                                    jcr:createdBy="admin"
-                                    jcr:lastModified="{Date}2019-07-16T14:42:31.809+07:00"
-                                    jcr:lastModifiedBy="admin"
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="sandiego/components/content/core/image"
-                                    alt="chat"
-                                    altValueFromDAM="false"
-                                    displayPopupTitle="false"
-                                    fileReference="/content/dam/sandiego/public-pages/landing-1/Vector.png"
-                                    isDecorative="false"
-                                    titleValueFromDAM="false">
-                                    <cq:responsive jcr:primaryType="nt:unstructured">
-                                        <phone
-                                            jcr:primaryType="nt:unstructured"
-                                            width="11"/>
-                                    </cq:responsive>
-                                </image>
                             </responsivegrid>
                         </responsivegrid>
                     </responsivegrid_1040960066>
