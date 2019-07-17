@@ -126,4 +126,49 @@
       }
     }
   }
+
+  .cmp-landing-1-header__navigation {
+    @media (max-width: @screen-medium) {
+      display: none;
+    }
+
+    .cmp-navigation {
+      display: block;
+      white-space: nowrap;
+
+      .cmp-navigation__group {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+
+        > li:last-child a {
+          background: @black-20;
+        }
+      }
+
+      .cmp-navigation__item {
+        display: inline-block;
+        position: relative;
+      }
+
+      .cmp-navigation__item-link {
+        color: @text-color-third;
+        font-size: @font-size-small;
+        text-transform: uppercase;
+        font-weight: @font-weight-bold;
+        padding: 15px 17px;
+        text-decoration: none;
+        width: 100%;
+
+        transition: all 0.4s;
+
+        &:hover,
+        &:focus {
+          text-decoration: underline;
+          background: @black-20;
+        }
+      }
+    }
+  }
 }

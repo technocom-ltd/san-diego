@@ -73,7 +73,7 @@
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                     </policy_8333267279816>
                     <policy_8492871555453
-                        jcr:lastModified="{Date}2019-07-17T08:47:14.308+07:00"
+                        jcr:lastModified="{Date}2019-07-17T09:32:00.562+07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Public Page Pocily"
@@ -470,7 +470,7 @@
                             </cq:styleGroups>
                         </policy_1563031586518>
                         <policy_8974067302062
-                            jcr:lastModified="{Date}2019-07-16T10:06:27.106+07:00"
+                            jcr:lastModified="{Date}2019-07-17T09:40:03.709+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Image policy"
@@ -537,6 +537,11 @@
                                             cq:styleClasses="cmp-image--landing-chat"
                                             cq:styleId="1563246383287"
                                             cq:styleLabel="Landing Chat"
+                                            jcr:primaryType="nt:unstructured"/>
+                                        <item4
+                                            cq:styleClasses="cmp-margin--high"
+                                            cq:styleId="1563331186673"
+                                            cq:styleLabel="Margin High"
                                             jcr:primaryType="nt:unstructured"/>
                                     </cq:styles>
                                 </item0>
