@@ -684,20 +684,20 @@
                     </navigation>
                     <search jcr:primaryType="nt:unstructured">
                         <policy_1563036656502
-                            jcr:lastModified="{Date}2019-07-13T23:51:21.607+07:00"
+                            jcr:lastModified="{Date}2019-07-17T08:08:51.829+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
-                            jcr:title="Public Search Policy"
+                            jcr:title="Secure Search Policy"
                             sling:resourceType="wcm/core/components/policy/policy"
-                            searchRoot="/content/sandiego/landing-page">
+                            searchRoot="/content/sandiego/secure-homepage">
                             <jcr:content jcr:primaryType="nt:unstructured"/>
                             <cq:styleGroups jcr:primaryType="nt:unstructured">
                                 <item0 jcr:primaryType="nt:unstructured">
                                     <cq:styles jcr:primaryType="nt:unstructured">
                                         <item0
-                                            cq:styleClasses="cmp-search--landing-hero"
+                                            cq:styleClasses="cmp-search--secure-home-header"
                                             cq:styleId="1563036674673"
-                                            cq:styleLabel="Landing Hero"
+                                            cq:styleLabel="Secure Header"
                                             jcr:primaryType="nt:unstructured"/>
                                     </cq:styles>
                                 </item0>
