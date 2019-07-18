@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-07-17T15:56:50.005+07:00"
+        cq:lastModified="{Date}2019-07-18T11:53:49.643+07:00"
         cq:lastModifiedBy="admin"
         cq:styleIds="[1563195521690]"
         cq:template="/conf/sandiego/settings/wcm/templates/secure-page-template-2"
@@ -370,8 +370,8 @@
                                 cq:styleIds="[1563270902154]"
                                 jcr:created="{Date}2019-07-16T16:55:40.615+07:00"
                                 jcr:createdBy="admin"
-                                jcr:description="&lt;p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.&lt;/p>&#xd;&#xa;"
-                                jcr:lastModified="{Date}2019-07-16T17:16:49.734+07:00"
+                                jcr:description="&lt;p>Lorem Ipsum&lt;/p>&#xd;&#xa;"
+                                jcr:lastModified="{Date}2019-07-18T11:53:49.630+07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="EDA"
@@ -405,6 +405,13 @@
                                 sling:resourceType="sandiego/components/content/core/text"
                                 text="&lt;p style=&quot;text-align: right;&quot;>&lt;b>&lt;a href=&quot;https://www.youtube.com/watch?v=0Xl02jNm4WQ&quot; target=&quot;_self&quot;>See all documents&lt;/a>&lt;/b>&lt;/p>&#xa;"
                                 textIsRich="true"/>
+                            <month_picker
+                                jcr:created="{Date}2019-07-18T10:49:38.097+07:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2019-07-18T10:49:38.097+07:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="sandiego/components/content/secure-page/home-2/month-picker"/>
                         </responsivegrid>
                         <responsivegrid_279936386
                             cq:styleIds="[1563245931129]"
@@ -689,8 +696,40 @@
                                 <phone
                                     jcr:primaryType="nt:unstructured"
                                     width="12"/>
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    width="2"/>
                             </cq:responsive>
                         </text_copy>
+                        <date_picker
+                            jcr:created="{Date}2019-07-17T16:25:25.913+07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2019-07-17T16:25:25.913+07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="sandiego/components/content/secure-page/home-2/date-picker">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    width="4"/>
+                            </cq:responsive>
+                        </date_picker>
+                        <month_selector
+                            jcr:created="{Date}2019-07-18T10:52:52.391+07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2019-07-18T10:52:52.391+07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="sandiego/components/content/secure-page/home-2/month-selector">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    width="2"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    width="12"/>
+                            </cq:responsive>
+                        </month_selector>
                         <responsivegrid
                             cq:styleIds="[1563353651344]"
                             jcr:created="{Date}2019-07-17T15:56:27.838+07:00"
@@ -699,7 +738,11 @@
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wcm/foundation/components/responsivegrid">
-                            <cq:responsive jcr:primaryType="nt:unstructured"/>
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    width="12"/>
+                            </cq:responsive>
                             <calendar_item_copy
                                 jcr:created="{Date}2019-07-16T23:06:47.220+07:00"
                                 jcr:createdBy="admin"

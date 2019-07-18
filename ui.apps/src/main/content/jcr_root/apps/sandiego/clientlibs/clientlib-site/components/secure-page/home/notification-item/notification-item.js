@@ -30,11 +30,11 @@
     'use strict';
     var target = $(element);
 
-//    if (editmode.isEditMode) {
-//      return;
-//    } else if (editmode.isPreviewMode) {
-//      return;
-//    }
+    //    if (editmode.isEditMode) {
+    //      return;
+    //    } else if (editmode.isPreviewMode) {
+    //      return;
+    //    }
 
 
     target.empty();
