@@ -1,16 +1,62 @@
-(function (element, $) {
-  'use strict';
-  var expandButton = $(element),
-    target = $("body"),
-    className = 'expand-side-navbar';
+jQuery(function ($) {
+  "use strict";
 
-  expandButton.click(function () {
-    if (target.hasClass(className)) {
-      target.removeClass(className);
+  function handleExpandNavbar(element) {
 
-    } else {
-      target.addClass(className);
+    var expandButton = $(element),
+      target = $("body"),
+      className = 'expand-side-navbar';
 
-    }
-  })
-}('.cmp-secure-side-nav__arrow', jQuery));
+    expandButton.click(function () {
+      if (target.hasClass(className)) {
+        target.removeClass(className);
+
+      } else {
+        target.addClass(className);
+
+      }
+    })
+  }
+
+  handleExpandNavbar('.cmp-secure-side-nav__arrow');
+
+
+
+  function handleMobileNavbar() {
+    //Top Level Navigation (expected to only be one of these)
+    $("#side-navbar").not("[data-top-nav-processed='true']").each(function () {
+      // Mark the component element as processed to avoid the cyclic processing (see .not(..) above).
+      var nav = $(this).attr("data-top-nav-processed", true),
+        $body = $('body');
+
+
+      // Toggle Nav
+      $('<div id="toggleSideNav">' +
+        '<a href="#mobileSideNav" class="toggle"><i class="wkndicon wkndicon-ico-bm" aria-hidden="true"></i></a>' +
+        '</div>'
+      ).appendTo($body);
+
+      // Navigation Panel.
+      $(
+          '<div id="mobileSideNav" class="cmp-secure-side-nav--mobile">' +
+          $(this).html() +
+          '</div>'
+
+        )
+        .appendTo($body)
+        .panel({
+          delay: 500,
+          hideOnClick: true,
+          hideOnSwipe: true,
+          resetScroll: true,
+          resetForms: true,
+          side: 'left',
+          target: $body,
+          visibleClass: 'navPanel-visible'
+        });
+    });
+  }
+
+  handleMobileNavbar();
+
+});

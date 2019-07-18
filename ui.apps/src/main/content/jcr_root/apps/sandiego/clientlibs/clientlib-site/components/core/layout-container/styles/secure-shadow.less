@@ -15,9 +15,18 @@
   }
 }
 
+@secure-team-calendar-height: 900px;
+
+@secure-team-calendar-height-mobile: 400px;
+
 .cmp-layout-container--secure-team-calendar {
   box-sizing: border-box;
-  max-height: 900px;
+  max-height: @secure-team-calendar-height;
   overflow: auto;
   margin-bottom: 16px;
+
+  @media (max-width: @screen-small) {
+    max-height: @secure-team-calendar-height-mobile;
+
+  }
 }

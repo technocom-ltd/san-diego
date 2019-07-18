@@ -2,7 +2,7 @@
 <jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
     jcr:primaryType="cq:Template">
     <jcr:content
-        cq:lastModified="{Date}2019-07-18T10:51:41.754+07:00"
+        cq:lastModified="{Date}2019-07-18T15:20:03.036+07:00"
         cq:lastModifiedBy="admin"
         cq:templateType="/conf/sandiego/settings/wcm/template-types/empty-page"
         jcr:description="This template is used for creating secure pages proposal 2"

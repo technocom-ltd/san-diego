@@ -1,0 +1,214 @@
+@secure-mobile-transition-time: 0.6s;
+
+.cmp-secure-side-nav--mobile {
+  background-color: @black-40;
+  width: @secure-home-navbar-width;
+  z-index: 1030;
+  display: block;
+  height: 100vh;
+  box-sizing: border-box;
+  transition: width 0.6s;
+
+  .cmp-secure-side-nav__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+
+
+    > div:nth-child(1) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      box-sizing: border-box;
+    }
+
+
+    > div:nth-child(2) {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      align-items: flex-start;
+      box-sizing: border-box;
+
+      margin-left: 16px;
+    }
+  }
+
+  .cmp-secure-side-nav__image-profile,
+  .cmp-secure-side-nav__image-logo,
+  .cmp-secure-side-nav__icon {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+
+    .cmp-image {
+      padding: 0;
+      margin: 0;
+    }
+
+    .cmp-image__image {
+      padding: 0;
+      margin: 0;
+    }
+  }
+
+  .cmp-secure-side-nav__image-logo {
+    width: @secure-home-navbar-image-size;
+    height: @secure-home-navbar-image-size;
+  }
+
+  .cmp-secure-side-nav__navigation {
+    .cmp-navigation__group {
+      list-style: none;
+      padding: 0;
+    }
+
+    .cmp-navigation__item {
+      display: none;
+      padding: 12px 0;
+    }
+
+    .cmp-navigation__item-link {
+      display: none;
+    }
+  }
+
+  .cmp-secure-side-nav__icon {
+    margin-left: 8px;
+
+    .cmp-image {
+      width: @secure-home-navbar-icon-size;
+      height: @secure-home-navbar-icon-size;
+    }
+  }
+
+  .cmp-secure-side-nav__icon::after,
+  .cmp-secure-side-nav__image-profile::after {
+    content: attr(data-icon);
+    margin-left: 8px;
+    color: @white;
+  }
+
+
+
+  .cmp-secure-side-nav__image-profile {
+    margin-bottom: 16px;
+
+    .cmp-image {
+      height: @secure-home-navbar-profile-size;
+      width: @secure-home-navbar-profile-size;
+    }
+  }
+}
+
+
+#mobileSideNav,
+#toggleSideNav {
+  display: none;
+}
+
+/*Styles to push mobile nav into view */
+
+@media (max-width: @screen-small) {
+
+  .root.responsivegrid {
+    -moz-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-transition: -moz-transform @secure-mobile-transition-time ease;
+    -webkit-transition: -webkit-transform @secure-mobile-transition-time ease;
+    -ms-transition: -ms-transform @secure-mobile-transition-time ease;
+    transition: all @secure-mobile-transition-time;
+    padding-bottom: 1px;
+  }
+
+  #toggleSideNav {
+    -moz-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-transition: -moz-transform @secure-mobile-transition-time ease;
+    -webkit-transition: -webkit-transform @secure-mobile-transition-time ease;
+    -ms-transition: -ms-transform @secure-mobile-transition-time ease;
+    transition: transform @secure-mobile-transition-time ease;
+    display: block;
+    height: 44px;
+    right: 0;
+    position: fixed;
+    top: 6px;
+    width: 40px;
+    z-index: 10001;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+  }
+
+  .scrolly {
+    #toggleSideNav {
+      background: #edededa8;
+    }
+  }
+
+  #toggleSideNav .toggle {
+    width: 80px;
+    height: 60px;
+    font-size: 40px;
+    color: @text-color;
+
+    &:hover {
+      text-decoration: none;
+      color: @text-color;
+    }
+
+  }
+
+  #mobileSideNav {
+    -moz-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-transform: translateX(275px);
+    -webkit-transform: translateX(275px);
+    -ms-transform: translateX(275px);
+    transform: translateX(275px);
+    -moz-transition: -moz-transform @secure-mobile-transition-time ease;
+    -webkit-transition: -webkit-transform @secure-mobile-transition-time ease;
+    -ms-transition: -ms-transform @secure-mobile-transition-time ease;
+    transition: transform @secure-mobile-transition-time ease;
+    display: block;
+    height: 100%;
+    right: 0;
+    overflow-y: auto;
+    position: fixed;
+    top: 0;
+    width: 275px;
+    z-index: 10002;
+  }
+
+  body.navPanel-visible {
+    overflow-x: hidden;
+
+    .root.responsivegrid {
+      -moz-transform: translateX(-290px);
+      -webkit-transform: translateX(-290px);
+      -ms-transform: translateX(-290px);
+      transform: translateX(-290px);
+    }
+
+    #toggleSideNav {
+      -moz-transform: translateX(-275px);
+      -webkit-transform: translateX(-275px);
+      -ms-transform: translateX(-275px);
+      transform: translateX(-275px);
+    }
+
+    #mobileSideNav {
+      -moz-transform: translateX(0);
+      -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+      transform: translateX(0);
+    }
+
+  }
+}

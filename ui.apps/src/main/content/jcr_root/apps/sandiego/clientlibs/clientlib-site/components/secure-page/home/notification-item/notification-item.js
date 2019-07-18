@@ -37,8 +37,6 @@
     //    }
 
 
-    target.empty();
-
     $.each(list_items, function (index, item) {
 
       $("<div class='cmp-notification-item'>" +
@@ -59,7 +57,7 @@
         "</div>").appendTo(target);
 
       //  break after 3 elements
-      return (index !== 2)
+      return (index !== 1)
     })
 
 
