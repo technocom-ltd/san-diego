@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-07-18T13:28:02.246+07:00"
+        cq:lastModified="{Date}2019-07-18T23:18:52.507+07:00"
         cq:lastModifiedBy="admin"
         cq:styleIds="[1563195521690]"
         cq:template="/conf/sandiego/settings/wcm/templates/secure-page-template-2"
@@ -209,8 +209,61 @@
                                 <phone
                                     jcr:primaryType="nt:unstructured"
                                     width="12"/>
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    width="2"/>
                             </cq:responsive>
                         </text_copy>
+                        <options
+                            cq:styleIds="[1563464257549]"
+                            jcr:created="{Date}2019-07-18T22:39:32.086+07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2019-07-18T23:18:52.477+07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Type"
+                            sling:resourceType="sandiego/components/form/options"
+                            name="type"
+                            source="local"
+                            type="drop-down">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    width="2"/>
+                            </cq:responsive>
+                            <items jcr:primaryType="nt:unstructured">
+                                <item0
+                                    jcr:primaryType="nt:unstructured"
+                                    selected="true"
+                                    text="All"
+                                    value="all"/>
+                                <item1
+                                    jcr:primaryType="nt:unstructured"
+                                    selected="false"
+                                    text="SDD"
+                                    value="sdd"/>
+                                <item2
+                                    jcr:primaryType="nt:unstructured"
+                                    selected="false"
+                                    text="NOD"
+                                    value="nod"/>
+                                <item3
+                                    jcr:primaryType="nt:unstructured"
+                                    selected="false"
+                                    text="Pilot"
+                                    value="pilot"/>
+                                <item4
+                                    jcr:primaryType="nt:unstructured"
+                                    selected="false"
+                                    text="Process"
+                                    value="process"/>
+                                <item5
+                                    jcr:primaryType="nt:unstructured"
+                                    selected="false"
+                                    text="Procedures"
+                                    value="procedures"/>
+                            </items>
+                        </options>
                         <notification_item
                             jcr:created="{Date}2019-07-16T22:32:16.039+07:00"
                             jcr:createdBy="admin"
