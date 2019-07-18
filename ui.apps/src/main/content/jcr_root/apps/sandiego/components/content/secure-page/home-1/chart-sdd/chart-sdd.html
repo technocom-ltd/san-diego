@@ -1,0 +1,78 @@
+<canvas id="myChart" width="200" height="200"></canvas>
+<script>
+  var ctx = document.getElementById('myChart').getContext('2d');
+  var myChart = new Chart(ctx, {
+    type: 'doughnut',
+    data: {
+      labels: ['SDD total YTD', 'SDD in Work', 'SDD approved'],
+
+      datasets: [{
+        data: [45, 43, 22],
+        labels: ['SDD total YTD', 'SDD in Work', 'SDD approved'],
+        backgroundColor: [
+          '#504A4A',
+          '#C4C4C4',
+          '#838383',
+
+        ],
+        borderColor: [
+          '#504A4A',
+          '#C4C4C4',
+          '#838383',
+
+        ],
+        borderWidth: 0,
+        borderAlign: 'inner'
+      }]
+    },
+    options: {
+      title: {
+        display: true,
+        text: 'SDD',
+        fontFamily: 'Sarabun',
+        fontSize: 24,
+        position: 'top'
+      },
+      legend: {
+        display: true,
+        position: 'left',
+        fullWidth: false,
+        labels: {
+          boxWidth: 20,
+          fontFamily: 'Sarabun',
+          fontSize: 16,
+
+        }
+      },
+      tooltips: {
+        bodyFontFamily: 'Sarabun',
+        bodyFontSize: 16,
+        footerFontFamily: 'Sarabun',
+        displayColors: false,
+        callbacks: {
+          label: function(tooltipItem, data) {
+            var labels = data.datasets[tooltipItem.datasetIndex].labels,
+              values = data.datasets[tooltipItem.datasetIndex].data,
+              label = labels[tooltipItem.index],
+              value = values[tooltipItem.index],
+              total = values.reduce((a, b) => a + b, 0);
+
+            if (label) {
+              label += ': ';
+            }
+
+            label += value + '/' + total;
+            label += ' (' + Math.round(value / total * 100) + '%)';
+            return label;
+          }
+        }
+
+      },
+
+      scales: {
+
+      }
+    }
+  });
+
+</script>
