@@ -12,12 +12,18 @@
   padding: 0;
   margin: 0;
 
+
   @media (max-width: @screen-medium) {
+    transform: translateY(@teaser-search-position) translateX(@teaser-search-position + 10px);
+  }
+
+  @media (max-width: @screen-small) {
     transform: translateY(@teaser-search-position-mobile);
   }
 
   .cmp-search {
-    margin: 0 16px;
+    box-sizing: border-box;
+    padding: 0 16px;
 
     width: @teaser-search-width;
     height: @teaser-search-height;
@@ -28,10 +34,11 @@
       width: @teaser-search-width-mobile;
     }
 
-    .cmp-search__form {
-      height: 100%;
+    @media (max-width: @screen-small) {
+      width: 100%;
     }
 
+    .cmp-search__form,
     .cmp-search__field {
       height: 100%;
     }
@@ -41,7 +48,6 @@
       top: 1rem;
       left: auto;
       color: @black-20;
-
       background-image: url('/content/dam/sandiego/public-pages/landing/search.svg');
     }
 
