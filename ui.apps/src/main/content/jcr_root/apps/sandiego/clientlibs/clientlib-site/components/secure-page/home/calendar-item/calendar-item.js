@@ -95,6 +95,7 @@
     }
 
 
+
     $.each(list_items, function (index, item) {
 
       $("<div class='cmp-calendar-item'>" +
@@ -114,7 +115,6 @@
         "</div>" +
 
         "<div>" +
-        "<span class='cmp-calendar-item__icon'></span>" +
         "<a href='" + item.fileLink + "' class='cmp-calendar-item__file'>" + item.fileName + "</a>" +
         "</div>" +
         "</div>" +

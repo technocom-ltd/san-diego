@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-07-19T10:26:23.666+07:00"
+        cq:lastModified="{Date}2019-07-19T11:42:43.034+07:00"
         cq:lastModifiedBy="admin"
         cq:styleIds="[1563195521690]"
         cq:template="/conf/sandiego/settings/wcm/templates/secure-page-template-2"
+        jcr:isCheckedOut="{Boolean}true"
         jcr:lastModified="{Date}2019-07-15T20:13:13.382+07:00"
         jcr:lastModifiedBy="admin"
+        jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
-        jcr:title="Secure Homepage"
+        jcr:title="Dashboard"
+        jcr:uuid="a7798661-4ae7-4261-bb5a-e96f34fd0406"
         sling:resourceType="sandiego/components/structure/page">
         <root
             jcr:primaryType="nt:unstructured"
@@ -849,13 +852,4 @@
             </responsivegrid>
         </root>
     </jcr:content>
-    <dashboard/>
-    <organization/>
-    <process-procedures/>
-    <team-calendar/>
-    <nod/>
-    <sdd/>
-    <discussion/>
-    <documenttation/>
-    <docvault/>
 </jcr:root>

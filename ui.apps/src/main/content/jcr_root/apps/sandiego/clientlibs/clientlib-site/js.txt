@@ -9,6 +9,7 @@ components/core/teaser/teaser.js
 components/core/search/search.js
 components/core/form/form-button/form-button.js
 
+
 components/secure-page/home/side-navbar/side-navbar.js
 components/secure-page/home/notification-item/notification-item.js
 components/secure-page/home/calendar-item/calendar-item.js

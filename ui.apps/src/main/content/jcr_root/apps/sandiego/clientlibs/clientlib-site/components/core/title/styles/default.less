@@ -15,19 +15,23 @@
  */
 
 /* Title Default style */
- 
+
 .cmp-title {
-     
-    h1, h2, h3, h4 {
-        font-family: @font-family-base;
-    }
 
-    h1 {
-        font-size: 48px;
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: @font-family-base;
+    font-weight: @font-weight-bold;
+  }
 
-        @media (max-width: @screen-medium) {
-            font-size: @font-size-h1;
-        }
+  h1 {
+    font-size: 48px;
+
+    @media (max-width: @screen-medium) {
+      font-size: @font-size-h1;
     }
-    
+  }
+
 }

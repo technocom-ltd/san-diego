@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-07-19T11:55:08.636+07:00"
+        cq:lastModified="{Date}2019-07-19T11:55:57.622+07:00"
         cq:lastModifiedBy="admin"
         cq:styleIds="[1563195521690]"
         cq:template="/conf/sandiego/settings/wcm/templates/secure-page-template-2"
@@ -11,8 +11,8 @@
         jcr:lastModifiedBy="admin"
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
-        jcr:title="Process/Procedures"
-        jcr:uuid="c3b92038-353f-47eb-a7e2-0e5d7bee6d63"
+        jcr:title="Documentation"
+        jcr:uuid="692ae425-b8e1-4876-a107-1832a6cb34e0"
         sling:resourceType="sandiego/components/structure/page">
         <root
             jcr:primaryType="nt:unstructured"

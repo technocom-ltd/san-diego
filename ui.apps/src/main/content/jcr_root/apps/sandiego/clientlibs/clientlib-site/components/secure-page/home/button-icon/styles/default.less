@@ -1,13 +1,24 @@
 @button-icon-icon-size: 24px;
 @button-icon-height: 48px;
 @button-icon-width: 243px;
-@teaser-search-position: 20px;
-@teaser-search-position-mobile: 0;
+@button-icon-position: 20px;
+@button-icon-position-mobile: 0;
 
 
 .button-icon {
-  transform: translateY(@teaser-search-position);
+  transform: translateY(@button-icon-position);
   padding: 0 7px;
+  transition: all 0.4s;
+
+  @media (max-width: @screen-medium) {
+    transform: translateY(@button-icon-position) translateX(-32px);
+  }
+
+  @media (max-width: @screen-small) {
+    transform: translateY(@button-icon-position);
+
+    padding: 0 16px;
+  }
 
   .cmp-button-icon {
 
@@ -21,6 +32,12 @@
       cursor: pointer;
     }
 
+    @media (max-width: @screen-small) {
+      padding: 0;
+
+      max-width: 100%;
+      width: 100%;
+    }
 
     .cmp-button-icon__container {
 
