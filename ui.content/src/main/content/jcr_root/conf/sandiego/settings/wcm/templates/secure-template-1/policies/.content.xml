@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-07-18T11:20:22.633+07:00"
+        cq:lastModified="{Date}2019-07-19T17:15:42.387+07:00"
         cq:lastModifiedBy="admin"
         cq:policy="sandiego/components/structure/page/policy_4652344983339"
         jcr:primaryType="nt:unstructured"
@@ -41,8 +41,22 @@
                                     cq:policy="sandiego/components/content/core/teaser/policy_10438756879340"
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="wcm/core/components/policies/mapping"/>
+                                <tabs
+                                    cq:policy="sandiego/components/content/core/tabs/policy_1563522418416"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="wcm/core/components/policies/mapping"/>
                             </core>
                         </content>
+                        <form jcr:primaryType="nt:unstructured">
+                            <options
+                                cq:policy="sandiego/components/form/options/policy_1563464236054"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="wcm/core/components/policies/mapping"/>
+                            <text
+                                cq:policy="sandiego/components/form/text/policy_20587003431948"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="wcm/core/components/policies/mapping"/>
+                        </form>
                     </components>
                 </sandiego>
             </responsivegrid>

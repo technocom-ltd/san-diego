@@ -1,0 +1,31 @@
+.cmp-tabs--secure-home {
+  padding: 0px;
+
+  .cmp-tabs__tablist {
+    margin: 0;
+
+    .cmp-tabs__tab:first-child {
+      background: #F4F4F4;
+      color: @black-80;
+      border-top-left-radius: 8px;
+
+      &.cmp-tabs__tab--active {
+        background: @black-40;
+        color: @white;
+        border-color: none;
+      }
+    }
+
+    .cmp-tabs__tab:last-child {
+      background: #F4F4F4;
+      color: @black-80;
+      border-top-right-radius: 8px;
+
+      &.cmp-tabs__tab--active {
+        background: @black-40;
+        color: @white;
+        border-color: none;
+      }
+    }
+  }
+}
