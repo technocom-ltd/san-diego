@@ -6,6 +6,7 @@
 @secure-home-navbar-width: 60px;
 @secure-home-navbar-width-expand: 275px;
 
+@secure-home-navbar-transition-time: 0.6s;
 
 .side-navbar {
   padding: 0;
@@ -20,7 +21,7 @@
     height: 100vh;
     box-sizing: border-box;
 
-    transition: width 0.6s;
+    transition: width @secure-home-navbar-transition-time;
 
     @media (max-width: @screen-medium) {
       display: none;
@@ -44,12 +45,43 @@
 
       > div:nth-child(2) {
         display: flex;
+        align-items: flex-start;
         justify-content: space-between;
         flex-direction: column;
-        align-items: center;
         box-sizing: border-box;
+        overflow: hidden;
+        padding-left: 16px;
       }
     }
+
+    .cmp-secure-side-nav__logo-container {
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+      box-sizing: border-box;
+      width: 100%;
+
+      > div:nth-child(2) {
+        margin-left: 12px;
+      }
+
+      .cmp-secure-side-nav__subtitle,
+      .cmp-secure-side-nav__title {
+        white-space: nowrap;
+        opacity: 0;
+        transition: all @secure-home-navbar-transition-time;
+        color: @white;
+        font: @font-weight-normal @font-size-small @font-family-base;
+        line-height: 1.5;
+        margin-bottom: 4px;
+      }
+
+      .cmp-secure-side-nav__title {
+        font: @font-weight-bold @font-size-base @font-family-base;
+      }
+    }
+
+
 
     .cmp-secure-side-nav__arrow {
       width: @secure-home-navbar-arrow-icon-size;
@@ -74,7 +106,7 @@
         border-right: 0;
         border-left: 0;
         //        transform: rotate(-45deg);
-        transition: all 0.8s;
+        transition: all @secure-home-navbar-transition-time;
       }
 
       > span:nth-child(1) {
@@ -92,16 +124,12 @@
     .cmp-secure-side-nav__image-logo,
     .cmp-secure-side-nav__icon {
       display: flex;
-      flex-direction: column;
-      align-items: center;
       justify-content: center;
+      align-items: center;
       margin: 10px 0;
+      transition: all 0.4s;
 
-      .cmp-image {
-        padding: 0;
-        margin: 0;
-      }
-
+      .cmp-image,
       .cmp-image__image {
         padding: 0;
         margin: 0;
@@ -111,6 +139,9 @@
     .cmp-secure-side-nav__image-logo {
       width: @secure-home-navbar-image-size;
       height: @secure-home-navbar-image-size;
+      min-width: @secure-home-navbar-image-size;
+      min-height: @secure-home-navbar-image-size;
+      margin-left: 5px;
     }
 
     .cmp-secure-side-nav__navigation {
@@ -127,18 +158,24 @@
 
       .cmp-navigation__item {
         width: 100%;
+        background: url('/content/dam/sandiego/secure-pages/home/nav-placeholder.svg') no-repeat 24px;
       }
 
       .cmp-navigation__item-link {
         position: relative;
         padding: 12px;
+        padding-left: 60px;
+
         width: 100%;
-        display: none;
+        opacity: 0;
+        display: block;
         color: @white;
         transition: all 0.2s;
         box-sizing: border-box;
         white-space: nowrap;
         text-transform: uppercase;
+        transition: opacity @secure-home-navbar-transition-time;
+
 
         &:hover {
           background-color: rgba(242, 242, 242, 0.4);
@@ -147,11 +184,12 @@
 
       .cmp-navigation__item--active {
         background-color: rgba(242, 242, 242, 0.4);
-
       }
     }
 
     .cmp-secure-side-nav__icon {
+      margin-left: 7px;
+
       .cmp-image {
         width: @secure-home-navbar-icon-size;
         height: @secure-home-navbar-icon-size;
@@ -160,10 +198,20 @@
 
     .cmp-secure-side-nav__icon::after,
     .cmp-secure-side-nav__image-profile::after {
-      content: attr(data-short-text);
+      white-space: nowrap;
+      line-height: 1;
+      text-transform: uppercase;
       color: @white;
+      opacity: 0;
+      transition: all @secure-home-navbar-transition-time;
+      margin-left: 10px;
+      content: attr(data-icon);
     }
 
+
+    .cmp-secure-side-nav__icon::after {
+      margin-left: 16px;
+    }
 
 
     .cmp-secure-side-nav__image-profile {
@@ -175,26 +223,27 @@
       }
     }
   }
-
 }
 
 body.expand-side-navbar {
   .cmp-secure-side-nav {
     width: @secure-home-navbar-width-expand;
 
-    .cmp-secure-side-nav__container {
-
-      > div:nth-child(2) {
-        align-items: flex-start;
-        padding-left: 16px;
-      }
-    }
-
     .cmp-secure-side-nav__navigation {
       .cmp-navigation__item-link {
-        display: block;
+        opacity: 1;
+
       }
     }
+
+    .cmp-secure-side-nav__logo-container {
+
+      .cmp-secure-side-nav__subtitle,
+      .cmp-secure-side-nav__title {
+        opacity: 1;
+      }
+    }
+
 
     .cmp-secure-side-nav__arrow {
 
@@ -219,16 +268,10 @@ body.expand-side-navbar {
       flex-direction: row;
     }
 
-    .cmp-secure-side-nav__icon {
-      margin-left: 7px;
-    }
-
     .cmp-secure-side-nav__icon::after,
     .cmp-secure-side-nav__image-profile::after {
+      opacity: 1;
       content: attr(data-icon);
-      margin-left: 8px;
-
     }
-
   }
 }
