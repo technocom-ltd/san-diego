@@ -104,12 +104,12 @@
                         </cq:styleGroups>
                     </policy_8492871555453>
                     <policy_25754911010600
-                        jcr:lastModified="{Date}2019-07-18T17:35:37.024+07:00"
+                        jcr:lastModified="{Date}2019-07-19T17:15:42.383+07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Secure Layout Policy"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/libs/foundation/components/chart,/libs/wcm/foundation/components/responsivegrid,/apps/sandiego/components/content/core/carousel,/apps/sandiego/components/content/core/image,/apps/sandiego/components/content/core/list,/apps/sandiego/components/content/core/navigation,/apps/sandiego/components/content/core/search,/apps/sandiego/components/content/core/tabs,/apps/sandiego/components/content/core/teaser,/apps/sandiego/components/content/core/text,/apps/sandiego/components/content/core/title,group:SEA.Content Form,/apps/sandiego/components/content/secure-page/home-1/header,/apps/sandiego/components/content/secure-page/home-2/button-icon,/apps/sandiego/components/content/secure-page/home-2/chart-nod,/apps/sandiego/components/content/secure-page/home-2/chart-sdd,/apps/sandiego/components/content/secure-page/home-2/month-selector,/apps/sandiego/components/content/secure-page/home-2/notification-filter,/apps/sandiego/components/content/secure-page/home-2/calendar-item,/apps/sandiego/components/content/secure-page/home-2/notification-item]">
+                        components="[/libs/foundation/components/chart,/libs/wcm/foundation/components/responsivegrid,/apps/sandiego/components/content/core/carousel,/apps/sandiego/components/content/core/image,/apps/sandiego/components/content/core/list,/apps/sandiego/components/content/core/navigation,/apps/sandiego/components/content/core/search,/apps/sandiego/components/content/core/tabs,/apps/sandiego/components/content/core/teaser,/apps/sandiego/components/content/core/text,/apps/sandiego/components/content/core/title,group:SEA.Content Form,/apps/sandiego/components/content/secure-page/home-1/header,/apps/sandiego/components/content/secure-page/home-1/button-icon,/apps/sandiego/components/content/secure-page/home-2/chart-nod,/apps/sandiego/components/content/secure-page/home-2/chart-sdd,/apps/sandiego/components/content/secure-page/home-2/month-selector,/apps/sandiego/components/content/secure-page/home-2/notification-filter,/apps/sandiego/components/content/secure-page/home-2/calendar-item,/apps/sandiego/components/content/secure-page/home-2/notification-item]">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                         <cq:styleGroups jcr:primaryType="nt:unstructured">
                             <item0 jcr:primaryType="nt:unstructured">
@@ -134,7 +134,7 @@
                         </cq:styleGroups>
                     </policy_25754911010600>
                     <policy_8165236492182
-                        jcr:lastModified="{Date}2019-07-18T11:20:22.628+07:00"
+                        jcr:lastModified="{Date}2019-07-19T16:08:01.845+07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Secure Layout Policy"
@@ -164,6 +164,36 @@
                                         cq:styleClasses="cmp-margin--medium"
                                         cq:styleId="1563423613111"
                                         cq:styleLabel="Margin Medium"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item4
+                                        cq:styleClasses="cmp-border--left"
+                                        cq:styleId="1563502335313"
+                                        cq:styleLabel="Border Left"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item5
+                                        cq:styleClasses="cmp-layout-container-darker--background"
+                                        cq:styleId="1563503379238"
+                                        cq:styleLabel="Background Darker"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item6
+                                        cq:styleClasses="cmp-margin-left--small"
+                                        cq:styleId="1563505035886"
+                                        cq:styleLabel="Margin Left Small"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item7
+                                        cq:styleClasses="cmp-margin-right--small"
+                                        cq:styleId="1563505042597"
+                                        cq:styleLabel="Margin Right Small"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item8
+                                        cq:styleClasses="cmp-layout-container-resize-width--background"
+                                        cq:styleId="1563506588377"
+                                        cq:styleLabel="Resize Width"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item9
+                                        cq:styleClasses="cmp-layout-container-doc--background"
+                                        cq:styleId="1563527274953"
+                                        cq:styleLabel="Doc Background"
                                         jcr:primaryType="nt:unstructured"/>
                                 </cq:styles>
                             </item0>
@@ -245,22 +275,65 @@
                             </item0>
                         </cq:styleGroups>
                     </policy_1563274347225>
+                    <policy_20587003431948
+                        jcr:lastModified="{Date}2019-07-19T13:53:54.921+07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Form Text Policy"
+                        sling:resourceType="wcm/core/components/policy/policy">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0
+                                cq:styleGroupMultiple="true"
+                                jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="cmp-margin--medium"
+                                        cq:styleId="1563518617487"
+                                        cq:styleLabel="Margin Medium"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item1
+                                        cq:styleClasses="cmp-form-text--secure-filter-date"
+                                        cq:styleId="1563519048057"
+                                        cq:styleLabel="Date Form"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                        </cq:styleGroups>
+                    </policy_20587003431948>
                 </text>
                 <options jcr:primaryType="nt:unstructured">
                     <policy_1563464236054
-                        jcr:lastModified="{Date}2019-07-18T22:37:49.439+07:00"
+                        jcr:lastModified="{Date}2019-07-19T16:34:49.783+07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Secure Page Policy 02"
                         sling:resourceType="wcm/core/components/policy/policy">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                         <cq:styleGroups jcr:primaryType="nt:unstructured">
-                            <item0 jcr:primaryType="nt:unstructured">
+                            <item0
+                                cq:styleGroupMultiple="true"
+                                jcr:primaryType="nt:unstructured">
                                 <cq:styles jcr:primaryType="nt:unstructured">
                                     <item0
                                         cq:styleClasses="cmp-form-options--secure-home-filter"
                                         cq:styleId="1563464257549"
                                         cq:styleLabel="Home Filter "
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item1
+                                        cq:styleClasses="cmp-form-options--secure-home-drop-down"
+                                        cq:styleId="1563508674340"
+                                        cq:styleLabel="Home Drop Down"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item2
+                                        cq:styleClasses="cmp-margin--small"
+                                        cq:styleId="1563509217266"
+                                        cq:styleLabel="Margin Small"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item3
+                                        cq:styleClasses="cmp-form-options--secure-home-drop-down-no-label"
+                                        cq:styleId="1563528879564"
+                                        cq:styleLabel="Home Drop Down No Label"
                                         jcr:primaryType="nt:unstructured"/>
                                 </cq:styles>
                             </item0>
@@ -850,7 +923,7 @@
                             </cq:styleGroups>
                         </policy_31190928201700>
                         <policy_10438756879340
-                            jcr:lastModified="{Date}2019-07-18T11:17:05.772+07:00"
+                            jcr:lastModified="{Date}2019-07-19T09:46:00.922+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Secure Teaser Policy"
@@ -863,6 +936,11 @@
                                             cq:styleClasses="cmp-teaser--secure-home-1-new-doc"
                                             cq:styleId="1563423313172"
                                             cq:styleLabel="New"
+                                            jcr:primaryType="nt:unstructured"/>
+                                        <item1
+                                            cq:styleClasses="cmp-teaser--secure-home-1-mark-doc"
+                                            cq:styleId="1563504356595"
+                                            cq:styleLabel="Mark"
                                             jcr:primaryType="nt:unstructured"/>
                                     </cq:styles>
                                 </item0>
@@ -1010,6 +1088,34 @@
                             </cq:styleGroups>
                         </policy_1563111013993>
                     </carousel>
+                    <tabs jcr:primaryType="nt:unstructured">
+                        <policy_1563522418416
+                            jcr:lastModified="{Date}2019-07-19T14:56:45.294+07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Tab Policy"
+                            sling:resourceType="wcm/core/components/policy/policy">
+                            <jcr:content jcr:primaryType="nt:unstructured"/>
+                            <cq:styleGroups jcr:primaryType="nt:unstructured">
+                                <item0
+                                    cq:styleGroupMultiple="true"
+                                    jcr:primaryType="nt:unstructured">
+                                    <cq:styles jcr:primaryType="nt:unstructured">
+                                        <item0
+                                            cq:styleClasses="cmp-tabs--secure-home"
+                                            cq:styleId="1563522421063"
+                                            cq:styleLabel="Custom"
+                                            jcr:primaryType="nt:unstructured"/>
+                                        <item1
+                                            cq:styleClasses="cmp-margin--medium "
+                                            cq:styleId="1563522910578"
+                                            cq:styleLabel="Margin Medium"
+                                            jcr:primaryType="nt:unstructured"/>
+                                    </cq:styles>
+                                </item0>
+                            </cq:styleGroups>
+                        </policy_1563522418416>
+                    </tabs>
                 </core>
             </content>
             <structure jcr:primaryType="nt:unstructured">
