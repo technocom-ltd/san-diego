@@ -9,12 +9,12 @@
                 <responsivegrid jcr:primaryType="nt:unstructured">
                     <content-default
                         jcr:description="Policy for editable layout containers"
-                        jcr:lastModified="{Date}2019-07-15T15:06:39.284+07:00"
+                        jcr:lastModified="{Date}2019-07-21T22:45:17.880+07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="SanDiego Site Default"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/libs/foundation/components/image,/libs/wcm/foundation/components/responsivegrid,/apps/sandiego/components/content/core/image,/apps/sandiego/components/content/public-page/landing-1/header,/apps/sandiego/components/content/public-page/landing/header]"
+                        components="[/libs/foundation/components/image,/libs/wcm/foundation/components/responsivegrid,/apps/sandiego/components/content/core/image,/apps/sandiego/components/content/public-page/landing-1/header,/apps/sandiego/components/content/public-page/landing/header,/apps/sandiego/components/content/secure-page/home-2/secure-header]"
                         policyResourceType="wcm/foundation/components/responsivegrid">
                         <cq:authoring jcr:primaryType="nt:unstructured">
                             <assetToComponentMapping jcr:primaryType="nt:unstructured"/>
@@ -109,12 +109,12 @@
                         </cq:styleGroups>
                     </policy_8492871555453>
                     <policy_25754911010600
-                        jcr:lastModified="{Date}2019-07-19T17:15:42.383+07:00"
+                        jcr:lastModified="{Date}2019-07-21T22:44:29.783+07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Secure Layout Policy"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/libs/foundation/components/chart,/libs/wcm/foundation/components/responsivegrid,/apps/sandiego/components/content/core/carousel,/apps/sandiego/components/content/core/image,/apps/sandiego/components/content/core/list,/apps/sandiego/components/content/core/navigation,/apps/sandiego/components/content/core/search,/apps/sandiego/components/content/core/tabs,/apps/sandiego/components/content/core/teaser,/apps/sandiego/components/content/core/text,/apps/sandiego/components/content/core/title,group:SEA.Content Form,/apps/sandiego/components/content/secure-page/home-1/header,/apps/sandiego/components/content/secure-page/home-1/button-icon,/apps/sandiego/components/content/secure-page/home-2/chart-nod,/apps/sandiego/components/content/secure-page/home-2/chart-sdd,/apps/sandiego/components/content/secure-page/home-2/month-selector,/apps/sandiego/components/content/secure-page/home-2/notification-filter,/apps/sandiego/components/content/secure-page/home-2/calendar-item,/apps/sandiego/components/content/secure-page/home-2/notification-item]">
+                        components="[/libs/foundation/components/chart,/libs/wcm/foundation/components/responsivegrid,/apps/sandiego/components/content/core/carousel,/apps/sandiego/components/content/core/image,/apps/sandiego/components/content/core/list,/apps/sandiego/components/content/core/navigation,/apps/sandiego/components/content/core/search,/apps/sandiego/components/content/core/tabs,/apps/sandiego/components/content/core/teaser,/apps/sandiego/components/content/core/text,/apps/sandiego/components/content/core/title,group:SEA.Content Form,/apps/sandiego/components/content/secure-page/home-1/header,/apps/sandiego/components/content/secure-page/home-2/chart-nod,/apps/sandiego/components/content/secure-page/home-2/chart-sdd,/apps/sandiego/components/content/secure-page/home-2/month-selector,/apps/sandiego/components/content/secure-page/home-2/notification-filter,/apps/sandiego/components/content/secure-page/home-2/calendar-item,/apps/sandiego/components/content/secure-page/home-2/secure-header,/apps/sandiego/components/content/secure-page/home-2/notification-item]">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                         <cq:styleGroups jcr:primaryType="nt:unstructured">
                             <item0 jcr:primaryType="nt:unstructured">

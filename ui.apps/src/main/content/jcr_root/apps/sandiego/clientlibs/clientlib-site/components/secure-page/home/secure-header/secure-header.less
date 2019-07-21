@@ -1,0 +1,62 @@
+.cmp-secure-header {
+
+  .container-content();
+  max-width: @max-width;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 28px;
+  padding: 20px 0;
+
+  > div {
+    display: flex;
+    width: 100%;
+  }
+
+  @media (max-width: @screen-small) {
+    flex-direction: column;
+
+    > div {
+      flex-direction: column;
+    }
+  }
+
+  .cmp-secure-header__title {
+    .cmp-title__text {
+      margin: 0;
+    }
+  }
+
+  .cmp-secure-header__button {
+    display: block;
+    background: url('/content/dam/sandiego/secure-pages/home/plus.svg') no-repeat @black-20;
+    background-position: right 8px top 50%;
+    padding: 0 42px 0 16px;
+
+    text-transform: uppercase;
+    font: @font-weight-semi-bold @font-size-base @font-family-base;
+    height: 48px;
+    white-space: nowrap;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+
+    transition: all 0.4s;
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    @media (max-width: @screen-medium) {
+      transform: translateX(-32px);
+    }
+
+    @media (max-width: @screen-small) {
+      transform: translateX(0);
+      width: 100%;
+
+    }
+  }
+}

@@ -34,7 +34,7 @@
       justify-content: space-between;
       height: 100%;
 
-
+      //first part logo and navigation
       > div:nth-child(1) {
         display: flex;
         flex-direction: column;
@@ -42,7 +42,7 @@
         box-sizing: border-box;
       }
 
-
+      //second part icon
       > div:nth-child(2) {
         display: flex;
         align-items: flex-start;
@@ -80,8 +80,6 @@
         font: @font-weight-bold @font-size-base @font-family-base;
       }
     }
-
-
 
     .cmp-secure-side-nav__arrow {
       width: @secure-home-navbar-arrow-icon-size;
@@ -159,6 +157,11 @@
       .cmp-navigation__item {
         width: 100%;
         background: url('/content/dam/sandiego/secure-pages/home/nav-placeholder.svg') no-repeat 24px;
+        transition: all 0.2s;
+
+        &:hover {
+          background-color: rgba(242, 242, 242, 0.4);
+        }
       }
 
       .cmp-navigation__item-link {
@@ -175,11 +178,6 @@
         white-space: nowrap;
         text-transform: uppercase;
         transition: opacity @secure-home-navbar-transition-time;
-
-
-        &:hover {
-          background-color: rgba(242, 242, 242, 0.4);
-        }
       }
 
       .cmp-navigation__item--active {

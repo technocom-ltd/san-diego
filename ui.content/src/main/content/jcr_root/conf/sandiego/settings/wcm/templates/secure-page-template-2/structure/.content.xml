@@ -3,7 +3,7 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[/etc/mobile/groups/responsive]"
-        cq:lastModified="{Date}2019-07-16T17:22:55.514+07:00"
+        cq:lastModified="{Date}2019-07-21T22:58:22.045+07:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/sandiego/settings/wcm/templates/secure-page-template-2"
         jcr:primaryType="cq:PageContent"
@@ -71,6 +71,26 @@
                     isDecorative="false"
                     titleValueFromDAM="false"/>
             </side_navbar>
+            <secure_header
+                jcr:created="{Date}2019-07-21T22:45:25.703+07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-07-21T22:45:25.703+07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="sandiego/components/content/secure-page/home-2/secure-header">
+                <title
+                    jcr:lastModified="{Date}2019-07-21T22:58:22.042+07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="sandiego/components/content/core/title"
+                    type="h2"/>
+                <search
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="sandiego/components/content/core/search"/>
+                <button
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="sandiego/components/content/secure-page/home-2/button-icon"/>
+            </secure_header>
             <responsivegrid
                 cq:styleIds="[1563245475115]"
                 jcr:created="{Date}2019-07-15T19:47:12.449+07:00"
