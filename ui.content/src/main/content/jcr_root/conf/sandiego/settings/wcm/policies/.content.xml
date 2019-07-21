@@ -64,16 +64,16 @@
                         </cq:styleGroups>
                     </policy_109738412366600>
                     <policy_8333267279816
-                        jcr:lastModified="{Date}2019-07-16T09:18:45.795+07:00"
+                        jcr:lastModified="{Date}2019-07-21T09:43:06.508+07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Home Page 1 Landing Header"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/sandiego/components/content/core/carousel,/apps/sandiego/components/content/core/image,/apps/sandiego/components/content/core/navigation,/apps/sandiego/components/content/core/teaser,/apps/sandiego/components/content/core/text,/apps/sandiego/components/content/public-page/landing-1/text-box-background,/apps/sandiego/components/content/public-page/landing-1/text-box,/apps/sandiego/components/content/public-page/landing-1/header,/apps/sandiego/components/content/public-page/landing/footer-logo]">
+                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/sandiego/components/content/core/accordion,/apps/sandiego/components/content/core/carousel,/apps/sandiego/components/content/core/image,/apps/sandiego/components/content/core/navigation,/apps/sandiego/components/content/core/teaser,/apps/sandiego/components/content/core/text,/apps/sandiego/components/content/public-page/landing-1/text-box-background,/apps/sandiego/components/content/public-page/landing-1/text-box,/apps/sandiego/components/content/core/title,/apps/sandiego/components/content/public-page/landing-1/header,/apps/sandiego/components/content/public-page/it-guiding-1/accordion-text-box,/apps/sandiego/components/content/public-page/it-guiding-1/hero,/apps/sandiego/components/content/public-page/landing/footer-logo]">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                     </policy_8333267279816>
                     <policy_8492871555453
-                        jcr:lastModified="{Date}2019-07-17T09:32:00.562+07:00"
+                        jcr:lastModified="{Date}2019-07-21T13:04:23.549+07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Public Page Pocily"
@@ -98,6 +98,11 @@
                                         cq:styleClasses="cmp-margin--high"
                                         cq:styleId="1563327781539"
                                         cq:styleLabel="Margin High"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item3
+                                        cq:styleClasses="cmp-layout-container--it-guiding-accordion"
+                                        cq:styleId="1563689048878"
+                                        cq:styleLabel="IT Guiding Accordion"
                                         jcr:primaryType="nt:unstructured"/>
                                 </cq:styles>
                             </item0>
@@ -1121,7 +1126,45 @@
                             </cq:styleGroups>
                         </policy_1563522418416>
                     </tabs>
+                    <accordion jcr:primaryType="nt:unstructured">
+                        <policy_1563675803128
+                            jcr:lastModified="{Date}2019-07-21T09:24:55.791+07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Public Accordion Policy"
+                            sling:resourceType="wcm/core/components/policy/policy"
+                            allowedHeadingElements="[h2,h3,h4]"
+                            components="[/libs/wcm/foundation/components/responsivegrid,/apps/sandiego/components/content/core/text]"
+                            headingElement="h3">
+                            <jcr:content jcr:primaryType="nt:unstructured"/>
+                        </policy_1563675803128>
+                    </accordion>
                 </core>
+                <public-page jcr:primaryType="nt:unstructured">
+                    <landing-1 jcr:primaryType="nt:unstructured">
+                        <text-box-background jcr:primaryType="nt:unstructured">
+                            <policy_1563683869225
+                                jcr:lastModified="{Date}2019-07-21T11:44:48.545+07:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Text Box Background Policy"
+                                sling:resourceType="wcm/core/components/policy/policy">
+                                <jcr:content jcr:primaryType="nt:unstructured"/>
+                                <cq:styleGroups jcr:primaryType="nt:unstructured">
+                                    <item0 jcr:primaryType="nt:unstructured">
+                                        <cq:styles jcr:primaryType="nt:unstructured">
+                                            <item0
+                                                cq:styleClasses="cmp-text-box-background--it-guiding"
+                                                cq:styleId="1563683883782"
+                                                cq:styleLabel="IT Guiding Text Box"
+                                                jcr:primaryType="nt:unstructured"/>
+                                        </cq:styles>
+                                    </item0>
+                                </cq:styleGroups>
+                            </policy_1563683869225>
+                        </text-box-background>
+                    </landing-1>
+                </public-page>
             </content>
             <structure jcr:primaryType="nt:unstructured">
                 <page jcr:primaryType="nt:unstructured">
@@ -1164,6 +1207,24 @@
                             </item0>
                         </cq:styleGroups>
                     </policy_4652344983339>
+                    <policy_174955527221800
+                        cq:styleDefaultClasses="cmp-page--public-1"
+                        jcr:lastModified="{Date}2019-07-21T08:36:22.300+07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Public Page 01 Policy"
+                        sling:resourceType="wcm/core/components/policy/policy">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0 jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleId="1563672969167"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                        </cq:styleGroups>
+                    </policy_174955527221800>
                 </page>
             </structure>
         </components>
