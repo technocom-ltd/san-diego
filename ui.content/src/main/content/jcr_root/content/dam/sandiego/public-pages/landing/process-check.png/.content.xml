@@ -9,7 +9,7 @@
         cq:parentPath="/content/dam/sandiego/public-pages/landing"
         dam:assetState="processed"
         dam:relativePath="sandiego/public-pages/landing/process-check.png"
-        jcr:lastModified="{Date}2019-07-19T09:07:30.308+07:00"
+        jcr:lastModified="{Date}2019-07-20T13:57:16.816+07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -25,11 +25,11 @@
             dam:Physicalwidthindpi="{Long}288"
             dam:Physicalwidthininches="{Decimal}1.3888378143310547"
             dam:Progressive="no"
-            dam:sha1="a16052f3ea0b1ba2651ed22e4a4a1066cff99fd0"
+            dam:sha1="e3816a7846143577eb02a05f158321aa5ef35d31"
             dam:size="{Long}12554"
             dc:format="image/png"
             dc:modified="{Date}2019-07-15T17:13:34.458+07:00"
-            jcr:lastModified="{Date}2019-07-19T09:07:29.226+07:00"
+            jcr:lastModified="{Date}2019-07-20T13:57:13.551+07:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"

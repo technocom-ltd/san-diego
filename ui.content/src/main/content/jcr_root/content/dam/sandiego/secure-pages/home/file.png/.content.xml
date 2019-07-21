@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="44043aed-2ea6-44a8-ba9f-f7fb8e2de804">
     <jcr:content
+        cq:name="file.png"
+        cq:parentPath="/content/dam/sandiego/secure-pages/home"
         dam:assetState="processed"
         dam:relativePath="sandiego/secure-pages/home/file.png"
-        jcr:lastModified="{Date}2019-07-19T16:41:23.402+07:00"
+        jcr:lastModified="{Date}2019-07-20T13:57:34.589+07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -20,7 +23,11 @@
             dam:Physicalwidthindpi="{Long}72"
             dam:Physicalwidthininches="{Decimal}0.22219444811344147"
             dam:Progressive="no"
+            dam:sha1="0a696f8e5ff7ebee0f492e46aa1b8aac84999871"
             dc:format="image/png"
+            dc:modified="{Date}2019-07-20T13:57:33.990+07:00"
+            jcr:lastModified="{Date}2019-07-20T13:57:33.990+07:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}16"

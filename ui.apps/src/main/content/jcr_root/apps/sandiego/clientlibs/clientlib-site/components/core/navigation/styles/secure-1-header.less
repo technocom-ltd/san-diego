@@ -18,18 +18,17 @@
 @mobile-nav-bg-color: #000;
 @mobile-nav-link-color: #fff;
 
-.cmp-navigation--landing-1-header {
+.cmp-navigation--secure-1-header {
   margin: 0;
   padding: 0;
   z-index: 1050;
   display: block;
-  background: @white;
-  transform: translateY(0);
+  background: transition;
+  transform: translateY(-80px);
   transition: transform 0.4s;
   position: fixed;
   left: 0;
   right: 0;
-  width: 100%;
 
   @media (max-width: @screen-medium) {
     display: none;
@@ -43,12 +42,11 @@
       list-style: none;
       margin: 0;
       padding: 0 0px;
-      height: 60px;
-      width: 100%;
+      height: 80px;
+      width: fit-content;
       min-width: 0%;
       display: flex;
-      max-width: @max-width;
-      justify-content: space-between;
+      justify-content: center;
       align-items: center;
       background-color: @white;
       transition: all 0.4s;
@@ -64,30 +62,41 @@
       margin: 0;
     }
 
+    .cmp-navigation__item:last-child {
+      margin-left: 15px;
+      background: #DCDCDC;
+      border: 1px #DCDCDC solid;
+      border-radius: 8px;
+      max-width: 104px;
+      max-height: 40px;
+      padding: 10px 10px;
+
+      a::after {
+        content: url("/content/dam/sandiego/secure-pages/home/Polygon 2.png");
+        left: 17px;
+        position: relative;
+        top: -2px;
+      }
+    }
+
     .cmp-navigation__item-link {
       color: @black-80;
       font-size: @font-size-small;
       text-transform: uppercase;
       font-weight: @font-weight-bold;
-      padding: 8px 0;
+      padding: 12px 25px;
       white-space: nowrap;
       text-decoration: none;
       width: 100%;
+      transition: all 0.4s;
 
       &:hover,
       &:focus {
-        border-bottom: 2px solid @text-color;
-
+        background: @black-20;
       }
 
       @media (max-width: @screen-medium) {
         padding: 12px 20px;
-      }
-    }
-
-    .cmp-navigation__item--active {
-      .cmp-navigation__item-link {
-        border-bottom: 2px solid @text-color;
       }
     }
   }

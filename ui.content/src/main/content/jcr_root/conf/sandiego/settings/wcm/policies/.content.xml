@@ -1008,7 +1008,7 @@
                             </cq:styleGroups>
                         </policy_10932657227173>
                         <policy_30843811440702
-                            jcr:lastModified="{Date}2019-07-18T08:43:23.524+07:00"
+                            jcr:lastModified="{Date}2019-07-21T07:37:26.392+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Secure Navigation Policy"
@@ -1023,9 +1023,9 @@
                                     jcr:primaryType="nt:unstructured">
                                     <cq:styles jcr:primaryType="nt:unstructured">
                                         <item0
-                                            cq:styleClasses="cmp-navigation--landing-1-header"
+                                            cq:styleClasses="cmp-navigation--secure-1-header"
                                             cq:styleId="1563357478468"
-                                            cq:styleLabel="Landing 1 Header"
+                                            cq:styleLabel="Secure 1 Header"
                                             jcr:primaryType="nt:unstructured"/>
                                         <item1
                                             cq:styleClasses="cmp-layout-container--fixed"
@@ -1039,7 +1039,7 @@
                     </navigation>
                     <search jcr:primaryType="nt:unstructured">
                         <policy_1563036656502
-                            jcr:lastModified="{Date}2019-07-17T08:08:51.829+07:00"
+                            jcr:lastModified="{Date}2019-07-20T14:34:44.179+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Secure Search Policy"
@@ -1053,6 +1053,11 @@
                                             cq:styleClasses="cmp-search--secure-home-header"
                                             cq:styleId="1563036674673"
                                             cq:styleLabel="Secure Header"
+                                            jcr:primaryType="nt:unstructured"/>
+                                        <item1
+                                            cq:styleClasses="cmp-search--landing-hero"
+                                            cq:styleId="1563608070729"
+                                            cq:styleLabel="Landing Hero"
                                             jcr:primaryType="nt:unstructured"/>
                                     </cq:styles>
                                 </item0>
