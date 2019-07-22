@@ -36,7 +36,6 @@
     //      return;
     //    }
 
-
     $.each(list_items, function (index, item) {
 
       $("<div class='cmp-notification-item'>" +
