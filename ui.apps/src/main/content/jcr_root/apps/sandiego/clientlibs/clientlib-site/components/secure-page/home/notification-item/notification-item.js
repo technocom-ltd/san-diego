@@ -57,7 +57,7 @@
         "</div>").appendTo(target);
 
       //  break after 3 elements
-      return (index !== 1)
+      return (index !== 2)
     })
 
 

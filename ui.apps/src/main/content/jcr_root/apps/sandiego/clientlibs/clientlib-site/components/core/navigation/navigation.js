@@ -29,7 +29,7 @@ jQuery(function ($) {
 
       // Toggle Nav
       $('<div id="toggleNav">' +
-        '<a href="#mobileNav" class="toggle"><i class="wkndicon wkndicon-ico-bm" aria-hidden="true"></i></a>' +
+        '<a href="#mobileNav" class="toggle"><span></span><span></span><span></span></a>' +
         '</div>'
       ).appendTo($body);
 

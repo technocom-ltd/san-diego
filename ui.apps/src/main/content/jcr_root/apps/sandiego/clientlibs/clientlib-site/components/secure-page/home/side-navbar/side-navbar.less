@@ -44,12 +44,14 @@
 
       //second part icon
       > div:nth-child(2) {
+        margin-top: 16px;
+        margin-bottom: 16px;
+
         display: flex;
         align-items: flex-start;
         justify-content: space-between;
         flex-direction: column;
         box-sizing: border-box;
-        overflow: hidden;
         padding-left: 16px;
       }
     }
@@ -151,7 +153,6 @@
         list-style: none;
         padding: 0;
         margin: 0;
-        overflow: hidden;
       }
 
       .cmp-navigation__item {
@@ -213,8 +214,6 @@
 
 
     .cmp-secure-side-nav__image-profile {
-      margin-bottom: 16px;
-
       .cmp-image {
         height: @secure-home-navbar-profile-size;
         width: @secure-home-navbar-profile-size;
@@ -225,6 +224,12 @@
 
 body.expand-side-navbar {
   .cmp-secure-side-nav {
+
+    @media (max-height: 660px) {
+      overflow-y: auto;
+      overflow-x: hidden;
+    }
+
     width: @secure-home-navbar-width-expand;
 
     .cmp-secure-side-nav__navigation {

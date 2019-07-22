@@ -107,9 +107,9 @@
     transition: transform 0.5s ease;
     display: block;
     height: 44px;
-    right: 0;
+    right: 16px;
     position: fixed;
-    top: 6px;
+    top: 20px;
     width: 40px;
     z-index: 10001;
     border-top-left-radius: 2px;
@@ -123,16 +123,32 @@
   }
 
   #toggleNav .toggle {
-    width: 80px;
-    height: 60px;
-    font-size: 40px;
     color: @text-color;
+    position: relative;
 
     &:hover {
       text-decoration: none;
       color: @text-color;
     }
 
+    > span {
+      width: 30px;
+      height: 3px;
+      display: block;
+      position: absolute;
+      top: 10px;
+      left: 5px;
+      background: @text-color;
+      transition: all @secure-mobile-transition-time;
+    }
+
+    > span:nth-child(2) {
+      transform: translateY(10px);
+    }
+
+    > span:nth-child(3) {
+      transform: translateY(20px);
+    }
   }
 
   #mobileNav {
@@ -185,5 +201,19 @@
       transform: translateX(0);
     }
 
+    #toggleNav .toggle {
+      > span:nth-child(1) {
+        transform: translateY(10px)rotate(45deg)
+      }
+
+      > span:nth-child(2) {
+        transform: translateY(10px);
+        opacity: 0;
+      }
+
+      > span:nth-child(3) {
+        transform: translateY(10px) rotate(-45deg)
+      }
+    }
   }
 }
