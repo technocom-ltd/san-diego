@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-07-15T10:40:09.139+07:00"
+        cq:lastModified="{Date}2019-07-21T08:07:23.034+07:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/sandiego/settings/wcm/templates/proposal-1"
         jcr:primaryType="cq:PageContent"
@@ -12,6 +12,6 @@
     <it-service-catalog/>
     <it-guiding-principles/>
     <technology-standards/>
-    <technology-partterns/>
+    <technology-patterns/>
     <procurement/>
 </jcr:root>

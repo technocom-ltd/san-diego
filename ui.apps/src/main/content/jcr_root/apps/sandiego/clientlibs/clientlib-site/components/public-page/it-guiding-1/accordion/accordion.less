@@ -1,0 +1,66 @@
+.cmp-it-guiding-accordion {
+
+  .cmp-it-guiding-accordion__title {
+    text-transform: uppercase;
+    font: @font-weight-bold @font-size-base @font-family-base;
+    padding: 30px 0;
+    border: 1px solid @black-20;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 0;
+    transition: border 0.4s linear 0.4s;
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    .cmp-text {
+      p {
+        margin: 0;
+        padding: 0;
+      }
+    }
+  }
+
+  > div {
+    position: relative;
+    display: block;
+
+    > span {
+      width: 16px;
+      height: 2px;
+      background: #001B36;
+      position: absolute;
+      right: 2em;
+      top: 50%;
+
+      transition: all 0.4s;
+    }
+
+    > span:nth-child(2) {
+      transform: rotate(270deg);
+    }
+  }
+
+  .cmp-it-guiding-accordion__description {
+    transition: all 0.4s;
+    overflow: hidden;
+    max-height: 0px;
+  }
+
+  &.expand-description {
+    .cmp-it-guiding-accordion__title {
+      border-bottom: 0;
+    }
+
+    > div {
+      > span:nth-child(2) {
+        transform: rotate(0);
+      }
+    }
+
+    .cmp-it-guiding-accordion__description {
+      max-height: 500px;
+    }
+  }
+}

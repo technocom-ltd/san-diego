@@ -9,7 +9,7 @@
         cq:parentPath="/content/dam/sandiego/public-pages/landing"
         dam:assetState="processed"
         dam:relativePath="sandiego/public-pages/landing/sandiego-plan.png"
-        jcr:lastModified="{Date}2019-07-19T09:07:34.673+07:00"
+        jcr:lastModified="{Date}2019-07-21T09:15:14.466+07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -25,7 +25,7 @@
             dam:Physicalwidthindpi="{Long}288"
             dam:Physicalwidthininches="{Decimal}8.013593673706055"
             dam:Progressive="no"
-            dam:sha1="a5bc8a8e024c01b0cddf0e07575b615d1093621f"
+            dam:sha1="851e35f49b69cdb5e47ebdad2c08ff036382db6f"
             dam:size="{Long}282526"
             dc:format="image/png"
             dc:modified="{Date}2019-07-15T17:13:33.046+07:00"

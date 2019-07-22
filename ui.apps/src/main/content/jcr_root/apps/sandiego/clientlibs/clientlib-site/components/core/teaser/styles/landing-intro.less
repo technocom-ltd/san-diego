@@ -15,11 +15,11 @@
  */
 /* SEA teaser - landing-intro.less*/
 
-@teaser-width: 352px;
-@teaser-height: 400px;
-@teaser-img-height: 100px;
-@teaser-padding-vertical: 40px;
-@teaser-padding-horizontal: 32px;
+@teaser-intro-width: 352px;
+@teaser-intro-height: 400px;
+@teaser-intro-img-height: 100px;
+@teaser-intro-padding-vertical: 40px;
+@teaser-intro-padding-horizontal: 32px;
 
 .cmp-teaser--landing-intro {
   width: 100%;
@@ -34,10 +34,10 @@
     position: relative;
     width: 100%;
     height: 100%;
-    max-height: @teaser-height;
+    max-height: @teaser-intro-height;
     overflow: hidden;
     background-color: @black-10;
-    padding: @teaser-padding-vertical @teaser-padding-horizontal;
+    padding: @teaser-intro-padding-vertical @teaser-intro-padding-horizontal;
     transition: all 0.4s;
     box-sizing: border-box;
 
@@ -53,8 +53,8 @@
       justify-content: center;
 
       .cmp-image {
-        height: @teaser-img-height;
-        width: @teaser-img-height;
+        height: @teaser-intro-img-height;
+        width: @teaser-intro-img-height;
         border-radius: 50%;
         overflow: hidden;
 

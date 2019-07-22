@@ -9,7 +9,12 @@ components/core/teaser/teaser.js
 components/core/search/search.js
 components/core/form/form-button/form-button.js
 
+components/public-page/it-guiding-1/accordion/accordion.js
+
 
 components/secure-page/home/side-navbar/side-navbar.js
 components/secure-page/home/notification-item/notification-item.js
 components/secure-page/home/calendar-item/calendar-item.js
+components/secure-page/home/chart/chart.js
+components/secure-page/home/chart/home-nod.js
+components/secure-page/home/chart/home-sdd.js

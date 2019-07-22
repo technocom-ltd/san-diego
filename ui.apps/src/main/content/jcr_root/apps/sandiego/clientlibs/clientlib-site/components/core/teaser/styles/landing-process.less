@@ -15,12 +15,12 @@
  */
 /* SEA teaser - landing-process.less*/
 
-@teaser-width: 352px;
-@teaser-height: 400px;
-@teaser-img-height: 100px;
-@teaser-padding-vertical: 40px;
-@teaser-padding-horizontal: 32px;
-@teaser-description-width: 267px;
+@teaser-process-width: 352px;
+@teaser-process-height: 400px;
+@teaser-process-img-height: 100px;
+@teaser-process-padding-vertical: 40px;
+@teaser-process-padding-horizontal: 32px;
+@teaser-process-description-width: 267px;
 @animation-duration: 0.6s;
 
 .cmp-teaser--landing-process {
@@ -40,11 +40,11 @@
     position: relative;
     width: 100%;
     height: 100%;
-    max-width: @teaser-width;
-    max-height: @teaser-height;
+    max-width: @teaser-process-width;
+    max-height: @teaser-process-height;
     overflow: hidden;
     background-color: @white;
-    padding: @teaser-padding-vertical @teaser-padding-horizontal;
+    padding: @teaser-process-padding-vertical @teaser-process-padding-horizontal;
     transition: all 0.4s;
     box-sizing: border-box;
     margin: 0;
@@ -56,7 +56,7 @@
 
     .cmp-teaser__content {
       opacity: 0;
-      transform: translateY(@teaser-height);
+      transform: translateY(@teaser-process-height);
       transition: all @animation-duration ease-in-out @animation-duration;
 
       @media (max-width: @screen-small) {
@@ -83,7 +83,7 @@
     .cmp-teaser__description {
       font-family: @font-family-base;
       text-align: center;
-      width: @teaser-description-width;
+      width: @teaser-process-description-width;
       font-size: @font-size-large;
       margin-right: auto;
       margin-left: auto;

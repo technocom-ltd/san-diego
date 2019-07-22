@@ -7,15 +7,10 @@
 
 
 .cmp-search--secure-home-header {
-  transform: translateY(@teaser-search-position);
+  transform: translateY(0);
   transition: all 0.4s;
   padding: 0;
   margin: 0;
-
-
-  @media (max-width: @screen-medium) {
-    transform: translateY(@teaser-search-position) translateX(@teaser-search-position + 10px);
-  }
 
   @media (max-width: @screen-small) {
     transform: translateY(@teaser-search-position-mobile);
@@ -35,6 +30,9 @@
     }
 
     @media (max-width: @screen-small) {
+      padding: 0;
+      margin: 8px 0;
+
       width: 100%;
     }
 

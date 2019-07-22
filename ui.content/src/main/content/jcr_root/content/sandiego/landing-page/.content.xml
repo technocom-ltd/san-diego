@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-07-15T10:23:30.827+07:00"
+        cq:lastModified="{Date}2019-07-20T14:35:18.528+07:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/sandiego/settings/wcm/templates/public-page-template-1"
         jcr:primaryType="cq:PageContent"
@@ -53,10 +53,10 @@
                         navigationRoot="/content/sandiego/landing-page/v2"
                         skipNavigationRoot="true"/>
                     <search
-                        cq:styleIds="[1563036674673]"
+                        cq:styleIds="[1563608070729]"
                         jcr:created="{Date}2019-07-13T23:46:50.773+07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-07-13T23:51:37.054+07:00"
+                        jcr:lastModified="{Date}2019-07-20T14:34:58.136+07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="sandiego/components/content/core/search"/>
@@ -191,9 +191,10 @@
                     sling:resourceType="wcm/foundation/components/responsivegrid">
                     <cq:responsive jcr:primaryType="nt:unstructured"/>
                     <text
+                        cq:styleIds="[1563112671433]"
                         jcr:created="{Date}2019-07-14T00:46:20.608+07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-07-14T00:46:51.985+07:00"
+                        jcr:lastModified="{Date}2019-07-20T14:35:18.512+07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="sandiego/components/content/core/text"

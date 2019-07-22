@@ -9,7 +9,7 @@
         cq:parentPath="/content/dam/sandiego/public-pages/landing-1"
         dam:assetState="processed"
         dam:relativePath="sandiego/public-pages/landing-1/Rectangle.png"
-        jcr:lastModified="{Date}2019-07-19T09:07:35.897+07:00"
+        jcr:lastModified="{Date}2019-07-21T09:15:11.801+07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -29,7 +29,7 @@
             dam:size="{Long}14350"
             dc:format="image/png"
             dc:modified="{Date}2019-07-16T15:43:55.998+07:00"
-            jcr:lastModified="{Date}2019-07-19T09:07:30.632+07:00"
+            jcr:lastModified="{Date}2019-07-20T13:57:17.012+07:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"

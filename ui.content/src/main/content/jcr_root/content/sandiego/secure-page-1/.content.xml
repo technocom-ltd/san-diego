@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-07-19T17:31:06.060+07:00"
+        cq:lastModified="{Date}2019-07-21T07:48:44.087+07:00"
         cq:lastModifiedBy="admin"
         cq:styleIds="[1563417271423]"
         cq:template="/conf/sandiego/settings/wcm/templates/secure-template-1"
@@ -25,7 +25,7 @@
                     cq:styleIds="[1563357478468]"
                     jcr:created="{Date}2019-07-18T08:38:59.461+07:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2019-07-18T08:47:53.046+07:00"
+                    jcr:lastModified="{Date}2019-07-21T07:48:44.074+07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="sandiego/components/content/core/navigation">

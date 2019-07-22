@@ -1,0 +1,34 @@
+.hero {
+  padding: 0 !important;
+
+  .cmp-it-guiding-hero {
+    width: 100%;
+    background: @black-50;
+    height: 200px;
+    padding: 25px 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    box-sizing: border-box;
+
+    .cmp-it-guiding-hero__container {
+      .container-content();
+      width: 100%;
+      max-width: @max-width;
+      height: 100%;
+      background: url('/content/dam/sandiego/sandiego-white-logo.png') no-repeat;
+      background-size: contain;
+      box-sizing: border-box;
+      display: block;
+
+      position: relative;
+    }
+
+    .cmp-it-guiding-hero__text {
+      position: absolute;
+      bottom: 1em;
+      left: 4em;
+      color: @black-80;
+    }
+  }
+}
