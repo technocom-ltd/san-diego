@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-07-21T07:48:44.087+07:00"
+        cq:lastModified="{Date}2019-07-22T15:48:11.157+07:00"
         cq:lastModifiedBy="admin"
         cq:styleIds="[1563417271423]"
         cq:template="/conf/sandiego/settings/wcm/templates/secure-template-1"
@@ -102,10 +102,10 @@
                         titleValueFromDAM="false"/>
                 </header>
                 <responsivegrid_675163220
-                    cq:styleIds="[1563419828654,1563334816356]"
+                    cq:styleIds="[1563334816356,1563419828654,1563423613111]"
                     jcr:created="{Date}2019-07-18T10:06:48.728+07:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2019-07-18T10:17:42.779+07:00"
+                    jcr:lastModified="{Date}2019-07-22T10:24:11.930+07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wcm/foundation/components/responsivegrid">
@@ -615,9 +615,9 @@
                         </cq:responsive>
                         <text
                             cq:styleIds="[1563420990098,1563420976434]"
-                            jcr:created="{Date}2019-07-19T09:18:51.741+07:00"
+                            jcr:created="{Date}2019-07-22T11:49:31.029+07:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-07-19T09:23:25.928+07:00"
+                            jcr:lastModified="{Date}2019-07-22T11:49:31.029+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="sandiego/components/content/core/text"
@@ -626,7 +626,7 @@
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default
                                     jcr:primaryType="nt:unstructured"
-                                    width="3"/>
+                                    width="{Long}3"/>
                             </cq:responsive>
                         </text>
                         <options
@@ -667,197 +667,38 @@
                                     selected="false"/>
                             </items>
                         </options>
-                        <responsivegrid
-                            cq:styleIds="[1563423613111,1563503379238]"
-                            jcr:created="{Date}2019-07-19T09:21:26.888+07:00"
-                            jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-07-19T09:30:49.104+07:00"
-                            jcr:lastModifiedBy="admin"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="wcm/foundation/components/responsivegrid">
-                            <cq:responsive jcr:primaryType="nt:unstructured"/>
-                            <text
-                                cq:styleIds="[1563423025477]"
-                                jcr:created="{Date}2019-07-19T09:23:59.929+07:00"
-                                jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2019-07-19T09:39:31.281+07:00"
-                                jcr:lastModifiedBy="admin"
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="sandiego/components/content/core/text"
-                                text="&lt;p>&lt;b>This is the subject of a notification for approving documents.&lt;/b>&lt;/p>&#xd;&#xa;"
-                                textIsRich="true">
-                                <cq:responsive jcr:primaryType="nt:unstructured">
-                                    <default
-                                        jcr:primaryType="nt:unstructured"
-                                        width="8"/>
-                                </cq:responsive>
-                            </text>
-                            <text_946223676
-                                cq:styleIds="[1563423025477]"
-                                jcr:created="{Date}2019-07-19T09:25:15.236+07:00"
-                                jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2019-07-19T09:25:48.652+07:00"
-                                jcr:lastModifiedBy="admin"
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="sandiego/components/content/core/text"
-                                text="&lt;p>Review for Approval&lt;/p>&#xd;&#xa;"
-                                textIsRich="true">
-                                <cq:responsive jcr:primaryType="nt:unstructured">
-                                    <default
-                                        jcr:primaryType="nt:unstructured"
-                                        offset="0"
-                                        width="4"/>
-                                </cq:responsive>
-                            </text_946223676>
-                            <text_635204899
-                                cq:styleIds="[1563423025477]"
-                                jcr:created="{Date}2019-07-19T09:26:45.031+07:00"
-                                jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2019-07-19T09:27:06.119+07:00"
-                                jcr:lastModifiedBy="admin"
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="sandiego/components/content/core/text"
-                                text="&lt;p>30 mins ago&lt;/p>&#xa;"
-                                textIsRich="true"/>
-                        </responsivegrid>
-                        <responsivegrid_1536529005
-                            cq:styleIds="[1563503379238]"
-                            jcr:created="{Date}2019-07-19T09:33:29.214+07:00"
-                            jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-07-19T09:33:33.333+07:00"
-                            jcr:lastModifiedBy="admin"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="wcm/foundation/components/responsivegrid">
-                            <cq:responsive jcr:primaryType="nt:unstructured"/>
-                            <text
-                                cq:styleIds="[1563423025477]"
-                                jcr:created="{Date}2019-07-19T09:34:37.038+07:00"
-                                jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2019-07-19T09:40:17.793+07:00"
-                                jcr:lastModifiedBy="admin"
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="sandiego/components/content/core/text"
-                                text="&lt;p>&lt;b>This is the subject of a notification for informing a document is going to be expired.&lt;/b>&lt;/p>&#xd;&#xa;"
-                                textIsRich="true">
-                                <cq:responsive jcr:primaryType="nt:unstructured">
-                                    <default
-                                        jcr:primaryType="nt:unstructured"
-                                        width="8"/>
-                                </cq:responsive>
-                            </text>
-                            <text_1191355996
-                                cq:styleIds="[1563423025477]"
-                                jcr:created="{Date}2019-07-19T09:34:59.661+07:00"
-                                jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2019-07-19T09:35:36.657+07:00"
-                                jcr:lastModifiedBy="admin"
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="sandiego/components/content/core/text"
-                                text="&lt;p>Expiring 09/02/2018&lt;/p>&#xa;"
-                                textIsRich="true">
-                                <cq:responsive jcr:primaryType="nt:unstructured">
-                                    <default
-                                        jcr:primaryType="nt:unstructured"
-                                        offset="0"
-                                        width="4"/>
-                                </cq:responsive>
-                            </text_1191355996>
-                            <text_1808335398
-                                cq:styleIds="[1563423025477]"
-                                jcr:created="{Date}2019-07-19T09:35:12.819+07:00"
-                                jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2019-07-19T09:35:59.013+07:00"
-                                jcr:lastModifiedBy="admin"
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="sandiego/components/content/core/text"
-                                text="&lt;p>A day ago&lt;/p>&#xa;"
-                                textIsRich="true"/>
-                        </responsivegrid_1536529005>
                         <responsivegrid_1234237009
+                            cq:styleIds="[1563423613111]"
                             jcr:created="{Date}2019-07-19T09:39:12.092+07:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-07-19T09:39:12.092+07:00"
+                            jcr:lastModified="{Date}2019-07-22T11:50:53.984+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wcm/foundation/components/responsivegrid">
                             <cq:responsive jcr:primaryType="nt:unstructured"/>
-                            <text_2091424759
-                                cq:styleIds="[1563420976434,1563423025477]"
-                                jcr:created="{Date}2019-07-19T09:38:29.286+07:00"
+                            <notification_item_17
+                                jcr:created="{Date}2019-07-22T11:50:02.237+07:00"
                                 jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2019-07-19T09:42:40.154+07:00"
+                                jcr:lastModified="{Date}2019-07-22T11:50:02.237+07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="sandiego/components/content/core/text"
-                                text="&lt;p>&lt;b>This is the subject of a notification for informing a document is going to be expired.&lt;/b>&lt;/p>&#xd;&#xa;"
-                                textIsRich="true">
-                                <cq:responsive jcr:primaryType="nt:unstructured">
-                                    <default
-                                        jcr:primaryType="nt:unstructured"
-                                        width="8"/>
-                                </cq:responsive>
-                            </text_2091424759>
-                            <text
-                                cq:styleIds="[1563420976434,1563423025477]"
-                                jcr:created="{Date}2019-07-19T09:40:52.838+07:00"
+                                sling:resourceType="sandiego/components/content/secure-page/home-1/notification-item"/>
+                            <notification_item_1
+                                jcr:created="{Date}2019-07-22T15:42:38.296+07:00"
                                 jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2019-07-19T09:42:45.690+07:00"
+                                jcr:lastModified="{Date}2019-07-22T15:42:38.296+07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="sandiego/components/content/core/text"
-                                text="&lt;p>Expiring 09/02/2019&lt;/p>&#xd;&#xa;"
-                                textIsRich="true">
-                                <cq:responsive jcr:primaryType="nt:unstructured">
-                                    <default
-                                        jcr:primaryType="nt:unstructured"
-                                        width="4"/>
-                                </cq:responsive>
-                            </text>
-                            <text_935401395
-                                cq:styleIds="[1563423025477]"
-                                jcr:created="{Date}2019-07-19T09:41:40.900+07:00"
-                                jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2019-07-19T09:42:32.264+07:00"
-                                jcr:lastModifiedBy="admin"
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="sandiego/components/content/core/text"
-                                text="&lt;p>08/20/2019&lt;/p>&#xa;"
-                                textIsRich="true">
-                                <cq:responsive jcr:primaryType="nt:unstructured">
-                                    <default
-                                        jcr:primaryType="nt:unstructured"
-                                        width="8"/>
-                                </cq:responsive>
-                            </text_935401395>
-                            <teaser
-                                cq:styleIds="[1563504356595]"
-                                jcr:created="{Date}2019-07-19T09:42:03.445+07:00"
-                                jcr:createdBy="admin"
-                                jcr:description="&lt;p>Unsubcribe&lt;/p>&#xd;&#xa;"
-                                jcr:lastModified="{Date}2019-07-19T09:46:08.765+07:00"
-                                jcr:lastModifiedBy="admin"
-                                jcr:primaryType="nt:unstructured"
-                                jcr:title="Mark as unread"
-                                sling:resourceType="sandiego/components/content/core/teaser"
-                                actionsEnabled="false"
-                                descriptionFromPage="false"
-                                textIsRich="true"
-                                titleFromPage="false">
-                                <cq:responsive jcr:primaryType="nt:unstructured">
-                                    <default
-                                        jcr:primaryType="nt:unstructured"
-                                        offset="0"
-                                        width="4"/>
-                                </cq:responsive>
-                            </teaser>
+                                sling:resourceType="sandiego/components/content/secure-page/home-1/notification-item-1"/>
                             <text_2001183417
+                                cq:styleIds="[1563420976434]"
                                 jcr:created="{Date}2019-07-19T09:43:19.708+07:00"
                                 jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2019-07-19T09:43:54.209+07:00"
+                                jcr:lastModified="{Date}2019-07-22T15:48:11.143+07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="sandiego/components/content/core/text"
-                                text="&lt;p>&lt;b>SEE ALL NOTIFICATIONS&lt;/b>&lt;/p>&#xd;&#xa;"
+                                text="&lt;p>&lt;b>&amp;nbsp;SEE ALL NOTIFICATIONS&lt;/b>&lt;/p>&#xd;&#xa;"
                                 textIsRich="true"/>
                         </responsivegrid_1234237009>
                     </responsivegrid>

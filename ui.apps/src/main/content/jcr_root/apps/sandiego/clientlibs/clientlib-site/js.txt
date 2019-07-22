@@ -18,3 +18,5 @@ components/secure-page/home/calendar-item/calendar-item.js
 components/secure-page/home/chart/chart.js
 components/secure-page/home/chart/home-nod.js
 components/secure-page/home/chart/home-sdd.js
+
+components/secure-page/home-1/notification-item-1/notification-item-1.js
