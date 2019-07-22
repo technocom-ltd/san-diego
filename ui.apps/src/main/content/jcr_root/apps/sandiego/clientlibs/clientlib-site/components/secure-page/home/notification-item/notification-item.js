@@ -48,6 +48,12 @@
         "<div class='cmp-notification-item__title'>" +
         item.title +
         "</div>" +
+        "<div class='cmp-notification-item__hellip'>" +
+        "<div class='cmp-notification-item__actions'>" +
+        "<div>Mask as read</div>" +
+        "<div>Unsubcribe</div>" +
+        "</div>" +
+        "</div>" +
         "<div>" +
         "<div class='cmp-notification-item__time'>" + item.time + "</div>" +
         "<div class='cmp-notification-item__status'>" + item.status + "</div>" +
@@ -62,3 +68,23 @@
 
 
   }('.notification-item', list_items, jQuery));
+
+
+  $(function () {
+    var target = $('.cmp-notification-item__hellip'),
+      className = 'active';
+
+    target.click(function (event) {
+      if ($(this).hasClass(className)) {
+        target.removeClass(className);
+      } else {
+        target.removeClass(className);
+        $(this).addClass(className);
+        event.stopPropagation();
+      }
+    })
+
+    $(window).click(function () {
+      target.removeClass(className);
+    })
+  })
