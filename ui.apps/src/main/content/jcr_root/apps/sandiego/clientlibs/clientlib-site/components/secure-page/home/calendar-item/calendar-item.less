@@ -43,10 +43,12 @@
   .cmp-calendar-item__file {
     margin-top: 16px;
     font: @font-weight-normal @font-size-xsmall @font-family-base;
-    padding-left: 24px;
     line-height: 1.5;
-    background: url("/content/dam/sandiego/secure-pages/home/paperclip.svg") no-repeat left #fff;
+
+    > a {
+      padding-left: 24px;
+      background: url("/content/dam/sandiego/secure-pages/home/paperclip.svg") no-repeat left #fff;
+    }
   }
 
-  .cmp-calendar-item__file::before {}
 }
