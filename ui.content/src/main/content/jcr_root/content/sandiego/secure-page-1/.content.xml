@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-07-22T14:47:54.799+07:00"
+        cq:lastModified="{Date}2019-07-22T15:48:11.157+07:00"
         cq:lastModifiedBy="admin"
         cq:styleIds="[1563417271423]"
         cq:template="/conf/sandiego/settings/wcm/templates/secure-template-1"
@@ -684,23 +684,17 @@
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="sandiego/components/content/secure-page/home-1/notification-item"/>
                             <notification_item_1
-                                jcr:created="{Date}2019-07-22T14:25:49.977+07:00"
+                                jcr:created="{Date}2019-07-22T15:42:38.296+07:00"
                                 jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2019-07-22T14:25:49.977+07:00"
+                                jcr:lastModified="{Date}2019-07-22T15:42:38.296+07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="sandiego/components/content/secure-page/home-1/notification-item-1"/>
-                            <notification_item_un
-                                jcr:created="{Date}2019-07-22T14:26:07.916+07:00"
-                                jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2019-07-22T14:26:07.916+07:00"
-                                jcr:lastModifiedBy="admin"
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="sandiego/components/content/secure-page/home-1/notification-item-unread"/>
                             <text_2001183417
+                                cq:styleIds="[1563420976434]"
                                 jcr:created="{Date}2019-07-19T09:43:19.708+07:00"
                                 jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2019-07-22T14:47:54.787+07:00"
+                                jcr:lastModified="{Date}2019-07-22T15:48:11.143+07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="sandiego/components/content/core/text"
