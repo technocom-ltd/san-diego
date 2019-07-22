@@ -16,9 +16,19 @@ jQuery(function ($) {
 
       }
     })
+
+    $(window).click(function () {
+      target.removeClass(className);
+    });
+
+    $('.cmp-secure-side-nav__container').click(function (event) {
+      event.stopPropagation();
+    });
   }
 
   handleExpandNavbar('.cmp-secure-side-nav__arrow');
+
+
 
 
 
@@ -32,7 +42,7 @@ jQuery(function ($) {
 
       // Toggle Nav
       $('<div id="toggleSideNav">' +
-        '<a href="#mobileSideNav" class="toggle"><i class="wkndicon wkndicon-ico-bm" aria-hidden="true"></i></a>' +
+        '<a href="#mobileSideNav" class="toggle"><span></span><span></span><span></span></a>' +
         '</div>'
       ).appendTo($body);
 

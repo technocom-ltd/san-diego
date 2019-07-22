@@ -1,4 +1,3 @@
 #base=css
 
 MonthPicker.min.css
-jquery-ui.min.css
