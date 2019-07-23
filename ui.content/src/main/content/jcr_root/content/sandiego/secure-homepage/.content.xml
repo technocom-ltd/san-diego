@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-07-19T13:24:16.733+07:00"
+        cq:lastModified="{Date}2019-07-23T22:08:27.872+07:00"
         cq:lastModifiedBy="admin"
         cq:redirectTarget="/content/sandiego/secure-homepage/dashboard"
         cq:styleIds="[1563195521690]"
@@ -10,7 +10,7 @@
         jcr:lastModified="{Date}2019-07-15T20:13:13.382+07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="cq:PageContent"
-        jcr:title="Secure Homepage"
+        jcr:title="Secure Homepage v2"
         sling:resourceType="sandiego/components/structure/page">
         <root
             jcr:primaryType="nt:unstructured"
@@ -849,6 +849,10 @@
                 </responsivegrid>
             </responsivegrid>
         </root>
+        <image jcr:primaryType="nt:unstructured">
+            <file/>
+            <file.sftmp/>
+        </image>
     </jcr:content>
     <dashboard/>
     <organization/>

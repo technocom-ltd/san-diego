@@ -9,7 +9,7 @@
         cq:parentPath="/content/dam/sandiego/public-pages/landing-1"
         dam:assetState="processed"
         dam:relativePath="sandiego/public-pages/landing-1/banner.png"
-        jcr:lastModified="{Date}2019-07-23T16:28:59.120+07:00"
+        jcr:lastModified="{Date}2019-07-23T22:22:52.455+07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -29,7 +29,7 @@
             dam:size="{Long}243934"
             dc:format="image/png"
             dc:modified="{Date}2019-07-15T18:12:35.049+07:00"
-            jcr:lastModified="{Date}2019-07-23T14:16:26.272+07:00"
+            jcr:lastModified="{Date}2019-07-23T18:23:58.454+07:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"

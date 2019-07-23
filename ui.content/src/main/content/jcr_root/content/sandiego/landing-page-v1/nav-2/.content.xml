@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2019-07-21T08:07:23.034+07:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/sandiego/settings/wcm/templates/public-page-template-v1"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="nav 2"
+        jcr:uuid="10d62b92-3409-4c45-9804-c9f0cd1ca78e"
+        sling:resourceType="sandiego/components/structure/page"/>
+    <about-us/>
+    <it-service-catalog/>
+    <it-guiding-principles/>
+    <technology-standards/>
+    <technology-patterns/>
+    <procurement/>
+</jcr:root>

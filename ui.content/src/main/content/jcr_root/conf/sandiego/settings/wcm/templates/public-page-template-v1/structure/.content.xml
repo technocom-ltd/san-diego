@@ -3,7 +3,7 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[/etc/mobile/groups/responsive]"
-        cq:lastModified="{Date}2019-07-15T15:07:33.372+07:00"
+        cq:lastModified="{Date}2019-07-23T22:30:05.210+07:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/sandiego/settings/wcm/templates/public-page-template-v1"
         jcr:primaryType="cq:PageContent"
@@ -29,12 +29,12 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="sandiego/components/content/public-page/landing-page-v1/header">
                 <navigation
-                    jcr:lastModified="{Date}2019-07-15T15:07:33.369+07:00"
+                    jcr:lastModified="{Date}2019-07-23T22:30:05.207+07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="sandiego/components/content/core/navigation"
                     collectAllPages="true"
-                    navigationRoot="/content/sandiego/home-page-1/nav-1"
+                    navigationRoot="/content/sandiego/landing-page-v1/nav-1"
                     skipNavigationRoot="true"/>
                 <image
                     jcr:lastModified="{Date}2019-07-15T15:07:00.071+07:00"
