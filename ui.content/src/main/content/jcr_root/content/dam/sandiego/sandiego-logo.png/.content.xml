@@ -9,7 +9,7 @@
         cq:parentPath="/content/dam/sandiego"
         dam:assetState="processed"
         dam:relativePath="sandiego/sandiego-logo.png"
-        jcr:lastModified="{Date}2019-07-23T13:48:28.596+07:00"
+        jcr:lastModified="{Date}2019-07-23T14:16:23.786+07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -29,7 +29,7 @@
             dam:size="{Long}58453"
             dc:format="image/png"
             dc:modified="{Date}2019-07-14T20:09:52.031+07:00"
-            jcr:lastModified="{Date}2019-07-23T13:48:28.343+07:00"
+            jcr:lastModified="{Date}2019-07-23T14:16:23.785+07:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"

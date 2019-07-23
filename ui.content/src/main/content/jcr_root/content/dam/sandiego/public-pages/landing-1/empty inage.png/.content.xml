@@ -9,7 +9,7 @@
         cq:parentPath="/content/dam/sandiego/public-pages/landing-1"
         dam:assetState="processed"
         dam:relativePath="sandiego/public-pages/landing-1/empty inage.png"
-        jcr:lastModified="{Date}2019-07-23T13:48:33.477+07:00"
+        jcr:lastModified="{Date}2019-07-23T14:16:27.196+07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -29,7 +29,7 @@
             dam:size="{Long}11856"
             dc:format="image/png"
             dc:modified="{Date}2019-07-15T18:12:38.372+07:00"
-            jcr:lastModified="{Date}2019-07-23T13:48:33.381+07:00"
+            jcr:lastModified="{Date}2019-07-23T14:16:27.196+07:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"

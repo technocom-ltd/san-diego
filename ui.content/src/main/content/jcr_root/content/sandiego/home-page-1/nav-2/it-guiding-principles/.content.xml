@@ -9,7 +9,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="it guiding principles"
-        jcr:uuid="6a4dedc2-9523-4653-8cf3-68a0e78acbba"
+        jcr:uuid="bd211d20-9643-4cb3-b577-8b626af1f16d"
         sling:resourceType="sandiego/components/structure/page">
         <root jcr:primaryType="nt:unstructured">
             <responsivegrid
