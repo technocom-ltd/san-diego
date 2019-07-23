@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-07-22T15:07:26.665+07:00"
+        cq:lastModified="{Date}2019-07-21T23:25:01.081+07:00"
         cq:lastModifiedBy="admin"
         cq:styleIds="[1563195521690]"
         cq:template="/conf/sandiego/settings/wcm/templates/secure-page-template-2"
@@ -218,11 +218,11 @@
                             cq:styleIds="[1563112684784]"
                             jcr:created="{Date}2019-07-16T22:53:09.390+07:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-07-22T15:05:20.019+07:00"
+                            jcr:lastModified="{Date}2019-07-16T22:54:33.905+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="sandiego/components/content/core/text"
-                            text="&lt;p style=&quot;text-align: right;&quot;>&lt;b>&lt;a href=&quot;/content/sandiego/secure-homepage/notification.html&quot; target=&quot;_blank&quot;>See older notifications&lt;/a>&lt;/b>&lt;/p>&#xa;"
+                            text="&lt;p style=&quot;text-align: right;&quot;>&lt;b>&lt;a href=&quot;https://www.youtube.com/watch?v=LSMDNL4n0kM&quot; target=&quot;_blank&quot;>See older notifications&lt;/a>&lt;/b>&lt;/p>&#xa;"
                             textIsRich="true">
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <phone
@@ -401,11 +401,11 @@
                                 cq:styleIds="[1563112684784]"
                                 jcr:created="{Date}2019-07-16T17:20:01.497+07:00"
                                 jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2019-07-22T15:07:26.657+07:00"
+                                jcr:lastModified="{Date}2019-07-16T17:39:56.150+07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="sandiego/components/content/core/text"
-                                text="&lt;p style=&quot;text-align: right;&quot;>&lt;b>&lt;a href=&quot;/content/sandiego/secure-homepage/documenttation.html&quot;>See all documents&lt;/a>&lt;/b>&lt;/p>&#xa;"
+                                text="&lt;p style=&quot;text-align: right;&quot;>&lt;b>&lt;a href=&quot;https://www.youtube.com/watch?v=0Xl02jNm4WQ&quot; target=&quot;_self&quot;>See all documents&lt;/a>&lt;/b>&lt;/p>&#xa;"
                                 textIsRich="true"/>
                             <month_picker
                                 jcr:created="{Date}2019-07-18T10:49:38.097+07:00"

@@ -23,11 +23,21 @@
         "<div class='cmp-notification-item__title-1'>" +
         item.title +
         "</div>" +
-        "<div class='cmp-notification-item__time-1'>" + item.time + "</div>" +
+        "<div class='cmp-notification-item__time-1'>" +
+        item.time + "</div>" +
         "</div>" +
-        "<div class='cmp-notification-item__status-1'>" + item.status + "</div>" +
+        "<div class='cmp-notification-item__status-1'>" +
+        item.status +
+        "<div class='cmp-notification-item__hellip'>" +
+        "<div class='cmp-notification-item__actions'>" +
+        "<div>Mask as read</div>" +
+        "<div>Unsubcribe</div>" +
+        "</div>" +
+        "</div>" +
+        "</div>" +
         "</div>" +
         "</div>"
+
       ).appendTo(target);
 
 
