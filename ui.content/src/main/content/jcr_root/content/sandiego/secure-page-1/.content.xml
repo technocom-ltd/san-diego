@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-07-21T07:48:44.087+07:00"
+        cq:lastModified="{Date}2019-07-23T11:13:31.693+07:00"
         cq:lastModifiedBy="admin"
         cq:styleIds="[1563417271423]"
         cq:template="/conf/sandiego/settings/wcm/templates/secure-template-1"
@@ -466,15 +466,23 @@
                                             value="2"/>
                                     </items>
                                 </options_copy>
-                                <text_1948893319
-                                    jcr:created="{Date}2019-07-19T14:30:01.255+07:00"
+                                <button
+                                    cq:styleIds="[1563854892055]"
+                                    jcr:created="{Date}2019-07-23T11:05:44.742+07:00"
                                     jcr:createdBy="admin"
-                                    jcr:lastModified="{Date}2019-07-19T14:30:26.922+07:00"
+                                    jcr:lastModified="{Date}2019-07-23T11:10:36.078+07:00"
                                     jcr:lastModifiedBy="admin"
                                     jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="sandiego/components/content/core/text"
-                                    text="&lt;p>&amp;nbsp;&lt;/p>&#xd;&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xd;&#xa;"
-                                    textIsRich="true"/>
+                                    jcr:title="SEARCH"
+                                    sling:resourceType="sandiego/components/form/button"
+                                    type="button">
+                                    <cq:responsive jcr:primaryType="nt:unstructured">
+                                        <default
+                                            jcr:primaryType="nt:unstructured"
+                                            offset="9"
+                                            width="3"/>
+                                    </cq:responsive>
+                                </button>
                             </item_1>
                             <item_1_copy
                                 cq:panelTitle="DocVault search"
@@ -859,6 +867,15 @@
                                 sling:resourceType="sandiego/components/content/core/text"
                                 text="&lt;p>&lt;b>SEE ALL NOTIFICATIONS&lt;/b>&lt;/p>&#xd;&#xa;"
                                 textIsRich="true"/>
+                            <text
+                                cq:styleIds="[1563420980773]"
+                                jcr:created="{Date}2019-07-23T08:32:30.356+07:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2019-07-23T08:33:10.886+07:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="sandiego/components/content/core/text"
+                                textIsRich="true"/>
                         </responsivegrid_1234237009>
                     </responsivegrid>
                     <responsivegrid_344574158
@@ -921,126 +938,42 @@
                             </items>
                         </options>
                         <responsivegrid
-                            jcr:created="{Date}2019-07-19T16:36:08.700+07:00"
+                            jcr:created="{Date}2019-07-23T10:08:00.479+07:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-07-19T16:36:08.700+07:00"
+                            jcr:lastModified="{Date}2019-07-23T10:08:00.479+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wcm/foundation/components/responsivegrid">
                             <cq:responsive jcr:primaryType="nt:unstructured"/>
-                            <text
-                                cq:styleIds="[1563423025477,1563420980773]"
-                                jcr:created="{Date}2019-07-19T16:36:12.128+07:00"
+                            <calendar_item_1
+                                jcr:created="{Date}2019-07-23T10:21:55.325+07:00"
                                 jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2019-07-19T16:37:19.220+07:00"
+                                jcr:lastModified="{Date}2019-07-23T10:21:55.325+07:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="sandiego/components/content/secure-page/home-1/calendar-item-1"/>
+                            <text
+                                cq:styleIds="[1563420976434,1563423025477]"
+                                jcr:created="{Date}2019-07-23T11:04:41.936+07:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2019-07-23T11:05:17.892+07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="sandiego/components/content/core/text"
-                                text="&lt;p>09/02/2018&lt;/p>&#xd;&#xa;&lt;p>10:30 AM - 11AM&lt;/p>&#xd;&#xa;"
-                                textIsRich="true">
-                                <cq:responsive jcr:primaryType="nt:unstructured">
-                                    <default
-                                        jcr:primaryType="nt:unstructured"
-                                        width="4"/>
-                                </cq:responsive>
-                            </text>
-                            <responsivegrid
-                                jcr:created="{Date}2019-07-19T16:36:53.244+07:00"
-                                jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2019-07-19T16:36:53.244+07:00"
-                                jcr:lastModifiedBy="admin"
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="wcm/foundation/components/responsivegrid">
-                                <cq:responsive jcr:primaryType="nt:unstructured">
-                                    <default
-                                        jcr:primaryType="nt:unstructured"
-                                        width="8"/>
-                                </cq:responsive>
-                                <text
-                                    cq:styleIds="[1563423025477]"
-                                    jcr:created="{Date}2019-07-19T16:37:09.375+07:00"
-                                    jcr:createdBy="admin"
-                                    jcr:lastModified="{Date}2019-07-19T16:38:18.579+07:00"
-                                    jcr:lastModifiedBy="admin"
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="sandiego/components/content/core/text"
-                                    text="&lt;p>Core EA&lt;/p>&#xd;&#xa;"
-                                    textIsRich="true"/>
-                                <text_853205362
-                                    cq:styleIds="[1563423025477]"
-                                    jcr:created="{Date}2019-07-19T16:37:24.562+07:00"
-                                    jcr:createdBy="admin"
-                                    jcr:lastModified="{Date}2019-07-19T16:38:23.363+07:00"
-                                    jcr:lastModifiedBy="admin"
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="sandiego/components/content/core/text"
-                                    text="&lt;p>&lt;b>This is the subject of a meeting for approving documents of Core EA&lt;/b>&lt;/p>&#xd;&#xa;"
-                                    textIsRich="true"/>
-                                <button_icon
-                                    jcr:created="{Date}2019-07-19T17:09:09.460+07:00"
-                                    jcr:createdBy="admin"
-                                    jcr:lastModified="{Date}2019-07-19T17:09:09.460+07:00"
-                                    jcr:lastModifiedBy="admin"
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="sandiego/components/content/secure-page/home-1/button-icon">
-                                    <text
-                                        jcr:lastModified="{Date}2019-07-19T17:22:27.189+07:00"
-                                        jcr:lastModifiedBy="admin"
-                                        jcr:primaryType="nt:unstructured"
-                                        sling:resourceType="sandiego/components/content/core/text"
-                                        text="&lt;p>Meeting agenda.pdf&lt;/p>&#xd;&#xa;"
-                                        textIsRich="true"/>
-                                    <image
-                                        jcr:lastModified="{Date}2019-07-19T17:09:41.807+07:00"
-                                        jcr:lastModifiedBy="admin"
-                                        jcr:primaryType="nt:unstructured"
-                                        sling:resourceType="sandiego/components/content/core/image"
-                                        alt="pdf"
-                                        altValueFromDAM="false"
-                                        displayPopupTitle="false"
-                                        fileReference="/content/dam/sandiego/secure-pages/home/file.png"
-                                        isDecorative="false"
-                                        titleValueFromDAM="false"/>
-                                    <cq:responsive jcr:primaryType="nt:unstructured">
-                                        <default
-                                            jcr:primaryType="nt:unstructured"
-                                            width="4"/>
-                                    </cq:responsive>
-                                </button_icon>
-                                <button_icon_1814173301
-                                    jcr:created="{Date}2019-07-19T17:30:21.028+07:00"
-                                    jcr:createdBy="admin"
-                                    jcr:lastModified="{Date}2019-07-19T17:30:21.028+07:00"
-                                    jcr:lastModifiedBy="admin"
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="sandiego/components/content/secure-page/home-1/button-icon">
-                                    <text
-                                        jcr:lastModified="{Date}2019-07-19T17:30:37.606+07:00"
-                                        jcr:lastModifiedBy="admin"
-                                        jcr:primaryType="nt:unstructured"
-                                        sling:resourceType="sandiego/components/content/core/text"
-                                        text="&lt;p>Meeting document.pdf&lt;/p>&#xd;&#xa;"
-                                        textIsRich="true"/>
-                                    <image
-                                        jcr:lastModified="{Date}2019-07-19T17:31:00.642+07:00"
-                                        jcr:lastModifiedBy="admin"
-                                        jcr:primaryType="nt:unstructured"
-                                        sling:resourceType="sandiego/components/content/core/image"
-                                        alt="pdf"
-                                        altValueFromDAM="false"
-                                        displayPopupTitle="false"
-                                        fileReference="/content/dam/sandiego/secure-pages/home/file.png"
-                                        isDecorative="false"
-                                        titleValueFromDAM="false"/>
-                                    <cq:responsive jcr:primaryType="nt:unstructured">
-                                        <default
-                                            jcr:primaryType="nt:unstructured"
-                                            width="4"/>
-                                    </cq:responsive>
-                                </button_icon_1814173301>
-                            </responsivegrid>
+                                text="&lt;p>&lt;b>SEE ALL MEETINGS&lt;/b>&lt;/p>&#xd;&#xa;"
+                                textIsRich="true"/>
                         </responsivegrid>
                     </responsivegrid_344574158>
+                    <responsivegrid_617854168
+                        cq:styleIds="[1563423613111]"
+                        jcr:created="{Date}2019-07-23T11:13:24.351+07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-07-23T11:13:31.682+07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/responsivegrid">
+                        <cq:responsive jcr:primaryType="nt:unstructured"/>
+                    </responsivegrid_617854168>
                 </responsivegrid>
             </responsivegrid>
         </root>

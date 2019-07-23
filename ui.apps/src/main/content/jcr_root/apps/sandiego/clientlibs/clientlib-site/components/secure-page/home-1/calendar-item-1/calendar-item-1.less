@@ -1,0 +1,69 @@
+.cmp-calendar-1-item {
+
+  padding: 16px 0;
+
+  .cmp-calendar-1-item__container {
+    display: flex;
+
+    > div:nth-child(2) {
+      margin-left: 16px;
+    }
+  }
+
+  .cmp-calendar-1-item__date {
+    min-width: 64px;
+    min-height: 75px;
+    height: 75px;
+    max-width: 125px;
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    background: @gray-6;
+    display: block;
+
+    > div:nth-child(1) {
+      font-weight: @font-weight-bold;
+      color: @text-color-third;
+      line-height: 1;
+      font-style: normal;
+      font-size: @font-size-small;
+    }
+
+    > div:nth-child(2) {
+      margin-top: 5px;
+      font-size: @font-size-small;
+      font-weight: @font-weight-light;
+      color: @text-color;
+
+    }
+  }
+
+  .cmp-calendar-1-item__title {
+    font: @font-weight-normal @font-size-small @font-family-base;
+
+  }
+
+  .cmp-calendar-1-item__description {
+    padding-top: 4px;
+    font: @font-weight-bold @font-size-small @font-family-base;
+
+  }
+
+  .cmp-calendar-1-item__files {
+    width: 100%;
+    display: flex;
+  }
+
+  .cmp-calendar-1-item__file {
+    margin-top: 16px;
+    margin-right: 16px;
+    font: @font-weight-normal @font-size-xsmall @font-family-base;
+    line-height: 1.5;
+
+    > a {
+      padding: 5px 12px 6px 34px;
+      background: url("/content/dam/sandiego/secure-pages/home/file.png") no-repeat 5% 50% #DCDCDC;
+    }
+  }
+
+}

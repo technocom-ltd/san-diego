@@ -28,4 +28,4 @@ components/secure-page/nod-dashboard-2/chart/total-nod-by-type.js
 
 
 components/secure-page/home-1/notification-item-1/notification-item-1.js
-
+components/secure-page/home-1/calendar-item-1/calendar-item-1.js
