@@ -80,7 +80,7 @@
                             jcr:lastModified="{Date}2019-07-17T08:18:05.761+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="sandiego/components/content/secure-page/home-2/button-icon">
+                            sling:resourceType="sandiego/components/content/secure-page/homepage-v2/button-icon">
                             <text
                                 jcr:lastModified="{Date}2019-07-17T08:19:21.698+07:00"
                                 jcr:lastModifiedBy="admin"
@@ -163,7 +163,7 @@
                             jcr:lastModified="{Date}2019-07-16T16:32:09.395+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="sandiego/components/content/secure-page/home-2/chart-nod">
+                            sling:resourceType="sandiego/components/content/secure-page/homepage-v2/chart-nod">
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default
                                     jcr:primaryType="nt:unstructured"
@@ -184,7 +184,7 @@
                             jcr:lastModified="{Date}2019-07-16T16:32:20.525+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="sandiego/components/content/secure-page/home-2/chart-sdd">
+                            sling:resourceType="sandiego/components/content/secure-page/homepage-v2/chart-sdd">
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default
                                     jcr:primaryType="nt:unstructured"
@@ -293,7 +293,7 @@
                             jcr:lastModified="{Date}2019-07-16T22:32:16.039+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="sandiego/components/content/secure-page/home-2/notification-item">
+                            sling:resourceType="sandiego/components/content/secure-page/homepage-v2/notification-item">
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <phone
                                     jcr:primaryType="nt:unstructured"
@@ -499,7 +499,7 @@
                                 jcr:lastModified="{Date}2019-07-18T10:49:38.097+07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="sandiego/components/content/secure-page/home-2/month-picker"/>
+                                sling:resourceType="sandiego/components/content/secure-page/homepage-v2/month-picker"/>
                         </responsivegrid>
                         <responsivegrid_279936386
                             cq:styleIds="[1563245931129]"
@@ -795,7 +795,7 @@
                             jcr:lastModified="{Date}2019-07-17T16:25:25.913+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="sandiego/components/content/secure-page/home-2/date-picker">
+                            sling:resourceType="sandiego/components/content/secure-page/homepage-v2/date-picker">
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default
                                     jcr:primaryType="nt:unstructured"
@@ -808,7 +808,7 @@
                             jcr:lastModified="{Date}2019-07-18T10:52:52.391+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="sandiego/components/content/secure-page/home-2/month-selector">
+                            sling:resourceType="sandiego/components/content/secure-page/homepage-v2/month-selector">
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default
                                     jcr:primaryType="nt:unstructured"
@@ -837,7 +837,7 @@
                                 jcr:lastModified="{Date}2019-07-16T23:06:47.220+07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="sandiego/components/content/secure-page/home-2/calendar-item">
+                                sling:resourceType="sandiego/components/content/secure-page/homepage-v2/calendar-item">
                                 <cq:responsive jcr:primaryType="nt:unstructured">
                                     <phone
                                         jcr:primaryType="nt:unstructured"

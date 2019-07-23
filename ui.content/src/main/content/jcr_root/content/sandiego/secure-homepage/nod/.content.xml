@@ -173,7 +173,7 @@
                             jcr:lastModified="{Date}2019-07-22T18:01:59.244+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="sandiego/components/content/secure-page/nod-dashboard-2/completed-nod-chart"/>
+                            sling:resourceType="sandiego/components/content/secure-page/nod-dashboard-v2/completed-nod-chart"/>
                     </responsivegrid>
                     <responsivegrid_copy
                         cq:styleIds="[1563245931129]"
@@ -203,7 +203,7 @@
                             jcr:lastModified="{Date}2019-07-22T22:53:52.847+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="sandiego/components/content/secure-page/nod-dashboard-2/all-nod-types"/>
+                            sling:resourceType="sandiego/components/content/secure-page/nod-dashboard-v2/all-nod-types"/>
                         <separator
                             jcr:created="{Date}2019-07-23T10:35:52.961+07:00"
                             jcr:createdBy="admin"
@@ -267,7 +267,7 @@
                             jcr:lastModified="{Date}2019-07-23T09:53:09.105+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="sandiego/components/content/secure-page/nod-dashboard-2/total-nod-by-type"/>
+                            sling:resourceType="sandiego/components/content/secure-page/nod-dashboard-v2/total-nod-by-type"/>
                     </responsivegrid_copy>
                     <responsivegrid_copy_1508363956
                         cq:styleIds="[1563245931129]"

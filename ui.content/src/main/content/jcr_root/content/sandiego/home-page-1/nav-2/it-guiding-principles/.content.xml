@@ -29,7 +29,7 @@
                     jcr:lastModified="{Date}2019-07-21T08:33:17.164+07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="sandiego/components/content/public-page/it-guiding-1/hero">
+                    sling:resourceType="sandiego/components/content/public-page/it-guiding-page-v1/hero">
                     <navigation
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="sandiego/components/content/core/text"/>
@@ -74,7 +74,7 @@
                             jcr:lastModified="{Date}2019-07-21T09:47:14.900+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="sandiego/components/content/public-page/it-guiding-1/accordion-text-box">
+                            sling:resourceType="sandiego/components/content/public-page/it-guiding-page-v1/accordion-text-box">
                             <text_1
                                 jcr:lastModified="{Date}2019-07-21T09:59:37.694+07:00"
                                 jcr:lastModifiedBy="admin"
@@ -96,7 +96,7 @@
                             jcr:lastModified="{Date}2019-07-21T09:47:14.900+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="sandiego/components/content/public-page/it-guiding-1/accordion-text-box">
+                            sling:resourceType="sandiego/components/content/public-page/it-guiding-page-v1/accordion-text-box">
                             <text_1
                                 jcr:lastModified="{Date}2019-07-21T10:44:44.186+07:00"
                                 jcr:lastModifiedBy="admin"
@@ -118,7 +118,7 @@
                             jcr:lastModified="{Date}2019-07-21T09:47:14.900+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="sandiego/components/content/public-page/it-guiding-1/accordion-text-box">
+                            sling:resourceType="sandiego/components/content/public-page/it-guiding-page-v1/accordion-text-box">
                             <text_1
                                 jcr:lastModified="{Date}2019-07-21T11:11:03.485+07:00"
                                 jcr:lastModifiedBy="admin"
@@ -140,7 +140,7 @@
                             jcr:lastModified="{Date}2019-07-21T09:47:14.900+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="sandiego/components/content/public-page/it-guiding-1/accordion-text-box">
+                            sling:resourceType="sandiego/components/content/public-page/it-guiding-page-v1/accordion-text-box">
                             <text_1
                                 jcr:lastModified="{Date}2019-07-21T11:11:16.410+07:00"
                                 jcr:lastModifiedBy="admin"

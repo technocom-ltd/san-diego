@@ -17,7 +17,7 @@
                 jcr:lastModified="{Date}2019-07-15T19:50:23.261+07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="sandiego/components/content/secure-page/home-2/side-navbar">
+                sling:resourceType="sandiego/components/content/secure-page/homepage-v2/side-navbar">
                 <navigation
                     jcr:lastModified="{Date}2019-07-15T20:08:10.937+07:00"
                     jcr:lastModifiedBy="admin"
@@ -77,7 +77,7 @@
                 jcr:lastModified="{Date}2019-07-21T22:45:25.703+07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="sandiego/components/content/secure-page/home-2/secure-header">
+                sling:resourceType="sandiego/components/content/secure-page/homepage-v2/secure-header">
                 <title
                     jcr:lastModified="{Date}2019-07-21T22:58:22.042+07:00"
                     jcr:lastModifiedBy="admin"
@@ -89,7 +89,7 @@
                     sling:resourceType="sandiego/components/content/core/search"/>
                 <button
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="sandiego/components/content/secure-page/home-2/button-icon"/>
+                    sling:resourceType="sandiego/components/content/secure-page/homepage-v2/button-icon"/>
             </secure_header>
             <responsivegrid
                 cq:styleIds="[1563245475115]"
