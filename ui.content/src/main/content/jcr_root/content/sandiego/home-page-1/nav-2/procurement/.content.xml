@@ -9,7 +9,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Procurement"
-        jcr:uuid="0badfc77-9e36-451c-a028-1807db54a48a"
+        jcr:uuid="3ebe8519-b5e7-4f77-a557-a8319eace803"
         sling:resourceType="sandiego/components/structure/page">
         <root jcr:primaryType="nt:unstructured">
             <responsivegrid

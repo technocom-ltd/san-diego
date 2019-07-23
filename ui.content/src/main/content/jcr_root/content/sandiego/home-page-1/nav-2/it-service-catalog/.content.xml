@@ -9,7 +9,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="IT service catalog"
-        jcr:uuid="bea1dba1-afa6-4dce-96ef-4ea1c906cecf"
+        jcr:uuid="882e4297-6060-4173-8f3d-d12a51c42d8f"
         sling:resourceType="sandiego/components/structure/page">
         <root jcr:primaryType="nt:unstructured">
             <responsivegrid

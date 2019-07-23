@@ -12,7 +12,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Process/Procedures"
-        jcr:uuid="ad35782f-dcf1-4798-aba1-2faa5a3c14bf"
+        jcr:uuid="c3b92038-353f-47eb-a7e2-0e5d7bee6d63"
         sling:resourceType="sandiego/components/structure/page"
         navTitle="Process/Procedures"
         pageTitle="Process/Procedures">

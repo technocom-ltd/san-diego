@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-07-22T15:07:26.665+07:00"
+        cq:lastModified="{Date}2019-07-22T15:23:34.484+07:00"
         cq:lastModifiedBy="admin"
         cq:styleIds="[1563195521690]"
         cq:template="/conf/sandiego/settings/wcm/templates/secure-page-template-2"
@@ -273,7 +273,7 @@
                                 jcr:created="{Date}2019-07-16T16:55:40.615+07:00"
                                 jcr:createdBy="admin"
                                 jcr:description="&lt;p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.&lt;/p>&#xd;&#xa;"
-                                jcr:lastModified="{Date}2019-07-16T20:43:39.296+07:00"
+                                jcr:lastModified="{Date}2019-07-22T15:22:59.157+07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="NOD"
@@ -296,7 +296,7 @@
                                 <actions jcr:primaryType="nt:unstructured">
                                     <item0
                                         jcr:primaryType="nt:unstructured"
-                                        link="https://www.youtube.com/watch?v=knW7-x7Y7RE"
+                                        link="/content/sandiego/secure-homepage/nod"
                                         text="+"/>
                                 </actions>
                             </teaser>
@@ -305,7 +305,7 @@
                                 jcr:created="{Date}2019-07-16T16:55:40.615+07:00"
                                 jcr:createdBy="admin"
                                 jcr:description="&lt;p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.&lt;/p>&#xd;&#xa;"
-                                jcr:lastModified="{Date}2019-07-16T17:21:06.346+07:00"
+                                jcr:lastModified="{Date}2019-07-22T15:23:11.708+07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="SDD"
@@ -328,7 +328,7 @@
                                 <actions jcr:primaryType="nt:unstructured">
                                     <item0
                                         jcr:primaryType="nt:unstructured"
-                                        link="https://www.youtube.com/watch?v=j8U06veqxdU"
+                                        link="/content/sandiego/secure-homepage/sdd"
                                         text="+"/>
                                 </actions>
                             </teaser_copy>
@@ -337,7 +337,7 @@
                                 jcr:created="{Date}2019-07-16T16:55:40.615+07:00"
                                 jcr:createdBy="admin"
                                 jcr:description="&lt;p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.&lt;/p>&#xd;&#xa;"
-                                jcr:lastModified="{Date}2019-07-16T17:16:42.424+07:00"
+                                jcr:lastModified="{Date}2019-07-22T15:23:23.391+07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Pilot"
@@ -361,7 +361,7 @@
                                 <actions jcr:primaryType="nt:unstructured">
                                     <item0
                                         jcr:primaryType="nt:unstructured"
-                                        link="https://www.youtube.com/watch?v=knW7-x7Y7RE"
+                                        link="/content/sandiego/secure-homepage/documenttation"
                                         text="+"/>
                                 </actions>
                             </teaser_copy_copy_304230186>
@@ -370,7 +370,7 @@
                                 jcr:created="{Date}2019-07-16T16:55:40.615+07:00"
                                 jcr:createdBy="admin"
                                 jcr:description="&lt;p>Lorem Ipsum&lt;/p>&#xd;&#xa;"
-                                jcr:lastModified="{Date}2019-07-18T11:53:49.630+07:00"
+                                jcr:lastModified="{Date}2019-07-22T15:23:34.470+07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="EDA"
@@ -393,7 +393,7 @@
                                 <actions jcr:primaryType="nt:unstructured">
                                     <item0
                                         jcr:primaryType="nt:unstructured"
-                                        link="https://www.youtube.com/watch?v=knW7-x7Y7RE"
+                                        link="/content/sandiego/secure-homepage/documenttation"
                                         text="+"/>
                                 </actions>
                             </teaser_copy_copy>

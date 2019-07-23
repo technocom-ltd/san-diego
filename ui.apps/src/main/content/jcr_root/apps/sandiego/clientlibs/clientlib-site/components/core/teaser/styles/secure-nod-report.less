@@ -1,0 +1,80 @@
+/*
+ *  Copyright 2018 Adobe Systems Incorporated
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ */
+/* SEA teaser - landing-intro.less*/
+
+@teaser-nod-report-width: 352px;
+@teaser-nod-report-height: 130px;
+@teaser-nod-report-img-height: 100px;
+@teaser-nod-report-padding-vertical: 16px;
+@teaser-nod-report-padding-horizontal: 10px;
+
+.cmp-teaser--secure-nod-report {
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  padding: 0 8px;
+  margin: 0;
+  justify-content: center;
+
+  margin-top: 16px;
+
+  .cmp-teaser {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: @gray-6;
+    padding-bottom: 0;
+    transition: all 0.4s;
+    padding: 0;
+
+    box-sizing: border-box;
+
+    @media (max-width: @screen-small) {
+      margin-left: auto !important;
+      margin-right: auto !important;
+    }
+
+    .cmp-teaser__content {
+      position: relative;
+      width: 100%;
+      min-height: @teaser-nod-report-height;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 30px;
+      box-sizing: border-box;
+    }
+
+    .cmp-teaser__title {
+      font-family: @font-family-base;
+      font-size: @font-size-large;
+      font-weight: @font-weight-normal;
+      color: @text-color-third;
+      margin: 0;
+    }
+
+    .cmp-teaser__description {
+      font-family: @font-family-base;
+      text-align: left;
+      font-size: 48px;
+      color: @text-color-second;
+      margin: 0;
+    }
+  }
+}

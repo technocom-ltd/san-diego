@@ -16,7 +16,16 @@ components/secure-page/home/side-navbar/side-navbar.js
 components/secure-page/home/notification-item/notification-item.js
 components/secure-page/home/calendar-item/calendar-item.js
 components/secure-page/home/chart/chart.js
+
 components/secure-page/home/chart/home-nod.js
 components/secure-page/home/chart/home-sdd.js
 
+components/secure-page/nod-dashboard-2/chart/bar-chart.js
+
+components/secure-page/nod-dashboard-2/chart/completed-nod-chart.js
+components/secure-page/nod-dashboard-2/chart/all-nod-types.js
+components/secure-page/nod-dashboard-2/chart/total-nod-by-type.js
+
+
 components/secure-page/home-1/notification-item-1/notification-item-1.js
+

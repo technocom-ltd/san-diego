@@ -9,7 +9,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="About Us"
-        jcr:uuid="fc174138-f439-417a-a9c7-53ace1942308"
+        jcr:uuid="5c16761c-98b3-46d7-9f6e-69428295181b"
         sling:resourceType="sandiego/components/structure/page">
         <root jcr:primaryType="nt:unstructured">
             <responsivegrid

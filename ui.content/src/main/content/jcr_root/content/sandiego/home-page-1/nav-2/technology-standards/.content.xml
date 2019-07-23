@@ -9,7 +9,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="technology standards"
-        jcr:uuid="4b3ff58e-8177-44d4-b061-f3a36119eceb"
+        jcr:uuid="fe139b72-e905-4167-86d5-230250a07dff"
         sling:resourceType="sandiego/components/structure/page">
         <root jcr:primaryType="nt:unstructured">
             <responsivegrid

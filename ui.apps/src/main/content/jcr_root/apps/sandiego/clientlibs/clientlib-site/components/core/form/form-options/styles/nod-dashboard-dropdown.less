@@ -1,0 +1,120 @@
+.cmp-form-options--nod-dashboard-dropdown {
+  transform: translateY(24px);
+  transition: all 0.4s;
+
+  .cmp-form-options {
+    border: none;
+    float: right;
+    position: relative;
+    padding: 0;
+
+    .cmp-form-options__legend {}
+
+    .cmp-form-options__field-label {}
+
+    .cmp-form-options__field {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      border: none;
+      outline: none;
+      padding-right: 32px;
+      padding-left: 16px;
+      text-align-last: right;
+      font: @font-weight-bold @font-size-small @font-family-base;
+
+      //      width: 60px;
+      height: 34px;
+      overflow: hidden;
+      background: url("/content/dam/sandiego/secure-pages/home/arrow-bottom.svg") no-repeat @black-20;
+      background-position: right 8px top 50%;
+
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+
+    .cmp-form-options__field--checkbox {}
+
+    .cmp-form-options__field--radio {}
+
+    .cmp-form-options__field-description {}
+
+    .cmp-form-options__label {
+      display: none;
+    }
+
+    .cmp-form-options__drop-down-field {}
+
+    .cmp-form-options__multi-drop-down-field {}
+
+    .cmp-form-options__help-message {}
+  }
+
+
+  /* The container must be positioned relative: */
+  .custom-select {
+    position: relative;
+    font-family: Arial;
+  }
+
+  .custom-select select {
+    display: none;
+    /*hide original SELECT element: */
+  }
+
+  .select-selected {
+    font: @font-weight-bold @font-size-small @font-family-base;
+
+    background: url("/content/dam/sandiego/secure-pages/home/filter.svg") no-repeat right #fff;
+
+  }
+
+  /* Style the arrow inside the select element: */
+  .select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+  }
+
+  /* Point the arrow upwards when the select box is open (active): */
+  .select-selected.select-arrow-active:after {
+    top: 7px;
+  }
+
+  /* style the items (options), including the selected item: */
+  .select-items div,
+  .select-selected {
+    color: @text-color;
+    padding: 8px 16px;
+    cursor: pointer;
+    background: @white;
+  }
+
+  /* Style items (options): */
+  .select-items {
+    position: absolute;
+    background-color: red;
+    width: fit-content;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 10000;
+  }
+
+  /* Hide the items when the select box is closed: */
+  .select-hide {
+    display: none;
+  }
+
+  .select-items div:hover,
+  .same-as-selected {
+    background-color: @white;
+  }
+
+}

@@ -12,7 +12,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Team Calendar"
-        jcr:uuid="e4f3f87c-6dc9-4e5d-a195-cd0b5ed2ba7a"
+        jcr:uuid="02723bf3-ca88-46e1-8785-b0aa36d886c7"
         sling:resourceType="sandiego/components/structure/page">
         <root
             jcr:primaryType="nt:unstructured"
