@@ -9,7 +9,7 @@
         cq:parentPath="/content/dam/sandiego/public-pages/landing-1"
         dam:assetState="processed"
         dam:relativePath="sandiego/public-pages/landing-1/empty inage.png"
-        jcr:lastModified="{Date}2019-07-23T14:16:27.196+07:00"
+        jcr:lastModified="{Date}2019-07-23T16:29:00.146+07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -25,7 +25,7 @@
             dam:Physicalwidthindpi="{Long}-1"
             dam:Physicalwidthininches="{Decimal}-1.0"
             dam:Progressive="no"
-            dam:sha1="6e0fd3801576b3d6b9e2878544b92b3b90f5b233"
+            dam:sha1="d2aa692f9ea517016e6609d9f5131164cc971e21"
             dam:size="{Long}11856"
             dc:format="image/png"
             dc:modified="{Date}2019-07-15T18:12:38.372+07:00"

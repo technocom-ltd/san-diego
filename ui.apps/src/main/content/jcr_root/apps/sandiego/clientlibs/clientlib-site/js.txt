@@ -2,6 +2,7 @@
 
 js/util.js
 js/editMode.js
+js/chart.js
 
 components/core/page/page.js
 components/core/navigation/navigation.js
@@ -12,22 +13,21 @@ components/core/form/form-button/form-button.js
 components/public-page/it-guiding-1/accordion/accordion.js
 
 
-components/secure-page/home/side-navbar/side-navbar.js
-components/secure-page/home/notification-item/notification-item.js
-components/secure-page/home/calendar-item/calendar-item.js
-components/secure-page/home/chart/chart.js
+components/secure-page/homepage-v2/side-navbar/side-navbar.js
+components/secure-page/homepage-v2/notification-item/notification-item.js
+components/secure-page/homepage-v2/calendar-item/calendar-item.js
 
-components/secure-page/home/chart/home-nod.js
-components/secure-page/home/chart/home-sdd.js
+components/secure-page/homepage-v2/chart/home-nod.js
+components/secure-page/homepage-v2/chart/home-sdd.js
 
-components/secure-page/nod-dashboard-2/chart/bar-chart.js
+components/secure-page/nod-dashboard-v2/chart/bar-chart.js
 
-components/secure-page/nod-dashboard-2/chart/completed-nod-chart.js
-components/secure-page/nod-dashboard-2/chart/all-nod-types.js
-components/secure-page/nod-dashboard-2/chart/total-nod-by-type.js
+components/secure-page/nod-dashboard-v2/chart/completed-nod-chart.js
+components/secure-page/nod-dashboard-v2/chart/all-nod-types.js
+components/secure-page/nod-dashboard-v2/chart/total-nod-by-type.js
 
 
-components/secure-page/home-1/notification-item-1/notification-item-1.js
-components/secure-page/home-1/calendar-item-1/calendar-item-1.js
-components/secure-page/home-1/chart-1/home-nod.js
-components/secure-page/home-1/chart-1/home-sdd.js
+components/secure-page/homepage-v1/notification-item-1/notification-item-1.js
+components/secure-page/homepage-v1/calendar-item-1/calendar-item-1.js
+components/secure-page/homepage-v1/chart-1/home-nod.js
+components/secure-page/homepage-v1/chart-1/home-sdd.js

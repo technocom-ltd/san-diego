@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" jcr:primaryType="cq:Template">
-  <jcr:content cq:lastModified="{Date}2019-07-23T10:47:49.446+07:00" cq:lastModifiedBy="admin" cq:templateType="/conf/sandiego/settings/wcm/template-types/empty-page" jcr:description="This template is used for creating secure pages proposal 2" jcr:primaryType="cq:PageContent" jcr:title="Secure Page Template v2" status="enabled" />
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Template">
+    <jcr:content
+        cq:lastModified="{Date}2019-07-23T10:47:49.446+07:00"
+        cq:lastModifiedBy="admin"
+        cq:templateType="/conf/sandiego/settings/wcm/template-types/empty-page"
+        jcr:description="This template is used for creating secure pages proposal 2"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Secure Page Template v2"
+        status="enabled"/>
 </jcr:root>

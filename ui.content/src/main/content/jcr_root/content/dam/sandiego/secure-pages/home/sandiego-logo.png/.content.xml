@@ -9,7 +9,7 @@
         cq:parentPath="/content/dam/sandiego/secure-pages/home"
         dam:assetState="processed"
         dam:relativePath="sandiego/secure-pages/home/sandiego-logo.png"
-        jcr:lastModified="{Date}2019-07-23T14:16:23.319+07:00"
+        jcr:lastModified="{Date}2019-07-23T16:28:59.231+07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -25,7 +25,7 @@
             dam:Physicalwidthindpi="{Long}288"
             dam:Physicalwidthininches="{Decimal}0.6944189071655273"
             dam:Progressive="no"
-            dam:sha1="906d2c14d26e14a4269935b7c1b71abb39ba8751"
+            dam:sha1="6e82eeba15f1ce5f2392c328c037461af7308c57"
             dam:size="{Long}67782"
             dc:format="image/png"
             dc:modified="{Date}2019-07-16T17:09:46.788+07:00"
