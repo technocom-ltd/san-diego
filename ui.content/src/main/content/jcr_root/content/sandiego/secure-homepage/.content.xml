@@ -6,7 +6,7 @@
         cq:lastModifiedBy="admin"
         cq:redirectTarget="/content/sandiego/secure-homepage/dashboard"
         cq:styleIds="[1563195521690]"
-        cq:template="/conf/sandiego/settings/wcm/templates/secure-page-template-2"
+        cq:template="/conf/sandiego/settings/wcm/templates/secure-page-template-v2"
         jcr:lastModified="{Date}2019-07-15T20:13:13.382+07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="cq:PageContent"

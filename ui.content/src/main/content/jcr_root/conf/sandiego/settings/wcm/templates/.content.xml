@@ -2,10 +2,9 @@
 <jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
     jcr:mixinTypes="[rep:AccessControllable]"
     jcr:primaryType="cq:Page">
-    <secure-page-template-2/>
-    <content-page/>
+    <public-page-template-v2/>
+    <secure-page-template-v2/>
+    <public-page-template-v1/>
     <rep:policy/>
-    <public-page-template-1/>
-    <proposal-1/>
-    <secure-template-1/>
+    <secure-page-template-v1/>
 </jcr:root>

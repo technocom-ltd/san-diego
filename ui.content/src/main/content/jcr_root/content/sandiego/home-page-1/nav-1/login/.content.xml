@@ -4,7 +4,7 @@
     <jcr:content
         cq:lastModified="{Date}2019-07-15T10:39:58.491+07:00"
         cq:lastModifiedBy="admin"
-        cq:template="/conf/sandiego/settings/wcm/templates/proposal-1"
+        cq:template="/conf/sandiego/settings/wcm/templates/public-page-template-v1"
         jcr:primaryType="cq:PageContent"
         jcr:title="Login"
         sling:resourceType="sandiego/components/structure/page"/>

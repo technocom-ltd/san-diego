@@ -4,7 +4,7 @@
     <jcr:content
         cq:lastModified="{Date}2019-07-17T10:07:56.339+07:00"
         cq:lastModifiedBy="admin"
-        cq:template="/conf/sandiego/settings/wcm/templates/proposal-1"
+        cq:template="/conf/sandiego/settings/wcm/templates/public-page-template-v1"
         jcr:primaryType="cq:PageContent"
         jcr:title="Home Page 1"
         sling:resourceType="sandiego/components/structure/page">
@@ -163,7 +163,7 @@
                             jcr:lastModified="{Date}2019-07-15T14:30:23.386+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="sandiego/components/content/public-page/landing-1/text-box">
+                            sling:resourceType="sandiego/components/content/public-page/landing-page-v1/text-box">
                             <text1
                                 jcr:lastModified="{Date}2019-07-15T14:30:36.064+07:00"
                                 jcr:lastModifiedBy="admin"
@@ -418,7 +418,7 @@
                         jcr:lastModified="{Date}2019-07-15T15:52:34.682+07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="sandiego/components/content/public-page/landing-1/text-box-background">
+                        sling:resourceType="sandiego/components/content/public-page/landing-page-v1/text-box-background">
                         <text1
                             jcr:lastModified="{Date}2019-07-15T16:40:26.051+07:00"
                             jcr:lastModifiedBy="admin"
@@ -455,7 +455,7 @@
                             jcr:lastModified="{Date}2019-07-15T16:46:58.177+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="sandiego/components/content/public-page/landing-1/text-box">
+                            sling:resourceType="sandiego/components/content/public-page/landing-page-v1/text-box">
                             <text1
                                 jcr:lastModified="{Date}2019-07-15T16:48:28.718+07:00"
                                 jcr:lastModifiedBy="admin"
@@ -594,7 +594,7 @@
                         jcr:lastModified="{Date}2019-07-15T17:15:24.559+07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="sandiego/components/content/public-page/landing-1/text-box">
+                        sling:resourceType="sandiego/components/content/public-page/landing-page-v1/text-box">
                         <text1
                             jcr:lastModified="{Date}2019-07-15T17:16:18.298+07:00"
                             jcr:lastModifiedBy="admin"
