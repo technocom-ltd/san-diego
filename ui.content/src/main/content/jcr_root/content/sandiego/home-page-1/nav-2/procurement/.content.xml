@@ -4,7 +4,7 @@
     <jcr:content
         cq:lastModified="{Date}2019-07-21T08:25:57.701+07:00"
         cq:lastModifiedBy="admin"
-        cq:template="/conf/sandiego/settings/wcm/templates/proposal-1"
+        cq:template="/conf/sandiego/settings/wcm/templates/public-page-template-v1"
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"

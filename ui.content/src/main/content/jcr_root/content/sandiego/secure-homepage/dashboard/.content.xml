@@ -5,7 +5,7 @@
         cq:lastModified="{Date}2019-07-22T15:23:34.484+07:00"
         cq:lastModifiedBy="admin"
         cq:styleIds="[1563195521690]"
-        cq:template="/conf/sandiego/settings/wcm/templates/secure-page-template-2"
+        cq:template="/conf/sandiego/settings/wcm/templates/secure-page-template-v2"
         jcr:isCheckedOut="{Boolean}true"
         jcr:lastModified="{Date}2019-07-15T20:13:13.382+07:00"
         jcr:lastModifiedBy="admin"
