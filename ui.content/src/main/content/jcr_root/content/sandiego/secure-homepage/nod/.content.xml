@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-07-23T10:49:47.045+07:00"
+        cq:lastModified="{Date}2019-07-23T22:55:24.128+07:00"
         cq:lastModifiedBy="admin"
         cq:styleIds="[1563195521690]"
         cq:template="/conf/sandiego/settings/wcm/templates/secure-page-template-v2"
@@ -14,7 +14,7 @@
         jcr:title="NOD"
         jcr:uuid="244ee937-b45f-4226-b3dd-6b8e9155a559"
         sling:resourceType="sandiego/components/structure/page"
-        navTitle="NOD"
+        navTitle="NOD dashboard"
         pageTitle="NOD dashboard">
         <root
             jcr:primaryType="nt:unstructured"
@@ -336,11 +336,11 @@
                             cq:styleIds="[1563112684784]"
                             jcr:created="{Date}2019-07-22T17:47:02.725+07:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-07-23T10:49:21.611+07:00"
+                            jcr:lastModified="{Date}2019-07-23T22:54:32.706+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="sandiego/components/content/core/text"
-                            text="&lt;p style=&quot;text-align: center;&quot;>&lt;b>ALL&lt;/b>&lt;/p>&#xa;"
+                            text="&lt;p style=&quot;text-align: center;&quot;>&lt;b>&lt;a href=&quot;/content/sandiego/secure-homepage/nod/nod-reports.html&quot;>ALL&lt;/a>&lt;/b>&lt;/p>&#xa;"
                             textIsRich="true">
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default
@@ -353,11 +353,11 @@
                             cq:styleIds="[1563112684784]"
                             jcr:created="{Date}2019-07-22T17:47:02.725+07:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-07-23T10:49:34.727+07:00"
+                            jcr:lastModified="{Date}2019-07-23T22:54:59.709+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="sandiego/components/content/core/text"
-                            text="&lt;p style=&quot;text-align: center;&quot;>&lt;b>IN WORK&lt;/b>&lt;/p>&#xa;"
+                            text="&lt;p style=&quot;text-align: center;&quot;>&lt;b>&lt;a href=&quot;/content/sandiego/secure-homepage/nod/nod-reports.html&quot;>IN WORK&lt;/a>&lt;/b>&lt;/p>&#xa;"
                             textIsRich="true">
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default
@@ -370,11 +370,11 @@
                             cq:styleIds="[1563112684784]"
                             jcr:created="{Date}2019-07-22T17:47:02.725+07:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-07-23T10:49:39.196+07:00"
+                            jcr:lastModified="{Date}2019-07-23T22:55:09.357+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="sandiego/components/content/core/text"
-                            text="&lt;p style=&quot;text-align: center;&quot;>&lt;b>APPROVED&lt;/b>&lt;/p>&#xa;"
+                            text="&lt;p style=&quot;text-align: center;&quot;>&lt;b>&lt;a href=&quot;/content/sandiego/secure-homepage/nod/nod-reports.html&quot;>APPROVED&lt;/a>&lt;/b>&lt;/p>&#xa;"
                             textIsRich="true">
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default
@@ -387,11 +387,11 @@
                             cq:styleIds="[1563112684784]"
                             jcr:created="{Date}2019-07-22T17:47:02.725+07:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-07-23T10:49:42.780+07:00"
+                            jcr:lastModified="{Date}2019-07-23T22:55:17.577+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="sandiego/components/content/core/text"
-                            text="&lt;p style=&quot;text-align: center;&quot;>&lt;b>PAID&lt;/b>&lt;/p>&#xa;"
+                            text="&lt;p style=&quot;text-align: center;&quot;>&lt;b>&lt;a href=&quot;/content/sandiego/secure-homepage/nod/nod-reports.html&quot;>PAID&lt;/a>&lt;/b>&lt;/p>&#xa;"
                             textIsRich="true">
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default
@@ -404,11 +404,11 @@
                             cq:styleIds="[1563112684784]"
                             jcr:created="{Date}2019-07-22T17:47:02.725+07:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-07-23T10:49:47.033+07:00"
+                            jcr:lastModified="{Date}2019-07-23T22:55:24.104+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="sandiego/components/content/core/text"
-                            text="&lt;p style=&quot;text-align: center;&quot;>&lt;b>EXTENSION&lt;/b>&lt;/p>&#xa;"
+                            text="&lt;p style=&quot;text-align: center;&quot;>&lt;b>&lt;a href=&quot;/content/sandiego/secure-homepage/nod/nod-reports.html&quot;>EXTENSION&lt;/a>&lt;/b>&lt;/p>&#xa;"
                             textIsRich="true">
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default

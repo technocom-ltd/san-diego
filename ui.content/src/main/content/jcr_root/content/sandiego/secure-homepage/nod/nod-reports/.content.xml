@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-07-23T22:27:38.564+07:00"
+        cq:lastModified="{Date}2019-07-24T16:19:59.087+07:00"
         cq:lastModifiedBy="admin"
         cq:styleIds="[1563195521690]"
         cq:template="/conf/sandiego/settings/wcm/templates/secure-page-template-v2"
@@ -14,411 +14,141 @@
         jcr:title="NOD Reports"
         jcr:uuid="c4963c57-aae1-4f99-ab70-1109b3968cc2"
         sling:resourceType="sandiego/components/structure/page"
-        navTitle="NOD"
-        pageTitle="NOD dashboard">
+        hideInNav="true"
+        navTitle="NOD Reports"
+        pageTitle="NOD Reports">
         <root
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/foundation/components/responsivegrid">
             <responsivegrid
+                cq:styleIds="[1563245475115]"
                 jcr:created="{Date}2019-07-15T19:47:12.449+07:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2019-07-15T19:47:15.756+07:00"
+                jcr:lastModified="{Date}2019-07-23T22:41:28.973+07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/foundation/components/responsivegrid">
-                <responsivegrid
-                    cq:styleIds="[1563245475115]"
-                    jcr:created="{Date}2019-07-16T16:28:05.753+07:00"
+                <breadcrumb
+                    cq:styleIds="[1563934143135]"
+                    jcr:created="{Date}2019-07-23T22:43:54.627+07:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2019-07-16T16:28:45.167+07:00"
+                    jcr:lastModified="{Date}2019-07-24T09:09:35.108+07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wcm/foundation/components/responsivegrid">
-                    <cq:responsive jcr:primaryType="nt:unstructured"/>
-                    <teaser
-                        cq:styleIds="[1563791198864]"
-                        jcr:created="{Date}2019-07-22T17:20:43.147+07:00"
-                        jcr:createdBy="admin"
-                        jcr:description="&lt;p>21&lt;/p>&#xd;&#xa;"
-                        jcr:lastModified="{Date}2019-07-22T17:26:53.078+07:00"
-                        jcr:lastModifiedBy="admin"
+                    sling:resourceType="sandiego/components/content/core/breadcrumb"
+                    hideCurrent="false"
+                    showHidden="true"
+                    startLevel="3"/>
+                <options
+                    cq:styleIds="[1563933521091]"
+                    jcr:created="{Date}2019-07-23T22:56:18.712+07:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-07-24T08:59:16.747+07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Year"
+                    sling:resourceType="sandiego/components/form/options"
+                    name="year"
+                    source="local"
+                    type="drop-down">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            width="2"/>
+                    </cq:responsive>
+                    <items jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            selected="false"
+                            text="2018"
+                            value="2018"/>
+                        <item1
+                            jcr:primaryType="nt:unstructured"
+                            selected="false"
+                            text="2019"
+                            value="2019"/>
+                        <item2
+                            jcr:primaryType="nt:unstructured"
+                            selected="false"
+                            text="2020"
+                            value="2020"/>
+                    </items>
+                </options>
+                <options_copy
+                    cq:styleIds="[1563933521091]"
+                    jcr:created="{Date}2019-07-23T22:56:18.712+07:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-07-24T16:19:59.077+07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Type"
+                    sling:resourceType="sandiego/components/form/options"
+                    name="type"
+                    source="local"
+                    type="drop-down">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            width="2"/>
+                    </cq:responsive>
+                    <items jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            selected="false"
+                            text="All"
+                            value="All"/>
+                        <item1
+                            jcr:primaryType="nt:unstructured"
+                            selected="false"
+                            text="In work"
+                            value="In work"/>
+                        <item2
+                            jcr:primaryType="nt:unstructured"
+                            selected="false"
+                            text="Approved"
+                            value="approved"/>
+                        <item3
+                            jcr:primaryType="nt:unstructured"
+                            selected="false"
+                            text="Paid"
+                            value="paid"/>
+                        <item4
+                            jcr:primaryType="nt:unstructured"
+                            selected="false"
+                            text="Extension"
+                            value="extension"/>
+                    </items>
+                </options_copy>
+                <nod_reports_table
+                    jcr:created="{Date}2019-07-24T08:06:33.239+07:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-07-24T08:06:33.239+07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="sandiego/components/content/secure-page/nod-dashboard-v2/nod-reports-table">
+                    <navigation
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="YTD"
-                        sling:resourceType="sandiego/components/content/core/teaser"
-                        actionsEnabled="false"
-                        descriptionFromPage="false"
-                        textIsRich="true"
-                        titleFromPage="false">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                width="4"/>
-                            <phone
-                                jcr:primaryType="nt:unstructured"
-                                width="12"/>
-                        </cq:responsive>
-                    </teaser>
-                    <teaser_copy_142511612
-                        cq:styleIds="[1563791198864]"
-                        jcr:created="{Date}2019-07-22T17:20:43.147+07:00"
-                        jcr:createdBy="admin"
-                        jcr:description="&lt;p>14&lt;/p>&#xd;&#xa;"
-                        jcr:lastModified="{Date}2019-07-22T17:36:46.665+07:00"
-                        jcr:lastModifiedBy="admin"
+                        sling:resourceType="sandiego/components/content/core/navigation"/>
+                    <image_1
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="+90 Days"
-                        sling:resourceType="sandiego/components/content/core/teaser"
-                        actionsEnabled="false"
-                        descriptionFromPage="false"
-                        textIsRich="true"
-                        titleFromPage="false">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                width="4"/>
-                            <phone
-                                jcr:primaryType="nt:unstructured"
-                                width="12"/>
-                        </cq:responsive>
-                    </teaser_copy_142511612>
-                    <teaser_copy
-                        cq:styleIds="[1563791198864]"
-                        jcr:created="{Date}2019-07-22T17:20:43.147+07:00"
-                        jcr:createdBy="admin"
-                        jcr:description="&lt;p>7&lt;/p>&#xd;&#xa;"
-                        jcr:lastModified="{Date}2019-07-22T17:36:59.358+07:00"
-                        jcr:lastModifiedBy="admin"
+                        sling:resourceType="sandiego/components/content/core/image"/>
+                    <image_2
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="&lt;90 Days"
-                        sling:resourceType="sandiego/components/content/core/teaser"
-                        actionsEnabled="false"
-                        descriptionFromPage="false"
-                        textIsRich="true"
-                        titleFromPage="false">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                width="4"/>
-                            <phone
-                                jcr:primaryType="nt:unstructured"
-                                width="12"/>
-                        </cq:responsive>
-                    </teaser_copy>
-                    <responsivegrid
-                        cq:styleIds="[1563245931129]"
-                        jcr:created="{Date}2019-07-22T17:39:02.964+07:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-07-22T17:40:30.850+07:00"
-                        jcr:lastModifiedBy="admin"
+                        sling:resourceType="sandiego/components/content/core/image"/>
+                    <image_3
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wcm/foundation/components/responsivegrid">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                width="4"/>
-                        </cq:responsive>
-                        <text
-                            jcr:created="{Date}2019-07-22T17:41:27.397+07:00"
-                            jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-07-22T17:41:55.299+07:00"
-                            jcr:lastModifiedBy="admin"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="sandiego/components/content/core/text"
-                            text="&lt;h3>Completed NOD YTD&lt;/h3>&#xa;"
-                            textIsRich="true">
-                            <cq:responsive jcr:primaryType="nt:unstructured">
-                                <default
-                                    jcr:primaryType="nt:unstructured"
-                                    width="3"/>
-                            </cq:responsive>
-                        </text>
-                        <options_copy
-                            cq:styleIds="[1563852063652]"
-                            jcr:created="{Date}2019-07-22T17:44:56.801+07:00"
-                            jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-07-23T10:31:02.132+07:00"
-                            jcr:lastModifiedBy="admin"
-                            jcr:primaryType="nt:unstructured"
-                            jcr:title="Group"
-                            sling:resourceType="sandiego/components/form/options"
-                            name="group"
-                            source="local"
-                            type="drop-down">
-                            <cq:responsive jcr:primaryType="nt:unstructured">
-                                <default
-                                    jcr:primaryType="nt:unstructured"
-                                    width="1"/>
-                            </cq:responsive>
-                            <items jcr:primaryType="nt:unstructured">
-                                <item0
-                                    jcr:primaryType="nt:unstructured"
-                                    selected="true"
-                                    text="2018"
-                                    value="2018"/>
-                                <item1
-                                    jcr:primaryType="nt:unstructured"
-                                    selected="false"
-                                    text="2019"
-                                    value="2019"/>
-                                <item2
-                                    jcr:primaryType="nt:unstructured"
-                                    selected="false"
-                                    text="2020"
-                                    value="2020"/>
-                            </items>
-                        </options_copy>
-                        <completed_nod_chart
-                            jcr:created="{Date}2019-07-22T18:01:59.244+07:00"
-                            jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-07-22T18:01:59.244+07:00"
-                            jcr:lastModifiedBy="admin"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="sandiego/components/content/secure-page/nod-dashboard-v2/completed-nod-chart"/>
-                    </responsivegrid>
-                    <responsivegrid_copy
-                        cq:styleIds="[1563245931129]"
-                        jcr:created="{Date}2019-07-22T17:39:02.964+07:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-07-22T17:40:30.850+07:00"
-                        jcr:lastModifiedBy="admin"
+                        sling:resourceType="sandiego/components/content/core/image"/>
+                    <image_4
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wcm/foundation/components/responsivegrid">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                width="8"/>
-                        </cq:responsive>
-                        <text_copy
-                            jcr:created="{Date}2019-07-22T17:41:27.397+07:00"
-                            jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-07-22T17:42:32.380+07:00"
-                            jcr:lastModifiedBy="admin"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="sandiego/components/content/core/text"
-                            text="&lt;h3>All NOD Types&lt;/h3>&#xa;"
-                            textIsRich="true"/>
-                        <all_nod_types
-                            jcr:created="{Date}2019-07-22T22:53:52.847+07:00"
-                            jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-07-22T22:53:52.847+07:00"
-                            jcr:lastModifiedBy="admin"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="sandiego/components/content/secure-page/nod-dashboard-v2/all-nod-types"/>
-                        <separator
-                            jcr:created="{Date}2019-07-23T10:35:52.961+07:00"
-                            jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-07-23T10:35:52.961+07:00"
-                            jcr:lastModifiedBy="admin"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="sandiego/components/content/core/separator"/>
-                        <text_copy_copy
-                            jcr:created="{Date}2019-07-22T17:41:27.397+07:00"
-                            jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-07-22T17:51:23.179+07:00"
-                            jcr:lastModifiedBy="admin"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="sandiego/components/content/core/text"
-                            text="&lt;h3>Total NOD by Type&lt;/h3>&#xa;"
-                            textIsRich="true">
-                            <cq:responsive jcr:primaryType="nt:unstructured">
-                                <default
-                                    jcr:primaryType="nt:unstructured"
-                                    width="7"/>
-                            </cq:responsive>
-                        </text_copy_copy>
-                        <options_copy_copy
-                            cq:styleIds="[1563852063652]"
-                            jcr:created="{Date}2019-07-22T17:44:56.801+07:00"
-                            jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-07-23T10:22:23.753+07:00"
-                            jcr:lastModifiedBy="admin"
-                            jcr:primaryType="nt:unstructured"
-                            jcr:title="Year"
-                            sling:resourceType="sandiego/components/form/options"
-                            name="year"
-                            source="local"
-                            type="drop-down">
-                            <cq:responsive jcr:primaryType="nt:unstructured">
-                                <default
-                                    jcr:primaryType="nt:unstructured"
-                                    width="1"/>
-                            </cq:responsive>
-                            <items jcr:primaryType="nt:unstructured">
-                                <item0
-                                    jcr:primaryType="nt:unstructured"
-                                    selected="true"
-                                    text="2018"
-                                    value="2018"/>
-                                <item1
-                                    jcr:primaryType="nt:unstructured"
-                                    selected="false"
-                                    text="2019"
-                                    value="2019"/>
-                                <item2
-                                    jcr:primaryType="nt:unstructured"
-                                    selected="false"
-                                    text="2020"
-                                    value="2020"/>
-                            </items>
-                        </options_copy_copy>
-                        <total_nod_by_type
-                            jcr:created="{Date}2019-07-23T09:53:09.105+07:00"
-                            jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-07-23T09:53:09.105+07:00"
-                            jcr:lastModifiedBy="admin"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="sandiego/components/content/secure-page/nod-dashboard-v2/total-nod-by-type"/>
-                    </responsivegrid_copy>
-                    <responsivegrid_copy_1508363956
-                        cq:styleIds="[1563245931129]"
-                        jcr:created="{Date}2019-07-22T17:39:02.964+07:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-07-22T17:40:30.850+07:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wcm/foundation/components/responsivegrid">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                width="12"/>
-                        </cq:responsive>
-                        <text_copy
-                            jcr:created="{Date}2019-07-22T17:41:27.397+07:00"
-                            jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-07-22T17:42:43.411+07:00"
-                            jcr:lastModifiedBy="admin"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="sandiego/components/content/core/text"
-                            text="&lt;h3>Reports by year&lt;/h3>&#xa;"
-                            textIsRich="true">
-                            <cq:responsive jcr:primaryType="nt:unstructured">
-                                <default
-                                    jcr:primaryType="nt:unstructured"
-                                    width="2"/>
-                            </cq:responsive>
-                        </text_copy>
-                        <options
-                            cq:styleIds="[1563852063652]"
-                            jcr:created="{Date}2019-07-22T17:44:56.801+07:00"
-                            jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-07-23T10:22:29.569+07:00"
-                            jcr:lastModifiedBy="admin"
-                            jcr:primaryType="nt:unstructured"
-                            jcr:title="Year"
-                            sling:resourceType="sandiego/components/form/options"
-                            name="year"
-                            source="local"
-                            type="drop-down">
-                            <cq:responsive jcr:primaryType="nt:unstructured">
-                                <default
-                                    jcr:primaryType="nt:unstructured"
-                                    width="1"/>
-                            </cq:responsive>
-                            <items jcr:primaryType="nt:unstructured">
-                                <item0
-                                    jcr:primaryType="nt:unstructured"
-                                    selected="true"
-                                    text="2018"
-                                    value="2018"/>
-                                <item1
-                                    jcr:primaryType="nt:unstructured"
-                                    selected="false"
-                                    text="2019"
-                                    value="2019"/>
-                                <item2
-                                    jcr:primaryType="nt:unstructured"
-                                    selected="false"
-                                    text="2020"
-                                    value="2020"/>
-                            </items>
-                        </options>
-                        <text
-                            cq:styleIds="[1563112684784]"
-                            jcr:created="{Date}2019-07-22T17:47:02.725+07:00"
-                            jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-07-23T10:49:21.611+07:00"
-                            jcr:lastModifiedBy="admin"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="sandiego/components/content/core/text"
-                            text="&lt;p style=&quot;text-align: center;&quot;>&lt;b>ALL&lt;/b>&lt;/p>&#xa;"
-                            textIsRich="true">
-                            <cq:responsive jcr:primaryType="nt:unstructured">
-                                <default
-                                    jcr:primaryType="nt:unstructured"
-                                    behavior="newline"
-                                    width="2"/>
-                            </cq:responsive>
-                        </text>
-                        <text_copy_2145148165
-                            cq:styleIds="[1563112684784]"
-                            jcr:created="{Date}2019-07-22T17:47:02.725+07:00"
-                            jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-07-23T10:49:34.727+07:00"
-                            jcr:lastModifiedBy="admin"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="sandiego/components/content/core/text"
-                            text="&lt;p style=&quot;text-align: center;&quot;>&lt;b>IN WORK&lt;/b>&lt;/p>&#xa;"
-                            textIsRich="true">
-                            <cq:responsive jcr:primaryType="nt:unstructured">
-                                <default
-                                    jcr:primaryType="nt:unstructured"
-                                    behavior="none"
-                                    width="2"/>
-                            </cq:responsive>
-                        </text_copy_2145148165>
-                        <text_copy_2145148165_1611197672
-                            cq:styleIds="[1563112684784]"
-                            jcr:created="{Date}2019-07-22T17:47:02.725+07:00"
-                            jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-07-23T10:49:39.196+07:00"
-                            jcr:lastModifiedBy="admin"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="sandiego/components/content/core/text"
-                            text="&lt;p style=&quot;text-align: center;&quot;>&lt;b>APPROVED&lt;/b>&lt;/p>&#xa;"
-                            textIsRich="true">
-                            <cq:responsive jcr:primaryType="nt:unstructured">
-                                <default
-                                    jcr:primaryType="nt:unstructured"
-                                    behavior="none"
-                                    width="2"/>
-                            </cq:responsive>
-                        </text_copy_2145148165_1611197672>
-                        <text_copy_2145148165_1231975313
-                            cq:styleIds="[1563112684784]"
-                            jcr:created="{Date}2019-07-22T17:47:02.725+07:00"
-                            jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-07-23T10:49:42.780+07:00"
-                            jcr:lastModifiedBy="admin"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="sandiego/components/content/core/text"
-                            text="&lt;p style=&quot;text-align: center;&quot;>&lt;b>PAID&lt;/b>&lt;/p>&#xa;"
-                            textIsRich="true">
-                            <cq:responsive jcr:primaryType="nt:unstructured">
-                                <default
-                                    jcr:primaryType="nt:unstructured"
-                                    behavior="none"
-                                    width="2"/>
-                            </cq:responsive>
-                        </text_copy_2145148165_1231975313>
-                        <text_copy_2145148165_1805970293
-                            cq:styleIds="[1563112684784]"
-                            jcr:created="{Date}2019-07-22T17:47:02.725+07:00"
-                            jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-07-23T10:49:47.033+07:00"
-                            jcr:lastModifiedBy="admin"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="sandiego/components/content/core/text"
-                            text="&lt;p style=&quot;text-align: center;&quot;>&lt;b>EXTENSION&lt;/b>&lt;/p>&#xa;"
-                            textIsRich="true">
-                            <cq:responsive jcr:primaryType="nt:unstructured">
-                                <default
-                                    jcr:primaryType="nt:unstructured"
-                                    behavior="none"
-                                    width="2"/>
-                            </cq:responsive>
-                        </text_copy_2145148165_1805970293>
-                    </responsivegrid_copy_1508363956>
-                </responsivegrid>
+                        sling:resourceType="sandiego/components/content/core/image"/>
+                </nod_reports_table>
+                <pagination
+                    jcr:created="{Date}2019-07-24T11:14:58.898+07:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-07-24T11:14:58.898+07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="sandiego/components/content/secure-page/nod-dashboard-v2/pagination"/>
             </responsivegrid>
         </root>
     </jcr:content>
