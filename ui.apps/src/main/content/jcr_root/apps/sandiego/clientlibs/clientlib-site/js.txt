@@ -31,3 +31,4 @@ components/secure-page/homepage-v1/notification-item-1/notification-item-1.js
 components/secure-page/homepage-v1/calendar-item-1/calendar-item-1.js
 components/secure-page/homepage-v1/chart-1/home-nod.js
 components/secure-page/homepage-v1/chart-1/home-sdd.js
+components/secure-page/homepage-v1/secure-header/secure-header.js

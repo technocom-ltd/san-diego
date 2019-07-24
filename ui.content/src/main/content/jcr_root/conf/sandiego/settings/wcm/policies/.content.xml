@@ -139,7 +139,7 @@
                         </cq:styleGroups>
                     </policy_25754911010600>
                     <policy_8165236492182
-                        jcr:lastModified="{Date}2019-07-19T16:08:01.845+07:00"
+                        jcr:lastModified="{Date}2019-07-24T10:01:13.630+07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Secure Layout Policy"
@@ -181,21 +181,6 @@
                                         cq:styleLabel="Background Darker"
                                         jcr:primaryType="nt:unstructured"/>
                                     <item6
-                                        cq:styleClasses="cmp-margin-left--small"
-                                        cq:styleId="1563505035886"
-                                        cq:styleLabel="Margin Left Small"
-                                        jcr:primaryType="nt:unstructured"/>
-                                    <item7
-                                        cq:styleClasses="cmp-margin-right--small"
-                                        cq:styleId="1563505042597"
-                                        cq:styleLabel="Margin Right Small"
-                                        jcr:primaryType="nt:unstructured"/>
-                                    <item8
-                                        cq:styleClasses="cmp-layout-container-resize-width--background"
-                                        cq:styleId="1563506588377"
-                                        cq:styleLabel="Resize Width"
-                                        jcr:primaryType="nt:unstructured"/>
-                                    <item9
                                         cq:styleClasses="cmp-layout-container-doc--background"
                                         cq:styleId="1563527274953"
                                         cq:styleLabel="Doc Background"

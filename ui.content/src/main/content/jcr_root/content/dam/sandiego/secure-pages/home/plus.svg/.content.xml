@@ -6,7 +6,7 @@
     <jcr:content
         dam:assetState="processed"
         dam:relativePath="sandiego/secure-pages/home/plus.svg"
-        jcr:lastModified="{Date}2019-07-23T22:22:53.921+07:00"
+        jcr:lastModified="{Date}2019-07-24T08:45:16.801+07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -15,7 +15,7 @@
             dam:size="{Long}510"
             dc:format="image/svg+xml"
             dc:modified="{Date}2019-07-23T13:48:25.474+07:00"
-            jcr:lastModified="{Date}2019-07-23T18:23:53.240+07:00"
+            jcr:lastModified="{Date}2019-07-24T08:45:09.913+07:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>

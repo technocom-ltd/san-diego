@@ -9,7 +9,7 @@
         cq:parentPath="/content/dam/sandiego/secure-pages/home"
         dam:assetState="processed"
         dam:relativePath="sandiego/secure-pages/home/Polygon 2.png"
-        jcr:lastModified="{Date}2019-07-23T22:22:52.977+07:00"
+        jcr:lastModified="{Date}2019-07-24T08:45:16.653+07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -29,7 +29,7 @@
             dam:size="{Long}240"
             dc:format="image/png"
             dc:modified="{Date}2019-07-18T13:13:44.950+07:00"
-            jcr:lastModified="{Date}2019-07-23T18:23:56.630+07:00"
+            jcr:lastModified="{Date}2019-07-24T08:45:14.743+07:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"

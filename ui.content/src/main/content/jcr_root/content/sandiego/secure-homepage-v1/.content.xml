@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-07-23T22:32:25.020+07:00"
+        cq:lastModified="{Date}2019-07-24T16:21:31.588+07:00"
         cq:lastModifiedBy="admin"
         cq:styleIds="[1563417271423]"
         cq:template="/conf/sandiego/settings/wcm/templates/secure-page-template-v1"
@@ -28,7 +28,7 @@
                     cq:styleIds="[1563357478468]"
                     jcr:created="{Date}2019-07-18T08:38:59.461+07:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2019-07-23T22:32:25.002+07:00"
+                    jcr:lastModified="{Date}2019-07-24T15:17:02.631+07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="sandiego/components/content/core/navigation"
@@ -52,19 +52,10 @@
                     <navigation
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="sandiego/components/content/core/navigation"/>
-                    <image
-                        jcr:lastModified="{Date}2019-07-18T10:02:24.989+07:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="sandiego/components/content/core/image"
-                        alt="logo"
-                        altValueFromDAM="false"
-                        displayPopupTitle="false"
-                        fileReference="/content/dam/sandiego/secure-pages/home/sandiego-logo.png"
-                        isDecorative="false"
-                        titleValueFromDAM="false"/>
                     <text
-                        jcr:lastModified="{Date}2019-07-18T10:02:42.164+07:00"
+                        jcr:created="{Date}2019-07-24T16:00:16.824+07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-07-24T16:00:16.824+07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="sandiego/components/content/core/text"
@@ -84,29 +75,72 @@
                         sling:resourceType="sandiego/components/content/core/text"
                         text="&lt;p>&lt;b>&lt;a href=&quot;https://www.google.com/&quot;>CHAT WITH US&lt;/a>&lt;/b>&lt;/p>&#xd;&#xa;"
                         textIsRich="true"/>
-                    <avatar
-                        jcr:lastModified="{Date}2019-07-18T10:04:57.702+07:00"
+                </header>
+                <header_1402902684
+                    jcr:created="{Date}2019-07-24T16:17:12.224+07:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-07-24T16:17:12.224+07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="sandiego/components/content/secure-page/homepage-v1/header">
+                    <navigation
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="sandiego/components/content/core/navigation"/>
+                    <image
+                        jcr:lastModified="{Date}2019-07-24T16:17:50.339+07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="sandiego/components/content/core/image"
-                        alt="notification"
+                        alt="logo"
                         altValueFromDAM="false"
                         displayPopupTitle="false"
-                        fileReference="/content/dam/sandiego/secure-pages/home/anonymous.png"
+                        fileReference="/content/dam/sandiego/secure-pages/home/sandiego-logo.png"
                         isDecorative="false"
                         titleValueFromDAM="false"/>
+                    <text
+                        jcr:lastModified="{Date}2019-07-24T16:19:43.875+07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="sandiego/components/content/core/text"
+                        text="&lt;p>County of San Diego&lt;/p>&#xd;&#xa;&lt;p>&lt;b>County Technology Office&lt;/b>&lt;br>&#xd;&#xa;&lt;/p>&#xd;&#xa;"
+                        textIsRich="true"/>
+                    <text1
+                        jcr:lastModified="{Date}2019-07-24T16:20:12.151+07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="sandiego/components/content/core/text"
+                        text="&lt;p>&lt;b>PUBLIC SITE&lt;br>&#xd;&#xa;&lt;/b>&lt;/p>&#xd;&#xa;"
+                        textIsRich="true"/>
+                    <text2
+                        jcr:lastModified="{Date}2019-07-24T16:20:31.816+07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="sandiego/components/content/core/text"
+                        text="&lt;p>&lt;b>CHAT WITH US&lt;br>&#xd;&#xa;&lt;/b>&lt;/p>&#xd;&#xa;"
+                        textIsRich="true"/>
                     <notification
-                        jcr:lastModified="{Date}2019-07-18T10:04:40.059+07:00"
+                        jcr:lastModified="{Date}2019-07-24T16:21:31.574+07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="sandiego/components/content/core/image"
-                        alt="notification"
+                        alt="noti"
                         altValueFromDAM="false"
                         displayPopupTitle="false"
                         fileReference="/content/dam/sandiego/secure-pages/home/icon.png"
                         isDecorative="false"
                         titleValueFromDAM="false"/>
-                </header>
+                    <avatar
+                        jcr:lastModified="{Date}2019-07-24T16:21:19.608+07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="sandiego/components/content/core/image"
+                        alt="avatar"
+                        altValueFromDAM="false"
+                        displayPopupTitle="false"
+                        fileReference="/content/dam/sandiego/secure-pages/home/anonymous.png"
+                        isDecorative="false"
+                        titleValueFromDAM="false"/>
+                </header_1402902684>
                 <responsivegrid_675163220
                     cq:styleIds="[1563419828654,1563334816356]"
                     jcr:created="{Date}2019-07-18T10:06:48.728+07:00"
@@ -137,6 +171,9 @@
                             <default
                                 jcr:primaryType="nt:unstructured"
                                 width="6"/>
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                width="12"/>
                         </cq:responsive>
                         <chart_nod
                             jcr:created="{Date}2019-07-18T10:08:38.221+07:00"
@@ -149,6 +186,9 @@
                                 <default
                                     jcr:primaryType="nt:unstructured"
                                     width="6"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    width="12"/>
                             </cq:responsive>
                         </chart_nod>
                     </responsivegrid>
@@ -165,6 +205,9 @@
                                 jcr:primaryType="nt:unstructured"
                                 offset="0"
                                 width="6"/>
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                width="12"/>
                         </cq:responsive>
                         <chart_sdd
                             jcr:created="{Date}2019-07-18T10:10:13.577+07:00"
@@ -185,6 +228,9 @@
                                     jcr:primaryType="nt:unstructured"
                                     offset="0"
                                     width="6"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    width="12"/>
                             </cq:responsive>
                         </chart_sdd_1891886861>
                     </responsivegrid_1676532477>
@@ -199,10 +245,10 @@
                     sling:resourceType="wcm/foundation/components/responsivegrid">
                     <cq:responsive jcr:primaryType="nt:unstructured"/>
                     <responsivegrid_1831217396
-                        cq:styleIds="[1563423613111,1563505042597,1563506588377]"
+                        cq:styleIds="[1563423613111]"
                         jcr:created="{Date}2019-07-19T10:40:40.515+07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-07-19T16:59:20.481+07:00"
+                        jcr:lastModified="{Date}2019-07-24T09:56:12.427+07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wcm/foundation/components/responsivegrid">
@@ -210,6 +256,13 @@
                             <default
                                 jcr:primaryType="nt:unstructured"
                                 width="6"/>
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="12"/>
+                            <tablet
+                                jcr:primaryType="nt:unstructured"
+                                width="12"/>
                         </cq:responsive>
                         <responsivegrid_73193
                             cq:styleIds="[1563419828654,1563505042597]"
@@ -224,6 +277,12 @@
                                     jcr:primaryType="nt:unstructured"
                                     offset="0"
                                     width="6"/>
+                                <tablet
+                                    jcr:primaryType="nt:unstructured"
+                                    width="12"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    width="12"/>
                             </cq:responsive>
                             <responsivegrid
                                 cq:styleIds="[1563419828654,1563505042597]"
@@ -237,6 +296,12 @@
                                     <default
                                         jcr:primaryType="nt:unstructured"
                                         width="6"/>
+                                    <phone
+                                        jcr:primaryType="nt:unstructured"
+                                        width="12"/>
+                                    <tablet
+                                        jcr:primaryType="nt:unstructured"
+                                        width="12"/>
                                 </cq:responsive>
                                 <text
                                     cq:styleIds="[1563420990098,1563420976434]"
@@ -247,7 +312,13 @@
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="sandiego/components/content/core/text"
                                     text="&lt;p>&lt;b>Start a new document&lt;/b>&lt;/p>&#xa;"
-                                    textIsRich="true"/>
+                                    textIsRich="true">
+                                    <cq:responsive jcr:primaryType="nt:unstructured">
+                                        <phone
+                                            jcr:primaryType="nt:unstructured"
+                                            width="12"/>
+                                    </cq:responsive>
+                                </text>
                                 <text_570801779
                                     cq:styleIds="[1563421002277,1563423025477]"
                                     jcr:created="{Date}2019-07-18T11:09:49.900+07:00"
@@ -257,7 +328,13 @@
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="sandiego/components/content/core/text"
                                     text="&lt;p>Choose one type of document below&lt;/p>&#xa;"
-                                    textIsRich="true"/>
+                                    textIsRich="true">
+                                    <cq:responsive jcr:primaryType="nt:unstructured">
+                                        <phone
+                                            jcr:primaryType="nt:unstructured"
+                                            width="12"/>
+                                    </cq:responsive>
+                                </text_570801779>
                                 <responsivegrid
                                     jcr:created="{Date}2019-07-18T11:46:01.516+07:00"
                                     jcr:createdBy="admin"
@@ -265,7 +342,11 @@
                                     jcr:lastModifiedBy="admin"
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="wcm/foundation/components/responsivegrid">
-                                    <cq:responsive jcr:primaryType="nt:unstructured"/>
+                                    <cq:responsive jcr:primaryType="nt:unstructured">
+                                        <phone
+                                            jcr:primaryType="nt:unstructured"
+                                            width="12"/>
+                                    </cq:responsive>
                                     <teaser_copy
                                         cq:styleIds="[1563423313172]"
                                         jcr:created="{Date}2019-07-18T11:10:59.538+07:00"
@@ -285,6 +366,9 @@
                                             <default
                                                 jcr:primaryType="nt:unstructured"
                                                 width="3"/>
+                                            <phone
+                                                jcr:primaryType="nt:unstructured"
+                                                width="6"/>
                                         </cq:responsive>
                                     </teaser_copy>
                                     <teaser_397247402_cop
@@ -306,6 +390,9 @@
                                             <default
                                                 jcr:primaryType="nt:unstructured"
                                                 width="3"/>
+                                            <phone
+                                                jcr:primaryType="nt:unstructured"
+                                                width="6"/>
                                         </cq:responsive>
                                     </teaser_397247402_cop>
                                     <teaser_1258155610_co
@@ -327,6 +414,9 @@
                                             <default
                                                 jcr:primaryType="nt:unstructured"
                                                 width="3"/>
+                                            <phone
+                                                jcr:primaryType="nt:unstructured"
+                                                width="6"/>
                                         </cq:responsive>
                                     </teaser_1258155610_co>
                                     <teaser_288773549_cop
@@ -348,6 +438,9 @@
                                             <default
                                                 jcr:primaryType="nt:unstructured"
                                                 width="3"/>
+                                            <phone
+                                                jcr:primaryType="nt:unstructured"
+                                                width="6"/>
                                         </cq:responsive>
                                     </teaser_288773549_cop>
                                 </responsivegrid>
@@ -603,23 +696,29 @@
                                             value="2"/>
                                     </items>
                                 </options_copy>
-                                <text_1948893319
-                                    jcr:created="{Date}2019-07-19T14:30:01.255+07:00"
+                                <button
+                                    cq:styleIds="[1563854892055]"
+                                    jcr:created="{Date}2019-07-24T11:18:03.612+07:00"
                                     jcr:createdBy="admin"
-                                    jcr:lastModified="{Date}2019-07-19T14:30:26.922+07:00"
+                                    jcr:lastModified="{Date}2019-07-24T11:18:36.127+07:00"
                                     jcr:lastModifiedBy="admin"
                                     jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="sandiego/components/content/core/text"
-                                    text="&lt;p>&amp;nbsp;&lt;/p>&#xd;&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xd;&#xa;"
-                                    textIsRich="true"/>
+                                    jcr:title="SEARCH"
+                                    sling:resourceType="sandiego/components/form/button"
+                                    type="button"/>
                             </item_1_copy>
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    width="12"/>
+                            </cq:responsive>
                         </tabs>
                     </responsivegrid_1831217396>
                     <responsivegrid
-                        cq:styleIds="[1563419828654,1563423613111,1563505035886,1563506588377]"
+                        cq:styleIds="[1563419828654,1563423613111]"
                         jcr:created="{Date}2019-07-19T09:18:29.062+07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-07-19T10:23:34.223+07:00"
+                        jcr:lastModified="{Date}2019-07-24T09:56:33.160+07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wcm/foundation/components/responsivegrid">
@@ -628,6 +727,11 @@
                                 jcr:primaryType="nt:unstructured"
                                 offset="0"
                                 width="6"/>
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                behavior="none"
+                                offset="0"
+                                width="12"/>
                         </cq:responsive>
                         <text
                             cq:styleIds="[1563420990098,1563420976434]"
@@ -643,6 +747,9 @@
                                 <default
                                     jcr:primaryType="nt:unstructured"
                                     width="3"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    width="7"/>
                             </cq:responsive>
                         </text>
                         <options
@@ -661,6 +768,10 @@
                                 <default
                                     jcr:primaryType="nt:unstructured"
                                     width="2"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="5"/>
                             </cq:responsive>
                             <items jcr:primaryType="nt:unstructured">
                                 <item0
@@ -689,7 +800,13 @@
                             jcr:lastModified="{Date}2019-07-23T13:55:53.113+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="sandiego/components/content/secure-page/homepage-v1/notification-item-1"/>
+                            sling:resourceType="sandiego/components/content/secure-page/homepage-v1/notification-item-1">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    width="12"/>
+                            </cq:responsive>
+                        </notification_item_1>
                         <responsivegrid_1234237009
                             jcr:created="{Date}2019-07-19T09:39:12.092+07:00"
                             jcr:createdBy="admin"
@@ -697,7 +814,11 @@
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wcm/foundation/components/responsivegrid">
-                            <cq:responsive jcr:primaryType="nt:unstructured"/>
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    width="12"/>
+                            </cq:responsive>
                             <text_2001183417
                                 cq:styleIds="[1563420976434]"
                                 jcr:created="{Date}2019-07-19T09:43:19.708+07:00"
@@ -707,14 +828,20 @@
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="sandiego/components/content/core/text"
                                 text="&lt;p>&lt;b>SEE ALL NOTIFICATIONS&lt;/b>&lt;/p>&#xd;&#xa;"
-                                textIsRich="true"/>
+                                textIsRich="true">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <phone
+                                        jcr:primaryType="nt:unstructured"
+                                        width="12"/>
+                                </cq:responsive>
+                            </text_2001183417>
                         </responsivegrid_1234237009>
                     </responsivegrid>
                     <responsivegrid_344574158
-                        cq:styleIds="[1563419828654,1563423613111,1563506588377,1563505035886]"
+                        cq:styleIds="[1563419828654,1563423613111]"
                         jcr:created="{Date}2019-07-19T14:31:36.003+07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-07-19T16:48:34.016+07:00"
+                        jcr:lastModified="{Date}2019-07-24T09:55:47.268+07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wcm/foundation/components/responsivegrid">
@@ -722,12 +849,15 @@
                             <default
                                 jcr:primaryType="nt:unstructured"
                                 width="6"/>
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                width="12"/>
                         </cq:responsive>
                         <text
-                            cq:styleIds="[1563420990098,1563420980773]"
+                            cq:styleIds="[1563420980773,1563421002277]"
                             jcr:created="{Date}2019-07-19T16:31:12.225+07:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-07-19T16:35:11.634+07:00"
+                            jcr:lastModified="{Date}2019-07-24T10:04:30.509+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="sandiego/components/content/core/text"
@@ -737,6 +867,9 @@
                                 <default
                                     jcr:primaryType="nt:unstructured"
                                     width="3"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    width="7"/>
                             </cq:responsive>
                         </text>
                         <options
@@ -755,6 +888,10 @@
                                 <default
                                     jcr:primaryType="nt:unstructured"
                                     width="2"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="5"/>
                             </cq:responsive>
                             <items jcr:primaryType="nt:unstructured">
                                 <item0
@@ -776,14 +913,24 @@
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wcm/foundation/components/responsivegrid">
-                            <cq:responsive jcr:primaryType="nt:unstructured"/>
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    width="12"/>
+                            </cq:responsive>
                             <calendar_item_1
                                 jcr:created="{Date}2019-07-23T10:21:55.325+07:00"
                                 jcr:createdBy="admin"
                                 jcr:lastModified="{Date}2019-07-23T10:21:55.325+07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="sandiego/components/content/secure-page/homepage-v1/calendar-item-1"/>
+                                sling:resourceType="sandiego/components/content/secure-page/homepage-v1/calendar-item-1">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <phone
+                                        jcr:primaryType="nt:unstructured"
+                                        width="12"/>
+                                </cq:responsive>
+                            </calendar_item_1>
                             <text
                                 cq:styleIds="[1563420976434,1563423025477]"
                                 jcr:created="{Date}2019-07-23T11:04:41.936+07:00"

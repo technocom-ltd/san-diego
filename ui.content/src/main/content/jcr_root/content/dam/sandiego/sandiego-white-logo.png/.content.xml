@@ -9,7 +9,7 @@
         cq:parentPath="/content/dam/sandiego"
         dam:assetState="processed"
         dam:relativePath="sandiego/sandiego-white-logo.png"
-        jcr:lastModified="{Date}2019-07-23T22:22:56.280+07:00"
+        jcr:lastModified="{Date}2019-07-24T08:45:17.080+07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
