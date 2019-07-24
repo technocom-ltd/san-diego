@@ -109,12 +109,12 @@
                         </cq:styleGroups>
                     </policy_8492871555453>
                     <policy_25754911010600
-                        jcr:lastModified="{Date}2019-07-23T11:07:06.295+07:00"
+                        jcr:lastModified="{Date}2019-07-24T11:14:43.168+07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Secure Layout Policy"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/sandiego/components/content/secure-page/nod-dashboard-v2/all-nod-types,/apps/sandiego/components/content/secure-page/nod-dashboard-v2/completed-nod-chart,/apps/sandiego/components/content/secure-page/homepage-v2/chart-nod,/apps/sandiego/components/content/secure-page/homepage-v2/chart-sdd,/apps/sandiego/components/content/secure-page/nod-dashboard-v2/total-nod-by-type,/apps/sandiego/components/content/core/carousel,/apps/sandiego/components/content/core/image,/apps/sandiego/components/content/core/list,/apps/sandiego/components/content/core/navigation,/apps/sandiego/components/content/core/search,/apps/sandiego/components/content/core/separator,/apps/sandiego/components/content/core/tabs,/apps/sandiego/components/content/core/teaser,/apps/sandiego/components/content/core/text,/apps/sandiego/components/content/core/title,group:SEA.Content Form,/apps/sandiego/components/content/secure-page/homepage-v1/header,/apps/sandiego/components/content/secure-page/homepage-v2/month-selector,/apps/sandiego/components/content/secure-page/homepage-v2/notification-filter,/apps/sandiego/components/content/secure-page/homepage-v2/calendar-item,/apps/sandiego/components/content/secure-page/homepage-v2/notification-item,/apps/sandiego/components/content/secure-page/homepage-v1/notification-item-1,/apps/sandiego/components/content/secure-page/homepage-v1/calendar-item-1]">
+                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/sandiego/components/content/secure-page/nod-dashboard-v2/all-nod-types,/apps/sandiego/components/content/secure-page/nod-dashboard-v2/completed-nod-chart,/apps/sandiego/components/content/secure-page/homepage-v2/chart-nod,/apps/sandiego/components/content/secure-page/homepage-v2/chart-sdd,/apps/sandiego/components/content/secure-page/nod-dashboard-v2/total-nod-by-type,/apps/sandiego/components/content/core/breadcrumb,/apps/sandiego/components/content/core/carousel,/apps/sandiego/components/content/core/image,/apps/sandiego/components/content/core/list,/apps/sandiego/components/content/core/navigation,/apps/sandiego/components/content/core/search,/apps/sandiego/components/content/core/tabs,/apps/sandiego/components/content/core/teaser,/apps/sandiego/components/content/core/text,/apps/sandiego/components/content/core/title,group:SEA.Content Form,/apps/sandiego/components/content/secure-page/homepage-v1/header,/apps/sandiego/components/content/secure-page/homepage-v2/month-selector,/apps/sandiego/components/content/secure-page/nod-dashboard-v2/pagination,/apps/sandiego/components/content/secure-page/nod-dashboard-v2/nod-reports-table,/apps/sandiego/components/content/secure-page/homepage-v2/notification-filter,/apps/sandiego/components/content/secure-page/homepage-v1/calendar-item-1,/apps/sandiego/components/content/secure-page/homepage-v1/notification-item-1,/apps/sandiego/components/content/secure-page/homepage-v2/calendar-item,/apps/sandiego/components/content/secure-page/homepage-v2/notification-item]">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                         <cq:styleGroups jcr:primaryType="nt:unstructured">
                             <item0 jcr:primaryType="nt:unstructured">
@@ -313,7 +313,7 @@
                 </text>
                 <options jcr:primaryType="nt:unstructured">
                     <policy_1563464236054
-                        jcr:lastModified="{Date}2019-07-23T10:22:03.998+07:00"
+                        jcr:lastModified="{Date}2019-07-24T08:58:57.272+07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Secure Page Policy 02"
@@ -346,6 +346,11 @@
                                         cq:styleClasses="cmp-form-options--nod-dashboard-dropdown"
                                         cq:styleId="1563852063652"
                                         cq:styleLabel="NOD dashboard dropdown"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item5
+                                        cq:styleClasses="cmp-form-options--nod-reports-dropdown"
+                                        cq:styleId="1563933521091"
+                                        cq:styleLabel="NOD reports dropdown"
                                         jcr:primaryType="nt:unstructured"/>
                                 </cq:styles>
                             </item0>
@@ -1151,6 +1156,29 @@
                             <jcr:content jcr:primaryType="nt:unstructured"/>
                         </policy_1563675803128>
                     </accordion>
+                    <breadcrumb jcr:primaryType="nt:unstructured">
+                        <policy_1563934117446
+                            jcr:lastModified="{Date}2019-07-24T09:09:23.217+07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Secure Breadcrumb Policy v2"
+                            sling:resourceType="wcm/core/components/policy/policy"
+                            hideCurrent="false"
+                            showHidden="false">
+                            <jcr:content jcr:primaryType="nt:unstructured"/>
+                            <cq:styleGroups jcr:primaryType="nt:unstructured">
+                                <item0 jcr:primaryType="nt:unstructured">
+                                    <cq:styles jcr:primaryType="nt:unstructured">
+                                        <item0
+                                            cq:styleClasses="cmp-breadcurmb--nod-reports "
+                                            cq:styleId="1563934143135"
+                                            cq:styleLabel="NOD reports"
+                                            jcr:primaryType="nt:unstructured"/>
+                                    </cq:styles>
+                                </item0>
+                            </cq:styleGroups>
+                        </policy_1563934117446>
+                    </breadcrumb>
                 </core>
                 <public-page jcr:primaryType="nt:unstructured">
                     <landing-1 jcr:primaryType="nt:unstructured">

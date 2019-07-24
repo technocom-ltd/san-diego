@@ -1,0 +1,57 @@
+/* Breadcrumb styles */
+.cmp-breadcurmb--nod-reports {
+  transform: translateY(-40px);
+
+  .cmp-breadcrumb {
+
+    .cmp-breadcrumb__list {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      border-radius: 0px;
+      font-size: @font-size-small;
+
+      @media (max-width: @screen-medium) {
+        margin-top: 0px;
+      }
+
+      @media (max-width: @screen-small) {
+        font-size: @font-size-xsmall;
+      }
+    }
+
+    .cmp-breadcrumb__item {
+      display: inline-block;
+      padding: 10px 5px;
+      text-transform: uppercase;
+      font: @font-weight-bold @font-size-base @font-family-base;
+      text-transform: capitalize;
+
+      &:before {
+        content: "/";
+        color: @text-color;
+        padding: 0;
+        padding-right: 10px;
+      }
+
+      &:first-child {
+        padding-left: 0;
+
+        &:before {
+          content: none;
+        }
+      }
+    }
+
+    .cmp-breadcrumb__item-link {
+      color: @text-color;
+      text-decoration: none;
+      font-weight: @font-weight-normal;
+
+      &:first {
+        padding-left: 0px;
+      }
+    }
+
+  }
+}

@@ -1,0 +1,129 @@
+@pagination-button-size: 32px;
+@pagination-icon-size: 7px;
+
+.cmp-nod-reports-pagination {
+  margin-top: 40px;
+
+  .cmp-nod-reports-pagination__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cmp-nod-reports-pagination__button,
+  .cmp-nod-reports-pagination__buttons > span {
+    min-width: @pagination-button-size;
+    height: @pagination-button-size;
+    line-height: @pagination-button-size;
+
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    background: -webkit-linear-gradient(bottom, #ffffff 0%, #efefef 100%);
+    border: 1px solid @black-40;
+    box-sizing: border-box;
+    border-radius: 55px;
+    margin: 0 4px;
+    color: @text-color;
+    font-weight: @font-weight-bold;
+    font-size: @font-size-base;
+    font-family: @font-family-base;
+    padding: 0 8px;
+
+    &:hover {
+      cursor: pointer;
+      background: -webkit-linear-gradient(bottom, #bbbbbb 0%, #efefef 100%);
+    }
+  }
+
+  .cmp-nod-reports-pagination__buttons .cmp-nod-reports-pagination__button--active {
+    background: -webkit-linear-gradient(top, #bbbbbb 0%, #efefef 100%);
+  }
+
+  .cmp-nod-reports-pagination__previous,
+  .cmp-nod-reports-pagination__next {
+    position: absolute;
+    width: @pagination-icon-size;
+    height: @pagination-icon-size;
+    border: 2px solid @text-color;
+    left: 50%;
+    top: 50%;
+    border-left: 0;
+    border-bottom: 0;
+    border-radius: .4px;
+  }
+
+  .cmp-nod-reports-pagination__previous {
+    transform: translate(-50%, -50%) rotate(-135deg);
+  }
+
+  .cmp-nod-reports-pagination__next {
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+
+  .cmp-nod-reports-pagination__selection {
+    margin: 0 16px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 1px solid @black-40;
+    outline: none;
+    padding-right: 32px;
+    padding-left: 16px;
+    font: @font-weight-bold @font-size-small @font-family-base;
+
+    height: 32px;
+    overflow: hidden;
+    background: url("/content/dam/sandiego/secure-pages/home/arrow-bottom.svg") no-repeat @white;
+    background-position: right 8px top 50%;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .cmp-nod-reports-pagination__jump {
+    display: flex;
+    align-items: center;
+
+    > span {
+      font: @font-weight-normal @font-size-small @font-family-base;
+    }
+
+    .cmp-nod-reports-pagination__jump-input {
+      height: 32px;
+      width: 64px;
+      box-sizing: border-box;
+      text-align: center;
+      font: @font-weight-normal @font-size-small @font-family-base;
+      color: @text-color;
+      outline: none;
+      border: 1px solid @black-40;
+      margin: 0 8px
+    }
+
+    .cmp-nod-reports-pagination__jump-button {
+      min-width: @pagination-button-size;
+      height: @pagination-button-size;
+      line-height: @pagination-button-size;
+
+      position: relative;
+      display: inline-block;
+      vertical-align: middle;
+      text-align: center;
+      background: -webkit-linear-gradient(bottom, #ffffff 0%, #efefef 100%);
+      border: 1px solid @black-40;
+      box-sizing: border-box;
+      color: @text-color;
+      font: @font-weight-bold @font-size-base @font-family-base;
+      padding: 0 8px;
+
+      &:hover {
+        cursor: pointer;
+        background: -webkit-linear-gradient(bottom, #bbbbbb 0%, #efefef 100%);
+      }
+    }
+
+  }
+}
