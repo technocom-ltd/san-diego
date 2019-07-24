@@ -109,12 +109,12 @@
                         </cq:styleGroups>
                     </policy_8492871555453>
                     <policy_25754911010600
-                        jcr:lastModified="{Date}2019-07-24T11:14:43.168+07:00"
+                        jcr:lastModified="{Date}2019-07-24T17:36:09.806+07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Secure Layout Policy"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/sandiego/components/content/secure-page/nod-dashboard-v2/all-nod-types,/apps/sandiego/components/content/secure-page/nod-dashboard-v2/completed-nod-chart,/apps/sandiego/components/content/secure-page/homepage-v2/chart-nod,/apps/sandiego/components/content/secure-page/homepage-v2/chart-sdd,/apps/sandiego/components/content/secure-page/nod-dashboard-v2/total-nod-by-type,/apps/sandiego/components/content/core/breadcrumb,/apps/sandiego/components/content/core/carousel,/apps/sandiego/components/content/core/image,/apps/sandiego/components/content/core/list,/apps/sandiego/components/content/core/navigation,/apps/sandiego/components/content/core/search,/apps/sandiego/components/content/core/tabs,/apps/sandiego/components/content/core/teaser,/apps/sandiego/components/content/core/text,/apps/sandiego/components/content/core/title,group:SEA.Content Form,/apps/sandiego/components/content/secure-page/homepage-v1/header,/apps/sandiego/components/content/secure-page/homepage-v2/month-selector,/apps/sandiego/components/content/secure-page/nod-dashboard-v2/pagination,/apps/sandiego/components/content/secure-page/nod-dashboard-v2/nod-reports-table,/apps/sandiego/components/content/secure-page/homepage-v2/notification-filter,/apps/sandiego/components/content/secure-page/homepage-v1/calendar-item-1,/apps/sandiego/components/content/secure-page/homepage-v1/notification-item-1,/apps/sandiego/components/content/secure-page/homepage-v2/calendar-item,/apps/sandiego/components/content/secure-page/homepage-v2/notification-item]">
+                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/sandiego/components/content/secure-page/nod-dashboard-v2/all-nod-types,/apps/sandiego/components/content/secure-page/nod-dashboard-v2/completed-nod-chart,/apps/sandiego/components/content/secure-page/homepage-v2/chart-nod,/apps/sandiego/components/content/secure-page/homepage-v2/chart-sdd,/apps/sandiego/components/content/secure-page/nod-dashboard-v2/total-nod-by-type,/apps/sandiego/components/content/core/breadcrumb,/apps/sandiego/components/content/core/carousel,/apps/sandiego/components/content/core/image,/apps/sandiego/components/content/core/list,/apps/sandiego/components/content/core/navigation,/apps/sandiego/components/content/core/search,/apps/sandiego/components/content/core/tabs,/apps/sandiego/components/content/core/teaser,/apps/sandiego/components/content/core/text,/apps/sandiego/components/content/core/title,group:SEA.Content Form,/apps/sandiego/components/content/secure-page/homepage-v1/header,/apps/sandiego/components/content/secure-page/homepage-v2/month-selector,/apps/sandiego/components/content/secure-page/nod-dashboard-v2/document-detail-report,/apps/sandiego/components/content/secure-page/nod-dashboard-v2/pagination,/apps/sandiego/components/content/secure-page/nod-dashboard-v2/nod-reports-table,/apps/sandiego/components/content/secure-page/homepage-v2/notification-filter,/apps/sandiego/components/content/secure-page/homepage-v1/calendar-item-1,/apps/sandiego/components/content/secure-page/homepage-v1/notification-item-1,/apps/sandiego/components/content/secure-page/homepage-v2/calendar-item,/apps/sandiego/components/content/secure-page/homepage-v2/notification-item,/apps/sandiego/components/content/secure-page/nod-dashboard-v2/history-log-item]">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                         <cq:styleGroups jcr:primaryType="nt:unstructured">
                             <item0 jcr:primaryType="nt:unstructured">
@@ -377,7 +377,7 @@
                 <core jcr:primaryType="nt:unstructured">
                     <text jcr:primaryType="nt:unstructured">
                         <policy_1563029344686
-                            jcr:lastModified="{Date}2019-07-23T10:47:49.434+07:00"
+                            jcr:lastModified="{Date}2019-07-24T17:33:00.741+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Landing Text Policy"
@@ -554,15 +554,20 @@
                                             jcr:primaryType="nt:unstructured"/>
                                         <item11
                                             cq:styleClasses="cpm-text--color-1"
-                                            cq:styleId="1563175763856"
+                                            cq:styleId="1563964215629"
                                             cq:styleLabel="Color 1"
                                             jcr:primaryType="nt:unstructured"/>
                                         <item12
-                                            cq:styleClasses="cpm-text--color-2"
+                                            cq:styleClasses="cmp-text--history-log"
                                             cq:styleId="1563175775331"
                                             cq:styleLabel="Color 2"
                                             jcr:primaryType="nt:unstructured"/>
                                         <item13
+                                            cq:styleClasses="cmp-text--history-log"
+                                            cq:styleId="1563964215630"
+                                            cq:styleLabel="Background History"
+                                            jcr:primaryType="nt:unstructured"/>
+                                        <item14
                                             cq:styleClasses="cpm-text--button-1"
                                             cq:styleId="1563183260256"
                                             cq:styleLabel="Button 1"
