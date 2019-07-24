@@ -2,17 +2,19 @@
 @background-layout-darker-color: rgba(196, 196, 196, 0.2);
 
 .cmp-layout-container--background {
-  background: @background-layout-color;
-  border: 1px @background-layout-color solid;
-  border-radius: 8px;
+
+  padding: 8px !important;
+  box-sizing: border-box;
+
+  > .aem-Grid {
+    background: @background-layout-color;
+    border: 1px @background-layout-color solid;
+    border-radius: 8px;
+  }
 
   p {
     text-align: inherit !important;
   }
-}
-
-.cmp-layout-container-resize-width--background {
-  width: 49% !important;
 }
 
 .cmp-layout-container-darker--background {
@@ -35,10 +37,6 @@
   p {
     text-align: inherit !important;
   }
-}
-
-.cmp-layout-container-resize-width--background {
-  width: 49% !important;
 }
 
 .cmp-layout-container-darker--background {

@@ -3,6 +3,11 @@
   display: flex;
   padding-left: 24px;
 
+  @media (max-width:@screen-small) {
+    padding-left: 0px;
+    margin: 20px 0;
+  }
+
   .cmp-chart-nod__chart-container {
     display: inline-block;
     position: relative;
@@ -10,6 +15,12 @@
     max-height: 250px;
     width: 100%;
     margin: 0 auto;
+
+    @media (max-width:@screen-small) {
+      max-width: 190px;
+      max-height: 190px;
+      margin-top: 26px;
+    }
   }
 
   .cmp-chart-nod__chart {}
@@ -26,11 +37,18 @@
     line-height: 1.5;
     transition: all 0.4s;
 
+
+
   }
 
   .cmp-chart-nod__legend {
     margin-top: 32px;
     display: inline-block;
+
+    @media (max-width:@screen-small) {
+      font: @font-weight-normal @font-size-small @font-family-base;
+      margin-top: 0px;
+    }
 
     .legend {
       list-style: none;
