@@ -6,16 +6,16 @@
     <jcr:content
         dam:assetState="processed"
         dam:relativePath="sandiego/public-pages/it-guiding-principles-1/file.svg"
-        jcr:lastModified="{Date}2019-07-24T16:27:38.871+07:00"
+        jcr:lastModified="{Date}2019-07-25T11:07:34.884+07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2019-07-23T18:24:01.347+07:00"
+            dam:extracted="{Date}2019-07-25T11:07:34.826+07:00"
             dam:sha1="f0e5216250b7716a67742b784f9a9af1577bd65f"
             dam:size="{Long}2203"
             dc:format="image/svg+xml"
             dc:modified="{Date}2019-07-23T13:48:32.961+07:00"
-            jcr:lastModified="{Date}2019-07-23T18:23:59.278+07:00"
+            jcr:lastModified="{Date}2019-07-25T11:07:33.859+07:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>
