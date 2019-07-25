@@ -3,7 +3,7 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[/etc/mobile/groups/responsive]"
-        cq:lastModified="{Date}2019-07-23T22:02:44.921+07:00"
+        cq:lastModified="{Date}2019-07-25T11:28:27.111+07:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/sandiego/settings/wcm/templates/public-page-template-v2"
         jcr:primaryType="cq:PageContent"
@@ -27,7 +27,7 @@
                     navigationRoot="/content/sandiego/landing-page-v2/v1"
                     skipNavigationRoot="true"/>
                 <image
-                    jcr:lastModified="{Date}2019-07-13T22:32:46.853+07:00"
+                    jcr:lastModified="{Date}2019-07-25T11:28:27.108+07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="sandiego/components/content/core/image"
@@ -36,7 +36,7 @@
                     displayPopupTitle="false"
                     fileReference="/content/dam/sandiego/sandiego-logo.png"
                     isDecorative="false"
-                    linkURL="/content/sandiego/landing-page"
+                    linkURL="/content/sandiego/landing-page-v2"
                     titleValueFromDAM="false"/>
                 <text
                     jcr:lastModified="{Date}2019-07-13T21:50:27.593+07:00"
