@@ -54,26 +54,27 @@
 }
 
 .cmp-teaser--banner-middle {
-  margin-top: 140px;
-  padding-right: 50px;
-  background-color: #F7F7F7;
-  width: 95% !important;
+  padding: 0 14px !important;
+  box-sizing: border-box;
 
   @media (max-width:@screen-small) {
     width: 100% !important;
   }
 
   .cmp-teaser {
+    background-color: #F7F7F7;
+    padding: 0 32px;
+
     .cmp-teaser__title {
       font-family: Sarabun;
       font-style: normal;
       font-weight: bold;
-      font-size: 32px;
+      font-size: @font-size-large;
       line-height: 150%;
       display: flex;
       align-items: end;
       padding-top: 41px;
-      height: 87px;
+      color: @text-color-second;
     }
 
     .cmp-teaser__description {
@@ -84,7 +85,9 @@
       line-height: 200%;
       display: flex;
       align-items: flex-end;
-      margin-top: 56px;
+      margin-top: 28px;
+      color: @text-color-third;
+
     }
 
     .cmp-teaser__action-container {
@@ -112,78 +115,13 @@
   }
 }
 
-.cmp-teaser--bottom-new {
-  margin-bottom: 100px;
-  max-width: 368px;
-  height: 438px;
-  background-color: #F7F7F7;
-  padding: 36px 94px 0px 32px;
-
-  .cmp-teaser {
-    .cmp-teaser__title {
-      font-family: Sarabun;
-      font-style: normal;
-      font-weight: bold;
-      font-size: 25px;
-      line-height: 150%;
-      display: flex;
-      align-items: end;
-      color: #575757;
-      height: 80px;
-
-    }
-
-    .cmp-teaser__description {
-      font-family: Sarabun;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 16px;
-      line-height: 200%;
-      display: flex;
-      align-items: flex-end;
-      margin-top: 40px;
-      color: #7B7B7B;
-      width: 304px;
-    }
-
-    .cmp-teaser__action-container {
-      padding: 45px 0;
-
-      .cmp-teaser__action-link {
-        font-family: Sarabun;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 150%;
-        align-items: flex-end;
-        text-transform: uppercase;
-        background-color: #ff000000;
-        color: #575757;
-        padding: 0;
-      }
-
-      .cmp-teaser__action-link::after {
-        content: url("/content/dam/sandiego/secure-about-page/arrow.svg");
-        font: @font-weight-bold @font-size-base @font-family-base;
-        padding-left: 15px;
-      }
-    }
-  }
-}
-
 .cmp-teaser--bottom-left {
-  margin-bottom: 100px;
-  max-width: 540px;
-  height: 708px;
-  background-color: #F7F7F7;
-  padding: 0;
-  margin: 8px 0 0 0;
+  height: 716px;
 
   @media (max-width:@screen-small) {
     max-width: 100%;
     height: 350px;
   }
-
 
   .cmp-teaser {
 
@@ -194,21 +132,16 @@
     padding: 0;
     margin: 0;
 
-
     .cmp-teaser__content {
       position: absolute;
-      bottom: 6em;
+      bottom: 1em;
       left: 2em;
       right: 2em;
 
       @media (max-width:@screen-small) {
         bottom: 2em;
       }
-
     }
-
-
-
 
     .cmp-teaser__title {
       font-family: @font-family-base;
@@ -216,7 +149,6 @@
       font-size: 25px;
       line-height: 150%;
       color: @white;
-
     }
 
     .cmp-teaser__image {
@@ -226,7 +158,6 @@
 
       .cmp-image {
         margin: 0;
-
         width: 100%;
         height: 100%;
       }
@@ -246,7 +177,7 @@
       line-height: 200%;
       display: flex;
       align-items: flex-end;
-      margin-top: 40px;
+      margin-top: 16px;
       width: 304px;
       color: @white;
 
@@ -255,26 +186,24 @@
 }
 
 .cmp-teaser--bottom-right {
-  margin-bottom: 32px;
-  height: 350px;
-  background-color: #F7F7F7;
-  padding: 0;
-  margin: 8px 0 0 0;
-
+  background-color: @white;
+  padding: 0 14px 32px 14px;
+  box-sizing: border-box;
 
   .cmp-teaser {
 
     position: relative;
     display: block;
     width: 100%;
-    height: 100%;
+    height: 342px;
+
     padding: 0;
     margin: 0;
 
 
     .cmp-teaser__content {
       position: absolute;
-      bottom: 2em;
+      bottom: 1em;
       left: 2em;
       right: 2em;
     }
@@ -316,7 +245,7 @@
       line-height: 200%;
       display: flex;
       align-items: flex-end;
-      margin-top: 40px;
+      margin-top: 16px;
       width: 304px;
       color: @white;
 
