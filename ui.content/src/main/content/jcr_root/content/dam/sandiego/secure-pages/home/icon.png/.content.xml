@@ -29,7 +29,7 @@
             dam:size="{Long}4885"
             dc:format="image/png"
             dc:modified="{Date}2019-07-18T13:13:46.075+07:00"
-            jcr:lastModified="{Date}2019-07-24T08:45:15.048+07:00"
+            jcr:lastModified="{Date}2019-07-23T18:23:57.635+07:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"

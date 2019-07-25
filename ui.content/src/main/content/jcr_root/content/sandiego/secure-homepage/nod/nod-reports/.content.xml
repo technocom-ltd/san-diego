@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-07-24T16:19:59.087+07:00"
+        cq:lastModified="{Date}2019-07-24T16:24:21.361+07:00"
         cq:lastModifiedBy="admin"
         cq:styleIds="[1563195521690]"
         cq:template="/conf/sandiego/settings/wcm/templates/secure-page-template-v2"
@@ -15,7 +15,7 @@
         jcr:uuid="c4963c57-aae1-4f99-ab70-1109b3968cc2"
         sling:resourceType="sandiego/components/structure/page"
         hideInNav="true"
-        navTitle="NOD Reports"
+        navTitle="NOD reports"
         pageTitle="NOD Reports">
         <root
             jcr:primaryType="nt:unstructured"
@@ -152,4 +152,5 @@
             </responsivegrid>
         </root>
     </jcr:content>
+    <document-detail/>
 </jcr:root>

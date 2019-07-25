@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-07-23T22:31:19.012+07:00"
+        cq:lastModified="{Date}2019-07-25T09:34:33.604+07:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/sandiego/settings/wcm/templates/public-page-template-v1"
         jcr:isCheckedOut="{Boolean}true"
@@ -69,90 +69,62 @@
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wcm/foundation/components/responsivegrid">
                         <cq:responsive jcr:primaryType="nt:unstructured"/>
-                        <responsivegrid_copy
-                            cq:styleIds="[1563327781539]"
-                            jcr:created="{Date}2019-07-15T11:53:15.407+07:00"
+                        <teaser_copy
+                            cq:styleIds="[1563173732554]"
+                            jcr:created="{Date}2019-07-15T11:54:22.689+07:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-07-17T08:45:46.653+07:00"
+                            jcr:description="&lt;p>We will guide the enterprise toward solutions that meet the diverse needs of our County customers through continuous improvement, thought leadership and operational excellence.&lt;/p>&#xd;&#xa;&lt;p> &lt;/p>&#xd;&#xa;"
+                            jcr:lastModified="{Date}2019-07-15T14:03:10.970+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="wcm/foundation/components/responsivegrid">
-                            <cq:responsive jcr:primaryType="nt:unstructured">
-                                <default
+                            jcr:title="The center of IT innovation for advancing the delivery of County service, anytime and anywhere."
+                            sling:resourceType="sandiego/components/content/core/teaser"
+                            actionsEnabled="true"
+                            descriptionFromPage="false"
+                            textIsRich="true"
+                            titleFromPage="false">
+                            <actions jcr:primaryType="nt:unstructured">
+                                <item0
                                     jcr:primaryType="nt:unstructured"
-                                    width="6"/>
+                                    link="https://www.google.com/"
+                                    text="explore more"/>
+                            </actions>
+                            <cq:responsive jcr:primaryType="nt:unstructured">
                                 <tablet
                                     jcr:primaryType="nt:unstructured"
-                                    width="12"/>
+                                    width="8"/>
                                 <phone
                                     jcr:primaryType="nt:unstructured"
-                                    width="12"/>
+                                    width="NaN"/>
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    width="6"/>
                             </cq:responsive>
-                            <teaser
-                                cq:styleIds="[1563173732554]"
-                                jcr:created="{Date}2019-07-15T11:54:22.689+07:00"
-                                jcr:createdBy="admin"
-                                jcr:description="&lt;p>We will guide the enterprise toward solutions that meet the diverse needs of our County customers through continuous improvement, thought leadership and operational excellence.&lt;/p>&#xd;&#xa;&lt;p> &lt;/p>&#xd;&#xa;"
-                                jcr:lastModified="{Date}2019-07-15T14:03:10.970+07:00"
-                                jcr:lastModifiedBy="admin"
-                                jcr:primaryType="nt:unstructured"
-                                jcr:title="The center of IT innovation for advancing the delivery of County service, anytime and anywhere."
-                                sling:resourceType="sandiego/components/content/core/teaser"
-                                actionsEnabled="true"
-                                descriptionFromPage="false"
-                                textIsRich="true"
-                                titleFromPage="false">
-                                <actions jcr:primaryType="nt:unstructured">
-                                    <item0
-                                        jcr:primaryType="nt:unstructured"
-                                        link="https://www.google.com/"
-                                        text="explore more"/>
-                                </actions>
-                                <cq:responsive jcr:primaryType="nt:unstructured">
-                                    <tablet
-                                        jcr:primaryType="nt:unstructured"
-                                        width="6"/>
-                                    <phone
-                                        jcr:primaryType="nt:unstructured"
-                                        width="NaN"/>
-                                </cq:responsive>
-                            </teaser>
-                        </responsivegrid_copy>
-                        <responsivegrid
-                            cq:styleIds="[1563327781539]"
-                            jcr:created="{Date}2019-07-17T09:38:15.990+07:00"
+                        </teaser_copy>
+                        <image_copy
+                            cq:styleIds="[1563331186673]"
+                            jcr:created="{Date}2019-07-17T09:38:24.990+07:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-07-17T09:39:23.467+07:00"
+                            jcr:lastModified="{Date}2019-07-25T09:14:35.176+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="wcm/foundation/components/responsivegrid">
+                            sling:resourceType="sandiego/components/content/core/image"
+                            alt="banner"
+                            altValueFromDAM="false"
+                            displayPopupTitle="false"
+                            fileReference="/content/dam/sandiego/public-pages/landing-1/blank.png"
+                            isDecorative="false"
+                            titleValueFromDAM="false">
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default
                                     jcr:primaryType="nt:unstructured"
+                                    width="5"/>
+                                <tablet
+                                    jcr:primaryType="nt:unstructured"
                                     offset="0"
-                                    width="6"/>
+                                    width="4"/>
                             </cq:responsive>
-                            <image
-                                cq:styleIds="[1563331186673]"
-                                jcr:created="{Date}2019-07-17T09:38:24.990+07:00"
-                                jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2019-07-17T09:40:14.512+07:00"
-                                jcr:lastModifiedBy="admin"
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="sandiego/components/content/core/image"
-                                alt="banner"
-                                altValueFromDAM="false"
-                                displayPopupTitle="false"
-                                fileReference="/content/dam/sandiego/public-pages/landing-1/blank.png"
-                                isDecorative="false"
-                                titleValueFromDAM="false">
-                                <cq:responsive jcr:primaryType="nt:unstructured">
-                                    <default
-                                        jcr:primaryType="nt:unstructured"
-                                        width="5"/>
-                                </cq:responsive>
-                            </image>
-                        </responsivegrid>
+                        </image_copy>
                     </responsivegrid_1040960066>
                     <responsivegrid_1180560757
                         cq:styleIds="[1563162643233]"
@@ -629,10 +601,12 @@
                             cq:styleIds="[1563186595681]"
                             jcr:created="{Date}2019-07-15T17:19:30.698+07:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-07-15T17:30:11.381+07:00"
+                            jcr:lastModified="{Date}2019-07-25T09:19:42.804+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="sandiego/components/content/core/carousel">
+                            sling:resourceType="sandiego/components/content/core/carousel"
+                            autopauseDisabled="false"
+                            autoplay="false">
                             <responsivegrid
                                 jcr:created="{Date}2019-07-15T17:19:35.399+07:00"
                                 jcr:createdBy="admin"
@@ -641,7 +615,65 @@
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="wcm/foundation/components/responsivegrid">
                                 <cq:responsive jcr:primaryType="nt:unstructured"/>
-                                <responsivegrid_copy
+                                <responsivegrid
+                                    jcr:created="{Date}2019-07-15T17:19:50.493+07:00"
+                                    jcr:createdBy="admin"
+                                    jcr:lastModified="{Date}2019-07-15T17:19:50.493+07:00"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                                    <cq:responsive jcr:primaryType="nt:unstructured">
+                                        <default
+                                            jcr:primaryType="nt:unstructured"
+                                            width="6"/>
+                                        <phone
+                                            jcr:primaryType="nt:unstructured"
+                                            width="12"/>
+                                    </cq:responsive>
+                                    <teaser_copy
+                                        cq:styleIds="[1563186274521]"
+                                        jcr:created="{Date}2019-07-15T17:22:20.590+07:00"
+                                        jcr:createdBy="admin"
+                                        jcr:description="&lt;p>June 27 2019&lt;/p>&#xd;&#xa;"
+                                        jcr:lastModified="{Date}2019-07-25T09:17:09.597+07:00"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="County to Use Wireless Emergency Alert to Test Earthquake Warning"
+                                        sling:resourceType="sandiego/components/content/core/teaser"
+                                        actionsEnabled="false"
+                                        descriptionFromPage="false"
+                                        fileReference="/content/dam/core-components-examples/library/sample-assets/snowy-mountain-glacier.jpg"
+                                        textIsRich="true"
+                                        titleFromPage="false">
+                                        <cq:responsive jcr:primaryType="nt:unstructured">
+                                            <phone
+                                                jcr:primaryType="nt:unstructured"
+                                                width="12"/>
+                                        </cq:responsive>
+                                    </teaser_copy>
+                                    <teaser
+                                        cq:styleIds="[1563186274521]"
+                                        jcr:created="{Date}2019-07-15T17:21:56.015+07:00"
+                                        jcr:createdBy="admin"
+                                        jcr:description="&lt;p>June 27 2019&lt;/p>&#xd;&#xa;"
+                                        jcr:lastModified="{Date}2019-07-25T09:17:16.757+07:00"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="County Offices Close for Independence Day"
+                                        sling:resourceType="sandiego/components/content/core/teaser"
+                                        actionsEnabled="false"
+                                        descriptionFromPage="false"
+                                        fileReference="/content/dam/core-components-examples/library/sample-assets/lava-into-ocean.jpg"
+                                        textIsRich="true"
+                                        titleFromPage="false">
+                                        <cq:responsive jcr:primaryType="nt:unstructured">
+                                            <phone
+                                                jcr:primaryType="nt:unstructured"
+                                                width="12"/>
+                                        </cq:responsive>
+                                    </teaser>
+                                </responsivegrid>
+                                <responsivegrid_copy_
                                     jcr:created="{Date}2019-07-15T17:19:50.493+07:00"
                                     jcr:createdBy="admin"
                                     jcr:lastModified="{Date}2019-07-15T17:19:50.493+07:00"
@@ -661,14 +693,14 @@
                                         jcr:created="{Date}2019-07-15T17:21:16.513+07:00"
                                         jcr:createdBy="admin"
                                         jcr:description="&lt;p>June 27 2019&lt;/p>&#xd;&#xa;"
-                                        jcr:lastModified="{Date}2019-07-16T14:04:15.445+07:00"
+                                        jcr:lastModified="{Date}2019-07-25T09:17:12.148+07:00"
                                         jcr:lastModifiedBy="admin"
                                         jcr:primaryType="nt:unstructured"
                                         jcr:title="Earthquake Early Warning Tested in San Diego County"
                                         sling:resourceType="sandiego/components/content/core/teaser"
                                         actionsEnabled="false"
                                         descriptionFromPage="false"
-                                        fileReference="/content/dam/core-components-examples/library/sample-assets/snowy-mountain-glacier.jpg"
+                                        fileReference="/content/dam/core-components-examples/library/sample-assets/lava-rock-formation.jpg"
                                         textIsRich="true"
                                         titleFromPage="false">
                                         <cq:responsive jcr:primaryType="nt:unstructured">
@@ -680,8 +712,137 @@
                                                 width="6"/>
                                         </cq:responsive>
                                     </teaser>
+                                </responsivegrid_copy_>
+                            </responsivegrid>
+                            <item_1564020900064
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="wcm/foundation/components/responsivegrid">
+                                <responsivegrid_copy
+                                    jcr:created="{Date}2019-07-15T17:19:35.399+07:00"
+                                    jcr:createdBy="admin"
+                                    jcr:lastModified="{Date}2019-07-15T17:19:35.399+07:00"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                                    <cq:responsive jcr:primaryType="nt:unstructured"/>
+                                    <responsivegrid_copy
+                                        jcr:created="{Date}2019-07-15T17:19:50.493+07:00"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2019-07-15T17:19:50.493+07:00"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="wcm/foundation/components/responsivegrid">
+                                        <cq:responsive jcr:primaryType="nt:unstructured">
+                                            <default
+                                                jcr:primaryType="nt:unstructured"
+                                                width="6"/>
+                                            <phone
+                                                jcr:primaryType="nt:unstructured"
+                                                width="12"/>
+                                        </cq:responsive>
+                                        <teaser
+                                            cq:styleIds="[1563186253944]"
+                                            jcr:created="{Date}2019-07-15T17:21:16.513+07:00"
+                                            jcr:createdBy="admin"
+                                            jcr:description="&lt;p>June 27 2019&lt;/p>&#xd;&#xa;"
+                                            jcr:lastModified="{Date}2019-07-16T14:04:15.445+07:00"
+                                            jcr:lastModifiedBy="admin"
+                                            jcr:primaryType="nt:unstructured"
+                                            jcr:title="Earthquake Early Warning Tested in San Diego County"
+                                            sling:resourceType="sandiego/components/content/core/teaser"
+                                            actionsEnabled="false"
+                                            descriptionFromPage="false"
+                                            fileReference="/content/dam/core-components-examples/library/sample-assets/snowy-mountain-glacier.jpg"
+                                            textIsRich="true"
+                                            titleFromPage="false">
+                                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                                <phone
+                                                    jcr:primaryType="nt:unstructured"
+                                                    width="12"/>
+                                                <tablet
+                                                    jcr:primaryType="nt:unstructured"
+                                                    width="6"/>
+                                            </cq:responsive>
+                                        </teaser>
+                                    </responsivegrid_copy>
+                                    <responsivegrid
+                                        jcr:created="{Date}2019-07-15T17:19:50.493+07:00"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2019-07-15T17:19:50.493+07:00"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="wcm/foundation/components/responsivegrid">
+                                        <cq:responsive jcr:primaryType="nt:unstructured">
+                                            <default
+                                                jcr:primaryType="nt:unstructured"
+                                                width="6"/>
+                                            <phone
+                                                jcr:primaryType="nt:unstructured"
+                                                width="12"/>
+                                        </cq:responsive>
+                                        <responsivegrid
+                                            jcr:created="{Date}2019-07-15T17:20:17.928+07:00"
+                                            jcr:createdBy="admin"
+                                            jcr:lastModified="{Date}2019-07-15T17:20:17.928+07:00"
+                                            jcr:lastModifiedBy="admin"
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="wcm/foundation/components/responsivegrid">
+                                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                                <phone
+                                                    jcr:primaryType="nt:unstructured"
+                                                    width="12"/>
+                                            </cq:responsive>
+                                            <teaser
+                                                cq:styleIds="[1563186274521]"
+                                                jcr:created="{Date}2019-07-15T17:21:56.015+07:00"
+                                                jcr:createdBy="admin"
+                                                jcr:description="&lt;p>June 27 2019&lt;/p>&#xd;&#xa;"
+                                                jcr:lastModified="{Date}2019-07-16T14:04:07.151+07:00"
+                                                jcr:lastModifiedBy="admin"
+                                                jcr:primaryType="nt:unstructured"
+                                                jcr:title="County Offices Close for Independence Day"
+                                                sling:resourceType="sandiego/components/content/core/teaser"
+                                                actionsEnabled="false"
+                                                descriptionFromPage="false"
+                                                fileReference="/content/dam/core-components-examples/library/sample-assets/mountain-range.jpg"
+                                                textIsRich="true"
+                                                titleFromPage="false"/>
+                                        </responsivegrid>
+                                        <responsivegrid_388011344
+                                            jcr:created="{Date}2019-07-15T17:20:22.600+07:00"
+                                            jcr:createdBy="admin"
+                                            jcr:lastModified="{Date}2019-07-15T17:20:22.600+07:00"
+                                            jcr:lastModifiedBy="admin"
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="wcm/foundation/components/responsivegrid">
+                                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                                <phone
+                                                    jcr:primaryType="nt:unstructured"
+                                                    width="12"/>
+                                            </cq:responsive>
+                                            <teaser
+                                                cq:styleIds="[1563186274521]"
+                                                jcr:created="{Date}2019-07-15T17:22:20.590+07:00"
+                                                jcr:createdBy="admin"
+                                                jcr:description="&lt;p>June 27 2019&lt;/p>&#xd;&#xa;"
+                                                jcr:lastModified="{Date}2019-07-16T14:03:43.536+07:00"
+                                                jcr:lastModifiedBy="admin"
+                                                jcr:primaryType="nt:unstructured"
+                                                jcr:title="County to Use Wireless Emergency Alert to Test Earthquake Warning"
+                                                sling:resourceType="sandiego/components/content/core/teaser"
+                                                actionsEnabled="false"
+                                                descriptionFromPage="false"
+                                                fileReference="/content/dam/sandiego/public-pages/landing/hero.png"
+                                                textIsRich="true"
+                                                titleFromPage="false"/>
+                                        </responsivegrid_388011344>
+                                    </responsivegrid>
                                 </responsivegrid_copy>
-                                <responsivegrid
+                            </item_1564020900064>
+                            <item_1564021181681
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="wcm/foundation/components/responsivegrid">
+                                <responsivegrid_copy
                                     jcr:created="{Date}2019-07-15T17:19:50.493+07:00"
                                     jcr:createdBy="admin"
                                     jcr:lastModified="{Date}2019-07-15T17:19:50.493+07:00"
@@ -696,64 +857,84 @@
                                             jcr:primaryType="nt:unstructured"
                                             width="12"/>
                                     </cq:responsive>
-                                    <responsivegrid
-                                        jcr:created="{Date}2019-07-15T17:20:17.928+07:00"
+                                    <teaser_copy
+                                        cq:styleIds="[1563186274521]"
+                                        jcr:created="{Date}2019-07-15T17:22:20.590+07:00"
                                         jcr:createdBy="admin"
-                                        jcr:lastModified="{Date}2019-07-15T17:20:17.928+07:00"
+                                        jcr:description="&lt;p>June 27 2019&lt;/p>&#xd;&#xa;"
+                                        jcr:lastModified="{Date}2019-07-25T09:20:44.869+07:00"
                                         jcr:lastModifiedBy="admin"
                                         jcr:primaryType="nt:unstructured"
-                                        sling:resourceType="wcm/foundation/components/responsivegrid">
-                                        <cq:responsive jcr:primaryType="nt:unstructured">
-                                            <phone
-                                                jcr:primaryType="nt:unstructured"
-                                                width="12"/>
-                                        </cq:responsive>
-                                        <teaser
-                                            cq:styleIds="[1563186274521]"
-                                            jcr:created="{Date}2019-07-15T17:21:56.015+07:00"
-                                            jcr:createdBy="admin"
-                                            jcr:description="&lt;p>June 27 2019&lt;/p>&#xd;&#xa;"
-                                            jcr:lastModified="{Date}2019-07-16T14:04:07.151+07:00"
-                                            jcr:lastModifiedBy="admin"
-                                            jcr:primaryType="nt:unstructured"
-                                            jcr:title="County Offices Close for Independence Day"
-                                            sling:resourceType="sandiego/components/content/core/teaser"
-                                            actionsEnabled="false"
-                                            descriptionFromPage="false"
-                                            fileReference="/content/dam/core-components-examples/library/sample-assets/mountain-range.jpg"
-                                            textIsRich="true"
-                                            titleFromPage="false"/>
-                                    </responsivegrid>
-                                    <responsivegrid_388011344
-                                        jcr:created="{Date}2019-07-15T17:20:22.600+07:00"
+                                        jcr:title="County to Use Wireless Emergency Alert to Test Earthquake Warning"
+                                        sling:resourceType="sandiego/components/content/core/teaser"
+                                        actionsEnabled="false"
+                                        descriptionFromPage="false"
+                                        fileReference="/content/dam/sandiego/public-pages/landing/hero.png"
+                                        textIsRich="true"
+                                        titleFromPage="false"/>
+                                    <teaser
+                                        cq:styleIds="[1563186274521]"
+                                        jcr:created="{Date}2019-07-15T17:21:56.015+07:00"
                                         jcr:createdBy="admin"
-                                        jcr:lastModified="{Date}2019-07-15T17:20:22.600+07:00"
+                                        jcr:description="&lt;p>June 27 2019&lt;/p>&#xd;&#xa;"
+                                        jcr:lastModified="{Date}2019-07-25T09:21:08.797+07:00"
                                         jcr:lastModifiedBy="admin"
                                         jcr:primaryType="nt:unstructured"
-                                        sling:resourceType="wcm/foundation/components/responsivegrid">
-                                        <cq:responsive jcr:primaryType="nt:unstructured">
-                                            <phone
-                                                jcr:primaryType="nt:unstructured"
-                                                width="12"/>
-                                        </cq:responsive>
-                                        <teaser
-                                            cq:styleIds="[1563186274521]"
-                                            jcr:created="{Date}2019-07-15T17:22:20.590+07:00"
-                                            jcr:createdBy="admin"
-                                            jcr:description="&lt;p>June 27 2019&lt;/p>&#xd;&#xa;"
-                                            jcr:lastModified="{Date}2019-07-16T14:03:43.536+07:00"
-                                            jcr:lastModifiedBy="admin"
+                                        jcr:title="County Offices Close for Independence Day"
+                                        sling:resourceType="sandiego/components/content/core/teaser"
+                                        actionsEnabled="false"
+                                        descriptionFromPage="false"
+                                        fileReference="/content/dam/core-components-examples/library/sample-assets/lava-into-ocean.jpg"
+                                        textIsRich="true"
+                                        titleFromPage="false"/>
+                                </responsivegrid_copy>
+                                <responsivegrid_copy_1694060620
+                                    jcr:created="{Date}2019-07-15T17:19:50.493+07:00"
+                                    jcr:createdBy="admin"
+                                    jcr:lastModified="{Date}2019-07-15T17:19:50.493+07:00"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                                    <cq:responsive jcr:primaryType="nt:unstructured">
+                                        <default
                                             jcr:primaryType="nt:unstructured"
-                                            jcr:title="County to Use Wireless Emergency Alert to Test Earthquake Warning"
-                                            sling:resourceType="sandiego/components/content/core/teaser"
-                                            actionsEnabled="false"
-                                            descriptionFromPage="false"
-                                            fileReference="/content/dam/sandiego/public-pages/landing/hero.png"
-                                            textIsRich="true"
-                                            titleFromPage="false"/>
-                                    </responsivegrid_388011344>
-                                </responsivegrid>
-                            </responsivegrid>
+                                            width="6"/>
+                                        <phone
+                                            jcr:primaryType="nt:unstructured"
+                                            width="12"/>
+                                    </cq:responsive>
+                                    <teaser
+                                        cq:styleIds="[1563186274521]"
+                                        jcr:created="{Date}2019-07-15T17:21:56.015+07:00"
+                                        jcr:createdBy="admin"
+                                        jcr:description="&lt;p>June 27 2019&lt;/p>&#xd;&#xa;"
+                                        jcr:lastModified="{Date}2019-07-25T09:21:10.884+07:00"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="County Offices Close for Independence Day"
+                                        sling:resourceType="sandiego/components/content/core/teaser"
+                                        actionsEnabled="false"
+                                        descriptionFromPage="false"
+                                        fileReference="/content/dam/core-components-examples/library/sample-assets/snowy-mountain-glacier.jpg"
+                                        textIsRich="true"
+                                        titleFromPage="false"/>
+                                    <teaser_copy
+                                        cq:styleIds="[1563186274521]"
+                                        jcr:created="{Date}2019-07-15T17:22:20.590+07:00"
+                                        jcr:createdBy="admin"
+                                        jcr:description="&lt;p>June 27 2019&lt;/p>&#xd;&#xa;"
+                                        jcr:lastModified="{Date}2019-07-25T09:21:05.256+07:00"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="County to Use Wireless Emergency Alert to Test Earthquake Warning"
+                                        sling:resourceType="sandiego/components/content/core/teaser"
+                                        actionsEnabled="false"
+                                        descriptionFromPage="false"
+                                        fileReference="/content/dam/core-components-examples/library/sample-assets/mountain-range.jpg"
+                                        textIsRich="true"
+                                        titleFromPage="false"/>
+                                </responsivegrid_copy_1694060620>
+                            </item_1564021181681>
                         </carousel>
                     </responsivegrid_536375417>
                 </responsivegrid>
