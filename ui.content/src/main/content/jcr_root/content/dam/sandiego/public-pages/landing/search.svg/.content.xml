@@ -15,7 +15,7 @@
             dam:size="{Long}692"
             dc:format="image/svg+xml"
             dc:modified="{Date}2019-07-14T20:09:52.162+07:00"
-            jcr:lastModified="{Date}2019-07-24T08:45:09.998+07:00"
+            jcr:lastModified="{Date}2019-07-23T18:23:53.258+07:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>
