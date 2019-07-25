@@ -24,12 +24,12 @@
                             mergeList="{Boolean}true"/>
                     </content-default>
                     <policy_109738412366600
-                        jcr:lastModified="{Date}2019-07-25T10:07:26.502+07:00"
+                        jcr:lastModified="{Date}2019-07-25T10:51:23.471+07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Public Page Pocily"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/sandiego/components/content/core/carousel,/apps/sandiego/components/content/core/image,/apps/sandiego/components/content/core/navigation,/apps/sandiego/components/content/core/search,/apps/sandiego/components/content/core/tabs,/apps/sandiego/components/content/core/teaser,/apps/sandiego/components/content/core/text,/apps/sandiego/components/content/core/title,/apps/sandiego/components/content/public-page/landing-page-v2/image-galery,/apps/sandiego/components/content/public-page/landing-page-v2/process-image]">
+                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/sandiego/components/content/core/carousel,/apps/sandiego/components/content/core/image,/apps/sandiego/components/content/core/navigation,/apps/sandiego/components/content/core/search,/apps/sandiego/components/content/core/tabs,/apps/sandiego/components/content/core/teaser,/apps/sandiego/components/content/core/text,/apps/sandiego/components/content/core/title,/apps/sandiego/components/content/public-page/landing-page-v2/image-galery,/apps/sandiego/components/content/public-page/landing-page-v2/process-image,/apps/sandiego/components/content/public-page/landing-page-v2/sandiego-logo]">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                         <cq:styleGroups jcr:primaryType="nt:unstructured">
                             <item0
@@ -394,7 +394,7 @@
                 <core jcr:primaryType="nt:unstructured">
                     <text jcr:primaryType="nt:unstructured">
                         <policy_1563029344686
-                            jcr:lastModified="{Date}2019-07-24T17:33:00.741+07:00"
+                            jcr:lastModified="{Date}2019-07-25T10:08:55.398+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Landing Text Policy"
@@ -575,7 +575,7 @@
                                             cq:styleLabel="Color 1"
                                             jcr:primaryType="nt:unstructured"/>
                                         <item12
-                                            cq:styleClasses="cmp-text--history-log"
+                                            cq:styleClasses="cpm-text--color-2"
                                             cq:styleId="1563175775331"
                                             cq:styleLabel="Color 2"
                                             jcr:primaryType="nt:unstructured"/>

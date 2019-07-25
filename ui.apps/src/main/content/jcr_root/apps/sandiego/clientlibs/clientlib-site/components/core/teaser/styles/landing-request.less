@@ -4,7 +4,7 @@
 
 .cmp-teaser--landing-request {
   padding: 8px;
-  perspective: 1000px;
+  //  perspective: 1000px;
 
   .cmp-teaser {
     position: relative;
@@ -23,16 +23,9 @@
       align-items: center;
       justify-content: center;
       opacity: 0;
-      transform: rotateY(-90deg);
-      transition: all 0.5s cubic-bezier(.36, -0.64, .34, 1.76);
+      transform: translateY(@landing-request-height);
       padding: 0 64px;
       box-sizing: border-box;
-    }
-
-    .flip-text-box {
-      opacity: 1;
-      transform: none;
-      transition: all 0.5s cubic-bezier(.36, -0.64, .34, 1.76);
     }
 
     .cmp-teaser__title {
@@ -42,5 +35,26 @@
       font-weight: @font-weight-bold;
       color: @white;
     }
+  }
+
+  &:first-child {
+    .cmp-teaser__content {
+      transform: translateX(0 - @text-box-width );
+    }
+  }
+
+  &:last-child {
+    .cmp-teaser__content {
+      transform: translateX(@text-box-width );
+    }
+  }
+
+  &.show {
+    .cmp-teaser__content {
+      transition: all @animation-duration;
+      opacity: 1;
+      transform: none;
+    }
+
   }
 }

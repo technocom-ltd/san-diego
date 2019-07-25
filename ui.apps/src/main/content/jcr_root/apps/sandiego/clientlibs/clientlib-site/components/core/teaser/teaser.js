@@ -65,26 +65,48 @@ $(document).ready(function () {
   'use strict';
   var target = $(element),
     scroll,
-    className = 'flip-text-box';
+    //    className = 'flip-text-box';
+    className = 'show';
+
+  $(window).scroll(function () {
+
+    scroll = $(window).scrollTop();
+    if (scroll > 1800) {
+      target.addClass(className);
+    }
+    //      !target.eq(0).hasClass(className) &&
+    //      !target.eq(1).hasClass(className) &&
+    //      !target.eq(2).hasClass(className)) {
+    //      target.eq(0).addClass(className);
+    //      setTimeout(function () {
+    //        target.eq(1).addClass(className);
+    //      }, 300);
+    //      setTimeout(function () {
+    //        target.eq(2).addClass(className);
+    //      }, 600);
+    //    }
+    //    else if (scroll <= 1800) {
+    //      target.removeClass(className);
+    //    }
+  });
+}('.cmp-teaser--landing-request', jQuery));
+
+
+(function (element, $) {
+  'use strict';
+  var target = $(element),
+    scroll,
+    className = 'slide-up';
 
 
   $(window).scroll(function () {
 
     scroll = $(window).scrollTop();
-    if (scroll > 1800 &&
-      !target.eq(0).hasClass(className) &&
-      !target.eq(1).hasClass(className) &&
-      !target.eq(2).hasClass(className)) {
-      target.eq(0).addClass(className);
-      setTimeout(function () {
-        target.eq(1).addClass(className);
-      }, 300);
-      setTimeout(function () {
-        target.eq(2).addClass(className);
-      }, 600);
-    } 
-//    else if (scroll <= 1800) {
-//      target.removeClass(className);
-//    }
+    if (scroll > 300) {
+      target.addClass(className)
+    }
+    //    else if (scroll <= 1800) {
+    //      target.removeClass(className);
+    //    }
   });
-}('.cmp-teaser--landing-request .cmp-teaser__content', jQuery));
+}('.cmp-teaser--landing-intro', jQuery));
