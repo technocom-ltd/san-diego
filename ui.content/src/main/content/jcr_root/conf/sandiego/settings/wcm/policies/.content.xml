@@ -24,7 +24,7 @@
                             mergeList="{Boolean}true"/>
                     </content-default>
                     <policy_109738412366600
-                        jcr:lastModified="{Date}2019-07-14T20:48:29.123+07:00"
+                        jcr:lastModified="{Date}2019-07-25T10:07:26.502+07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Public Page Pocily"
@@ -32,7 +32,9 @@
                         components="[/libs/wcm/foundation/components/responsivegrid,/apps/sandiego/components/content/core/carousel,/apps/sandiego/components/content/core/image,/apps/sandiego/components/content/core/navigation,/apps/sandiego/components/content/core/search,/apps/sandiego/components/content/core/tabs,/apps/sandiego/components/content/core/teaser,/apps/sandiego/components/content/core/text,/apps/sandiego/components/content/core/title,/apps/sandiego/components/content/public-page/landing-page-v2/image-galery,/apps/sandiego/components/content/public-page/landing-page-v2/process-image]">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                         <cq:styleGroups jcr:primaryType="nt:unstructured">
-                            <item0 jcr:primaryType="nt:unstructured">
+                            <item0
+                                cq:styleGroupMultiple="true"
+                                jcr:primaryType="nt:unstructured">
                                 <cq:styles jcr:primaryType="nt:unstructured">
                                     <item0
                                         cq:styleClasses="cmp-layout-container--fixed"
@@ -58,6 +60,21 @@
                                         cq:styleClasses="cmp-layout-container--landing-footer"
                                         cq:styleId="1563111529058"
                                         cq:styleLabel="Landing Footer"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item5
+                                        cq:styleClasses="cmp-margin--high"
+                                        cq:styleId="1563962734250"
+                                        cq:styleLabel="Margin High"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item6
+                                        cq:styleClasses="cmp-layout-container-darker--background"
+                                        cq:styleId="1564023435130"
+                                        cq:styleLabel="Background Darker"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item7
+                                        cq:styleClasses="cmp-landing-guiding-principles"
+                                        cq:styleId="1564024037799"
+                                        cq:styleLabel="Guiding Principles"
                                         jcr:primaryType="nt:unstructured"/>
                                 </cq:styles>
                             </item0>
@@ -362,7 +379,7 @@
                 <core jcr:primaryType="nt:unstructured">
                     <text jcr:primaryType="nt:unstructured">
                         <policy_1563029344686
-                            jcr:lastModified="{Date}2019-07-23T10:47:49.434+07:00"
+                            jcr:lastModified="{Date}2019-07-25T08:52:59.145+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Landing Text Policy"
@@ -548,9 +565,14 @@
                                             cq:styleLabel="Color 2"
                                             jcr:primaryType="nt:unstructured"/>
                                         <item13
-                                            cq:styleClasses="cpm-text--button-1"
+                                            cq:styleClasses="cpm-text--button-v1"
                                             cq:styleId="1563183260256"
-                                            cq:styleLabel="Button 1"
+                                            cq:styleLabel="Button v1"
+                                            jcr:primaryType="nt:unstructured"/>
+                                        <item14
+                                            cq:styleClasses="cpm-text--button-v2"
+                                            cq:styleId="1564019558267"
+                                            cq:styleLabel="Button v2"
                                             jcr:primaryType="nt:unstructured"/>
                                     </cq:styles>
                                 </item0>

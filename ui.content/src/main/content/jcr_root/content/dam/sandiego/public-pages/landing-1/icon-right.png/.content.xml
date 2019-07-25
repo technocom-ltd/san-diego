@@ -9,7 +9,7 @@
         cq:parentPath="/content/dam/sandiego/public-pages/landing-1"
         dam:assetState="processed"
         dam:relativePath="sandiego/public-pages/landing-1/icon-right.png"
-        jcr:lastModified="{Date}2019-07-23T22:37:36.477+07:00"
+        jcr:lastModified="{Date}2019-07-24T16:27:38.748+07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -25,7 +25,7 @@
             dam:Physicalwidthindpi="{Long}72"
             dam:Physicalwidthininches="{Decimal}0.15275868773460388"
             dam:Progressive="no"
-            dam:sha1="f25b362cdaacfb17585e44cb2b9a637027a6a17c"
+            dam:sha1="1daaa32f4bbd36a9d1beefe8d6b5d3c9c2f066f9"
             dam:size="{Long}1162"
             dc:format="image/png"
             dc:modified="{Date}2019-07-18T13:13:45.626+07:00"

@@ -9,7 +9,7 @@
         cq:parentPath="/content/dam/sandiego/public-pages/landing"
         dam:assetState="processed"
         dam:relativePath="sandiego/public-pages/landing/linkedin-dark.png"
-        jcr:lastModified="{Date}2019-07-23T22:37:34.838+07:00"
+        jcr:lastModified="{Date}2019-07-24T16:27:37.289+07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -25,7 +25,7 @@
             dam:Physicalwidthindpi="{Long}288"
             dam:Physicalwidthininches="{Decimal}0.44442808628082275"
             dam:Progressive="no"
-            dam:sha1="43d363eeff9bff7d3a96b870fe766500c9776d88"
+            dam:sha1="e73f2ac5b96c0b422ce15121a5ae08bf47169fa9"
             dam:size="{Long}8805"
             dc:format="image/png"
             dc:modified="{Date}2019-07-15T17:13:32.347+07:00"
