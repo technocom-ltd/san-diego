@@ -36,6 +36,9 @@ jQuery(function ($) {
       // Navigation Panel.
       $(
           '<div id="mobileNav" class="cmp-navigation--mobile">' +
+          '<div class="cmp-sandiego-logo">' +
+          $('.cmp-sandiego-logo').html() +
+          '</div>' +
           $('.cmp-navigation--landing-middle').html() +
           '<nav class="cmp-navigation">' +
           $(this).html() +

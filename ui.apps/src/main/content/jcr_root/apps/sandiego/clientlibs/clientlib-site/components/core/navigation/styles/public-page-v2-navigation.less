@@ -18,12 +18,12 @@
 @mobile-nav-bg-color: #000;
 @mobile-nav-link-color: #fff;
 
-.cmp-navigation--landing-middle {
+.cmp-navigation--public-page-v2 {
   margin: 0;
   padding: 0;
-  margin-top: -40px;
   z-index: 1000;
-  position: relative;
+  position: fixed;
+  top: 120px;
   display: flex;
   justify-content: center;
   background: transition;
@@ -35,7 +35,7 @@
   .cmp-navigation {
     display: flex;
     justify-content: center;
-    width: @max-width;
+    width: 100%;
     box-shadow: 0px 2px 4px rgba(87, 87, 87, 0.2);
     background-color: @white;
     transition: all 0.4s;
@@ -44,22 +44,15 @@
     .cmp-navigation__group {
       list-style: none;
       margin: 0;
-      padding: 0;
-      //      padding: 0 30px;
-      height: 80px;
-      width: 100%;
+      padding: 0 14px;
+      height: 60px;
+      width: @max-width;
       display: flex;
-      justify-content: space-around;
+      justify-content: space-between;
       align-items: center;
-      transition: all 0.4s;
-      transition: width 0s;
-
+      box-sizing: border-box;
     }
 
-    //    .cmp-navigation__group > li:not(:last-child) {
-    //      border-right: 1px solid @black-20;
-    //
-    //    }
 
     .cmp-navigation__item {
       display: inline-block;
@@ -73,75 +66,20 @@
       font-size: @font-size-small;
       text-transform: uppercase;
       font-weight: @font-weight-bold;
-      padding: 12px 20px;
+      padding: 18px 0;
       white-space: nowrap;
       text-decoration: none;
       width: 100%;
-      transition: all 0.4s;
+      transition: all 0.1s;
 
       &:hover,
       &:focus {
-        background: @black-20;
-      }
-
-      @media (max-width: @screen-medium) {
-        padding: 12px 20px;
+        border-top: 2px solid;
       }
     }
-  }
 
-
-  &.sticky-top {
-    margin-top: 0;
-    z-index: 1000;
-    position: fixed;
-    top: 120px;
-
-    @media (max-width: @screen-medium) {
-      top: 0px;
+    .cmp-navigation__item--active .cmp-navigation__item-link {
+      border-top: 2px solid;
     }
-
-    .cmp-navigation {
-      width: 100%;
-      transition: all 0.4s;
-
-      .cmp-navigation__group {
-        width: @max-width;
-        height: 60px;
-        justify-content: space-between;
-        transition: all 0.4s;
-        transition: width 0s;
-        padding: 0 14px;
-        box-sizing: border-box;
-
-        @media (max-width: @screen-medium) {
-          padding: 0 15px;
-        }
-      }
-
-      .cmp-navigation__item-link {
-        padding: 18px 0;
-        transition: all 0.1s;
-
-        &:hover,
-        &:focus {
-          background: none;
-          border-top: 2px solid;
-        }
-
-      }
-    }
-  }
-}
-
-
-
-@keyframes scale {
-  from {
-    justify-content: space-around;
-  }
-
-  to {
-    justify-content: space-between;
   }
 }
