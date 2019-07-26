@@ -110,3 +110,21 @@ $(document).ready(function () {
     //    }
   });
 }('.cmp-teaser--landing-intro', jQuery));
+
+
+(function (element, $) {
+  'use strict';
+  var target = $(element);
+
+  target.each(function () {
+    $(this).prop('Counter', 0).animate({
+      Counter: $(this).text()
+    }, {
+      duration: 2000,
+      easing: 'swing',
+      step: function (now) {
+        $(this).text(Math.ceil(now));
+      }
+    });
+  })
+}('.cmp-teaser--secure-nod-report .cmp-teaser__description p', jQuery));
