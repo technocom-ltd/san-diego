@@ -9,12 +9,12 @@
                 <responsivegrid jcr:primaryType="nt:unstructured">
                     <content-default
                         jcr:description="Policy for editable layout containers"
-                        jcr:lastModified="{Date}2019-07-21T22:45:17.880+07:00"
+                        jcr:lastModified="{Date}2019-07-26T17:33:16.209+07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="SanDiego Site Default"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/libs/foundation/components/image,/libs/wcm/foundation/components/responsivegrid,/apps/sandiego/components/content/core/image,/apps/sandiego/components/content/public-page/landing-page-v1/header,/apps/sandiego/components/content/public-page/landing-page-v2/header,/apps/sandiego/components/content/secure-page/homepage-v2/secure-header]"
+                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/sandiego/components/content/core/image,/apps/sandiego/components/content/public-page/landing-page-v2/footer,/apps/sandiego/components/content/public-page/landing-page-v2/header]"
                         policyResourceType="wcm/foundation/components/responsivegrid">
                         <cq:authoring jcr:primaryType="nt:unstructured">
                             <assetToComponentMapping jcr:primaryType="nt:unstructured"/>
@@ -1008,7 +1008,7 @@
                     </teaser>
                     <navigation jcr:primaryType="nt:unstructured">
                         <policy_1563036159134
-                            jcr:lastModified="{Date}2019-07-25T14:25:46.880+07:00"
+                            jcr:lastModified="{Date}2019-07-26T23:34:56.898+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Public Navigation Policy"

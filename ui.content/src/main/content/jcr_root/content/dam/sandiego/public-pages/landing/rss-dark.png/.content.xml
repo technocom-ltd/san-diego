@@ -9,7 +9,7 @@
         cq:parentPath="/content/dam/sandiego/public-pages/landing"
         dam:assetState="processed"
         dam:relativePath="sandiego/public-pages/landing/rss-dark.png"
-        jcr:lastModified="{Date}2019-07-25T14:03:01.809+07:00"
+        jcr:lastModified="{Date}2019-07-26T17:17:07.731+07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -29,7 +29,7 @@
             dam:size="{Long}9069"
             dc:format="image/png"
             dc:modified="{Date}2019-07-15T10:18:14.984+07:00"
-            jcr:lastModified="{Date}2019-07-25T11:07:28.681+07:00"
+            jcr:lastModified="{Date}2019-07-26T17:17:04.030+07:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"

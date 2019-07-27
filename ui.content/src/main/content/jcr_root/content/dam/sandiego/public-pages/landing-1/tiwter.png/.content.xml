@@ -9,7 +9,7 @@
         cq:parentPath="/content/dam/sandiego/public-pages/landing-1"
         dam:assetState="processed"
         dam:relativePath="sandiego/public-pages/landing-1/tiwter.png"
-        jcr:lastModified="{Date}2019-07-25T14:03:06.934+07:00"
+        jcr:lastModified="{Date}2019-07-26T17:17:09.381+07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -29,7 +29,7 @@
             dam:size="{Long}7347"
             dc:format="image/png"
             dc:modified="{Date}2019-07-16T10:17:33.469+07:00"
-            jcr:lastModified="{Date}2019-07-25T11:07:29.559+07:00"
+            jcr:lastModified="{Date}2019-07-26T17:17:04.935+07:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
