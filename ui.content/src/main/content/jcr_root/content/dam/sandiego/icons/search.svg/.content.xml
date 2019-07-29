@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="aad5e54a-319b-46c4-9390-529321afa88f">
+    <jcr:content
+        dam:assetState="processed"
+        dam:relativePath="sandiego/icons/search.svg"
+        jcr:lastModified="{Date}2019-07-29T11:13:54.140+07:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:extracted="{Date}2019-07-29T11:13:53.655+07:00"
+            dam:sha1="a7aa8acaacc13cec0c76dd0005d302093f853f50"
+            dam:size="{Long}692"
+            dc:format="image/svg+xml"
+            dc:modified="{Date}2019-07-14T20:09:52.162+07:00"
+            jcr:lastModified="{Date}2019-07-29T09:42:05.695+07:00"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

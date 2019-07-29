@@ -2,8 +2,8 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-07-29T10:03:11.682+07:00"
-        cq:lastModifiedBy="admin"
+        cq:lastModified="{Date}2019-07-29T11:07:57.363+07:00"
+        cq:lastModifiedBy="reference-adjustment-service"
         cq:styleIds="[1563417271423]"
         cq:template="/conf/sandiego/settings/wcm/templates/secure-page-template-v1"
         jcr:isCheckedOut="{Boolean}true"
@@ -103,7 +103,7 @@
                         alt="notification"
                         altValueFromDAM="false"
                         displayPopupTitle="false"
-                        fileReference="/content/dam/sandiego/secure-pages/home/icon.png"
+                        fileReference="/content/dam/sandiego/icons/notification-dark.png"
                         isDecorative="false"
                         titleValueFromDAM="false"/>
                 </header>
