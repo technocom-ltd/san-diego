@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured">
+    <sandiego-logo
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="sandiego/components/content/public-page/landing-page-v2/sandiego-logo">
+        <image jcr:primaryType="nt:unstructured"/>
+    </sandiego-logo>
+    <text_1 jcr:primaryType="nt:unstructured"/>
+    <text_2 jcr:primaryType="nt:unstructured"/>
+    <img_1 jcr:primaryType="nt:unstructured"/>
+    <img_2 jcr:primaryType="nt:unstructured"/>
+    <img_3 jcr:primaryType="nt:unstructured"/>
+    <navigation jcr:primaryType="nt:unstructured"/>
+    <image-galery
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="sandiego/components/content/public-page/landing-page-v2/image-galery">
+        <image_1 jcr:primaryType="nt:unstructured"/>
+        <image_2 jcr:primaryType="nt:unstructured"/>
+        <image_3 jcr:primaryType="nt:unstructured"/>
+        <image_4 jcr:primaryType="nt:unstructured"/>
+        <image_5 jcr:primaryType="nt:unstructured"/>
+        <image_6 jcr:primaryType="nt:unstructured"/>
+        <image_7 jcr:primaryType="nt:unstructured"/>
+        <image_8 jcr:primaryType="nt:unstructured"/>
+    </image-galery>
+</jcr:root>

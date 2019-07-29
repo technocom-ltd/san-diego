@@ -1,0 +1,67 @@
+.cmp-text-box-background--it-guiding {
+  .cmp-text-box-background {
+    display: flex;
+    background-color: @black-40;
+    height: 100px;
+    border-radius: 8px;
+    margin-top: 76px;
+    margin-bottom: 76px;
+
+    align-items: center;
+    justify-content: space-between;
+    padding: 26px 32px;
+    box-sizing: border-box;
+
+    @media only screen and (max-width:@screen-small) {
+      flex-direction: column;
+      height: auto;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .cmp-text-box-background__text {
+      //      max-width: 744px;
+      font-family: Sarabun;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 150%;
+      display: flex;
+      align-items: center;
+
+      background: url('/content/dam/sandiego/icons/file.svg') no-repeat left;
+      padding-left: 16px;
+
+      .cmp-text {
+        p {
+          color: @white;
+          margin: 0;
+        }
+      }
+    }
+
+    .cmp-text-box-background__button {
+      float: right;
+      padding: 0;
+      margin: 0;
+
+      @media only screen and (max-width:@screen-small) {}
+
+
+      .cmp-text {
+        p {
+          margin: 0;
+
+          a {
+            background: @white;
+            border-radius: 8px;
+
+            &:hover {
+              text-decoration: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}

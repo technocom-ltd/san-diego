@@ -1,0 +1,59 @@
+@white-base: #FFFFFF;
+
+.cmp-landing-guiding-principles {
+  background: @black-40;
+  height: 100px;
+
+  > div:first-child {
+    display: flex;
+    align-items: center;
+
+    .image {
+      width: auto !important;
+      padding-left: 38px;
+    }
+  }
+
+  .cmp-image__image {
+    width: 25px;
+    margin: 0;
+  }
+
+  .cmp-text {
+    p {
+      margin: auto;
+      color: @white-base;
+
+      a {
+        background: @white-base;
+        padding: 0;
+      }
+    }
+  }
+
+  .cpm-text--button-v2 {
+    height: 100px;
+    align-items: center;
+    display: flex !important;
+
+    .cmp-text {
+      max-width: 178px;
+      width: 100%;
+
+      p {
+        a {
+          border-radius: 0px;
+        }
+      }
+
+      &:hover {
+        transform: none;
+        box-shadow: none;
+
+        p a {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}

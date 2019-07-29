@@ -55,17 +55,13 @@
 
 .cpm-text--color-1 {
   .cmp-text {
-    p {
-      color: @text-color-1;
-    }
+    color: @text-color-1;
   }
 }
 
 .cpm-text--color-2 {
   .cmp-text {
-    p {
-      color: @text-color-2;
-    }
+    color: @text-color-2;
   }
 }
 
@@ -95,20 +91,33 @@
   }
 
   .cmp-text {
+    transition: all 0.4s;
+
     p {
       a {
-        background: #dcdcdc;
-        border-radius: 8px;
+        background: @gray-6;
+        border-radius: 4px;
         padding: 15px 16px;
         display: flex;
         align-items: center;
         text-align: center;
         justify-content: center;
         height: 58px;
+        color: @text-color-second;
+
       }
 
       @media (max-width: @screen-small) {
         text-align: center;
+      }
+    }
+
+    &:hover {
+      transform: scale(1.04);
+      box-shadow: 3px 2px 6px 0px rgba(0, 0, 0, 0.4);
+
+      p a {
+        text-decoration: none;
       }
     }
   }

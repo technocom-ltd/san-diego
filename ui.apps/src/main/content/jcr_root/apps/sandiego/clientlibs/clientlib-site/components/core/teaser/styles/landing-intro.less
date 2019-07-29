@@ -45,6 +45,11 @@
     opacity: 0;
     transform: translateY(@teaser-intro-height);
 
+    @media (max-width: @screen-medium) {
+      opacity: 1;
+      transform: none;
+    }
+
     @media (max-width: @screen-small) {
       margin-left: auto !important;
       margin-right: auto !important;

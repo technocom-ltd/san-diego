@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workspaceFilter version="1.0">
   <filter root="/conf/sandiego" mode="replace" />
-  <filter root="/content/sandiego" mode="replace" />
+
+  <!--  Filter unauthenticated pages proposal 1-->
+  <filter root="/content/sandiego/landing-page-v1" mode="replace" />
+
+  <!--  Filter unauthenticated pages proposal 2-->
+  <filter root="/content/sandiego/landing-page-v2/v1/about-us" mode="replace" />
+  <filter root="/content/sandiego/landing-page-v2/v1/contact" mode="replace" />
+  <filter root="/content/sandiego/landing-page-v2/v1/log-in" mode="replace" />
+  <filter root="/content/sandiego/landing-page-v2/v2/procurement" mode="replace" />
+  <filter root="/content/sandiego/landing-page-v2/v2/it-guiding-principles" mode="replace" />
+  <filter root="/content/sandiego/landing-page-v2/v2/it-services-catalog" mode="replace" />
+  <filter root="/content/sandiego/landing-page-v2/v2/technology-patterns" mode="replace" />
+  <filter root="/content/sandiego/landing-page-v2/v2/technology-standards" mode="replace" />
+
+  <!--  Filter secure pages proposal 1-->
+  <filter root="/content/sandiego/secure-homepage-v1" mode="replace" />
+
+  <!--  Filter secure pages proposal 2-->
+  <filter root="/content/sandiego/secure-homepage" mode="replace" />
+
   <filter root="/content/dam/sandiego" mode="replace" />
 </workspaceFilter>

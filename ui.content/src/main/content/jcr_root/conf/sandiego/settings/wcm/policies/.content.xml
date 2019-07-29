@@ -9,12 +9,12 @@
                 <responsivegrid jcr:primaryType="nt:unstructured">
                     <content-default
                         jcr:description="Policy for editable layout containers"
-                        jcr:lastModified="{Date}2019-07-21T22:45:17.880+07:00"
+                        jcr:lastModified="{Date}2019-07-26T17:33:16.209+07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="SanDiego Site Default"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/libs/foundation/components/image,/libs/wcm/foundation/components/responsivegrid,/apps/sandiego/components/content/core/image,/apps/sandiego/components/content/public-page/landing-page-v1/header,/apps/sandiego/components/content/public-page/landing-page-v2/header,/apps/sandiego/components/content/secure-page/homepage-v2/secure-header]"
+                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/sandiego/components/content/core/image,/apps/sandiego/components/content/public-page/landing-page-v2/footer,/apps/sandiego/components/content/public-page/landing-page-v2/header]"
                         policyResourceType="wcm/foundation/components/responsivegrid">
                         <cq:authoring jcr:primaryType="nt:unstructured">
                             <assetToComponentMapping jcr:primaryType="nt:unstructured"/>
@@ -24,12 +24,12 @@
                             mergeList="{Boolean}true"/>
                     </content-default>
                     <policy_109738412366600
-                        jcr:lastModified="{Date}2019-07-25T10:51:23.471+07:00"
+                        jcr:lastModified="{Date}2019-07-28T09:49:13.036+07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Public Page Pocily"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/sandiego/components/content/core/carousel,/apps/sandiego/components/content/core/image,/apps/sandiego/components/content/core/navigation,/apps/sandiego/components/content/core/search,/apps/sandiego/components/content/core/tabs,/apps/sandiego/components/content/core/teaser,/apps/sandiego/components/content/core/text,/apps/sandiego/components/content/core/title,/apps/sandiego/components/content/public-page/landing-page-v2/image-galery,/apps/sandiego/components/content/public-page/landing-page-v2/process-image,/apps/sandiego/components/content/public-page/landing-page-v2/sandiego-logo]">
+                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/sandiego/components/content/core/carousel,/apps/sandiego/components/content/core/image,/apps/sandiego/components/content/core/navigation,/apps/sandiego/components/content/core/search,/apps/sandiego/components/content/core/tabs,/apps/sandiego/components/content/core/teaser,/apps/sandiego/components/content/core/text,/apps/sandiego/components/content/core/title,/apps/sandiego/components/content/public-page/landing-page-v2/image-galery,/apps/sandiego/components/content/public-page/it-services-page-v2/application,/apps/sandiego/components/content/public-page/landing-page-v2/process-image,/apps/sandiego/components/content/public-page/it-services-page-v1/sample,/apps/sandiego/components/content/public-page/landing-page-v2/sandiego-logo]">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                         <cq:styleGroups jcr:primaryType="nt:unstructured">
                             <item0
@@ -1013,7 +1013,7 @@
                     </teaser>
                     <navigation jcr:primaryType="nt:unstructured">
                         <policy_1563036159134
-                            jcr:lastModified="{Date}2019-07-14T20:47:00.602+07:00"
+                            jcr:lastModified="{Date}2019-07-26T23:34:56.898+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Public Navigation Policy"
@@ -1034,6 +1034,11 @@
                                             cq:styleClasses="cmp-navigation--landing-footer"
                                             cq:styleId="1563112009992"
                                             cq:styleLabel="Landing Footer"
+                                            jcr:primaryType="nt:unstructured"/>
+                                        <item2
+                                            cq:styleClasses="cmp-navigation--public-page-v2"
+                                            cq:styleId="1564039512097"
+                                            cq:styleLabel="Public Header Navigation"
                                             jcr:primaryType="nt:unstructured"/>
                                     </cq:styles>
                                 </item0>
@@ -1246,6 +1251,9 @@
                             </policy_1563683869225>
                         </text-box-background>
                     </landing-1>
+                    <it-services-page-v2 jcr:primaryType="nt:unstructured">
+                        <application jcr:primaryType="nt:unstructured"/>
+                    </it-services-page-v2>
                 </public-page>
             </content>
             <structure jcr:primaryType="nt:unstructured">
@@ -1307,6 +1315,25 @@
                             </item0>
                         </cq:styleGroups>
                     </policy_174955527221800>
+                    <policy_74186372599600
+                        jcr:lastModified="{Date}2019-07-25T14:15:55.752+07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Public Page Policy v2"
+                        sling:resourceType="wcm/core/components/policy/policy">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0 jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="cmp-page--public-page-v2"
+                                        cq:styleId="1564038938386"
+                                        cq:styleLabel="Public Page"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                        </cq:styleGroups>
+                    </policy_74186372599600>
                 </page>
             </structure>
         </components>
