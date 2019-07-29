@@ -23,7 +23,7 @@ $(function () {
         displayColors: false,
         callbacks: {
           label: function (tooltipItem, data) {
-            var labels = data.datasets[tooltipItem.datasetIndex].labels,
+            var labels = data.labels,
               values = data.datasets[tooltipItem.datasetIndex].data,
               label = labels[tooltipItem.index],
               value = values[tooltipItem.index],

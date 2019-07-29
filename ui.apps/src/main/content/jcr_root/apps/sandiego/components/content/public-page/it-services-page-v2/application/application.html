@@ -1,0 +1,8 @@
+<div data-sly-use.app="application.js" class="cmp-application">
+  <img data-sly-test=${app.avatar} src=${app.avatar} alt='app' />
+  <h1>${app.title}</h1>
+  <h3>${app.description @ context='html'}</h3>
+  <a data-sly-test=${app.iosLink} href=${app.iosLink}>iosLink</a>
+  <a data-sly-test=${app.androidLink} href=${app.androidLink}>androidLink</a>
+  <img data-sly-test=${app.qrCode} src=${app.qrCode}>
+</div>
