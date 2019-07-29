@@ -4,6 +4,7 @@
 
   @media (max-width:@screen-small) {
     padding-right: 0px;
+    margin-top: 0px;
   }
 
   .cmp-teaser {
@@ -30,6 +31,10 @@
 
     .cmp-teaser__action-container {
       padding: 80px 0;
+
+      @media (max-width:767px) {
+        padding: 0px;
+      }
 
       .cmp-teaser__action-link {
         font-family: Sarabun;
