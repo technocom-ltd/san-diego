@@ -6,14 +6,17 @@
     <jcr:content
         dam:assetState="processed"
         dam:relativePath="sandiego/public-pages/it-services-catalog-v2/apple.svg"
-        jcr:lastModified="{Date}2019-07-28T10:52:02.571+07:00"
+        jcr:lastModified="{Date}2019-07-29T09:42:04.673+07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2019-07-28T10:52:00.214+07:00"
+            dam:extracted="{Date}2019-07-29T09:42:01.641+07:00"
             dam:sha1="cb1c60ef6ae738463c0181fd245da6b90a622591"
             dam:size="{Long}1663"
             dc:format="image/svg+xml"
+            dc:modified="{Date}2019-07-29T09:42:04.673+07:00"
+            jcr:lastModified="{Date}2019-07-29T09:42:04.672+07:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>
         <related jcr:primaryType="nt:unstructured"/>

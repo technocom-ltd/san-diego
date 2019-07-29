@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="c67a9c51-3285-4b6b-82b1-1a87370711f1">
     <jcr:content
+        cq:name="google-play.png"
+        cq:parentPath="/content/dam/sandiego/public-pages/it-services-catalog-v2"
         dam:assetState="processed"
         dam:relativePath="sandiego/public-pages/it-services-catalog-v2/google-play.png"
-        jcr:lastModified="{Date}2019-07-28T10:52:02.193+07:00"
+        jcr:lastModified="{Date}2019-07-29T09:42:03.107+07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}32"
-            dam:extracted="{Date}2019-07-28T10:52:01.864+07:00"
+            dam:extracted="{Date}2019-07-29T09:42:02.964+07:00"
             dam:Fileformat="PNG"
             dam:MIMEtype="image/png"
             dam:Numberofimages="{Long}1"
@@ -24,6 +27,9 @@
             dam:sha1="e3c550a9873a19b363125ba0d87f21bb96b6e294"
             dam:size="{Long}22337"
             dc:format="image/png"
+            dc:modified="{Date}2019-07-29T09:41:56.131+07:00"
+            jcr:lastModified="{Date}2019-07-29T09:41:56.123+07:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}251"

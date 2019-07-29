@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="749eea87-7a5c-4e28-b58e-e25dec9c2707">
     <jcr:content
+        cq:name="app-store.png"
+        cq:parentPath="/content/dam/sandiego/public-pages/it-services-catalog-v2"
         dam:assetState="processed"
         dam:relativePath="sandiego/public-pages/it-services-catalog-v2/app-store.png"
-        jcr:lastModified="{Date}2019-07-28T10:52:01.641+07:00"
+        jcr:lastModified="{Date}2019-07-29T09:42:05.030+07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}32"
             dam:Comments="Software: Adobe ImageReady&#xa;XML:com.adobe.xmp: &lt;?xpacket begin=&quot;﻿&quot; id=&quot;W5M0MpCehiHzreSzNTczkc9d&quot;?> &lt;x:xmpmeta xmlns:x=&quot;adobe:ns:meta/&quot; x:xmptk=&quot;Adobe XMP Core 5.3-c011 66.145661, 2012/02/06-14:56:27        &quot;> &lt;rdf:RDF xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;> &lt;rdf:Description rdf:about=&quot;&quot; xmlns:xmpMM=&quot;http://ns.adobe.com/xap/1.0/mm/&quot; xmlns:stRef=&quot;http://ns.adobe.com/xap/1.0/sType/ResourceRef#&quot; xmlns:xmp=&quot;http://ns.adobe.com/xap/1.0/&quot; xmpMM:OriginalDocumentID=&quot;xmp.did:7BB0C9871720681180838610F5453CA3&quot; xmpMM:DocumentID=&quot;xmp.did:AB9F84120F0B11E49A26FDAF4D439BEC&quot; xmpMM:InstanceID=&quot;xmp.iid:AB9F84110F0B11E49A26FDAF4D439BEC&quot; xmp:CreatorTool=&quot;Adobe Photoshop CS6 (Macintosh)&quot;> &lt;xmpMM:DerivedFrom stRef:instanceID=&quot;xmp.iid:D634E7885920681180838610F5453CA3&quot; stRef:documentID=&quot;xmp.did:7BB0C9871720681180838610F5453CA3&quot;/> &lt;/rdf:Description> &lt;/rdf:RDF> &lt;/x:xmpmeta> &lt;?xpacket end=&quot;r&quot;?>&#xa;"
-            dam:extracted="{Date}2019-07-28T10:52:00.820+07:00"
+            dam:extracted="{Date}2019-07-29T09:42:03.453+07:00"
             dam:Fileformat="PNG"
             dam:MIMEtype="image/png"
             dam:Numberofimages="{Long}1"
@@ -25,6 +28,9 @@
             dam:sha1="922503a9fb4f5fe1c532968c2888a3a9fa52da02"
             dam:size="{Long}23249"
             dc:format="image/png"
+            dc:modified="{Date}2019-07-29T09:42:05.030+07:00"
+            jcr:lastModified="{Date}2019-07-29T09:42:05.030+07:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}263"

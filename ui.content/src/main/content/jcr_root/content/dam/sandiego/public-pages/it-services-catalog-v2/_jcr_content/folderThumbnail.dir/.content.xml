@@ -5,6 +5,6 @@
         dam:folderThumbnailPaths="[/content/dam/sandiego/public-pages/it-services-catalog-v2/app-store.png,/content/dam/sandiego/public-pages/it-services-catalog-v2/google-play.png,/content/dam/sandiego/public-pages/it-services-catalog-v2/favorite.svg]"
         jcr:primaryType="nt:unstructured"
         bgcolor="{Long}-1"
-        height="{Long}140"
-        width="{Long}240"/>
+        height="{Long}240"
+        width="{Long}280"/>
 </jcr:root>
