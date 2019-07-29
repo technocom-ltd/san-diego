@@ -79,6 +79,23 @@ jQuery(function ($) {
     document.addEventListener("click", closeAllSelect);
   }
 
-  changeStypeDropdown();
+  //  changeStypeDropdown();
+
+  function changeStyleCheckbox() {
+    var target = $('.cmp-form-options--it-services-application-v2 .cmp-form-options__field-label');
+    var className = 'active';
+
+    $('<span></span>').appendTo(target);
+    target.eq(0).addClass(className);
+
+    target.click(function () {
+      target.removeClass(className);
+      $(this).addClass(className);
+    })
+
+
+  }
+
+  changeStyleCheckbox();
 
 });

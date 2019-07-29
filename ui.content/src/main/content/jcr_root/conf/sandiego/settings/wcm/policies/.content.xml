@@ -24,12 +24,12 @@
                             mergeList="{Boolean}true"/>
                     </content-default>
                     <policy_109738412366600
-                        jcr:lastModified="{Date}2019-07-28T09:49:13.036+07:00"
+                        jcr:lastModified="{Date}2019-07-29T17:04:13.559+07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Public Page Pocily"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/sandiego/components/content/core/carousel,/apps/sandiego/components/content/core/image,/apps/sandiego/components/content/core/navigation,/apps/sandiego/components/content/core/search,/apps/sandiego/components/content/core/tabs,/apps/sandiego/components/content/core/teaser,/apps/sandiego/components/content/core/text,/apps/sandiego/components/content/core/title,/apps/sandiego/components/content/public-page/landing-page-v2/image-galery,/apps/sandiego/components/content/public-page/it-services-page-v2/application,/apps/sandiego/components/content/public-page/landing-page-v2/process-image,/apps/sandiego/components/content/public-page/it-services-page-v1/sample,/apps/sandiego/components/content/public-page/landing-page-v2/sandiego-logo]">
+                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/sandiego/components/content/core/carousel,/apps/sandiego/components/content/core/image,/apps/sandiego/components/content/core/navigation,/apps/sandiego/components/content/core/search,/apps/sandiego/components/content/core/tabs,/apps/sandiego/components/content/core/teaser,/apps/sandiego/components/content/core/text,/apps/sandiego/components/content/core/title,/apps/sandiego/components/form/options,/apps/sandiego/components/content/public-page/landing-page-v2/image-galery,/apps/sandiego/components/content/public-page/it-services-page-v2/application,/apps/sandiego/components/content/public-page/landing-page-v2/process-image,/apps/sandiego/components/content/public-page/it-services-page-v1/sample,/apps/sandiego/components/content/public-page/landing-page-v2/sandiego-logo]">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                         <cq:styleGroups jcr:primaryType="nt:unstructured">
                             <item0
@@ -388,6 +388,25 @@
                             </item0>
                         </cq:styleGroups>
                     </policy_1563464236054>
+                    <policy_116780366897000
+                        jcr:lastModified="{Date}2019-07-29T18:05:12.247+07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Public Form Options Policy"
+                        sling:resourceType="wcm/core/components/policy/policy">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0 jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="cmp-form-options--it-services-application-v2"
+                                        cq:styleId="1564398294144"
+                                        cq:styleLabel="IT Services Application"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                        </cq:styleGroups>
+                    </policy_116780366897000>
                 </options>
             </form>
             <content jcr:primaryType="nt:unstructured">
@@ -894,7 +913,7 @@
                     </image>
                     <teaser jcr:primaryType="nt:unstructured">
                         <policy_1563034158125
-                            jcr:lastModified="{Date}2019-07-15T17:24:42.650+07:00"
+                            jcr:lastModified="{Date}2019-07-29T12:00:16.200+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Public Teaser Policy"
@@ -952,6 +971,11 @@
                                             cq:styleClasses="cmp-teaser--bottom-right "
                                             cq:styleId="1563186274521"
                                             cq:styleLabel="Landing Bottom Right"
+                                            jcr:primaryType="nt:unstructured"/>
+                                        <item10
+                                            cq:styleClasses="cmp-teaser--it-services-technology"
+                                            cq:styleId="1564376396268"
+                                            cq:styleLabel="IT Services Technology"
                                             jcr:primaryType="nt:unstructured"/>
                                     </cq:styles>
                                 </item0>

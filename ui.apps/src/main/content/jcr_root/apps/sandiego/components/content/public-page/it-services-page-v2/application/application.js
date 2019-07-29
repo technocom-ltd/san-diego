@@ -7,7 +7,8 @@ use(function () {
   app.qrCode = properties["qrFileReference"];
   app.link = properties["linkURL"];
   app.iosLink = properties["linkIOS"];
+  app.amazonLink = properties["linkAmazon"];
   app.androidLink = properties["linkAndroid"];
-
+  app.isFavoriteApp = properties["isFavoriteApp"];
   return app;
 })

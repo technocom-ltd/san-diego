@@ -1,0 +1,70 @@
+.cmp-form-options--it-services-application-v2 {
+
+  .cmp-form-options {
+    border: none;
+    outline: none;
+    text-align: center;
+    margin: 32px 0;
+
+    .cmp-form-options__legend {
+      display: none;
+    }
+
+    .cmp-form-options__field-label {
+      padding: 8px 24px;
+      opacity: 0.5;
+      display: inline-block;
+      position: relative;
+
+      span + span {
+        position: absolute;
+        bottom: 2px;
+        left: 0;
+        height: 2px;
+        width: 0;
+        background-color: @text-color-second;
+        transition: all 0.4s;
+      }
+
+      &:hover {
+        cursor: pointer;
+
+        span + span {
+          width: 100%;
+        }
+      }
+
+      &.active {
+        opacity: 1;
+
+        span + span {
+          width: 100%;
+        }
+      }
+    }
+
+    .cmp-form-options__field {}
+
+    .cmp-form-options__field--checkbox {}
+
+    .cmp-form-options__field--radio {
+      position: absolute;
+      opacity: 0;
+      height: 0;
+      width: 0;
+    }
+
+    .cmp-form-options__field-description {
+      color: @text-color-second;
+      font-weight: @font-weight-bold;
+    }
+
+    .cmp-form-options__label {}
+
+    .cmp-form-options__drop-down-field {}
+
+    .cmp-form-options__multi-drop-down-field {}
+
+    .cmp-form-options__help-message {}
+  }
+}

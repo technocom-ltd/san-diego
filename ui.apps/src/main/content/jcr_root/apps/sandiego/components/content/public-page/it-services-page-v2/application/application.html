@@ -1,8 +1,35 @@
 <div data-sly-use.app="application.js" class="cmp-application">
-  <img data-sly-test=${app.avatar} src=${app.avatar} alt='app' />
-  <h1>${app.title}</h1>
-  <h3>${app.description @ context='html'}</h3>
-  <a data-sly-test=${app.iosLink} href=${app.iosLink}>iosLink</a>
-  <a data-sly-test=${app.androidLink} href=${app.androidLink}>androidLink</a>
-  <img data-sly-test=${app.qrCode} src=${app.qrCode}>
+  <div class="cmp-application__container" data-color=${app.isFavoriteApp}>
+    <div>
+      <img class="cmp-application__image" data-sly-test=${app.avatar} src=${app.avatar} alt='app' />
+    </div>
+
+    <div class="cmp-application__content">
+      <div>
+        <div class="cmp-application__title">${app.title}</div>
+        <div class="cmp-application__description">${app.description @ context='html'}</div>
+        <a class="cmp-application__site-link" data-sly-test=${app.link} href=${app.link}>
+          Visit Site
+        </a>
+      </div>
+
+      <div>
+
+        <img class="cmp-application__qr-code" data-sly-test=${app.qrCode} src=${app.qrCode}>
+
+        <a class="cmp-application__app-link" data-sly-test=${app.androidLink} href=${app.androidLink}>
+          <img src='/content/dam/sandiego/public-pages/it-services-catalog-v2/google-play.png' alt='google-play' />
+        </a>
+
+        <a class="cmp-application__app-link" data-sly-test=${app.iosLink} href=${app.iosLink}>
+          <img src='/content/dam/sandiego/public-pages/it-services-catalog-v2/app-store.png' alt='app-store' />
+        </a>
+
+        <a class="cmp-application__app-link" data-sly-test=${app.amazonLink} href=${app.amazonLink}>
+          <img src='/content/dam/sandiego/public-pages/it-services-catalog-v2/amazon.png' alt='app-store' />
+        </a>
+
+      </div>
+    </div>
+  </div>
 </div>

@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-07-29T08:36:15.561+07:00"
+        cq:lastModified="{Date}2019-07-30T00:01:04.789+07:00"
         cq:lastModifiedBy="admin"
         cq:styleIds="[1564038938386]"
         cq:template="/conf/sandiego/settings/wcm/templates/public-page-template-v2"
@@ -45,6 +45,347 @@
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wcm/foundation/components/responsivegrid">
                     <cq:responsive jcr:primaryType="nt:unstructured"/>
+                    <text
+                        cq:styleIds="[1563964215629]"
+                        jcr:created="{Date}2019-07-29T11:47:31.856+07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-07-29T11:48:48.607+07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="sandiego/components/content/core/text"
+                        text="&lt;h2 style=&quot;text-align: center;&quot;>&lt;b>IT SERVICE CATALOG&lt;/b>&lt;/h2>&#xa;"
+                        textIsRich="true"/>
+                    <text_1556123869
+                        cq:styleIds="[1563175775331]"
+                        jcr:created="{Date}2019-07-29T11:48:02.521+07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-07-29T11:48:35.486+07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="sandiego/components/content/core/text"
+                        text="&lt;p style=&quot;text-align: center;&quot;>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to tell a story and let your users know a little more about you.​&lt;/p>&#xa;"
+                        textIsRich="true"/>
+                    <text_30191275
+                        cq:styleIds="[1563964215629]"
+                        jcr:created="{Date}2019-07-29T11:49:20.112+07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-07-29T23:23:41.644+07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="sandiego/components/content/core/text"
+                        text="&lt;h3 style=&quot;text-align: center;&quot;>&amp;nbsp;&lt;/h3>&#xa;&lt;h3 style=&quot;text-align: center;&quot;>&lt;b>What technologies we used&lt;/b>&lt;/h3>&#xa;"
+                        textIsRich="true"/>
+                    <responsivegrid
+                        jcr:created="{Date}2019-07-29T11:50:22.958+07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-07-29T11:50:22.958+07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/responsivegrid">
+                        <cq:responsive jcr:primaryType="nt:unstructured"/>
+                        <teaser
+                            cq:styleIds="[1564376396268]"
+                            jcr:created="{Date}2019-07-29T11:50:26.809+07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2019-07-29T12:00:26.823+07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Technology 1"
+                            sling:resourceType="sandiego/components/content/core/teaser"
+                            actionsEnabled="false"
+                            descriptionFromPage="false"
+                            fileReference="/content/dam/sandiego/public-pages/it-services-catalog-v2/git-branch.png"
+                            linkURL="https://www.youtube.com/watch?v=qGRU3sRbaYw"
+                            textIsRich="true"
+                            titleFromPage="false">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    width="4"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="1"
+                                    width="10"/>
+                            </cq:responsive>
+                        </teaser>
+                        <teaser_copy
+                            cq:styleIds="[1564376396268]"
+                            jcr:created="{Date}2019-07-29T11:50:26.809+07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2019-07-29T12:00:54.162+07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Technology 2"
+                            sling:resourceType="sandiego/components/content/core/teaser"
+                            actionsEnabled="false"
+                            descriptionFromPage="false"
+                            fileReference="/content/dam/sandiego/public-pages/it-services-catalog-v2/internet.png"
+                            linkURL="https://www.youtube.com/watch?v=qGRU3sRbaYw"
+                            textIsRich="true"
+                            titleFromPage="false">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    width="4"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="1"
+                                    width="10"/>
+                            </cq:responsive>
+                        </teaser_copy>
+                        <teaser_copy_copy
+                            cq:styleIds="[1564376396268]"
+                            jcr:created="{Date}2019-07-29T11:50:26.809+07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2019-07-29T13:46:53.596+07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Technology 3"
+                            sling:resourceType="sandiego/components/content/core/teaser"
+                            actionsEnabled="false"
+                            descriptionFromPage="false"
+                            fileReference="/content/dam/sandiego/public-pages/it-services-catalog-v2/deploy.png"
+                            linkURL="https://www.youtube.com/watch?v=qGRU3sRbaYw"
+                            textIsRich="true"
+                            titleFromPage="false">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    width="4"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="1"
+                                    width="10"/>
+                            </cq:responsive>
+                        </teaser_copy_copy>
+                        <teaser_copy_1378807859
+                            cq:styleIds="[1564376396268]"
+                            jcr:created="{Date}2019-07-29T11:50:26.809+07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2019-07-29T13:48:09.949+07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Technology 4"
+                            sling:resourceType="sandiego/components/content/core/teaser"
+                            actionsEnabled="false"
+                            descriptionFromPage="false"
+                            fileReference="/content/dam/sandiego/public-pages/it-services-catalog-v2/git-branch.png"
+                            linkURL="https://www.youtube.com/watch?v=qGRU3sRbaYw"
+                            textIsRich="true"
+                            titleFromPage="false">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    width="4"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="1"
+                                    width="10"/>
+                            </cq:responsive>
+                        </teaser_copy_1378807859>
+                        <teaser_copy_copy_486781299
+                            cq:styleIds="[1564376396268]"
+                            jcr:created="{Date}2019-07-29T11:50:26.809+07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2019-07-29T13:48:14.617+07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Technology 5"
+                            sling:resourceType="sandiego/components/content/core/teaser"
+                            actionsEnabled="false"
+                            descriptionFromPage="false"
+                            fileReference="/content/dam/sandiego/public-pages/it-services-catalog-v2/internet.png"
+                            linkURL="https://www.youtube.com/watch?v=qGRU3sRbaYw"
+                            textIsRich="true"
+                            titleFromPage="false">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    width="4"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="1"
+                                    width="10"/>
+                            </cq:responsive>
+                        </teaser_copy_copy_486781299>
+                        <teaser_copy_copy_862127652
+                            cq:styleIds="[1564376396268]"
+                            jcr:created="{Date}2019-07-29T11:50:26.809+07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2019-07-29T13:47:16.648+07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Technology 6"
+                            sling:resourceType="sandiego/components/content/core/teaser"
+                            actionsEnabled="false"
+                            descriptionFromPage="false"
+                            fileReference="/content/dam/sandiego/public-pages/it-services-catalog-v2/deploy.png"
+                            linkURL="https://www.youtube.com/watch?v=qGRU3sRbaYw"
+                            textIsRich="true"
+                            titleFromPage="false">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    width="4"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="1"
+                                    width="10"/>
+                            </cq:responsive>
+                        </teaser_copy_copy_862127652>
+                    </responsivegrid>
+                    <text_30191275_copy
+                        cq:styleIds="[1563964215629]"
+                        jcr:created="{Date}2019-07-29T11:49:20.112+07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-07-29T13:50:19.238+07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="sandiego/components/content/core/text"
+                        text="&lt;h3 style=&quot;text-align: center;&quot;>&amp;nbsp;&lt;/h3>&#xa;&lt;h3 style=&quot;text-align: center;&quot;>&lt;b>County app center&lt;/b>&lt;/h3>&#xa;"
+                        textIsRich="true"/>
+                    <options
+                        cq:styleIds="[1564398294144]"
+                        jcr:created="{Date}2019-07-29T17:04:31.315+07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-07-29T21:48:54.534+07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Type"
+                        sling:resourceType="sandiego/components/form/options"
+                        name="type"
+                        source="local"
+                        type="radio">
+                        <items jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                selected="true"
+                                text="All"
+                                value="all"/>
+                            <item1
+                                jcr:primaryType="nt:unstructured"
+                                selected="false"
+                                text="Android"
+                                value="android"/>
+                            <item2
+                                jcr:primaryType="nt:unstructured"
+                                selected="false"
+                                text="iOS"
+                                value="ios"/>
+                            <item3
+                                jcr:primaryType="nt:unstructured"
+                                selected="false"
+                                text="Amazon"
+                                value="amazon"/>
+                            <item4
+                                jcr:primaryType="nt:unstructured"
+                                selected="false"
+                                text="Mobile Web"
+                                value="mobile"/>
+                            <item5
+                                jcr:primaryType="nt:unstructured"
+                                selected="false"
+                                text="Español"
+                                value="espanol"/>
+                        </items>
+                    </options>
+                    <item_1
+                        cq:panelTitle="All"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Tab 1"
+                        sling:resourceType="wcm/foundation/components/responsivegrid">
+                        <application
+                            jcr:created="{Date}2019-07-29T13:50:30.815+07:00"
+                            jcr:createdBy="admin"
+                            jcr:description="&lt;p>Report non-emergency problems to the County of San Diego and track the progress of a reported problem. You can report problems related to pricing and scales (e.g. gas pumps, grocery stores), air quality (region wide), and code compliance (e.g. graffiti, abandoned vehicles) within the unincorporated area.&lt;/p>&#xd;&#xa;"
+                            jcr:lastModified="{Date}2019-07-29T15:30:46.619+07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Tell Us Now!"
+                            sling:resourceType="sandiego/components/content/public-page/it-services-page-v2/application"
+                            fileReference="/content/dam/sandiego/public-pages/it-services-catalog-v2/TellUsNow.png"
+                            isFavoriteApp="true"
+                            linkAndroid="https://www.lipsum.com/"
+                            linkIOS="https://www.lipsum.com/"
+                            linkURL="https://www.lipsum.com/"
+                            qrFileReference="/content/dam/sandiego/public-pages/it-services-catalog-v2/TellUsNow-qr.png"
+                            textIsRich="true"/>
+                        <application_copy_799
+                            jcr:created="{Date}2019-07-29T13:50:30.815+07:00"
+                            jcr:createdBy="admin"
+                            jcr:description="&lt;p>SD Food Info is a quick and easy way to view the latest inspection results for your favorite food facility in San Diego County. The app allows you to search by name, address, city or ZIP; and also provides a map feature allowing you to see food facilities near your current location. Inspection results for the last three years are displayed, including violations. Other cool features allow for searching by score, grade, closures, and even a particular violation.&lt;/p>&#xd;&#xa;"
+                            jcr:lastModified="{Date}2019-07-29T16:45:08.593+07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="SD Food Info"
+                            sling:resourceType="sandiego/components/content/public-page/it-services-page-v2/application"
+                            fileReference="/content/dam/sandiego/public-pages/it-services-catalog-v2/SDFoodInfo.png"
+                            isFavoriteApp="false"
+                            linkAndroid="https://www.lipsum.com/"
+                            linkIOS="https://www.lipsum.com/"
+                            linkURL="https://www.lipsum.com/"
+                            qrFileReference="/content/dam/sandiego/public-pages/it-services-catalog-v2/TellUsNow-qr.png"
+                            textIsRich="true"/>
+                        <application_copy_799_59458606
+                            jcr:created="{Date}2019-07-29T13:50:30.815+07:00"
+                            jcr:createdBy="admin"
+                            jcr:description="&lt;p>The must-have preparedness app. With SD Emergency, the tools you need to plan, prepare and respond in an emergency are right at your fingertips.&lt;/p>&#xd;&#xa;"
+                            jcr:lastModified="{Date}2019-07-29T16:46:52.183+07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="SD Emergency"
+                            sling:resourceType="sandiego/components/content/public-page/it-services-page-v2/application"
+                            fileReference="/content/dam/sandiego/public-pages/it-services-catalog-v2/SDEmergency.png"
+                            isFavoriteApp="false"
+                            linkAndroid="https://www.lipsum.com/"
+                            linkIOS="https://www.lipsum.com/"
+                            qrFileReference="/content/dam/sandiego/public-pages/it-services-catalog-v2/TellUsNow-qr.png"
+                            textIsRich="true"/>
+                        <application_copy_799_1016011282
+                            jcr:created="{Date}2019-07-29T13:50:30.815+07:00"
+                            jcr:createdBy="admin"
+                            jcr:description="&lt;p>From the source and direct to you, County News Center offers the latest news and videos about the County. The site's mobile version makes it easy to get that information wherever you are.&lt;/p>&#xd;&#xa;"
+                            jcr:lastModified="{Date}2019-07-29T16:50:27.694+07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="County News Center"
+                            sling:resourceType="sandiego/components/content/public-page/it-services-page-v2/application"
+                            fileReference="/content/dam/sandiego/public-pages/it-services-catalog-v2/CNC.png"
+                            isFavoriteApp="false"
+                            linkURL="https://www.lipsum.com/"
+                            qrFileReference="/content/dam/sandiego/public-pages/it-services-catalog-v2/TellUsNow-qr.png"
+                            textIsRich="true"/>
+                        <application_copy_799_1099310468
+                            jcr:created="{Date}2019-07-29T13:50:30.815+07:00"
+                            jcr:createdBy="admin"
+                            jcr:description="&lt;p>Use the SDCL app to search for books, DVDs, audiobooks, CDs and more. Check your account, request or renew items, and find your nearest library location and hours.&lt;/p>&#xd;&#xa;"
+                            jcr:lastModified="{Date}2019-07-29T22:21:18.314+07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="San Diego County Library"
+                            sling:resourceType="sandiego/components/content/public-page/it-services-page-v2/application"
+                            fileReference="/content/dam/sandiego/public-pages/it-services-catalog-v2/SanDiegoCounty.png"
+                            isFavoriteApp="false"
+                            linkAmazon="https://play.google.com/store/apps/details?id=com.bredir.boopsie.sdcl"
+                            linkAndroid="https://play.google.com/store/apps/details?id=com.bredir.boopsie.sdcl"
+                            linkIOS="https://itunes.apple.com/us/app/san-diego-county-library-sdcl/id603222548?mt=8"
+                            qrFileReference="/content/dam/sandiego/public-pages/it-services-catalog-v2/TellUsNow-qr.png"
+                            textIsRich="true"/>
+                        <application_copy_799_1347559757
+                            jcr:created="{Date}2019-07-29T13:50:30.815+07:00"
+                            jcr:createdBy="admin"
+                            jcr:description="&lt;p>To help the County Vector Control Program Fight the Bite of West Nile virus, use this app to anonymously report green swimming pools, mosquito breeding and dead birds for treatment or testing.&lt;/p>&#xd;&#xa;"
+                            jcr:lastModified="{Date}2019-07-29T17:51:09.888+07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Fight the Bite!"
+                            sling:resourceType="sandiego/components/content/public-page/it-services-page-v2/application"
+                            fileReference="/content/dam/sandiego/public-pages/it-services-catalog-v2/FightTheBite.png"
+                            isFavoriteApp="false"
+                            linkIOS="https://itunes.apple.com/us/app/fight-the-bite!/id574592827?mt=8"
+                            qrFileReference="/content/dam/sandiego/public-pages/it-services-catalog-v2/TellUsNow-qr.png"
+                            textIsRich="true"/>
+                    </item_1>
                 </responsivegrid>
             </responsivegrid>
             <header

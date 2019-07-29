@@ -1,0 +1,137 @@
+@cmp-application-image-size: 242px;
+@cmp-application-app-link-width: 150px;
+
+.cmp-application {
+  perspective: 1000px;
+
+  .cmp-application__container {
+    display: flex;
+    padding: 26px;
+    border-bottom: 1px solid @black-20;
+    transition: all 0.4s;
+  }
+
+  [data-color="true"] {
+    background-color: @gray-6;
+  }
+
+  .cmp-application__image {
+    width: @cmp-application-image-size;
+    height: @cmp-application-image-size;
+  }
+
+  .cmp-application__content {
+    display: flex;
+
+    //    first div is title and description
+    > div:nth-child(1) {
+      padding: 0 72px 0 32px;
+    }
+
+    //    second div is qr code and link to store
+
+    > div:nth-child(2) {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+  }
+
+  .cmp-application__title {
+    font-weight: @font-weight-bold;
+    font-size: 28px;
+  }
+
+  .cmp-application__description {
+    color: @text-color-second;
+    margin-top: 16px;
+  }
+
+  .cmp-application__site-link {
+    text-transform: uppercase;
+    padding: 12px 16px;
+    box-sizing: border-box;
+    background-color: @black-20;
+    font-weight: @font-weight-bold;
+    display: inline-block;
+    margin-top: 32px;
+  }
+
+  .cmp-application__app-link {
+    width: @cmp-application-app-link-width;
+    display: block;
+    margin-top: 16px;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .cmp-application__qr-code {
+    object-fit: none;
+  }
+
+  @media (max-width: @screen-medium) {
+    .cmp-application__content {
+      display: flex;
+      flex-direction: column;
+
+      //    first div is title and description
+      > div:nth-child(1) {
+        padding: 0 0 0 24px;
+      }
+
+      //    second div is qr code and link to store
+      > div:nth-child(2) {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-auto-flow: dense;
+        grid-gap: 10px;
+        margin-top: 24px;
+      }
+    }
+
+    .cmp-application__app-link {
+      margin-top: 0;
+    }
+
+    .cmp-application__qr-code {
+      grid-row: 1 / span 2;
+    }
+  }
+
+  @media (max-width: @screen-small) {
+    .cmp-application__container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 24px;
+      border-bottom: 1px solid @black-20;
+      transition: all 0.4s;
+    }
+
+    .cmp-application__content {
+      display: flex;
+      flex-direction: column;
+
+      //    first div is title and description
+      > div:nth-child(1) {
+        padding: 0;
+      }
+
+      //    second div is qr code and link to store
+      > div:nth-child(2) {
+        display: block;
+        margin-top: 12px;
+      }
+    }
+
+    .cmp-application__app-link {
+      margin-top: 12px;
+    }
+
+    .cmp-application__qr-code {
+      grid-row: 1 / span 2;
+    }
+  }
+}
