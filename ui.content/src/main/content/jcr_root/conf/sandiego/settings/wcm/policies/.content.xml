@@ -413,7 +413,7 @@
                 <core jcr:primaryType="nt:unstructured">
                     <text jcr:primaryType="nt:unstructured">
                         <policy_1563029344686
-                            jcr:lastModified="{Date}2019-07-30T14:07:48.823+07:00"
+                            jcr:lastModified="{Date}2019-07-25T10:08:55.398+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Landing Text Policy"
@@ -604,13 +604,8 @@
                                             cq:styleLabel="Background History"
                                             jcr:primaryType="nt:unstructured"/>
                                         <item14
-                                            cq:styleClasses="cpm-text--button-v1"
-                                            cq:styleId="1564019558267"
-                                            cq:styleLabel="Button v1"
-                                            jcr:primaryType="nt:unstructured"/>
-                                        <item15
                                             cq:styleClasses="cpm-text--button-v2"
-                                            cq:styleId="1564470459762"
+                                            cq:styleId="1564019558267"
                                             cq:styleLabel="Button v2"
                                             jcr:primaryType="nt:unstructured"/>
                                     </cq:styles>
@@ -918,7 +913,7 @@
                     </image>
                     <teaser jcr:primaryType="nt:unstructured">
                         <policy_1563034158125
-                            jcr:lastModified="{Date}2019-07-30T11:07:09.848+07:00"
+                            jcr:lastModified="{Date}2019-07-30T14:22:10.750+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Public Teaser Policy"
@@ -986,6 +981,11 @@
                                             cq:styleClasses="cmp-teaser--it-guiding-download"
                                             cq:styleId="1564459611963"
                                             cq:styleLabel="IT Guiding Download"
+                                            jcr:primaryType="nt:unstructured"/>
+                                        <item12
+                                            cq:styleClasses="cmp-teaser--it-guiding-download-v2"
+                                            cq:styleId="1564471320004"
+                                            cq:styleLabel="IT Guiding Download v2"
                                             jcr:primaryType="nt:unstructured"/>
                                     </cq:styles>
                                 </item0>
@@ -1193,26 +1193,20 @@
                     </carousel>
                     <tabs jcr:primaryType="nt:unstructured">
                         <policy_1563522418416
-                            jcr:lastModified="{Date}2019-07-19T14:56:45.294+07:00"
+                            jcr:lastModified="{Date}2019-07-30T15:20:03.226+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
-                            jcr:title="Tab Policy"
-                            sling:resourceType="wcm/core/components/policy/policy">
+                            jcr:title="Public Tab Policy"
+                            sling:resourceType="wcm/core/components/policy/policy"
+                            components="/libs/wcm/foundation/components/responsivegrid">
                             <jcr:content jcr:primaryType="nt:unstructured"/>
                             <cq:styleGroups jcr:primaryType="nt:unstructured">
-                                <item0
-                                    cq:styleGroupMultiple="true"
-                                    jcr:primaryType="nt:unstructured">
+                                <item0 jcr:primaryType="nt:unstructured">
                                     <cq:styles jcr:primaryType="nt:unstructured">
                                         <item0
-                                            cq:styleClasses="cmp-tabs--secure-home"
-                                            cq:styleId="1563522421063"
-                                            cq:styleLabel="Custom"
-                                            jcr:primaryType="nt:unstructured"/>
-                                        <item1
-                                            cq:styleClasses="cmp-margin--medium "
-                                            cq:styleId="1563522910578"
-                                            cq:styleLabel="Margin Medium"
+                                            cq:styleClasses="cmp-tabs--it-services-application"
+                                            cq:styleId="1564474787363"
+                                            cq:styleLabel="IT Services Application v2"
                                             jcr:primaryType="nt:unstructured"/>
                                     </cq:styles>
                                 </item0>

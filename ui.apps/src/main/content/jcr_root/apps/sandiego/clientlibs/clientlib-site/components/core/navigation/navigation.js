@@ -17,15 +17,12 @@
 jQuery(function ($) {
   "use strict";
 
-  $(".cmp-navigation__item:has(.cmp-navigation__group)").addClass("have-dropdown")
-
-  function applyComponentStyles() {
+  function applyComponentStyles(target, newElement) {
     //Top Level Navigation (expected to only be one of these)
-    $("#header-navbar .cmp-navigation").not("[data-top-nav-processed='true']").each(function () {
+    target.not("[data-top-nav-processed='true']").each(function () {
       // Mark the component element as processed to avoid the cyclic processing (see .not(..) above).
       var nav = $(this).attr("data-top-nav-processed", true),
         $body = $('body');
-
 
       // Toggle Nav
       $('<div id="toggleNav">' +
@@ -33,19 +30,7 @@ jQuery(function ($) {
         '</div>'
       ).appendTo($body);
 
-      // Navigation Panel.
-      $(
-          '<div id="mobileNav" class="cmp-navigation--mobile">' +
-          '<div class="cmp-landing-header__content">' +
-          $('.cmp-landing-header__content').html() +
-          '</div>' +
-          $('.cmp-navigation--landing-1-header').html() +
-          '<nav class="cmp-navigation">' +
-          $(this).html() +
-          '</nav>' +
-          '</div>'
-        )
-        .appendTo($body)
+      newElement.appendTo($body)
         .panel({
           delay: 500,
           hideOnClick: true,
@@ -59,7 +44,45 @@ jQuery(function ($) {
     });
   }
 
-  applyComponentStyles();
+  applyComponentStyles($("#header-navbar-v1 .cmp-navigation"), $(
+    '<div id="mobileNav" class="cmp-navigation--mobile">' +
+    '<div class="cmp-landing-header__content">' +
+    $('.cmp-landing-header__content').html() +
+    '</div>' +
+    $('.cmp-navigation--landing-1-header').html() +
+    '<nav class="cmp-navigation">' +
+    $("#header-navbar-v1 .cmp-navigation").html() +
+    '</nav>' +
+    '</div>'
+  ));
+
+  if ($('.cmp-navigation--landing-middle').length !== 0) {
+    applyComponentStyles($("#header-navbar .cmp-navigation"), $(
+      '<div id="mobileNav" class="cmp-navigation--mobile">' +
+      '<div class="cmp-sandiego-logo">' +
+      $('.cmp-sandiego-logo').html() +
+      '</div>' +
+      $('.cmp-navigation--landing-middle').html() +
+      '<nav class="cmp-navigation">' +
+      $("#header-navbar .cmp-navigation").html() +
+      '</nav>' +
+      '</div>'
+    ));
+  } else {
+    applyComponentStyles($("#header-navbar .cmp-navigation"), $(
+      '<div id="mobileNav" class="cmp-navigation--mobile">' +
+      '<div class="cmp-sandiego-logo">' +
+      $('.cmp-sandiego-logo').html() +
+      '</div>' +
+      $('.cmp-navigation--public-page-v2').html() +
+      '<nav class="cmp-navigation">' +
+      $("#header-navbar .cmp-navigation").html() +
+      '</nav>' +
+      '</div>'
+    ));
+  }
+
+
 
 });
 

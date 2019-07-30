@@ -8,6 +8,7 @@ components/core/page/page.js
 components/core/navigation/navigation.js
 components/core/teaser/teaser.js
 components/core/search/search.js
+components/core/tab/tab.js
 components/core/form/form-button/form-button.js
 components/core/form/form-options/form-options.js
 

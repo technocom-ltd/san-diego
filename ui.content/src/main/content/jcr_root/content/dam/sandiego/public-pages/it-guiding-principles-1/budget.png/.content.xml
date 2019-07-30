@@ -6,12 +6,12 @@
     <jcr:content
         dam:assetState="processed"
         dam:relativePath="sandiego/public-pages/it-guiding-principles-1/budget.png"
-        jcr:lastModified="{Date}2019-07-30T10:22:13.345+07:00"
+        jcr:lastModified="{Date}2019-07-30T14:48:37.837+07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}32"
-            dam:extracted="{Date}2019-07-30T10:22:12.450+07:00"
+            dam:extracted="{Date}2019-07-30T14:48:36.978+07:00"
             dam:Fileformat="PNG"
             dam:MIMEtype="image/png"
             dam:Numberofimages="{Long}1"

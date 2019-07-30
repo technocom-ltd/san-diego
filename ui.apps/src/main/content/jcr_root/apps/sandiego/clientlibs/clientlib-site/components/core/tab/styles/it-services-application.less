@@ -1,0 +1,52 @@
+.cmp-tabs--it-services-application {
+
+  .cmp-tabs {
+
+    .cmp-tabs__tablist {
+      justify-content: center;
+    }
+
+    .cmp-tabs__tab {
+      color: @text-color-second;
+      font-weight: @font-weight-bold;
+      opacity: 0.5;
+      position: relative;
+      display: block;
+      outline: none;
+      border: none;
+
+      > span {
+        position: absolute;
+        bottom: 2px;
+        left: 0;
+        height: 2px;
+        width: 0;
+        background-color: @text-color-second;
+        transition: all 0.4s;
+      }
+
+      &:hover {
+        > span {
+          width: 100%;
+        }
+      }
+    }
+
+    .cmp-tabs__tab--active {
+      opacity: 1;
+      border: none;
+      outline: none;
+
+      > span {
+        width: 100%;
+      }
+    }
+
+    .cmp-tabs__tabpanel {}
+
+    .cmp-tabs__tabpanel--active {
+      .animated();
+      .zoomIn();
+    }
+  }
+}
