@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-07-30T00:01:04.789+07:00"
+        cq:lastModified="{Date}2019-07-30T08:07:11.975+07:00"
         cq:lastModifiedBy="admin"
         cq:styleIds="[1564038938386]"
         cq:template="/conf/sandiego/settings/wcm/templates/public-page-template-v2"
@@ -386,6 +386,15 @@
                             qrFileReference="/content/dam/sandiego/public-pages/it-services-catalog-v2/TellUsNow-qr.png"
                             textIsRich="true"/>
                     </item_1>
+                    <text_1127342435
+                        jcr:created="{Date}2019-07-30T08:07:08.509+07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-07-30T08:07:11.952+07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="sandiego/components/content/core/text"
+                        text="&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;"
+                        textIsRich="true"/>
                 </responsivegrid>
             </responsivegrid>
             <header

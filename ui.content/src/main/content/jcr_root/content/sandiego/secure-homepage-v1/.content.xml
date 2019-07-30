@@ -137,9 +137,6 @@
                             <default
                                 jcr:primaryType="nt:unstructured"
                                 width="6"/>
-                            <phone
-                                jcr:primaryType="nt:unstructured"
-                                width="12"/>
                         </cq:responsive>
                         <chart_nod
                             jcr:created="{Date}2019-07-18T10:08:38.221+07:00"
@@ -152,9 +149,6 @@
                                 <default
                                     jcr:primaryType="nt:unstructured"
                                     width="6"/>
-                                <phone
-                                    jcr:primaryType="nt:unstructured"
-                                    width="12"/>
                             </cq:responsive>
                         </chart_nod>
                     </responsivegrid>
@@ -171,9 +165,6 @@
                                 jcr:primaryType="nt:unstructured"
                                 offset="0"
                                 width="6"/>
-                            <phone
-                                jcr:primaryType="nt:unstructured"
-                                width="12"/>
                         </cq:responsive>
                         <chart_sdd
                             jcr:created="{Date}2019-07-18T10:10:13.577+07:00"
@@ -194,9 +185,6 @@
                                     jcr:primaryType="nt:unstructured"
                                     offset="0"
                                     width="6"/>
-                                <phone
-                                    jcr:primaryType="nt:unstructured"
-                                    width="12"/>
                             </cq:responsive>
                         </chart_sdd_1891886861>
                     </responsivegrid_1676532477>
@@ -222,9 +210,6 @@
                             <default
                                 jcr:primaryType="nt:unstructured"
                                 width="6"/>
-                            <phone
-                                jcr:primaryType="nt:unstructured"
-                                width="12"/>
                         </cq:responsive>
                         <responsivegrid_73193
                             cq:styleIds="[1563419828654,1563505042597]"
@@ -239,9 +224,6 @@
                                     jcr:primaryType="nt:unstructured"
                                     offset="0"
                                     width="6"/>
-                                <phone
-                                    jcr:primaryType="nt:unstructured"
-                                    width="12"/>
                             </cq:responsive>
                             <responsivegrid
                                 cq:styleIds="[1563419828654,1563505042597]"
@@ -255,9 +237,6 @@
                                     <default
                                         jcr:primaryType="nt:unstructured"
                                         width="6"/>
-                                    <phone
-                                        jcr:primaryType="nt:unstructured"
-                                        width="12"/>
                                 </cq:responsive>
                                 <text
                                     cq:styleIds="[1563420990098,1563420976434]"
@@ -268,13 +247,7 @@
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="sandiego/components/content/core/text"
                                     text="&lt;p>&lt;b>Start a new document&lt;/b>&lt;/p>&#xa;"
-                                    textIsRich="true">
-                                    <cq:responsive jcr:primaryType="nt:unstructured">
-                                        <phone
-                                            jcr:primaryType="nt:unstructured"
-                                            width="12"/>
-                                    </cq:responsive>
-                                </text>
+                                    textIsRich="true"/>
                                 <text_570801779
                                     cq:styleIds="[1563421002277,1563423025477]"
                                     jcr:created="{Date}2019-07-18T11:09:49.900+07:00"
@@ -284,13 +257,7 @@
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="sandiego/components/content/core/text"
                                     text="&lt;p>Choose one type of document below&lt;/p>&#xa;"
-                                    textIsRich="true">
-                                    <cq:responsive jcr:primaryType="nt:unstructured">
-                                        <phone
-                                            jcr:primaryType="nt:unstructured"
-                                            width="12"/>
-                                    </cq:responsive>
-                                </text_570801779>
+                                    textIsRich="true"/>
                                 <responsivegrid
                                     jcr:created="{Date}2019-07-18T11:46:01.516+07:00"
                                     jcr:createdBy="admin"
@@ -298,11 +265,7 @@
                                     jcr:lastModifiedBy="admin"
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="wcm/foundation/components/responsivegrid">
-                                    <cq:responsive jcr:primaryType="nt:unstructured">
-                                        <phone
-                                            jcr:primaryType="nt:unstructured"
-                                            width="12"/>
-                                    </cq:responsive>
+                                    <cq:responsive jcr:primaryType="nt:unstructured"/>
                                     <teaser_copy
                                         cq:styleIds="[1563423313172]"
                                         jcr:created="{Date}2019-07-18T11:10:59.538+07:00"
@@ -322,12 +285,6 @@
                                             <default
                                                 jcr:primaryType="nt:unstructured"
                                                 width="3"/>
-                                            <tablet
-                                                jcr:primaryType="nt:unstructured"
-                                                width="6"/>
-                                            <phone
-                                                jcr:primaryType="nt:unstructured"
-                                                width="6"/>
                                         </cq:responsive>
                                     </teaser_copy>
                                     <teaser_397247402_cop
@@ -349,12 +306,6 @@
                                             <default
                                                 jcr:primaryType="nt:unstructured"
                                                 width="3"/>
-                                            <tablet
-                                                jcr:primaryType="nt:unstructured"
-                                                width="6"/>
-                                            <phone
-                                                jcr:primaryType="nt:unstructured"
-                                                width="6"/>
                                         </cq:responsive>
                                     </teaser_397247402_cop>
                                     <teaser_1258155610_co
@@ -376,12 +327,6 @@
                                             <default
                                                 jcr:primaryType="nt:unstructured"
                                                 width="3"/>
-                                            <tablet
-                                                jcr:primaryType="nt:unstructured"
-                                                width="6"/>
-                                            <phone
-                                                jcr:primaryType="nt:unstructured"
-                                                width="6"/>
                                         </cq:responsive>
                                     </teaser_1258155610_co>
                                     <teaser_288773549_cop
@@ -403,12 +348,6 @@
                                             <default
                                                 jcr:primaryType="nt:unstructured"
                                                 width="3"/>
-                                            <tablet
-                                                jcr:primaryType="nt:unstructured"
-                                                width="6"/>
-                                            <phone
-                                                jcr:primaryType="nt:unstructured"
-                                                width="6"/>
                                         </cq:responsive>
                                     </teaser_288773549_cop>
                                 </responsivegrid>
@@ -674,11 +613,6 @@
                                     text="&lt;p>&amp;nbsp;&lt;/p>&#xd;&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xd;&#xa;"
                                     textIsRich="true"/>
                             </item_1_copy>
-                            <cq:responsive jcr:primaryType="nt:unstructured">
-                                <phone
-                                    jcr:primaryType="nt:unstructured"
-                                    width="12"/>
-                            </cq:responsive>
                         </tabs>
                     </responsivegrid_1831217396>
                     <responsivegrid
@@ -694,9 +628,6 @@
                                 jcr:primaryType="nt:unstructured"
                                 offset="0"
                                 width="6"/>
-                            <phone
-                                jcr:primaryType="nt:unstructured"
-                                width="12"/>
                         </cq:responsive>
                         <text
                             cq:styleIds="[1563420990098,1563420976434]"
@@ -712,9 +643,6 @@
                                 <default
                                     jcr:primaryType="nt:unstructured"
                                     width="3"/>
-                                <phone
-                                    jcr:primaryType="nt:unstructured"
-                                    width="12"/>
                             </cq:responsive>
                         </text>
                         <options
@@ -733,10 +661,6 @@
                                 <default
                                     jcr:primaryType="nt:unstructured"
                                     width="2"/>
-                                <phone
-                                    jcr:primaryType="nt:unstructured"
-                                    offset="0"
-                                    width="11"/>
                             </cq:responsive>
                             <items jcr:primaryType="nt:unstructured">
                                 <item0
@@ -765,14 +689,7 @@
                             jcr:lastModified="{Date}2019-07-23T13:55:53.113+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="sandiego/components/content/secure-page/homepage-v1/notification-item-1">
-                            <cq:responsive jcr:primaryType="nt:unstructured">
-                                <phone
-                                    jcr:primaryType="nt:unstructured"
-                                    behavior="none"
-                                    width="12"/>
-                            </cq:responsive>
-                        </notification_item_1>
+                            sling:resourceType="sandiego/components/content/secure-page/homepage-v1/notification-item-1"/>
                         <responsivegrid_1234237009
                             jcr:created="{Date}2019-07-19T09:39:12.092+07:00"
                             jcr:createdBy="admin"
@@ -780,11 +697,7 @@
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wcm/foundation/components/responsivegrid">
-                            <cq:responsive jcr:primaryType="nt:unstructured">
-                                <phone
-                                    jcr:primaryType="nt:unstructured"
-                                    width="12"/>
-                            </cq:responsive>
+                            <cq:responsive jcr:primaryType="nt:unstructured"/>
                             <text_2001183417
                                 cq:styleIds="[1563420976434]"
                                 jcr:created="{Date}2019-07-19T09:43:19.708+07:00"
@@ -794,13 +707,7 @@
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="sandiego/components/content/core/text"
                                 text="&lt;p>&lt;b>SEE ALL NOTIFICATIONS&lt;/b>&lt;/p>&#xd;&#xa;"
-                                textIsRich="true">
-                                <cq:responsive jcr:primaryType="nt:unstructured">
-                                    <phone
-                                        jcr:primaryType="nt:unstructured"
-                                        width="12"/>
-                                </cq:responsive>
-                            </text_2001183417>
+                                textIsRich="true"/>
                         </responsivegrid_1234237009>
                     </responsivegrid>
                     <responsivegrid_344574158
@@ -815,9 +722,6 @@
                             <default
                                 jcr:primaryType="nt:unstructured"
                                 width="6"/>
-                            <phone
-                                jcr:primaryType="nt:unstructured"
-                                width="12"/>
                         </cq:responsive>
                         <text
                             cq:styleIds="[1563420990098,1563420980773]"
@@ -833,9 +737,6 @@
                                 <default
                                     jcr:primaryType="nt:unstructured"
                                     width="3"/>
-                                <phone
-                                    jcr:primaryType="nt:unstructured"
-                                    width="12"/>
                             </cq:responsive>
                         </text>
                         <options
@@ -854,9 +755,6 @@
                                 <default
                                     jcr:primaryType="nt:unstructured"
                                     width="2"/>
-                                <phone
-                                    jcr:primaryType="nt:unstructured"
-                                    width="11"/>
                             </cq:responsive>
                             <items jcr:primaryType="nt:unstructured">
                                 <item0
@@ -878,24 +776,14 @@
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wcm/foundation/components/responsivegrid">
-                            <cq:responsive jcr:primaryType="nt:unstructured">
-                                <phone
-                                    jcr:primaryType="nt:unstructured"
-                                    width="12"/>
-                            </cq:responsive>
+                            <cq:responsive jcr:primaryType="nt:unstructured"/>
                             <calendar_item_1
                                 jcr:created="{Date}2019-07-23T10:21:55.325+07:00"
                                 jcr:createdBy="admin"
                                 jcr:lastModified="{Date}2019-07-23T10:21:55.325+07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="sandiego/components/content/secure-page/homepage-v1/calendar-item-1">
-                                <cq:responsive jcr:primaryType="nt:unstructured">
-                                    <phone
-                                        jcr:primaryType="nt:unstructured"
-                                        width="12"/>
-                                </cq:responsive>
-                            </calendar_item_1>
+                                sling:resourceType="sandiego/components/content/secure-page/homepage-v1/calendar-item-1"/>
                             <text
                                 cq:styleIds="[1563420976434,1563423025477]"
                                 jcr:created="{Date}2019-07-23T11:04:41.936+07:00"

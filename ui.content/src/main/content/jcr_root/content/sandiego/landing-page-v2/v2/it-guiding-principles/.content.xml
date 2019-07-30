@@ -88,6 +88,9 @@
                                 <default
                                     jcr:primaryType="nt:unstructured"
                                     width="3"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    width="6"/>
                             </cq:responsive>
                         </text_1140661148>
                         <text
@@ -104,6 +107,9 @@
                                 <default
                                     jcr:primaryType="nt:unstructured"
                                     width="3"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    width="6"/>
                             </cq:responsive>
                         </text>
                         <text_1099991847
@@ -120,6 +126,9 @@
                                 <default
                                     jcr:primaryType="nt:unstructured"
                                     width="3"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    width="6"/>
                             </cq:responsive>
                         </text_1099991847>
                         <text_857051115
@@ -136,6 +145,9 @@
                                 <default
                                     jcr:primaryType="nt:unstructured"
                                     width="3"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    width="6"/>
                             </cq:responsive>
                         </text_857051115>
                         <text_696393499
@@ -153,6 +165,9 @@
                                     jcr:primaryType="nt:unstructured"
                                     behavior="newline"
                                     width="3"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    width="6"/>
                             </cq:responsive>
                         </text_696393499>
                         <text_441290830
@@ -169,6 +184,9 @@
                                 <default
                                     jcr:primaryType="nt:unstructured"
                                     width="3"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    width="6"/>
                             </cq:responsive>
                         </text_441290830>
                         <text_1597763317
@@ -185,6 +203,9 @@
                                 <default
                                     jcr:primaryType="nt:unstructured"
                                     width="3"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    width="6"/>
                             </cq:responsive>
                         </text_1597763317>
                         <text_1866632620
@@ -201,6 +222,9 @@
                                 <default
                                     jcr:primaryType="nt:unstructured"
                                     width="3"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    width="6"/>
                             </cq:responsive>
                         </text_1866632620>
                         <text_869750321
@@ -217,6 +241,9 @@
                                 <default
                                     jcr:primaryType="nt:unstructured"
                                     width="3"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    width="6"/>
                             </cq:responsive>
                         </text_869750321>
                         <text_2142774117
@@ -233,6 +260,9 @@
                                 <default
                                     jcr:primaryType="nt:unstructured"
                                     width="3"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    width="6"/>
                             </cq:responsive>
                         </text_2142774117>
                         <text_1292232985
@@ -249,6 +279,9 @@
                                 <default
                                     jcr:primaryType="nt:unstructured"
                                     width="3"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    width="6"/>
                             </cq:responsive>
                         </text_1292232985>
                         <text_2049052049
@@ -265,6 +298,9 @@
                                 <default
                                     jcr:primaryType="nt:unstructured"
                                     width="3"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    width="6"/>
                             </cq:responsive>
                         </text_2049052049>
                         <text_431524271
@@ -282,6 +318,9 @@
                                     jcr:primaryType="nt:unstructured"
                                     offset="0"
                                     width="3"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    width="6"/>
                             </cq:responsive>
                         </text_431524271>
                         <text_1466610638
@@ -298,6 +337,9 @@
                                 <default
                                     jcr:primaryType="nt:unstructured"
                                     width="3"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    width="6"/>
                             </cq:responsive>
                         </text_1466610638>
                         <text_1573975189
@@ -314,6 +356,9 @@
                                 <default
                                     jcr:primaryType="nt:unstructured"
                                     width="3"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    width="6"/>
                             </cq:responsive>
                         </text_1573975189>
                     </responsivegrid>
@@ -343,6 +388,9 @@
                                 <default
                                     jcr:primaryType="nt:unstructured"
                                     width="1"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    width="1"/>
                             </cq:responsive>
                         </image>
                         <text
@@ -358,6 +406,11 @@
                                 <default
                                     jcr:primaryType="nt:unstructured"
                                     width="7"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    behavior="none"
+                                    offset="0"
+                                    width="9"/>
                             </cq:responsive>
                         </text>
                         <text_1934138934
@@ -375,6 +428,11 @@
                                     jcr:primaryType="nt:unstructured"
                                     offset="2"
                                     width="2"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    behavior="newline"
+                                    offset="7"
+                                    width="5"/>
                             </cq:responsive>
                         </text_1934138934>
                     </responsivegrid_178465367>
