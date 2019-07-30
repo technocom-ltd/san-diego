@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-07-30T09:56:31.985+07:00"
+        cq:lastModified="{Date}2019-07-30T14:03:34.161+07:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/sandiego/settings/wcm/templates/public-page-template-v1"
         jcr:isCheckedOut="{Boolean}true"
@@ -123,6 +123,10 @@
                                     jcr:primaryType="nt:unstructured"
                                     offset="0"
                                     width="4"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="1"
+                                    width="10"/>
                             </cq:responsive>
                         </image_copy>
                     </responsivegrid_1040960066>
@@ -336,10 +340,10 @@
                                     </cq:responsive>
                                 </text>
                                 <text_1315822812
-                                    cq:styleIds="[1563112671433,1563183260256]"
+                                    cq:styleIds="[1564019558267,1563112671433]"
                                     jcr:created="{Date}2019-07-15T15:21:39.511+07:00"
                                     jcr:createdBy="admin"
-                                    jcr:lastModified="{Date}2019-07-15T16:34:43.482+07:00"
+                                    jcr:lastModified="{Date}2019-07-30T14:03:34.121+07:00"
                                     jcr:lastModifiedBy="admin"
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="sandiego/components/content/core/text"
@@ -350,6 +354,9 @@
                                             jcr:primaryType="nt:unstructured"
                                             offset="0"
                                             width="12"/>
+                                        <default
+                                            jcr:primaryType="nt:unstructured"
+                                            width="4"/>
                                     </cq:responsive>
                                 </text_1315822812>
                             </responsivegrid>

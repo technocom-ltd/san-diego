@@ -3,6 +3,7 @@
 Please read the document to understand about project.
 
 ## Core Components
+### Button v1 for landing page v1
 
 ### Layout Container
 

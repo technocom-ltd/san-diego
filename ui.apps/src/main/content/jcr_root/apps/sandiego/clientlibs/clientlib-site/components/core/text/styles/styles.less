@@ -122,3 +122,38 @@
     }
   }
 }
+
+.cpm-text--button-v1 {
+  @media (max-width: @screen-small) {
+    margin-bottom: 48px;
+  }
+
+  .cmp-text {
+    transition: all 0.4s;
+
+    p {
+      a {
+        background: @black-20;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        height: 48px;
+        width: 160px;
+        color: @text-color-second;
+        border-radius: 8px;
+      }
+
+      @media (max-width: @screen-small) {
+        text-align: center;
+      }
+    }
+
+    &:hover {
+      p a {
+        text-decoration: none;
+      }
+    }
+  }
+}
