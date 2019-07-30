@@ -1,14 +1,45 @@
+@cmp-accordion-image-size: 32px;
+
 .cmp-it-guiding-accordion {
+
+  .cmp-it-guiding-accordion__container {
+    margin-top: -1px;
+    border: 1px solid @black-20;
+    border-right: 0;
+    border-left: 0;
+
+    position: relative;
+  }
+
+  .cmp-it-guiding-accordion__symbol {
+    min-width: @cmp-accordion-image-size;
+    min-height: @cmp-accordion-image-size;
+    width: @cmp-accordion-image-size;
+    height: @cmp-accordion-image-size;
+
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 1em;
+    transform: translate(0, -50%);
+
+
+    .cmp-image,
+    .cmp-image__image {
+      width: 100%;
+      height: 100%;
+      padding: 0;
+      margin: 0;
+    }
+
+  }
 
   .cmp-it-guiding-accordion__title {
     text-transform: uppercase;
     font: @font-weight-bold @font-size-base @font-family-base;
-    padding: 30px 0;
-    border: 1px solid @black-20;
-    border-right: 0;
-    border-left: 0;
-    border-bottom: 0;
-    transition: border 0.4s linear 0.4s;
+    padding: 30px 64px;
+    position: relative;
+    display: block;
 
     &:hover {
       cursor: pointer;
@@ -20,12 +51,8 @@
         padding: 0;
       }
     }
-  }
 
-  > div {
-    position: relative;
-    display: block;
-
+    //Plus symbol
     > span {
       width: 16px;
       height: 2px;
@@ -34,33 +61,32 @@
       right: 2em;
       top: 50%;
 
-      transition: all 0.4s;
+      transition: all 0.4s ease-in-out;
     }
 
-    > span:nth-child(2) {
-      transform: rotate(270deg);
+    > span:nth-child(odd) {
+      transform: rotate(450deg);
     }
   }
 
-  .cmp-it-guiding-accordion__description {
-    transition: all 0.4s;
+.cmp-it-guiding-accordion__description {
+    transition: all 1s;
     overflow: hidden;
-    max-height: 0px;
+    max-height: 0;
+    opacity: 0;
+    padding-left: 64px;
   }
 
   &.expand-description {
     .cmp-it-guiding-accordion__title {
-      border-bottom: 0;
-    }
-
-    > div {
-      > span:nth-child(2) {
-        transform: rotate(0);
+      > span:nth-child(odd) {
+        transform: none;
       }
     }
 
     .cmp-it-guiding-accordion__description {
-      max-height: 500px;
+      max-height: 1000px;
+      opacity: 1;
     }
   }
 }

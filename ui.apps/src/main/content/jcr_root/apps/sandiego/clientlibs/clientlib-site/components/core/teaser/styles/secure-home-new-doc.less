@@ -15,11 +15,11 @@
  */
 /* SEA teaser - landing-intro.less*/
 
-@teaser-width: 352px;
-@teaser-height: 200px;
-@teaser-img-height: 100px;
-@teaser-padding-vertical: 16px;
-@teaser-padding-horizontal: 10px;
+@teaser-secure-new-doc-width: 352px;
+@teaser-secure-new-doc-height: 200px;
+@teaser-secure-new-doc-img-height: 100px;
+@teaser-secure-new-doc-padding-vertical: 16px;
+@teaser-secure-new-doc-padding-horizontal: 10px;
 
 .cmp-teaser--secure-home-new-doc {
   z-index: 100;
@@ -36,13 +36,13 @@
   .cmp-teaser {
     position: relative;
     width: 100%;
-    //    height: @teaser-height;
-    min-height: @teaser-height;
+    //    height: @teaser-secure-new-doc-height;
+    min-height: @teaser-secure-new-doc-height;
     overflow: hidden;
     background-color: @gray-6;
     padding-bottom: 0;
     transition: all 0.4s;
-    padding: @teaser-padding-vertical @teaser-padding-horizontal;
+    padding: @teaser-secure-new-doc-padding-vertical @teaser-secure-new-doc-padding-horizontal;
 
     box-sizing: border-box;
 
@@ -69,7 +69,7 @@
     .cmp-teaser__description {
       font-family: @font-family-base;
       width: 100%;
-      text-align: left;
+      text-align: center;
       font-size: @font-size-base;
       color: @text-color-third;
       margin: 8px 0 38px 0;

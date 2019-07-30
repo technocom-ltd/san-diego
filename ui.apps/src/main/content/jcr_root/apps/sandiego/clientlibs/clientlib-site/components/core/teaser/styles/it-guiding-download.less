@@ -1,0 +1,73 @@
+@teaser-download-image-size: 34px;
+
+.cmp-teaser--it-guiding-download {
+
+  .cmp-teaser {
+    background: @black-40;
+    padding: 26px 32px;
+    border-radius: 8px;
+
+    .cmp-teaser__content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+    }
+
+    .cmp-teaser__title {
+      font: @font-weight-bold @font-size-base @font-family-base;
+      color: @white;
+      padding-left: 48px;
+      line-height: 48px;
+      height: 48px;
+      margin: 0;
+      background: url('/content/dam/sandiego/icons/file.svg') no-repeat left;
+      display: inline-flex;
+    }
+
+
+
+    .cmp-teaser__action-container {
+      display: inline-flex;
+
+
+      .cmp-teaser__action-link {
+        margin: 0;
+        font: @font-weight-semi-bold @font-size-base @font-family-base;
+        padding: 16px 24px;
+        line-height: 1.5;
+        background: @white;
+        border-radius: 8px;
+        text-transform: uppercase;
+        box-sizing: border-box;
+      }
+    }
+  }
+
+  @media (max-width:@screen-small) {
+    .cmp-teaser {
+      padding: 16px;
+
+
+      .cmp-teaser__content {
+        flex-direction: column;
+      }
+
+      .cmp-teaser__title {
+        line-height: 1.5;
+        height: auto;
+      }
+
+      .cmp-teaser__action-container {
+        width: 100%;
+        margin-top: 8px;
+
+        .cmp-teaser__action-link {
+          width: 100%;
+          transition: width 0.4s;
+          text-align: center;
+        }
+      }
+    }
+  }
+}

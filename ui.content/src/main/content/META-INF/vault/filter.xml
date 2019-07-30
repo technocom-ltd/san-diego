@@ -6,6 +6,7 @@
   <filter root="/content/sandiego/landing-page-v1" mode="replace" />
 
   <!--  Filter unauthenticated pages proposal 2-->
+  <filter root="/content/sandiego/landing-page-v2" mode="replace" />
   <filter root="/content/sandiego/landing-page-v2/v1/about-us" mode="replace" />
   <filter root="/content/sandiego/landing-page-v2/v1/contact" mode="replace" />
   <filter root="/content/sandiego/landing-page-v2/v1/log-in" mode="replace" />
