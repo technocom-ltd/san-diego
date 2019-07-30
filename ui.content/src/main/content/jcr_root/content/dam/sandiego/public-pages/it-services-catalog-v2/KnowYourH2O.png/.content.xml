@@ -9,12 +9,12 @@
         cq:parentPath="/content/dam/sandiego/public-pages/it-services-catalog-v2"
         dam:assetState="processed"
         dam:relativePath="sandiego/public-pages/it-services-catalog-v2/KnowYourH2O.png"
-        jcr:lastModified="{Date}2019-07-30T09:16:04.164+07:00"
+        jcr:lastModified="{Date}2019-07-30T10:47:45.427+07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}32"
-            dam:extracted="{Date}2019-07-30T09:16:01.015+07:00"
+            dam:extracted="{Date}2019-07-30T10:47:39.628+07:00"
             dam:Fileformat="PNG"
             dam:MIMEtype="image/png"
             dam:Numberofimages="{Long}1"
@@ -28,7 +28,7 @@
             dam:size="{Long}70914"
             dc:format="image/png"
             dc:modified="{Date}2019-07-30T09:16:04.164+07:00"
-            jcr:lastModified="{Date}2019-07-30T09:16:04.164+07:00"
+            jcr:lastModified="{Date}2019-07-30T10:47:45.427+07:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
