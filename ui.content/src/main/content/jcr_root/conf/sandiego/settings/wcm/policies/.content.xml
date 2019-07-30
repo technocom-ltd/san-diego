@@ -604,6 +604,11 @@
                                             cq:styleLabel="Background History"
                                             jcr:primaryType="nt:unstructured"/>
                                         <item14
+                                            cq:styleClasses="cpm-text--button-1"
+                                            cq:styleId="1563183260256"
+                                            cq:styleLabel="Button v1"
+                                            jcr:primaryType="nt:unstructured"/>
+                                        <item14
                                             cq:styleClasses="cpm-text--button-v2"
                                             cq:styleId="1564019558267"
                                             cq:styleLabel="Button v2"

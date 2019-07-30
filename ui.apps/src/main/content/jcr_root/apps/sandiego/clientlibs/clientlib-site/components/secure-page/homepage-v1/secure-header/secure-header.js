@@ -18,10 +18,13 @@ jQuery(function ($) {
       // Navigation Panel.
       $(
           '<div id="mobileSideNav-v1" class="cmp-secure-v1-header--mobile">' +
-
-          $(this).html() +
+          '<div class="cmp-landing-header__container">' +
+          $('.cmp-landing-header__container').html() +
+          '</div>' +
+          '<div class="cmp-landing-header-nav__content">' +
+          $('.cmp-navigation--secure-1-header').html() +
+          '</div>' +
           '</div>'
-
         )
         .appendTo($body)
         .panel({
@@ -37,4 +40,5 @@ jQuery(function ($) {
     });
   }
 
-  handleMobileNavbar();});
+  handleMobileNavbar();
+});
