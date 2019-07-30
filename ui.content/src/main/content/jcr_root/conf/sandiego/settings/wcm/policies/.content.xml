@@ -913,7 +913,7 @@
                     </image>
                     <teaser jcr:primaryType="nt:unstructured">
                         <policy_1563034158125
-                            jcr:lastModified="{Date}2019-07-29T12:00:16.200+07:00"
+                            jcr:lastModified="{Date}2019-07-30T11:07:09.848+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Public Teaser Policy"
@@ -976,6 +976,11 @@
                                             cq:styleClasses="cmp-teaser--it-services-technology"
                                             cq:styleId="1564376396268"
                                             cq:styleLabel="IT Services Technology"
+                                            jcr:primaryType="nt:unstructured"/>
+                                        <item11
+                                            cq:styleClasses="cmp-teaser--it-guiding-download"
+                                            cq:styleId="1564459611963"
+                                            cq:styleLabel="IT Guiding Download"
                                             jcr:primaryType="nt:unstructured"/>
                                     </cq:styles>
                                 </item0>
