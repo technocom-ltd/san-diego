@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="436a0244-e947-44fc-8ce5-ed2cb7958c08">
     <jcr:content
+        cq:name="VAPP.png"
+        cq:parentPath="/content/dam/sandiego/public-pages/it-services-catalog-v2"
         dam:assetState="processed"
         dam:relativePath="sandiego/public-pages/it-services-catalog-v2/VAPP.png"
-        jcr:lastModified="{Date}2019-07-29T16:48:01.231+07:00"
+        jcr:lastModified="{Date}2019-07-30T09:16:03.742+07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}32"
-            dam:extracted="{Date}2019-07-29T16:48:00.598+07:00"
+            dam:extracted="{Date}2019-07-30T09:16:03.592+07:00"
             dam:Fileformat="PNG"
             dam:MIMEtype="image/png"
             dam:Numberofimages="{Long}1"
@@ -24,6 +27,9 @@
             dam:sha1="7ae994a42b44f96d3a763e65ab2aef50f42270e4"
             dam:size="{Long}38316"
             dc:format="image/png"
+            dc:modified="{Date}2019-07-30T09:16:01.413+07:00"
+            jcr:lastModified="{Date}2019-07-30T09:16:01.413+07:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}242"

@@ -283,26 +283,7 @@
                         </items>
                     </actions>
                 </items>
-              </columns>
-            </items>
-          </text>
-          <actions jcr:primaryType="nt:unstructured" jcr:title="Links &amp; Action" sling:resourceType="granite/ui/components/coral/foundation/container" margin="{Boolean}true">
-            <items jcr:primaryType="nt:unstructured">
-              <columns jcr:primaryType="nt:unstructured" sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns" margin="{Boolean}true">
-                <items jcr:primaryType="nt:unstructured">
-                  <column jcr:primaryType="nt:unstructured" sling:resourceType="granite/ui/components/coral/foundation/container">
-                    <items jcr:primaryType="nt:unstructured">
-                      <linkURL jcr:primaryType="nt:unstructured" sling:resourceType="cq/gui/components/coral/common/form/pagefield" fieldDescription="Link to application's page" fieldLabel="Link" name="./linkURL" rootPath="/content" wrapperClass="foundation-toggleable cmp-teaser__editor-link-url" />
-                      <linkIOS jcr:primaryType="nt:unstructured" sling:resourceType="cq/gui/components/coral/common/form/pagefield" fieldDescription="Link to application on App Store" fieldLabel="iOS Link" name="./linkIOS" rootPath="/content" wrapperClass="foundation-toggleable cmp-teaser__editor-link-url" />
-                      <linkAndroid jcr:primaryType="nt:unstructured" sling:resourceType="cq/gui/components/coral/common/form/pagefield" fieldDescription="Link to application on Google Play" fieldLabel="Android Link" name="./linkAndroid" rootPath="/content" wrapperClass="foundation-toggleable cmp-teaser__editor-link-url" />
-                      <linkAmazon jcr:primaryType="nt:unstructured" sling:resourceType="cq/gui/components/coral/common/form/pagefield" fieldDescription="Link to application on Amazon" fieldLabel="Amazon Link" name="./linkAmazon" rootPath="/content" wrapperClass="foundation-toggleable cmp-teaser__editor-link-url" />
-                      <isFavoriteApp jcr:primaryType="nt:unstructured" sling:resourceType="granite/ui/components/coral/foundation/form/checkbox" checked="{Boolean}false" fieldDescription="When checked, this application is masked as favorited." name="./isFavoriteApp" text="Is Favorited Application ?" uncheckedValue="{Boolean}false" value="{Boolean}true" />
-                    </items>
-                  </column>
-                </items>
-              </columns>
-            </items>
-          </actions>
+            </tabs>
         </items>
     </content>
 </jcr:root>

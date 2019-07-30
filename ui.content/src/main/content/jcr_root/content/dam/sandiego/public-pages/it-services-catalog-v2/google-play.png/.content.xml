@@ -2,16 +2,16 @@
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:mixinTypes="[mix:referenceable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="49e57e59-fb04-4788-8820-9b5fba4dd4e3">
+    jcr:uuid="c67a9c51-3285-4b6b-82b1-1a87370711f1">
     <jcr:content
         dam:assetState="processed"
         dam:relativePath="sandiego/public-pages/it-services-catalog-v2/google-play.png"
-        jcr:lastModified="{Date}2019-07-29T16:59:20.431+07:00"
+        jcr:lastModified="{Date}2019-07-30T09:16:03.095+07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}32"
-            dam:extracted="{Date}2019-07-29T16:59:20.150+07:00"
+            dam:extracted="{Date}2019-07-30T09:16:02.859+07:00"
             dam:Fileformat="PNG"
             dam:MIMEtype="image/png"
             dam:Numberofimages="{Long}1"
