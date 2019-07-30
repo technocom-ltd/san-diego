@@ -6,16 +6,16 @@
     <jcr:content
         dam:assetState="processed"
         dam:relativePath="sandiego/icons/android-logo.svg"
-        jcr:lastModified="{Date}2019-07-29T14:22:10.653+07:00"
+        jcr:lastModified="{Date}2019-07-30T09:16:09.173+07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2019-07-29T14:22:10.584+07:00"
+            dam:extracted="{Date}2019-07-30T09:16:09.068+07:00"
             dam:sha1="87f4f948c0f7b9510ebd646878e466f121e0d09e"
             dam:size="{Long}2216"
             dc:format="image/svg+xml"
             dc:modified="{Date}2019-07-29T09:42:04.712+07:00"
-            jcr:lastModified="{Date}2019-07-29T14:22:09.566+07:00"
+            jcr:lastModified="{Date}2019-07-30T09:16:08.789+07:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>

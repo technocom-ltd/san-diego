@@ -9,12 +9,12 @@
         cq:parentPath="/content/dam/sandiego"
         dam:assetState="processed"
         dam:relativePath="sandiego/sandiego-white-logo.png"
-        jcr:lastModified="{Date}2019-07-29T14:22:10.060+07:00"
+        jcr:lastModified="{Date}2019-07-30T09:16:09.150+07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}32"
-            dam:extracted="{Date}2019-07-29T14:22:09.999+07:00"
+            dam:extracted="{Date}2019-07-30T09:16:09.064+07:00"
             dam:Fileformat="PNG"
             dam:MIMEtype="image/png"
             dam:Numberofimages="{Long}1"
@@ -28,7 +28,7 @@
             dam:size="{Long}68624"
             dc:format="image/png"
             dc:modified="{Date}2019-07-15T10:18:13.192+07:00"
-            jcr:lastModified="{Date}2019-07-29T14:22:03.687+07:00"
+            jcr:lastModified="{Date}2019-07-30T09:16:07.746+07:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"

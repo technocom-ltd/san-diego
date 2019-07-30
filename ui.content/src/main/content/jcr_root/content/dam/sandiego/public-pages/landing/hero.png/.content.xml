@@ -9,12 +9,12 @@
         cq:parentPath="/content/dam/sandiego/public-pages/landing"
         dam:assetState="processed"
         dam:relativePath="sandiego/public-pages/landing/hero.png"
-        jcr:lastModified="{Date}2019-07-29T14:22:08.695+07:00"
+        jcr:lastModified="{Date}2019-07-30T09:16:03.708+07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}32"
-            dam:extracted="{Date}2019-07-29T14:22:08.532+07:00"
+            dam:extracted="{Date}2019-07-30T09:16:03.377+07:00"
             dam:Fileformat="PNG"
             dam:MIMEtype="image/png"
             dam:Numberofimages="{Long}1"
@@ -28,7 +28,7 @@
             dam:size="{Long}1297636"
             dc:format="image/png"
             dc:modified="{Date}2019-07-15T10:18:15.420+07:00"
-            jcr:lastModified="{Date}2019-07-29T14:22:05.858+07:00"
+            jcr:lastModified="{Date}2019-07-30T09:16:00.987+07:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
