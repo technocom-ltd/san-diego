@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-07-29T14:35:34.819+07:00"
+        cq:lastModified="{Date}2019-07-30T09:56:31.985+07:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/sandiego/settings/wcm/templates/public-page-template-v1"
         jcr:isCheckedOut="{Boolean}true"
@@ -74,7 +74,7 @@
                             jcr:created="{Date}2019-07-15T11:54:22.689+07:00"
                             jcr:createdBy="admin"
                             jcr:description="&lt;p>We will guide the enterprise toward solutions that meet the diverse needs of our County customers through continuous improvement, thought leadership and operational excellence.&lt;/p>&#xd;&#xa;&lt;p> &lt;/p>&#xd;&#xa;"
-                            jcr:lastModified="{Date}2019-07-15T14:03:10.970+07:00"
+                            jcr:lastModified="{Date}2019-07-30T09:56:31.949+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="The center of IT innovation for advancing the delivery of County service, anytime and anywhere."
@@ -118,15 +118,11 @@
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default
                                     jcr:primaryType="nt:unstructured"
-                                    width="5"/>
+                                    width="6"/>
                                 <tablet
                                     jcr:primaryType="nt:unstructured"
                                     offset="0"
                                     width="4"/>
-                                <phone
-                                    jcr:primaryType="nt:unstructured"
-                                    offset="1"
-                                    width="10"/>
                             </cq:responsive>
                         </image_copy>
                     </responsivegrid_1040960066>
