@@ -35,3 +35,4 @@ components/secure-page/nod-dashboard-v1/chart/nod-group.js
 components/secure-page/nod-dashboard-v1/chart/nod-type.js
 components/secure-page/nod-dashboard-v1/chart/nod-time.js
 components/secure-page/nod-dashboard-v1/chart/nod-year.js
+components/secure-page/nod-dashboard-v1/nod-reports-table/nod-reports-table.js

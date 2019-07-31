@@ -1,0 +1,47 @@
+.cmp-nod-reports-table-v1 {
+  display: block;
+  margin-top: 30px;
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  td {
+    background-color: #f5f5f5;
+  }
+
+  .table-header > th:first-child {
+    border-radius: 8px 0px 0px 8px;
+  }
+
+  .table-header > th:last-child {
+    border-radius: 0px 8px 8px 0px;
+  }
+
+  td,
+  th {
+    border: 1px solid #dddddd;
+    border-left: 0;
+    border-right: 0;
+    text-align: left;
+    padding: 12px;
+    font: @font-weight-normal @font-size-base @font-family-base;
+
+    a {
+      text-decoration: underline;
+    }
+  }
+
+  th {
+    background-color: @black-80;
+    color: @white;
+    font: @font-weight-bold @font-size-small @font-family-base;
+  }
+
+  td {
+    //    white-space: nowrap;
+    //    overflow: hidden;
+    //    text-overflow: ellipsis;
+  }
+}
