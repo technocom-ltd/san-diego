@@ -39,7 +39,7 @@ $(function () {
       id: 543267,
       title: 'ReportTitleName 01',
       framework: 'Service Desk',
-      timeToComplete: '<90days',
+      timeToComplete: '<90 days',
       approvalDate: '11/28/2018',
       requestor: 'John Doe',
       status: 'Approval'
@@ -47,7 +47,7 @@ $(function () {
       id: 543267,
       title: 'ReportTitleName 01',
       framework: 'Service Desk',
-      timeToComplete: '<90days',
+      timeToComplete: '<90 days',
       approvalDate: '11/28/2018',
       requestor: 'John Doe',
       status: 'Approval'
@@ -55,7 +55,7 @@ $(function () {
       id: 543267,
       title: 'ReportTitleName 01',
       framework: 'Service Desk',
-      timeToComplete: '<90days',
+      timeToComplete: '<90 days',
       approvalDate: '11/28/2018',
       requestor: 'John Doe',
       status: 'Approval'
@@ -63,7 +63,7 @@ $(function () {
       id: 543267,
       title: 'ReportTitleName 01',
       framework: 'Service Desk',
-      timeToComplete: '<90days',
+      timeToComplete: '<90 days',
       approvalDate: '11/28/2018',
       requestor: 'John Doe',
       status: 'Approval'
@@ -71,7 +71,7 @@ $(function () {
       id: 543267,
       title: 'ReportTitleName 01',
       framework: 'Service Desk',
-      timeToComplete: '<90days',
+      timeToComplete: '<90 days',
       approvalDate: '11/28/2018',
       requestor: 'John Doe',
       status: 'Approval'
@@ -79,7 +79,7 @@ $(function () {
       id: 543267,
       title: 'ReportTitleName 01',
       framework: 'Service Desk',
-      timeToComplete: '<90days',
+      timeToComplete: '<90 days',
       approvalDate: '11/28/2018',
       requestor: 'John Doe',
       status: 'Approval'
@@ -87,7 +87,7 @@ $(function () {
       id: 543267,
       title: 'ReportTitleName 01',
       framework: 'Service Desk',
-      timeToComplete: '<90days',
+      timeToComplete: '<90 days',
       approvalDate: '11/28/2018',
       requestor: 'John Doe',
       status: 'Approval'
@@ -95,7 +95,7 @@ $(function () {
       id: 543267,
       title: 'ReportTitleName 01',
       framework: 'Service Desk',
-      timeToComplete: '<90days',
+      timeToComplete: '<90 days',
       approvalDate: '11/28/2018',
       requestor: 'John Doe',
       status: 'Approval'
@@ -103,7 +103,7 @@ $(function () {
       id: 543267,
       title: 'ReportTitleName 01',
       framework: 'Service Desk',
-      timeToComplete: '<90days',
+      timeToComplete: '<90 days',
       approvalDate: '11/28/2018',
       requestor: 'John Doe',
       status: 'Approval'
@@ -111,7 +111,7 @@ $(function () {
       id: 543267,
       title: 'ReportTitleName 01',
       framework: 'Service Desk',
-      timeToComplete: '<90days',
+      timeToComplete: '<90 days',
       approvalDate: '11/28/2018',
       requestor: 'John Doe',
       status: 'Approval'

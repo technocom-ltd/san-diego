@@ -18,8 +18,6 @@
 @teaser-it-service-tech-width: 358px;
 @teaser-it-service-tech-height: 464px;
 @teaser-it-service-tech-img-size: 72px;
-@teaser-padding-vertical: 40px;
-@teaser-padding-horizontal: 32px;
 
 .cmp-teaser--it-services-technology {
   width: 100%;
@@ -85,6 +83,93 @@
       margin-top: 56px;
       line-height: 1.5;
     }
+  }
+}
 
+@teaser-it-service-v1-tech-width: 358px;
+@teaser-it-service-v1-tech-height: 464px;
+@teaser-it-service-v1-tech-img-size: 60px;
+
+
+.cmp-teaser--it-services-technology-v1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  padding: 8px;
+  margin: 0;
+  justify-content: center;
+
+  .cmp-teaser {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: @white;
+    border-radius: 16px;
+    border: 1px solid @black-20;
+    transition: all 0.2s;
+    padding: 32px;
+    box-sizing: border-box;
+
+    &:hover {
+      .cmp-teaser__image {
+        transform: scale(1.1);
+      }
+    }
+
+    @media (max-width: @screen-small) {
+      margin-left: auto !important;
+      margin-right: auto !important;
+    }
+
+    .cmp-teaser__image {
+      width: @teaser-it-service-v1-tech-img-size;
+      height: @teaser-it-service-v1-tech-img-size;
+      position: absolute;
+      overflow: hidden;
+      padding: 0;
+      display: block;
+      margin: 0;
+      transition: all 0.4s;
+
+      .cmp-image__image {
+        margin-top: 0px;
+        object-fit: cover;
+        object-position: top;
+        height: 100%;
+        width: 100%;
+        -webkit-transition: all .2s;
+        -moz-transition: all .2s;
+        -o-transition: all .2s;
+        transition: all .25s;
+        margin: 0;
+
+      }
+    }
+
+    .cmp-teaser__content {
+      position: relative;
+      display: block;
+      padding-left: 6em;
+    }
+
+    .cmp-teaser__title {
+      font-family: @font-family-base;
+      width: 100%;
+      text-align: left;
+      font-size: @font-size-medium;
+      font-weight: @font-weight-bold;
+      line-height: 1.5;
+    }
+
+    .cmp-teaser__description {
+      color: @text-color-third;
+      margin: 0;
+
+      p {
+        margin: 0;
+      }
+    }
   }
 }

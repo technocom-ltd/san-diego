@@ -48,7 +48,6 @@
     .cmp-teaser {
       padding: 16px;
 
-
       .cmp-teaser__content {
         flex-direction: column;
       }
@@ -70,4 +69,22 @@
       }
     }
   }
+}
+
+@teaser-download-image-size: 34px;
+
+.cmp-teaser--it-guiding-download-v2 {
+  .cmp-teaser--it-guiding-download();
+
+  .cmp-teaser {
+    background: @black-40;
+    border-radius: 0;
+
+    .cmp-teaser__action-container {
+      .cmp-teaser__action-link {
+        border-radius: 0;
+      }
+    }
+  }
+
 }

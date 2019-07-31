@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-07-27T15:50:14.535+07:00"
+        cq:lastModified="{Date}2019-07-30T14:23:58.786+07:00"
         cq:lastModifiedBy="admin"
         cq:styleIds="[1564038938386]"
         cq:template="/conf/sandiego/settings/wcm/templates/public-page-template-v2"
@@ -362,80 +362,44 @@
                             </cq:responsive>
                         </text_1573975189>
                     </responsivegrid>
-                    <responsivegrid_178465367
-                        cq:styleIds="[1563962734250,1564024037799]"
-                        jcr:created="{Date}2019-07-25T09:50:35.429+07:00"
+                    <text_1658720041_copy
+                        jcr:created="{Date}2019-07-30T14:23:49.306+07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-07-25T10:08:36.943+07:00"
+                        jcr:lastModified="{Date}2019-07-30T14:23:52.453+07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wcm/foundation/components/responsivegrid">
-                        <cq:responsive jcr:primaryType="nt:unstructured"/>
-                        <image
-                            jcr:created="{Date}2019-07-25T10:02:56.850+07:00"
-                            jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-07-25T10:11:01.805+07:00"
-                            jcr:lastModifiedBy="admin"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="sandiego/components/content/core/image"
-                            alt="file"
-                            altValueFromDAM="false"
-                            displayPopupTitle="false"
-                            fileReference="/content/dam/sandiego/public-pages/landing/file-white.png"
-                            isDecorative="false"
-                            titleValueFromDAM="false">
-                            <cq:responsive jcr:primaryType="nt:unstructured">
-                                <default
-                                    jcr:primaryType="nt:unstructured"
-                                    width="1"/>
-                                <phone
-                                    jcr:primaryType="nt:unstructured"
-                                    width="1"/>
-                            </cq:responsive>
-                        </image>
-                        <text
-                            jcr:created="{Date}2019-07-25T10:03:05.964+07:00"
-                            jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-07-25T10:03:55.149+07:00"
-                            jcr:lastModifiedBy="admin"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="sandiego/components/content/core/text"
-                            text="&lt;p>&lt;b>You can download all IT Guiding Principles as a PDF file&lt;/b>&lt;/p>&#xd;&#xa;"
-                            textIsRich="true">
-                            <cq:responsive jcr:primaryType="nt:unstructured">
-                                <default
-                                    jcr:primaryType="nt:unstructured"
-                                    width="7"/>
-                                <phone
-                                    jcr:primaryType="nt:unstructured"
-                                    behavior="none"
-                                    offset="0"
-                                    width="9"/>
-                            </cq:responsive>
-                        </text>
-                        <text_1934138934
-                            cq:styleIds="[1564019558267]"
-                            jcr:created="{Date}2019-07-25T10:03:17.632+07:00"
-                            jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-07-25T10:04:27.469+07:00"
-                            jcr:lastModifiedBy="admin"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="sandiego/components/content/core/text"
-                            text="&lt;p>&lt;a href=&quot;https://www.google.com/&quot;>DOWNLOAD PDF&lt;/a>&lt;/p>&#xd;&#xa;"
-                            textIsRich="true">
-                            <cq:responsive jcr:primaryType="nt:unstructured">
-                                <default
-                                    jcr:primaryType="nt:unstructured"
-                                    offset="2"
-                                    width="2"/>
-                                <phone
-                                    jcr:primaryType="nt:unstructured"
-                                    behavior="newline"
-                                    offset="7"
-                                    width="5"/>
-                            </cq:responsive>
-                        </text_1934138934>
-                    </responsivegrid_178465367>
+                        sling:resourceType="sandiego/components/content/core/text"
+                        text="&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;"
+                        textIsRich="true"/>
+                    <teaser
+                        cq:styleIds="[1564471320004]"
+                        jcr:created="{Date}2019-07-30T14:19:29.123+07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-07-30T14:22:23.606+07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="You can download all IT Guiding Principles in PDF file"
+                        sling:resourceType="sandiego/components/content/core/teaser"
+                        actionsEnabled="true"
+                        descriptionFromPage="false"
+                        textIsRich="true"
+                        titleFromPage="false">
+                        <actions jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                link="https://datahouse-projects.atlassian.net/jira/software/projects/COSD001/boards/1"
+                                text="download pdf"/>
+                        </actions>
+                    </teaser>
+                    <text_1658720041
+                        jcr:created="{Date}2019-07-30T14:23:49.306+07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-07-30T14:23:52.453+07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="sandiego/components/content/core/text"
+                        text="&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;"
+                        textIsRich="true"/>
                 </responsivegrid>
             </responsivegrid>
             <header

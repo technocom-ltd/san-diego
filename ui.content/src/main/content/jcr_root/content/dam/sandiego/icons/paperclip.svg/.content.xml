@@ -6,16 +6,16 @@
     <jcr:content
         dam:assetState="processed"
         dam:relativePath="sandiego/icons/paperclip.svg"
-        jcr:lastModified="{Date}2019-07-31T09:55:17.219+07:00"
+        jcr:lastModified="{Date}2019-07-31T15:14:32.237+07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2019-07-30T10:47:40.630+07:00"
+            dam:extracted="{Date}2019-07-31T14:44:51.353+07:00"
             dam:sha1="6e954322d503d0bd62b090eb1102940fa84425a2"
             dam:size="{Long}964"
             dc:format="image/svg+xml"
             dc:modified="{Date}2019-07-23T13:48:30.723+07:00"
-            jcr:lastModified="{Date}2019-07-31T09:55:15.890+07:00"
+            jcr:lastModified="{Date}2019-07-31T15:14:32.237+07:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>

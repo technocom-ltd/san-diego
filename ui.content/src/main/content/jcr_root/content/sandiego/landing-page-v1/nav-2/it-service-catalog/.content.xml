@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-07-21T08:23:57.619+07:00"
+        cq:lastModified="{Date}2019-07-31T11:23:53.138+07:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/sandiego/settings/wcm/templates/public-page-template-v1"
         jcr:isCheckedOut="{Boolean}true"
@@ -15,31 +15,329 @@
             <responsivegrid
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/foundation/components/responsivegrid">
-                <navigation_copy
-                    cq:styleIds="[1563165593056]"
-                    jcr:created="{Date}2019-07-15T11:52:42.606+07:00"
+                <hero
+                    jcr:created="{Date}2019-07-30T16:51:07.771+07:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2019-07-21T08:19:02.331+07:00"
+                    jcr:lastModified="{Date}2019-07-30T16:51:07.771+07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="sandiego/components/content/core/navigation"/>
+                    sling:resourceType="sandiego/components/content/public-page/it-guiding-page-v1/hero">
+                    <text
+                        jcr:lastModified="{Date}2019-07-30T16:52:00.614+07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="sandiego/components/content/core/text"
+                        text="&lt;h2>&lt;b>IT SERVICE CATALOG&lt;/b>&lt;/h2>&#xa;"
+                        textIsRich="true"/>
+                </hero>
                 <responsivegrid
-                    cq:styleIds="[1563162643233]"
+                    cq:styleIds="[1564479860286]"
                     jcr:created="{Date}2019-07-15T10:51:08.054+07:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2019-07-15T11:40:59.908+07:00"
+                    jcr:lastModified="{Date}2019-07-31T11:23:39.218+07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wcm/foundation/components/responsivegrid">
                     <cq:responsive jcr:primaryType="nt:unstructured"/>
-                    <title
-                        jcr:created="{Date}2019-07-21T08:22:37.891+07:00"
+                    <text
+                        cq:styleIds="[1563112684784]"
+                        jcr:created="{Date}2019-07-30T16:52:31.349+07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-07-21T08:22:42.526+07:00"
+                        jcr:lastModified="{Date}2019-07-31T08:39:59.302+07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="sandiego/components/content/core/title"
-                        type="h1"/>
+                        sling:resourceType="sandiego/components/content/core/text"
+                        text="&lt;h2>&lt;b>County of San Diego mobile apps let you take advantage of our services when you're on the go.&lt;/b>&lt;/h2>&#xa;"
+                        textIsRich="true"/>
+                    <text_1240184980
+                        cq:styleIds="[1563964215629,1563112684784,1563112695376,1563112711157]"
+                        jcr:created="{Date}2019-07-30T16:53:27.397+07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-07-31T08:40:16.901+07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="sandiego/components/content/core/text"
+                        text="&lt;p>&amp;nbsp;As apps become available, we'll add them here, in the County App Center. There is no charge for County apps. Carrier data charges may apply when downloading or accessing an app.&lt;/p>&#xa;"
+                        textIsRich="true"/>
+                    <text_291876243
+                        jcr:created="{Date}2019-07-31T08:12:00.709+07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-07-31T08:12:05.213+07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="sandiego/components/content/core/text"
+                        text="&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;"
+                        textIsRich="true"/>
+                    <tabs
+                        cq:styleIds="[1564474787363]"
+                        jcr:created="{Date}2019-07-31T09:38:03.333+07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-07-31T09:42:11.426+07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="sandiego/components/content/core/tabs">
+                        <item_1
+                            cq:panelTitle="All"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Tab 1"
+                            sling:resourceType="wcm/foundation/components/responsivegrid">
+                            <application_copy
+                                cq:styleIds="[1564483194728]"
+                                jcr:created="{Date}2019-07-30T16:59:40.976+07:00"
+                                jcr:createdBy="admin"
+                                jcr:description="&lt;p>Report non-emergency problems to the County of San Diego and track the progress of a reported problem. You can report problems related to pricing and scales (e.g. gas pumps, grocery stores), air quality (region wide), and code compliance (e.g. graffiti, abandoned vehicles) within the unincorporated area.&lt;/p>&#xd;&#xa;&lt;p>Now available in Spanish!&lt;/p>&#xd;&#xa;&lt;p>To see/use the “Tell Us Now” app in Spanish, simply change the language settings on your iPhone, iPad, iPad Touch, or Android device to “Español.”&lt;/p>&#xd;&#xa;"
+                                jcr:lastModified="{Date}2019-07-31T09:31:24.910+07:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Tell Us Now!"
+                                sling:resourceType="sandiego/components/content/public-page/it-services-page-v1/application"
+                                fileReference="/content/dam/sandiego/public-pages/it-services-catalog-v2/TellUsNow.png"
+                                isFavoriteApp="true"
+                                linkAmazon="https://www.youtube.com/"
+                                linkAndroid="https://www.youtube.com/"
+                                linkIOS="https://www.youtube.com/"
+                                linkURL="https://www.youtube.com/"
+                                qrFileReference="/content/dam/sandiego/public-pages/it-services-catalog-v2/TellUsNow-qr.png"
+                                textIsRich="true">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        width="6"/>
+                                </cq:responsive>
+                            </application_copy>
+                            <application_copy_cop
+                                cq:styleIds="[1564483194728]"
+                                jcr:created="{Date}2019-07-30T16:59:40.976+07:00"
+                                jcr:createdBy="admin"
+                                jcr:description="&lt;p>This self-assessment will evaluate your growing practices and discover what Best Management Practices can help you improve water quality. Use Know Your H2O app to keep track of multiple properties, fields or farms with drainage and runoff needs.&lt;/p>&#xd;&#xa;"
+                                jcr:lastModified="{Date}2019-07-30T18:13:18.924+07:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Know Your H2O"
+                                sling:resourceType="sandiego/components/content/public-page/it-services-page-v1/application"
+                                fileReference="/content/dam/sandiego/public-pages/it-services-catalog-v2/KnowYourH2O.png"
+                                isFavoriteApp="false"
+                                linkIOS="https://www.youtube.com/"
+                                qrFileReference="/content/dam/sandiego/public-pages/it-services-catalog-v2/TellUsNow-qr.png"
+                                textIsRich="true">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        width="6"/>
+                                </cq:responsive>
+                            </application_copy_cop>
+                        </item_1>
+                        <item_2
+                            cq:panelTitle="Android"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Tab 2"
+                            sling:resourceType="wcm/foundation/components/responsivegrid">
+                            <application_copy_cop
+                                cq:styleIds="[1564483194728]"
+                                jcr:created="{Date}2019-07-30T16:59:40.976+07:00"
+                                jcr:createdBy="admin"
+                                jcr:description="&lt;p>Report non-emergency problems to the County of San Diego and track the progress of a reported problem. You can report problems related to pricing and scales (e.g. gas pumps, grocery stores), air quality (region wide), and code compliance (e.g. graffiti, abandoned vehicles) within the unincorporated area.&lt;/p>&#xd;&#xa;&lt;p>Now available in Spanish!&lt;/p>&#xd;&#xa;&lt;p>To see/use the “Tell Us Now” app in Spanish, simply change the language settings on your iPhone, iPad, iPad Touch, or Android device to “Español.”&lt;/p>&#xd;&#xa;"
+                                jcr:lastModified="{Date}2019-07-31T09:31:24.910+07:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Tell Us Now!"
+                                sling:resourceType="sandiego/components/content/public-page/it-services-page-v1/application"
+                                fileReference="/content/dam/sandiego/public-pages/it-services-catalog-v2/TellUsNow.png"
+                                isFavoriteApp="true"
+                                linkAmazon="https://www.youtube.com/"
+                                linkAndroid="https://www.youtube.com/"
+                                linkIOS="https://www.youtube.com/"
+                                linkURL="https://www.youtube.com/"
+                                qrFileReference="/content/dam/sandiego/public-pages/it-services-catalog-v2/TellUsNow-qr.png"
+                                textIsRich="true">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        width="6"/>
+                                </cq:responsive>
+                            </application_copy_cop>
+                        </item_2>
+                        <item_1564540845086
+                            cq:panelTitle="iOS"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="wcm/foundation/components/responsivegrid">
+                            <application_copy_cop
+                                cq:styleIds="[1564483194728]"
+                                jcr:created="{Date}2019-07-30T16:59:40.976+07:00"
+                                jcr:createdBy="admin"
+                                jcr:description="&lt;p>This self-assessment will evaluate your growing practices and discover what Best Management Practices can help you improve water quality. Use Know Your H2O app to keep track of multiple properties, fields or farms with drainage and runoff needs.&lt;/p>&#xd;&#xa;"
+                                jcr:lastModified="{Date}2019-07-30T18:13:18.924+07:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Know Your H2O"
+                                sling:resourceType="sandiego/components/content/public-page/it-services-page-v1/application"
+                                fileReference="/content/dam/sandiego/public-pages/it-services-catalog-v2/KnowYourH2O.png"
+                                isFavoriteApp="false"
+                                linkIOS="https://www.youtube.com/"
+                                qrFileReference="/content/dam/sandiego/public-pages/it-services-catalog-v2/TellUsNow-qr.png"
+                                textIsRich="true">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        width="6"/>
+                                </cq:responsive>
+                            </application_copy_cop>
+                        </item_1564540845086>
+                        <item_1564540846807
+                            cq:panelTitle="Amazon"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="wcm/foundation/components/responsivegrid"/>
+                        <item_1564540848234
+                            cq:panelTitle="Mobile Web"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="wcm/foundation/components/responsivegrid"/>
+                        <item_1564540924499
+                            cq:panelTitle="Español"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="wcm/foundation/components/responsivegrid"/>
+                    </tabs>
+                    <text_569807269
+                        cq:styleIds="[1563112684784,1564537507540]"
+                        jcr:created="{Date}2019-07-31T08:12:59.616+07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-07-31T08:45:41.197+07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="sandiego/components/content/core/text"
+                        text="&lt;p style=&quot;text-align: center;&quot;>&lt;b>See more applications&lt;/b>&lt;/p>&#xa;"
+                        textIsRich="true"/>
+                    <text_copy
+                        cq:styleIds="[1563112671433]"
+                        jcr:created="{Date}2019-07-30T16:52:31.349+07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-07-31T08:41:08.842+07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="sandiego/components/content/core/text"
+                        text="&lt;h2>&lt;b>The use of technology is increasing day by day, we all depend on technology, and we use various technologies to accomplish specific tasks in our lives.&lt;/b>&lt;/h2>&#xa;"
+                        textIsRich="true"/>
+                    <text_1240184980_copy
+                        cq:styleIds="[1563964215629,1563112711157]"
+                        jcr:created="{Date}2019-07-30T16:53:27.397+07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-07-31T08:41:28.066+07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="sandiego/components/content/core/text"
+                        text="&lt;p>&amp;nbsp;As apps become available, we'll add them here, in the County App Center. There is no charge for County apps. Carrier data charges may apply when downloading or accessing an app.&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;"
+                        textIsRich="true"/>
+                    <responsivegrid
+                        jcr:created="{Date}2019-07-31T08:15:11.608+07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-07-31T08:15:11.608+07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/responsivegrid">
+                        <cq:responsive jcr:primaryType="nt:unstructured"/>
+                        <teaser
+                            cq:styleIds="[1564536366889]"
+                            jcr:created="{Date}2019-07-31T08:15:16.640+07:00"
+                            jcr:createdBy="admin"
+                            jcr:description="&lt;p>React is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications, as it is optimal for fetching rapidly changing data that needs to be recorded.&lt;/p>&#xd;&#xa;"
+                            jcr:lastModified="{Date}2019-07-31T08:27:31.372+07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Technology 1"
+                            sling:resourceType="sandiego/components/content/core/teaser"
+                            actionsEnabled="false"
+                            descriptionFromPage="false"
+                            fileReference="/content/dam/sandiego/public-pages/it-services-catalog-v2/git-branch.png"
+                            textIsRich="true"
+                            titleFromPage="false">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    width="6"/>
+                            </cq:responsive>
+                        </teaser>
+                        <teaser_copy
+                            cq:styleIds="[1564536366889]"
+                            jcr:created="{Date}2019-07-31T08:15:16.640+07:00"
+                            jcr:createdBy="admin"
+                            jcr:description="&lt;p>React is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications, as it is optimal for fetching rapidly changing data that needs to be recorded.&lt;/p>&#xd;&#xa;"
+                            jcr:lastModified="{Date}2019-07-31T08:38:37.162+07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Technology 2"
+                            sling:resourceType="sandiego/components/content/core/teaser"
+                            actionsEnabled="false"
+                            descriptionFromPage="false"
+                            fileReference="/content/dam/sandiego/public-pages/it-services-catalog-v2/deploy.png"
+                            textIsRich="true"
+                            titleFromPage="false">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    width="6"/>
+                            </cq:responsive>
+                        </teaser_copy>
+                        <teaser_copy_754804726
+                            cq:styleIds="[1564536366889]"
+                            jcr:created="{Date}2019-07-31T08:15:16.640+07:00"
+                            jcr:createdBy="admin"
+                            jcr:description="&lt;p>React is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications, as it is optimal for fetching rapidly changing data that needs to be recorded.&lt;/p>&#xd;&#xa;"
+                            jcr:lastModified="{Date}2019-07-31T08:38:52.829+07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Technology 3"
+                            sling:resourceType="sandiego/components/content/core/teaser"
+                            actionsEnabled="false"
+                            descriptionFromPage="false"
+                            fileReference="/content/dam/sandiego/public-pages/it-services-catalog-v2/git-branch.png"
+                            textIsRich="true"
+                            titleFromPage="false">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    width="6"/>
+                            </cq:responsive>
+                        </teaser_copy_754804726>
+                        <teaser_copy_copy
+                            cq:styleIds="[1564536366889]"
+                            jcr:created="{Date}2019-07-31T08:15:16.640+07:00"
+                            jcr:createdBy="admin"
+                            jcr:description="&lt;p>React is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications, as it is optimal for fetching rapidly changing data that needs to be recorded.&lt;/p>&#xd;&#xa;"
+                            jcr:lastModified="{Date}2019-07-31T08:39:02.951+07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Technology 4"
+                            sling:resourceType="sandiego/components/content/core/teaser"
+                            actionsEnabled="false"
+                            descriptionFromPage="false"
+                            fileReference="/content/dam/sandiego/public-pages/it-services-catalog-v2/internet.png"
+                            textIsRich="true"
+                            titleFromPage="false">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    width="6"/>
+                            </cq:responsive>
+                        </teaser_copy_copy>
+                    </responsivegrid>
+                    <text_569807269_copy
+                        cq:styleIds="[1563112684784,1564537507540]"
+                        jcr:created="{Date}2019-07-31T08:12:59.616+07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-07-31T08:45:51.655+07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="sandiego/components/content/core/text"
+                        text="&lt;p style=&quot;text-align: center;&quot;>&lt;b>See more applications&lt;/b>&lt;/p>&#xa;"
+                        textIsRich="true"/>
+                    <text_476225576
+                        jcr:created="{Date}2019-07-31T08:40:50.417+07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-07-31T08:40:53.376+07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="sandiego/components/content/core/text"
+                        text="&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;"
+                        textIsRich="true"/>
                 </responsivegrid>
                 <header
                     jcr:created="{Date}2019-07-15T10:51:54.321+07:00"
@@ -76,19 +374,19 @@
                         textIsRich="true"/>
                 </header>
                 <responsivegrid_980129108
-                    cq:styleIds="[1563162648117]"
+                    cq:styleIds="[1564541127807]"
                     jcr:created="{Date}2019-07-16T09:20:30.385+07:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2019-07-16T09:21:31.599+07:00"
+                    jcr:lastModified="{Date}2019-07-31T11:23:49.504+07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wcm/foundation/components/responsivegrid">
                     <cq:responsive jcr:primaryType="nt:unstructured"/>
                     <responsivegrid
-                        cq:styleIds="[1563162643233]"
+                        cq:styleIds="[1564479860286]"
                         jcr:created="{Date}2019-07-16T09:21:46.833+07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-07-16T09:21:51.242+07:00"
+                        jcr:lastModified="{Date}2019-07-31T11:23:53.116+07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wcm/foundation/components/responsivegrid">
@@ -364,14 +662,14 @@
                                 cq:styleIds="[1563245647198]"
                                 jcr:created="{Date}2019-07-16T09:49:56.728+07:00"
                                 jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2019-07-16T09:57:50.492+07:00"
+                                jcr:lastModified="{Date}2019-07-30T16:50:57.094+07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="sandiego/components/content/core/image"
                                 alt="top"
                                 altValueFromDAM="false"
                                 displayPopupTitle="false"
-                                fileReference="/content/dam/sandiego/public-pages/landing-1/arrow-top.png"
+                                fileReference="/content/dam/sandiego/icons/arrow-v2-up.png"
                                 isDecorative="false"
                                 titleValueFromDAM="false"/>
                         </responsivegrid_66440885>

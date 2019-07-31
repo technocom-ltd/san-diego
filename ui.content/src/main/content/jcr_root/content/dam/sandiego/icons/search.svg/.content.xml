@@ -6,16 +6,16 @@
     <jcr:content
         dam:assetState="processed"
         dam:relativePath="sandiego/icons/search.svg"
-        jcr:lastModified="{Date}2019-07-31T09:55:16.856+07:00"
+        jcr:lastModified="{Date}2019-07-31T15:14:30.915+07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2019-07-30T10:47:46.660+07:00"
-            dam:sha1="84bc3f6ee13bb0a330aa1aa1abdd2165139d71bb"
-            dam:size="{Long}689"
+            dam:extracted="{Date}2019-07-31T14:44:50.893+07:00"
+            dam:sha1="a7aa8acaacc13cec0c76dd0005d302093f853f50"
+            dam:size="{Long}692"
             dc:format="image/svg+xml"
             dc:modified="{Date}2019-07-14T20:09:52.162+07:00"
-            jcr:lastModified="{Date}2019-07-31T09:55:15.655+07:00"
+            jcr:lastModified="{Date}2019-07-31T15:14:29.976+07:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>

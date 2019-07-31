@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-07-31T10:28:22.601+07:00"
+        cq:lastModified="{Date}2019-07-31T15:23:22.921+07:00"
         cq:lastModifiedBy="admin"
         cq:styleIds="[1563417271423]"
         cq:template="/conf/sandiego/settings/wcm/templates/secure-page-template-v1"
@@ -348,10 +348,10 @@
                             </responsivegrid>
                         </responsivegrid_73193>
                         <tabs
-                            cq:styleIds="[1563522910578,1563522421063]"
+                            cq:styleIds="[1564561318966]"
                             jcr:created="{Date}2019-07-19T10:41:43.423+07:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-07-19T17:00:07.303+07:00"
+                            jcr:lastModified="{Date}2019-07-31T15:22:21.639+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="sandiego/components/content/core/tabs">
@@ -597,15 +597,16 @@
                                             value="2"/>
                                     </items>
                                 </options_copy>
-                                <text_1948893319
-                                    jcr:created="{Date}2019-07-19T14:30:01.255+07:00"
+                                <button
+                                    cq:styleIds="[1563854892055]"
+                                    jcr:created="{Date}2019-07-31T15:22:48.073+07:00"
                                     jcr:createdBy="admin"
-                                    jcr:lastModified="{Date}2019-07-19T14:30:26.922+07:00"
+                                    jcr:lastModified="{Date}2019-07-31T15:23:10.815+07:00"
                                     jcr:lastModifiedBy="admin"
                                     jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="sandiego/components/content/core/text"
-                                    text="&lt;p>&amp;nbsp;&lt;/p>&#xd;&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xd;&#xa;"
-                                    textIsRich="true"/>
+                                    jcr:title="Search"
+                                    sling:resourceType="sandiego/components/form/button"
+                                    type="submit"/>
                             </item_1_copy>
                         </tabs>
                     </responsivegrid_1831217396>
