@@ -9,12 +9,12 @@
         cq:parentPath="/content/dam/sandiego"
         dam:assetState="processed"
         dam:relativePath="sandiego/sandiego-white-logo.png"
-        jcr:lastModified="{Date}2019-07-31T10:53:23.291+07:00"
+        jcr:lastModified="{Date}2019-07-31T14:44:56.456+07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}32"
-            dam:extracted="{Date}2019-07-31T10:53:20.545+07:00"
+            dam:extracted="{Date}2019-07-31T14:44:55.196+07:00"
             dam:Fileformat="PNG"
             dam:MIMEtype="image/png"
             dam:Numberofimages="{Long}1"

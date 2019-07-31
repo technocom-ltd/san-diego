@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-07-30T10:06:23.637+07:00"
+        cq:lastModified="{Date}2019-07-31T10:28:22.601+07:00"
         cq:lastModifiedBy="admin"
         cq:styleIds="[1563417271423]"
         cq:template="/conf/sandiego/settings/wcm/templates/secure-page-template-v1"
@@ -139,18 +139,12 @@
                                 width="6"/>
                         </cq:responsive>
                         <chart_nod
-                            jcr:created="{Date}2019-07-18T10:08:38.221+07:00"
+                            jcr:created="{Date}2019-07-31T10:28:22.583+07:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-07-18T10:08:38.221+07:00"
+                            jcr:lastModified="{Date}2019-07-31T10:28:22.583+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="sandiego/components/content/secure-page/homepage-v1/chart-nod">
-                            <cq:responsive jcr:primaryType="nt:unstructured">
-                                <default
-                                    jcr:primaryType="nt:unstructured"
-                                    width="6"/>
-                            </cq:responsive>
-                        </chart_nod>
+                            sling:resourceType="sandiego/components/content/secure-page/homepage-v1/chart-nod"/>
                     </responsivegrid>
                     <responsivegrid_1676532477
                         cq:styleIds="[1563502335313]"

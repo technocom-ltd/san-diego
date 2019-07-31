@@ -9,13 +9,13 @@
         cq:parentPath="/content/dam/sandiego/public-pages/it-services-catalog-v2"
         dam:assetState="processed"
         dam:relativePath="sandiego/public-pages/it-services-catalog-v2/SanDiegoCounty.png"
-        jcr:lastModified="{Date}2019-07-31T10:53:16.407+07:00"
+        jcr:lastModified="{Date}2019-07-31T14:44:54.079+07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
             dam:Comments="Software: Adobe ImageReady&#xa;"
-            dam:extracted="{Date}2019-07-31T10:53:15.902+07:00"
+            dam:extracted="{Date}2019-07-31T14:44:53.747+07:00"
             dam:Fileformat="PNG"
             dam:MIMEtype="image/png"
             dam:Numberofimages="{Long}1"
