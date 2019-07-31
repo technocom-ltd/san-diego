@@ -6,7 +6,7 @@
     <jcr:content
         dam:assetState="processed"
         dam:relativePath="sandiego/icons/search.svg"
-        jcr:lastModified="{Date}2019-07-31T14:44:51.244+07:00"
+        jcr:lastModified="{Date}2019-07-31T15:14:30.915+07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -15,7 +15,7 @@
             dam:size="{Long}692"
             dc:format="image/svg+xml"
             dc:modified="{Date}2019-07-14T20:09:52.162+07:00"
-            jcr:lastModified="{Date}2019-07-31T10:53:01.164+07:00"
+            jcr:lastModified="{Date}2019-07-31T15:14:29.976+07:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>

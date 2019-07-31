@@ -2,7 +2,7 @@
 <jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
     jcr:primaryType="cq:Template">
     <jcr:content
-        cq:lastModified="{Date}2019-07-31T14:27:09.288+07:00"
+        cq:lastModified="{Date}2019-07-31T16:15:41.905+07:00"
         cq:lastModifiedBy="admin"
         cq:templateType="/conf/sandiego/settings/wcm/template-types/empty-page"
         jcr:primaryType="cq:PageContent"

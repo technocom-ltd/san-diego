@@ -132,12 +132,12 @@
                         </cq:styleGroups>
                     </policy_25754911010600>
                     <policy_1564548832790
-                        jcr:lastModified="{Date}2019-07-31T13:44:24.751+07:00"
+                        jcr:lastModified="{Date}2019-07-31T16:15:41.897+07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Secure Page Container v1"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/sandiego/components/content/core/image,/apps/sandiego/components/content/core/list,/apps/sandiego/components/content/core/navigation,/apps/sandiego/components/content/core/search,/apps/sandiego/components/content/core/tabs,/apps/sandiego/components/content/core/teaser,/apps/sandiego/components/content/core/text,/apps/sandiego/components/content/core/title,group:SEA.Content Form,/apps/sandiego/components/content/secure-page/homepage-v1/header,/apps/sandiego/components/content/secure-page/homepage-v1/calendar-item-1,/apps/sandiego/components/content/secure-page/homepage-v1/notification-item-1]">
+                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/sandiego/components/content/secure-page/nod-dashboard-v1/group-nod-chart,/apps/sandiego/components/content/secure-page/nod-dashboard-v1/time-nod-chart,/apps/sandiego/components/content/secure-page/nod-dashboard-v1/type-nod-chart,/apps/sandiego/components/content/secure-page/nod-dashboard-v1/year-nod-chart,/apps/sandiego/components/content/core/image,/apps/sandiego/components/content/core/list,/apps/sandiego/components/content/core/navigation,/apps/sandiego/components/content/core/search,/apps/sandiego/components/content/core/tabs,/apps/sandiego/components/content/core/teaser,/apps/sandiego/components/content/core/text,/apps/sandiego/components/content/core/title,group:SEA.Content Form,/apps/sandiego/components/content/secure-page/homepage-v1/header,/apps/sandiego/components/content/secure-page/homepage-v1/chart-nod,/apps/sandiego/components/content/secure-page/nod-dashboard-v1/pagination,/apps/sandiego/components/content/secure-page/nod-dashboard-v1/nod-reports-table,/apps/sandiego/components/content/secure-page/homepage-v1/calendar-item-1,/apps/sandiego/components/content/secure-page/homepage-v1/notification-item-1]">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                         <cq:styleGroups jcr:primaryType="nt:unstructured">
                             <item0
@@ -1186,10 +1186,10 @@
                     </carousel>
                     <tabs jcr:primaryType="nt:unstructured">
                         <policy_1563522418416
-                            jcr:lastModified="{Date}2019-07-31T09:38:44.714+07:00"
+                            jcr:lastModified="{Date}2019-07-31T15:22:12.059+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
-                            jcr:title="Public Tab Policy"
+                            jcr:title="Secure Tab Policy v1"
                             sling:resourceType="wcm/core/components/policy/policy"
                             components="/libs/wcm/foundation/components/responsivegrid">
                             <jcr:content jcr:primaryType="nt:unstructured"/>
@@ -1200,6 +1200,11 @@
                                             cq:styleClasses="cmp-tabs--it-services-application"
                                             cq:styleId="1564474787363"
                                             cq:styleLabel="IT Services Application v2"
+                                            jcr:primaryType="nt:unstructured"/>
+                                        <item1
+                                            cq:styleClasses="cmp-tabs--secure-home"
+                                            cq:styleId="1564561318966"
+                                            cq:styleLabel="Tabs v1"
                                             jcr:primaryType="nt:unstructured"/>
                                     </cq:styles>
                                 </item0>
