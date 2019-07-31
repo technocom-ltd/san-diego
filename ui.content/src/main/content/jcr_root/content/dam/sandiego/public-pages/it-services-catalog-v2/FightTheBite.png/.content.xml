@@ -9,7 +9,7 @@
         cq:parentPath="/content/dam/sandiego/public-pages/it-services-catalog-v2"
         dam:assetState="processed"
         dam:relativePath="sandiego/public-pages/it-services-catalog-v2/FightTheBite.png"
-        jcr:lastModified="{Date}2019-07-30T10:47:41.408+07:00"
+        jcr:lastModified="{Date}2019-07-31T09:55:10.109+07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -28,7 +28,7 @@
             dam:size="{Long}91217"
             dc:format="image/png"
             dc:modified="{Date}2019-07-30T09:16:02.739+07:00"
-            jcr:lastModified="{Date}2019-07-30T10:47:40.256+07:00"
+            jcr:lastModified="{Date}2019-07-31T09:55:09.439+07:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"

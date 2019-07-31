@@ -9,7 +9,7 @@
         cq:parentPath="/content/dam/sandiego/public-pages/it-services-catalog-v2"
         dam:assetState="processed"
         dam:relativePath="sandiego/public-pages/it-services-catalog-v2/deploy.png"
-        jcr:lastModified="{Date}2019-07-30T10:47:42.755+07:00"
+        jcr:lastModified="{Date}2019-07-31T09:55:12.256+07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -28,7 +28,7 @@
             dam:size="{Long}1874"
             dc:format="image/png"
             dc:modified="{Date}2019-07-30T09:15:58.786+07:00"
-            jcr:lastModified="{Date}2019-07-30T10:47:38.954+07:00"
+            jcr:lastModified="{Date}2019-07-31T09:55:06.137+07:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"

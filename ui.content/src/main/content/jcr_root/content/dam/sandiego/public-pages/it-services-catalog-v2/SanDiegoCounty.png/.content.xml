@@ -9,7 +9,7 @@
         cq:parentPath="/content/dam/sandiego/public-pages/it-services-catalog-v2"
         dam:assetState="processed"
         dam:relativePath="sandiego/public-pages/it-services-catalog-v2/SanDiegoCounty.png"
-        jcr:lastModified="{Date}2019-07-30T10:47:46.186+07:00"
+        jcr:lastModified="{Date}2019-07-31T09:55:15.908+07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -29,7 +29,7 @@
             dam:size="{Long}32996"
             dc:format="image/png"
             dc:modified="{Date}2019-07-30T09:16:03.221+07:00"
-            jcr:lastModified="{Date}2019-07-30T10:47:44.992+07:00"
+            jcr:lastModified="{Date}2019-07-31T09:55:14.469+07:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"

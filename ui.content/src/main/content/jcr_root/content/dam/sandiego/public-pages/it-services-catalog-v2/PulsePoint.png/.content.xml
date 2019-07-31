@@ -9,7 +9,7 @@
         cq:parentPath="/content/dam/sandiego/public-pages/it-services-catalog-v2"
         dam:assetState="processed"
         dam:relativePath="sandiego/public-pages/it-services-catalog-v2/PulsePoint.png"
-        jcr:lastModified="{Date}2019-07-30T10:47:45.499+07:00"
+        jcr:lastModified="{Date}2019-07-31T09:55:14.932+07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -28,7 +28,7 @@
             dam:size="{Long}41732"
             dc:format="image/png"
             dc:modified="{Date}2019-07-30T09:16:04.496+07:00"
-            jcr:lastModified="{Date}2019-07-30T10:47:40.930+07:00"
+            jcr:lastModified="{Date}2019-07-31T09:55:10.343+07:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"

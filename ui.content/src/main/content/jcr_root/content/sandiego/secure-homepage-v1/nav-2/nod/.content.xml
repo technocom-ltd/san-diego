@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-07-30T11:24:25.773+07:00"
+        cq:lastModified="{Date}2019-07-31T14:26:58.159+07:00"
         cq:lastModifiedBy="admin"
         cq:styleIds="[1563417271423]"
         cq:template="/conf/sandiego/settings/wcm/templates/secure-page-template-v1"
@@ -109,6 +109,130 @@
                         collectAllPages="true"
                         navigationRoot="/content/sandiego/secure-homepage-v1/nav-2"
                         skipNavigationRoot="true"/>
+                    <responsivegrid
+                        cq:styleIds="[1563419828654]"
+                        jcr:created="{Date}2019-07-31T10:01:04.459+07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-07-31T10:15:52.355+07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/responsivegrid">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                width="6"/>
+                        </cq:responsive>
+                        <group_nod_chart
+                            jcr:created="{Date}2019-07-31T10:07:17.478+07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2019-07-31T10:07:17.478+07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="sandiego/components/content/secure-page/nod-dashboard-v1/group-nod-chart"/>
+                    </responsivegrid>
+                    <responsivegrid_186423885
+                        cq:styleIds="[1563419828654]"
+                        jcr:created="{Date}2019-07-31T11:53:43.008+07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-07-31T11:53:53.796+07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/responsivegrid">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                width="6"/>
+                        </cq:responsive>
+                        <type_nod_chart
+                            jcr:created="{Date}2019-07-31T11:54:01.806+07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2019-07-31T11:54:01.806+07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="sandiego/components/content/secure-page/nod-dashboard-v1/type-nod-chart"/>
+                    </responsivegrid_186423885>
+                    <responsivegrid_1441439257
+                        cq:styleIds="[1563419828654]"
+                        jcr:created="{Date}2019-07-31T13:58:01.827+07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-07-31T13:58:19.418+07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/responsivegrid">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                width="6"/>
+                        </cq:responsive>
+                        <time_nod_chart
+                            jcr:created="{Date}2019-07-31T13:59:03.875+07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2019-07-31T13:59:03.875+07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="sandiego/components/content/secure-page/nod-dashboard-v1/time-nod-chart"/>
+                    </responsivegrid_1441439257>
+                    <responsivegrid_182821956
+                        cq:styleIds="[1563419828654]"
+                        jcr:created="{Date}2019-07-31T13:58:10.114+07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-07-31T13:58:22.761+07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/responsivegrid">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                width="6"/>
+                        </cq:responsive>
+                        <year_nod_chart
+                            jcr:created="{Date}2019-07-31T14:13:48.828+07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2019-07-31T14:13:48.828+07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="sandiego/components/content/secure-page/nod-dashboard-v1/year-nod-chart"/>
+                    </responsivegrid_182821956>
+                    <responsivegrid_427637463
+                        cq:styleIds="[1563423613111]"
+                        jcr:created="{Date}2019-07-31T14:19:29.336+07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-07-31T14:20:36.682+07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/responsivegrid">
+                        <cq:responsive jcr:primaryType="nt:unstructured"/>
+                        <text
+                            cq:styleIds="[1563423020133]"
+                            jcr:created="{Date}2019-07-31T14:19:53.929+07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2019-07-31T14:21:25.436+07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="sandiego/components/content/core/text"
+                            text="&lt;p>&lt;b>All Documents&lt;/b>&lt;/p>&#xd;&#xa;"
+                            textIsRich="true">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    width="2"/>
+                            </cq:responsive>
+                        </text>
+                        <button
+                            cq:styleIds="[1563854892055]"
+                            jcr:created="{Date}2019-07-31T14:26:50.582+07:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2019-07-31T14:26:58.144+07:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="sandiego/components/form/button">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    width="2"/>
+                            </cq:responsive>
+                        </button>
+                    </responsivegrid_427637463>
                 </responsivegrid>
             </responsivegrid>
         </root>

@@ -9,7 +9,7 @@
         cq:parentPath="/content/dam/sandiego/public-pages/it-services-catalog-v2"
         dam:assetState="processed"
         dam:relativePath="sandiego/public-pages/it-services-catalog-v2/VAPP.png"
-        jcr:lastModified="{Date}2019-07-30T10:47:41.029+07:00"
+        jcr:lastModified="{Date}2019-07-31T09:55:09.599+07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -28,7 +28,7 @@
             dam:size="{Long}38316"
             dc:format="image/png"
             dc:modified="{Date}2019-07-30T09:16:01.413+07:00"
-            jcr:lastModified="{Date}2019-07-30T10:47:39.811+07:00"
+            jcr:lastModified="{Date}2019-07-31T09:55:07.799+07:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"

@@ -9,7 +9,7 @@
         cq:parentPath="/content/dam/sandiego/public-pages/it-services-catalog-v2"
         dam:assetState="processed"
         dam:relativePath="sandiego/public-pages/it-services-catalog-v2/PayPropertyTaxes.png"
-        jcr:lastModified="{Date}2019-07-30T10:47:44.538+07:00"
+        jcr:lastModified="{Date}2019-07-31T09:55:13.872+07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -28,7 +28,7 @@
             dam:size="{Long}65478"
             dc:format="image/png"
             dc:modified="{Date}2019-07-30T09:15:58.000+07:00"
-            jcr:lastModified="{Date}2019-07-30T10:47:43.271+07:00"
+            jcr:lastModified="{Date}2019-07-31T09:55:13.375+07:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"

@@ -9,7 +9,7 @@
         cq:parentPath="/content/dam/sandiego/icons"
         dam:assetState="processed"
         dam:relativePath="sandiego/icons/arrow-v2-up.png"
-        jcr:lastModified="{Date}2019-07-30T10:47:46.509+07:00"
+        jcr:lastModified="{Date}2019-07-31T09:55:16.605+07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -28,7 +28,7 @@
             dam:size="{Long}266"
             dc:format="image/png"
             dc:modified="{Date}2019-07-30T10:47:46.509+07:00"
-            jcr:lastModified="{Date}2019-07-30T10:47:46.509+07:00"
+            jcr:lastModified="{Date}2019-07-31T09:55:16.603+07:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"

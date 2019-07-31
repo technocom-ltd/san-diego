@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="acae0ff9-d6e6-4ae2-ab82-01c5ba5b3b6b">
     <jcr:content
+        cq:name="budget.png"
+        cq:parentPath="/content/dam/sandiego/public-pages/it-guiding-principles-1"
         dam:assetState="processed"
         dam:relativePath="sandiego/public-pages/it-guiding-principles-1/budget.png"
-        jcr:lastModified="{Date}2019-07-30T10:22:13.345+07:00"
+        jcr:lastModified="{Date}2019-07-31T09:55:15.524+07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -24,6 +27,9 @@
             dam:sha1="baf4542c142824caf130b58ac99c90ffaed6c743"
             dam:size="{Long}1255"
             dc:format="image/png"
+            dc:modified="{Date}2019-07-31T09:55:08.911+07:00"
+            jcr:lastModified="{Date}2019-07-31T09:55:08.911+07:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}32"

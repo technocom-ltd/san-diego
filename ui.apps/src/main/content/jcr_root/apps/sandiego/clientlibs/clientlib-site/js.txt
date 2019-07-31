@@ -11,9 +11,7 @@ components/core/search/search.js
 components/core/form/form-button/form-button.js
 components/core/form/form-options/form-options.js
 
-
 components/public-page/it-guilding-principles-page-v1/accordion/accordion.js
-
 
 components/secure-page/homepage-v2/side-navbar/side-navbar.js
 components/secure-page/homepage-v2/notification-item/notification-item.js
@@ -27,10 +25,13 @@ components/secure-page/nod-dashboard-v2/chart/all-nod-types.js
 components/secure-page/nod-dashboard-v2/chart/total-nod-by-type.js
 components/secure-page/nod-dashboard-v2/nod-reports-table/nod-reports-table.js
 
-
-
 components/secure-page/homepage-v1/notification-item-1/notification-item-1.js
 components/secure-page/homepage-v1/calendar-item-1/calendar-item-1.js
 components/secure-page/homepage-v1/chart-1/home-nod.js
 components/secure-page/homepage-v1/chart-1/home-sdd.js
 components/secure-page/homepage-v1/secure-header/secure-header.js
+
+components/secure-page/nod-dashboard-v1/chart/nod-group.js
+components/secure-page/nod-dashboard-v1/chart/nod-type.js
+components/secure-page/nod-dashboard-v1/chart/nod-time.js
+components/secure-page/nod-dashboard-v1/chart/nod-year.js

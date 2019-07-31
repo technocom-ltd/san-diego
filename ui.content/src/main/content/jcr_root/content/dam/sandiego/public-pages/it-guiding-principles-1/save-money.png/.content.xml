@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="085ac43a-349f-48ff-8ba9-1d8d1d28e573">
     <jcr:content
+        cq:name="save-money.png"
+        cq:parentPath="/content/dam/sandiego/public-pages/it-guiding-principles-1"
         dam:assetState="processed"
         dam:relativePath="sandiego/public-pages/it-guiding-principles-1/save-money.png"
-        jcr:lastModified="{Date}2019-07-30T10:22:13.241+07:00"
+        jcr:lastModified="{Date}2019-07-31T09:55:12.808+07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -24,6 +27,9 @@
             dam:sha1="b270b6d751119e2173f9833b84d98ea1ccb18122"
             dam:size="{Long}1046"
             dc:format="image/png"
+            dc:modified="{Date}2019-07-31T09:55:08.276+07:00"
+            jcr:lastModified="{Date}2019-07-31T09:55:08.276+07:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}32"
