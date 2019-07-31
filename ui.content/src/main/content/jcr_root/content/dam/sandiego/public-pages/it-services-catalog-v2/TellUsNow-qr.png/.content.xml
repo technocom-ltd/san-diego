@@ -2,32 +2,33 @@
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:mixinTypes="[mix:referenceable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="37255c1d-f054-423c-800a-ab8b2fad828a">
+    jcr:uuid="0729b413-5a72-4d8b-9f1b-98c04c64693a">
     <jcr:content
         dam:assetState="processed"
         dam:relativePath="sandiego/public-pages/it-services-catalog-v2/TellUsNow-qr.png"
-        jcr:lastModified="{Date}2019-07-30T14:48:37.466+07:00"
+        jcr:lastModified="{Date}2019-07-31T09:31:04.215+07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:Bitsperpixel="{Long}32"
-            dam:extracted="{Date}2019-07-30T14:48:37.208+07:00"
+            dam:Bitsperpixel="{Long}24"
+            dam:Comments="Software: Adobe ImageReady&#xa;"
+            dam:extracted="{Date}2019-07-31T09:31:03.935+07:00"
             dam:Fileformat="PNG"
             dam:MIMEtype="image/png"
             dam:Numberofimages="{Long}1"
-            dam:Numberoftextualcomments="{Long}0"
-            dam:Physicalheightindpi="{Long}72"
-            dam:Physicalheightininches="{Decimal}1.6664583683013916"
-            dam:Physicalwidthindpi="{Long}72"
-            dam:Physicalwidthininches="{Decimal}1.6664583683013916"
+            dam:Numberoftextualcomments="{Long}1"
+            dam:Physicalheightindpi="{Long}-1"
+            dam:Physicalheightininches="{Decimal}-1.0"
+            dam:Physicalwidthindpi="{Long}-1"
+            dam:Physicalwidthininches="{Decimal}-1.0"
             dam:Progressive="no"
-            dam:sha1="44d6f67b8b24a534b6c9d8d932abb53e75ec59bf"
-            dam:size="{Long}1557"
+            dam:sha1="f47ca5c11c7f9dcf460d5030ab7f05e9ceac3d12"
+            dam:size="{Long}817"
             dc:format="image/png"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
-            tiff:ImageLength="{Long}120"
-            tiff:ImageWidth="{Long}120"/>
+            tiff:ImageLength="{Long}160"
+            tiff:ImageWidth="{Long}160"/>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>
 </jcr:root>

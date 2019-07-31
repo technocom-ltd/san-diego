@@ -3,7 +3,7 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[/etc/mobile/groups/responsive]"
-        cq:lastModified="{Date}2019-07-23T22:30:05.210+07:00"
+        cq:lastModified="{Date}2019-07-30T16:47:20.739+07:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/sandiego/settings/wcm/templates/public-page-template-v1"
         jcr:primaryType="cq:PageContent"
@@ -11,16 +11,26 @@
         <root
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/foundation/components/responsivegrid">
+            <navigation
+                cq:styleIds="[1563165593056]"
+                jcr:created="{Date}2019-07-30T16:46:39.820+07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-07-30T16:47:20.729+07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="sandiego/components/content/core/navigation"
+                collectAllPages="true"
+                navigationRoot="/content/sandiego/landing-page-v1/nav-2"
+                skipNavigationRoot="true"/>
             <responsivegrid
+                cq:styleIds="[1564479860286]"
                 jcr:created="{Date}2019-07-15T10:42:06.873+07:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2019-07-15T10:42:06.873+07:00"
+                jcr:lastModified="{Date}2019-07-30T16:44:32.526+07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/foundation/components/responsivegrid"
-                editable="{Boolean}true">
-                <cq:responsive jcr:primaryType="nt:unstructured"/>
-            </responsivegrid>
+                editable="{Boolean}true"/>
             <header
                 jcr:created="{Date}2019-07-15T15:06:44.423+07:00"
                 jcr:createdBy="admin"

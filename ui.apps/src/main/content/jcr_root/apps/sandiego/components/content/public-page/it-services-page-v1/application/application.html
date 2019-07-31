@@ -1,0 +1,45 @@
+<div data-sly-use.app="application.js" class="cmp-application">
+  <div class="cmp-application__container" data-color=${app.isFavoriteApp}>
+    <div>
+      <img class="cmp-application__image" data-sly-test=${app.avatar} src=${app.avatar} alt='app' />
+    </div>
+
+    <div class="cmp-application__content">
+      <div>
+        <div class="cmp-application__title">${app.title}</div>
+
+        <div class='cmp-application__icon-wrapper'>
+          <img class='cmp-application__icon' data-sly-test=${app.iosLink} src='/content/dam/sandiego/icons/apple.svg' alt='ios' />
+          <img class='cmp-application__icon' data-sly-test=${app.androidLink} src='/content/dam/sandiego/icons/android-logo.svg' alt='android' />
+          <img class='cmp-application__icon' data-sly-test=${app.link} src='/content/dam/sandiego/icons/internet.svg' alt='www' />
+        </div>
+
+        <div class="cmp-application__description">${app.description @ context='html'}</div>
+
+      </div>
+
+      <div class='cmp-application__links'>
+        <div>
+          <a class="cmp-application__app-link" data-sly-test=${app.androidLink} href=${app.androidLink}>
+            <img src='/content/dam/sandiego/public-pages/it-services-catalog-v2/google-play.png' alt='google-play' />
+          </a>
+
+          <a class="cmp-application__app-link" data-sly-test=${app.iosLink} href=${app.iosLink}>
+            <img src='/content/dam/sandiego/public-pages/it-services-catalog-v2/app-store.png' alt='app-store' />
+          </a>
+
+          <a class="cmp-application__app-link" data-sly-test=${app.amazonLink} href=${app.amazonLink}>
+            <img src='/content/dam/sandiego/public-pages/it-services-catalog-v2/amazon.png' alt='app-store' />
+          </a>
+
+          <a class="cmp-application__app-link" data-sly-test=${app.link} href=${app.link}>
+            <img src='/content/dam/sandiego/public-pages/it-services-catalog-v2/visit-site.png' alt='app-store' />
+          </a>
+        </div>
+
+        <img class="cmp-application__qr-code" data-sly-test=${app.qrCode} src=${app.qrCode}>
+
+      </div>
+    </div>
+  </div>
+</div>

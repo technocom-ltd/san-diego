@@ -2,6 +2,8 @@
 <workspaceFilter version="1.0">
   <filter root="/conf/sandiego" mode="replace" />
 
+  <filter root="/content/sandiego" mode="replace" />
+
   <!--  Filter unauthenticated pages proposal 1-->
   <filter root="/content/sandiego/landing-page-v1" mode="replace" />
 
