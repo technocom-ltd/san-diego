@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="1db15a52-7e18-44f3-b398-e2cdf0c00fa6">
     <jcr:content
+        cq:name="arrow-v2-up.png"
+        cq:parentPath="/content/dam/sandiego/icons"
         dam:assetState="processed"
         dam:relativePath="sandiego/icons/arrow-v2-up.png"
-        jcr:lastModified="{Date}2019-07-30T14:48:33.899+07:00"
+        jcr:lastModified="{Date}2019-07-31T10:53:10.578+07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}32"
-            dam:extracted="{Date}2019-07-30T14:48:33.495+07:00"
+            dam:extracted="{Date}2019-07-31T10:53:01.960+07:00"
             dam:Fileformat="PNG"
             dam:MIMEtype="image/png"
             dam:Numberofimages="{Long}1"
@@ -21,9 +24,12 @@
             dam:Physicalwidthindpi="{Long}72"
             dam:Physicalwidthininches="{Decimal}0.3332916796207428"
             dam:Progressive="no"
-            dam:sha1="281a656f52610ed03c6499e5bf5fa133288a61d1"
+            dam:sha1="d276d14eddb05f38ccd5e3d3453c4152b5916d3c"
             dam:size="{Long}266"
             dc:format="image/png"
+            dc:modified="{Date}2019-07-31T10:53:10.214+07:00"
+            jcr:lastModified="{Date}2019-07-31T10:53:10.214+07:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}24"

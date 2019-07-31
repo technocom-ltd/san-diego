@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="069713d1-908f-4fb5-b807-f1097ecb3f67">
     <jcr:content
+        cq:name="empty-image.png"
+        cq:parentPath="/content/dam/sandiego/public-pages/landing"
         dam:assetState="processed"
         dam:relativePath="sandiego/public-pages/landing/empty-image.png"
-        jcr:lastModified="{Date}2019-07-30T14:48:34.615+07:00"
+        jcr:lastModified="{Date}2019-07-31T10:53:15.340+07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}32"
-            dam:extracted="{Date}2019-07-30T14:48:33.632+07:00"
+            dam:extracted="{Date}2019-07-31T10:53:02.491+07:00"
             dam:Fileformat="PNG"
             dam:MIMEtype="image/png"
             dam:Numberofimages="{Long}1"
@@ -21,9 +24,12 @@
             dam:Physicalwidthindpi="{Long}288"
             dam:Physicalwidthininches="{Decimal}4.972039222717285"
             dam:Progressive="no"
-            dam:sha1="aa5f0125558d1945bb2f221ac972495ff3de2554"
+            dam:sha1="40088c38d81a3667bef1c69c454913deb4d18217"
             dam:size="{Long}14150"
             dc:format="image/png"
+            dc:modified="{Date}2019-07-31T10:53:15.147+07:00"
+            jcr:lastModified="{Date}2019-07-31T10:53:15.146+07:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}1448"

@@ -3,7 +3,7 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[/etc/mobile/groups/responsive]"
-        cq:lastModified="{Date}2019-07-29T11:05:11.514+07:00"
+        cq:lastModified="{Date}2019-07-31T11:44:11.209+07:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/sandiego/settings/wcm/templates/secure-page-template-v2"
         jcr:primaryType="cq:PageContent"
