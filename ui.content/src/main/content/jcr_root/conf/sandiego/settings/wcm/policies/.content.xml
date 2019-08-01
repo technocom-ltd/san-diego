@@ -23,12 +23,12 @@
                             mergeList="{Boolean}true"/>
                     </content-default>
                     <policy_109738412366600
-                        jcr:lastModified="{Date}2019-08-01T09:51:09.954+07:00"
+                        jcr:lastModified="{Date}2019-07-31T11:19:12.826+07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title=" Public Page Container v2"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/sandiego/components/content/core/carousel,/apps/sandiego/components/content/core/image,/apps/sandiego/components/content/core/navigation,/apps/sandiego/components/content/core/search,/apps/sandiego/components/content/core/tabs,/apps/sandiego/components/content/core/teaser,/apps/sandiego/components/content/core/text,/apps/sandiego/components/content/core/title,/apps/sandiego/components/form/options,/apps/sandiego/components/content/public-page/landing-page-v2/image-galery,/apps/sandiego/components/content/public-page/it-services-page-v2/application,/apps/sandiego/components/content/public-page/landing-page-v2/process-image,/apps/sandiego/components/content/public-page/it-guiding-page-v1/accordion-text-box,/apps/sandiego/components/content/public-page/it-guiding-page-v1/hero,/apps/sandiego/components/content/public-page/landing-page-v2/sandiego-logo]">
+                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/sandiego/components/content/core/carousel,/apps/sandiego/components/content/core/image,/apps/sandiego/components/content/core/navigation,/apps/sandiego/components/content/core/search,/apps/sandiego/components/content/core/tabs,/apps/sandiego/components/content/core/teaser,/apps/sandiego/components/content/core/text,/apps/sandiego/components/content/core/title,/apps/sandiego/components/form/options,/apps/sandiego/components/content/public-page/landing-page-v2/image-galery,/apps/sandiego/components/content/public-page/it-services-page-v2/application,/apps/sandiego/components/content/public-page/landing-page-v2/process-image,/apps/sandiego/components/content/public-page/landing-page-v2/sandiego-logo]">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                         <cq:styleGroups jcr:primaryType="nt:unstructured">
                             <item0
@@ -1343,20 +1343,14 @@
                     </policy_4652344983339>
                     <policy_174955527221800
                         cq:styleDefaultClasses="cmp-page--public-1"
-                        jcr:lastModified="{Date}2019-07-21T08:36:22.300+07:00"
+                        jcr:lastModified="{Date}2019-07-31T16:22:40.803+07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Public Page 01 Policy"
                         sling:resourceType="wcm/core/components/policy/policy">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                         <cq:styleGroups jcr:primaryType="nt:unstructured">
-                            <item0 jcr:primaryType="nt:unstructured">
-                                <cq:styles jcr:primaryType="nt:unstructured">
-                                    <item0
-                                        cq:styleId="1563672969167"
-                                        jcr:primaryType="nt:unstructured"/>
-                                </cq:styles>
-                            </item0>
+                            <item0 jcr:primaryType="nt:unstructured"/>
                         </cq:styleGroups>
                     </policy_174955527221800>
                     <policy_74186372599600
