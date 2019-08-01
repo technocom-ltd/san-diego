@@ -9,9 +9,9 @@
         <div class="cmp-application__title">${app.title}</div>
 
         <div class='cmp-application__icon-wrapper'>
-          <img class='cmp-application__icon' data-sly-test=${app.iosLink} src='/content/dam/sandiego/icons/apple.svg' alt='ios' />
-          <img class='cmp-application__icon' data-sly-test=${app.androidLink} src='/content/dam/sandiego/icons/android-logo.svg' alt='android' />
-          <img class='cmp-application__icon' data-sly-test=${app.link} src='/content/dam/sandiego/icons/internet.svg' alt='www' />
+          <img class='cmp-application__icon' data-sly-test=${app.iosLink} src='/content/dam/sandiego/icons/apple.svg' title="iOS" alt='ios' />
+          <img class='cmp-application__icon' data-sly-test=${app.androidLink} src='/content/dam/sandiego/icons/android-logo.svg' title="Android" alt='android' />
+          <img class='cmp-application__icon' data-sly-test=${app.link} src='/content/dam/sandiego/icons/internet.svg' title="Website" alt='www' />
         </div>
 
         <div class="cmp-application__description">${app.description @ context='html'}</div>

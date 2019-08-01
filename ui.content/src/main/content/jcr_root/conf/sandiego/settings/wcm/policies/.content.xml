@@ -1343,20 +1343,14 @@
                     </policy_4652344983339>
                     <policy_174955527221800
                         cq:styleDefaultClasses="cmp-page--public-1"
-                        jcr:lastModified="{Date}2019-07-21T08:36:22.300+07:00"
+                        jcr:lastModified="{Date}2019-07-31T16:22:40.803+07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Public Page 01 Policy"
                         sling:resourceType="wcm/core/components/policy/policy">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                         <cq:styleGroups jcr:primaryType="nt:unstructured">
-                            <item0 jcr:primaryType="nt:unstructured">
-                                <cq:styles jcr:primaryType="nt:unstructured">
-                                    <item0
-                                        cq:styleId="1563672969167"
-                                        jcr:primaryType="nt:unstructured"/>
-                                </cq:styles>
-                            </item0>
+                            <item0 jcr:primaryType="nt:unstructured"/>
                         </cq:styleGroups>
                     </policy_174955527221800>
                     <policy_74186372599600
