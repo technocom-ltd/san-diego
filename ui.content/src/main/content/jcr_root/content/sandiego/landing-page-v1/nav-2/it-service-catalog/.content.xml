@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-07-31T16:59:31.834+07:00"
+        cq:lastModified="{Date}2019-08-01T10:11:21.844+07:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/sandiego/settings/wcm/templates/public-page-template-v1"
         jcr:isCheckedOut="{Boolean}true"
@@ -86,14 +86,13 @@
                                 jcr:created="{Date}2019-07-30T16:59:40.976+07:00"
                                 jcr:createdBy="admin"
                                 jcr:description="&lt;p>Report non-emergency problems to the County of San Diego and track the progress of a reported problem. You can report problems related to pricing and scales (e.g. gas pumps, grocery stores), air quality (region wide), and code compliance (e.g. graffiti, abandoned vehicles) within the unincorporated area.&lt;/p>&#xd;&#xa;&lt;p>Now available in Spanish!&lt;/p>&#xd;&#xa;&lt;p>To see/use the “Tell Us Now” app in Spanish, simply change the language settings on your iPhone, iPad, iPad Touch, or Android device to “Español.”&lt;/p>&#xd;&#xa;"
-                                jcr:lastModified="{Date}2019-07-31T09:31:24.910+07:00"
+                                jcr:lastModified="{Date}2019-08-01T10:11:12.526+07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Tell Us Now!"
                                 sling:resourceType="sandiego/components/content/public-page/it-services-page-v1/application"
                                 fileReference="/content/dam/sandiego/public-pages/it-services-catalog-v2/TellUsNow.png"
                                 isFavoriteApp="true"
-                                linkAmazon="https://www.youtube.com/"
                                 linkAndroid="https://www.youtube.com/"
                                 linkIOS="https://www.youtube.com/"
                                 linkURL="https://www.youtube.com/"
@@ -132,6 +131,106 @@
                                         width="12"/>
                                 </cq:responsive>
                             </application_copy_cop>
+                            <application_copy_cop_1642753408
+                                cq:styleIds="[1564483194728]"
+                                jcr:created="{Date}2019-07-30T16:59:40.976+07:00"
+                                jcr:createdBy="admin"
+                                jcr:description="&lt;p>From the source and direct to you, County News Center offers the latest news and videos about the County. The site's mobile version makes it easy to get that information wherever you are.&lt;/p>&#xd;&#xa;"
+                                jcr:lastModified="{Date}2019-08-01T09:55:55.993+07:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="County News Center"
+                                sling:resourceType="sandiego/components/content/public-page/it-services-page-v1/application"
+                                fileReference="/content/dam/sandiego/public-pages/it-services-catalog-v2/CNC.png"
+                                isFavoriteApp="false"
+                                linkURL="http://www.countynewscenter.com/"
+                                qrFileReference="/content/dam/sandiego/public-pages/it-services-catalog-v2/TellUsNow-qr.png"
+                                textIsRich="true">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        width="6"/>
+                                    <phone
+                                        jcr:primaryType="nt:unstructured"
+                                        width="12"/>
+                                </cq:responsive>
+                            </application_copy_cop_1642753408>
+                            <application_copy_cop_1891449607
+                                cq:styleIds="[1564483194728]"
+                                jcr:created="{Date}2019-07-30T16:59:40.976+07:00"
+                                jcr:createdBy="admin"
+                                jcr:description="&lt;p>To help the County Vector Control Program Fight the Bite of West Nile virus, use this app to anonymously report green swimming pools, mosquito breeding and dead birds for treatment or testing.&lt;/p>&#xd;&#xa;"
+                                jcr:lastModified="{Date}2019-08-01T10:11:21.828+07:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Fight the Bite!"
+                                sling:resourceType="sandiego/components/content/public-page/it-services-page-v1/application"
+                                fileReference="/content/dam/sandiego/public-pages/it-services-catalog-v2/FightTheBite.png"
+                                isFavoriteApp="true"
+                                linkIOS="https://itunes.apple.com/us/app/fight-the-bite!/id574592827?mt=8"
+                                qrFileReference="/content/dam/sandiego/public-pages/it-services-catalog-v2/TellUsNow-qr.png"
+                                textIsRich="true">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        width="6"/>
+                                    <phone
+                                        jcr:primaryType="nt:unstructured"
+                                        width="12"/>
+                                </cq:responsive>
+                            </application_copy_cop_1891449607>
+                            <application_copy_cop_1806066373
+                                cq:styleIds="[1564483194728]"
+                                jcr:created="{Date}2019-07-30T16:59:40.976+07:00"
+                                jcr:createdBy="admin"
+                                jcr:description="&lt;p>Use the SDCL app to search for books, DVDs, audiobooks, CDs and more. Check your account, request or renew items, and find your nearest library location and hours.&lt;/p>&#xd;&#xa;"
+                                jcr:lastModified="{Date}2019-08-01T09:59:55.327+07:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="San Diego County Library"
+                                sling:resourceType="sandiego/components/content/public-page/it-services-page-v1/application"
+                                fileReference="/content/dam/sandiego/public-pages/it-services-catalog-v2/SanDiegoCounty.png"
+                                isFavoriteApp="false"
+                                linkAmazon="https://www.amazon.com/Boopsie-Inc-Diego-County-Library/dp/B00BF0PI74"
+                                linkAndroid="https://play.google.com/store/apps/details?id=com.bredir.boopsie.sdcl"
+                                linkIOS="https://itunes.apple.com/us/app/fight-the-bite!/id574592827?mt=8"
+                                qrFileReference="/content/dam/sandiego/public-pages/it-services-catalog-v2/TellUsNow-qr.png"
+                                textIsRich="true">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        width="6"/>
+                                    <phone
+                                        jcr:primaryType="nt:unstructured"
+                                        width="12"/>
+                                </cq:responsive>
+                            </application_copy_cop_1806066373>
+                            <application_copy_cop_789467100
+                                cq:styleIds="[1564483194728]"
+                                jcr:created="{Date}2019-07-30T16:59:40.976+07:00"
+                                jcr:createdBy="admin"
+                                jcr:description="&lt;p>SD Food Info is a quick and easy way to view the latest inspection results for your favorite food facility in San Diego County. The app allows you to search by name, address, city or ZIP; and also provides a map feature allowing you to see food facilities near your current location. Inspection results for the last three years are displayed, including violations. Other cool features allow for searching by score, grade, closures, and even a particular violation.&lt;/p>&#xd;&#xa;"
+                                jcr:lastModified="{Date}2019-08-01T10:10:58.407+07:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="SD Food Info"
+                                sling:resourceType="sandiego/components/content/public-page/it-services-page-v1/application"
+                                fileReference="/content/dam/sandiego/public-pages/it-services-catalog-v2/SDFoodInfo.png"
+                                isFavoriteApp="false"
+                                linkAndroid="https://play.google.com/store/apps/details?id=org.countyofsandiego.sdfoodinfo"
+                                linkIOS="https://itunes.apple.com/us/app/sd-food-info/id1434099661?ls=1&amp;mt=8"
+                                linkURL="https://www.sdfoodinfo.org/"
+                                qrFileReference="/content/dam/sandiego/public-pages/it-services-catalog-v2/TellUsNow-qr.png"
+                                textIsRich="true">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        width="6"/>
+                                    <phone
+                                        jcr:primaryType="nt:unstructured"
+                                        width="12"/>
+                                </cq:responsive>
+                            </application_copy_cop_789467100>
                         </item_1>
                         <item_2
                             cq:panelTitle="Android"

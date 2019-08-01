@@ -1,12 +1,14 @@
 $(function () {
-  var target = $('.cmp-application--v1 .cmp-application__container'),
+  var target = $('.cmp-application--v1 .cmp-application__expand'),
     className = 'expand';
 
   target.click(function () {
-    if ($(this).hasClass(className)) {
-      $(this).removeClass(className);
+    var parent = $(this).parent();
+
+    if (parent.hasClass(className)) {
+      parent.removeClass(className);
     } else {
-      $(this).addClass(className);
+      parent.addClass(className);
     }
   })
 

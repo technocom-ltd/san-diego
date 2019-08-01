@@ -17,7 +17,6 @@
   <filter root="/content/sandiego/landing-page-v2/v2/it-services-catalog" mode="replace" />
   <filter root="/content/sandiego/landing-page-v2/v2/technology-patterns" mode="replace" />
   <filter root="/content/sandiego/landing-page-v2/v2/technology-standards" mode="replace" />
-  <filter root="/content/sandiego/landing-page-v2" mode="replace" />
 
   <!--  Filter secure pages proposal 1-->
   <filter root="/content/sandiego/secure-homepage-v1" mode="replace" />
