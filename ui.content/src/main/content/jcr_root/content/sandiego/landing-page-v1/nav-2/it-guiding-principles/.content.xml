@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-07-31T11:22:58.918+07:00"
+        cq:lastModified="{Date}2019-08-01T08:51:14.122+07:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/sandiego/settings/wcm/templates/public-page-template-v1"
         jcr:isCheckedOut="{Boolean}true"
@@ -75,11 +75,11 @@
                                 text="&lt;p>Technology Risk Management&lt;/p>&#xa;"
                                 textIsRich="true"/>
                             <text_2
-                                jcr:lastModified="{Date}2019-07-21T11:07:03.150+07:00"
+                                jcr:lastModified="{Date}2019-08-01T08:47:16.510+07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="sandiego/components/content/core/text"
-                                text="&lt;p>Enterprise-wide IT risk will be evaluated through standard policies, procedures, and a governance model to identify appropriate mitigations for the County as an enterprise.&lt;br>&#xa;&lt;br>&#xa;&lt;b>Rationale:&lt;/b>&lt;br>&#xa;&lt;br>&#xa;The tradeoffs between business value and risk must be considered at the enterprise level.&amp;nbsp; Evaluating and communicating acceptable levels of risk will ensure optimum protection of resources within the business and the County overall&lt;br>&#xa;&lt;br>&#xa;&lt;b>Implications:&lt;/b>&lt;br>&#xa;&lt;br>&#xa;· Business-specific technology risks will be managed at the appropriate level (e.g., by Governance bodies and working groups such as Cloud Review Committee) in accordance with enterprise-wide standards, policies, and procedures, and escalated to ITMC as appropriate&lt;br>&#xa;&lt;br>&#xa;· Criteria and thresholds will be defined so independent oversight will occur on technology implementation projects.&lt;br>&#xa;&lt;br>&#xa;· The solution architecture process will define the solution that meets the business unit’s acceptable risk standard in balance with other factors, including cost and functionality.&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;"
+                                text="&lt;p>Enterprise-wide IT risk will be evaluated through standard policies, procedures, and a governance model to identify appropriate mitigations for the County as an enterprise.&lt;br />&#xd;&#xa;&lt;br />&#xd;&#xa;&lt;b>Rationale:&lt;/b>&lt;br />&#xd;&#xa;&lt;br />&#xd;&#xa;The tradeoffs between business value and risk must be considered at the enterprise level.  Evaluating and communicating acceptable levels of risk will ensure optimum protection of resources within the business and the County overall&lt;br />&#xd;&#xa;&lt;br />&#xd;&#xa;&lt;b>Implications:&lt;/b>&lt;br />&#xd;&#xa;&lt;br />&#xd;&#xa;· Business-specific technology risks will be managed at the appropriate level (e.g., by Governance bodies and working groups such as Cloud Review Committee) in accordance with enterprise-wide standards, policies, and procedures, and escalated to ITMC as appropriate&lt;br />&#xd;&#xa;&lt;br />&#xd;&#xa;· Criteria and thresholds will be defined so independent oversight will occur on technology implementation projects.&lt;br />&#xd;&#xa;&lt;br />&#xd;&#xa;· The solution architecture process will define the solution that meets the business unit’s acceptable risk standard in balance with other factors, including cost and functionality.&lt;/p>&#xd;&#xa;&lt;p> &lt;/p>&#xd;&#xa;"
                                 textIsRich="true"/>
                             <image
                                 jcr:lastModified="{Date}2019-07-30T10:22:26.106+07:00"
@@ -103,11 +103,11 @@
                                 text="&lt;p>IT Investment Management &amp;amp; Governance&lt;/p>&#xa;"
                                 textIsRich="true"/>
                             <text_2
-                                jcr:lastModified="{Date}2019-07-21T11:12:37.469+07:00"
+                                jcr:lastModified="{Date}2019-08-01T08:48:24.890+07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="sandiego/components/content/core/text"
-                                text="&lt;p>Enterprise-wide IT risk will be evaluated through standard policies, procedures, and a governance model to identify appropriate mitigations for the County as an enterprise.&lt;br>&#xa;&lt;br>&#xa;&lt;b>Rationale:&lt;/b>&lt;br>&#xa;&lt;br>&#xa;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;"
+                                text="&lt;p>Enterprise-wide IT risk will be evaluated through standard policies, procedures, and a governance model to identify appropriate mitigations for the County as an enterprise.&lt;br />&#xd;&#xa;&lt;br />&#xd;&#xa;&lt;b>Rationale:&lt;/b>&lt;br />&#xd;&#xa;&lt;br />&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p> &lt;/p>&#xd;&#xa;"
                                 textIsRich="true"/>
                             <image
                                 jcr:lastModified="{Date}2019-07-30T10:22:36.752+07:00"
@@ -152,18 +152,18 @@
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="sandiego/components/content/public-page/it-guiding-page-v1/accordion-text-box">
                             <text_1
-                                jcr:lastModified="{Date}2019-07-21T11:11:16.410+07:00"
+                                jcr:lastModified="{Date}2019-08-01T08:50:12.415+07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="sandiego/components/content/core/text"
-                                text="&lt;p>Reuse, Buy, Build&lt;/p>&#xa;"
+                                text="&lt;p>Reuse, Buy, Build&lt;/p>&#xd;&#xa;"
                                 textIsRich="true"/>
                             <text_2
-                                jcr:lastModified="{Date}2019-07-30T10:57:53.334+07:00"
+                                jcr:lastModified="{Date}2019-08-01T08:50:28.123+07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="sandiego/components/content/core/text"
-                                text="&lt;p>Enterprise-wide IT risk will be evaluated through standard policies, procedures, and a governance model to identify appropriate mitigations for the County as an enterprise.&lt;br>&#xa;&lt;br>&#xa;&lt;b>Rationale:&lt;/b>&lt;br>&#xa;&lt;br>&#xa;The tradeoffs between business value and risk must be considered at the enterprise level.&amp;nbsp; Evaluating and communicating acceptable levels of risk will ensure optimum protection of resources within the business and the County overall&lt;br>&#xa;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;"
+                                text="&lt;p>Enterprise-wide IT risk will be evaluated through standard policies, procedures, and a governance model to identify appropriate mitigations for the County as an enterprise.&lt;br />&#xd;&#xa;&lt;br />&#xd;&#xa;&lt;b>Rationale:&lt;/b>&lt;br />&#xd;&#xa;&lt;br />&#xd;&#xa;The tradeoffs between business value and risk must be considered at the enterprise level.  Evaluating and communicating acceptable levels of risk will ensure optimum protection of resources within the business and the County overall&lt;br />&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p> &lt;/p>&#xd;&#xa;"
                                 textIsRich="true"/>
                             <image
                                 jcr:lastModified="{Date}2019-07-30T10:57:04.512+07:00"
@@ -186,18 +186,18 @@
                                 sling:resourceType="sandiego/components/content/core/image"
                                 fileReference="/content/dam/sandiego/public-pages/it-guiding-principles-1/list-3.png"/>
                             <text_1
-                                jcr:lastModified="{Date}2019-07-30T11:56:55.483+07:00"
+                                jcr:lastModified="{Date}2019-08-01T08:51:06.076+07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="sandiego/components/content/core/text"
-                                text="&lt;p>County Standards Compliance&lt;/p>&#xa;"
+                                text="&lt;p>County Standards Compliance&lt;/p>&#xd;&#xa;"
                                 textIsRich="true"/>
                             <text_2
-                                jcr:lastModified="{Date}2019-07-30T10:57:56.599+07:00"
+                                jcr:lastModified="{Date}2019-08-01T08:51:14.114+07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="sandiego/components/content/core/text"
-                                text="&lt;p>Enterprise-wide IT risk will be evaluated through standard policies, procedures, and a governance model to identify appropriate mitigations for the County as an enterprise.&lt;br>&#xa;&lt;br>&#xa;&lt;b>Rationale:&lt;/b>&lt;br>&#xa;&lt;br>&#xa;The tradeoffs between business value and risk must be considered at the enterprise level.&amp;nbsp; Evaluating and communicating acceptable levels of risk will ensure optimum protection of resources within the business and the County overall&lt;br>&#xa;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;"
+                                text="&lt;p>Enterprise-wide IT risk will be evaluated through standard policies, procedures, and a governance model to identify appropriate mitigations for the County as an enterprise.&lt;br />&#xd;&#xa;&lt;br />&#xd;&#xa;&lt;b>Rationale:&lt;/b>&lt;br />&#xd;&#xa;&lt;br />&#xd;&#xa;The tradeoffs between business value and risk must be considered at the enterprise level.  Evaluating and communicating acceptable levels of risk will ensure optimum protection of resources within the business and the County overall&lt;br />&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p> &lt;/p>&#xd;&#xa;"
                                 textIsRich="true"/>
                         </accordion_text_box_2040186400>
                     </responsivegrid>

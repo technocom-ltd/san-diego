@@ -3,7 +3,7 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[/etc/mobile/groups/responsive]"
-        cq:lastModified="{Date}2019-07-31T16:35:10.315+07:00"
+        cq:lastModified="{Date}2019-07-30T16:47:20.739+07:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/sandiego/settings/wcm/templates/public-page-template-v1"
         jcr:primaryType="cq:PageContent"
@@ -11,43 +11,17 @@
         <root
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/foundation/components/responsivegrid">
-            <header
-                jcr:created="{Date}2019-07-31T16:33:46.029+07:00"
-                jcr:createdBy="admin"
-                jcr:lastModified="{Date}2019-07-31T16:33:46.029+07:00"
-                jcr:lastModifiedBy="admin"
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="sandiego/components/content/public-page/landing-page-v1/header">
-                <navigation
-                    jcr:lastModified="{Date}2019-07-31T16:35:10.311+07:00"
-                    jcr:lastModifiedBy="admin"
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="sandiego/components/content/core/navigation"
-                    collectAllPages="false"
-                    navigationRoot="/content/sandiego/landing-page-v1/nav-1"
-                    skipNavigationRoot="true"/>
-                <image
-                    jcr:lastModified="{Date}2019-07-31T16:33:54.909+07:00"
-                    jcr:lastModifiedBy="admin"
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="sandiego/components/content/core/image"
-                    fileReference="/content/dam/sandiego/sandiego-logo.png"/>
-                <text
-                    jcr:lastModified="{Date}2019-07-31T16:34:57.458+07:00"
-                    jcr:lastModifiedBy="admin"
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="sandiego/components/content/core/text"
-                    text="&lt;p>County of San Diego&lt;/p>&#xa;&lt;p>County Technology Office&lt;/p>&#xa;"
-                    textIsRich="true"/>
-            </header>
             <navigation
                 cq:styleIds="[1563165593056]"
-                jcr:created="{Date}2019-07-31T16:14:36.890+07:00"
+                jcr:created="{Date}2019-07-30T16:46:39.820+07:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2019-07-31T16:16:29.915+07:00"
+                jcr:lastModified="{Date}2019-07-30T16:47:20.729+07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="sandiego/components/content/core/navigation"/>
+                sling:resourceType="sandiego/components/content/core/navigation"
+                collectAllPages="true"
+                navigationRoot="/content/sandiego/landing-page-v1/nav-2"
+                skipNavigationRoot="true"/>
             <responsivegrid
                 cq:styleIds="[1564479860286]"
                 jcr:created="{Date}2019-07-15T10:42:06.873+07:00"
@@ -57,6 +31,40 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/foundation/components/responsivegrid"
                 editable="{Boolean}true"/>
+            <header
+                jcr:created="{Date}2019-07-15T15:06:44.423+07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-07-15T15:06:44.423+07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="sandiego/components/content/public-page/landing-page-v1/header">
+                <navigation
+                    jcr:lastModified="{Date}2019-07-23T22:30:05.207+07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="sandiego/components/content/core/navigation"
+                    collectAllPages="true"
+                    navigationRoot="/content/sandiego/landing-page-v1/nav-1"
+                    skipNavigationRoot="true"/>
+                <image
+                    jcr:lastModified="{Date}2019-07-15T15:07:00.071+07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="sandiego/components/content/core/image"
+                    alt="logo"
+                    altValueFromDAM="false"
+                    displayPopupTitle="false"
+                    fileReference="/content/dam/sandiego/sandiego-logo.png"
+                    isDecorative="false"
+                    titleValueFromDAM="false"/>
+                <text
+                    jcr:lastModified="{Date}2019-07-15T15:07:21.049+07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="sandiego/components/content/core/text"
+                    text="&lt;p>County of San Diego&lt;/p>&#xa;&lt;p>County Technology Office&lt;br>&#xa;&lt;/p>&#xa;"
+                    textIsRich="true"/>
+            </header>
         </root>
         <cq:responsive jcr:primaryType="nt:unstructured">
             <breakpoints jcr:primaryType="nt:unstructured">
