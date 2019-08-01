@@ -6,11 +6,11 @@
     <jcr:content
         dam:assetState="processed"
         dam:relativePath="sandiego/icons/arrow-v2-up.svg"
-        jcr:lastModified="{Date}2019-07-31T15:14:32.428+07:00"
+        jcr:lastModified="{Date}2019-07-31T17:18:38.116+07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2019-07-31T14:44:53.629+07:00"
+            dam:extracted="{Date}2019-07-31T17:18:37.443+07:00"
             dam:sha1="806f90e6c19698743c5a91465f300f683f1a8329"
             dam:size="{Long}350"
             dc:format="image/svg+xml"

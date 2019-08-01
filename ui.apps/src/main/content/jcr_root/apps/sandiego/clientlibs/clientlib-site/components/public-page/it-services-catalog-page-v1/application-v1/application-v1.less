@@ -2,6 +2,7 @@
 @cmp-application-v1-icon-size: 100px;
 @cmp-application-v1-qr-size: 172px;
 @cmp-application-v1-app-link-width: 150px;
+@lines-of-text: 3;
 
 .cmp-application--v1 {
 
@@ -13,7 +14,7 @@
       padding: 26px;
       border-radius: 16px;
       transition: all 0.4s;
-      border: 1px solid @black-20;
+      border: 0.5px solid @black-20;
 
       &:hover {
         box-shadow: 2px 3px 14px 1px rgba(220, 220, 220, 1);
@@ -45,12 +46,12 @@
       padding-left: 32px;
 
 
-      //    first div is title and description
+      /* first div is title and description */
       > div:nth-child(1) {
         padding: 0;
       }
 
-      //    second div is qr code and link to store
+      /* second div is qr code and link to store */
       > div:nth-child(2) {
         display: flex;
         flex-direction: row;
@@ -75,6 +76,16 @@
     .cmp-application__description {
       color: @text-color-second;
       margin-top: 16px;
+      display: block;
+      /* Fallback for non-webkit */
+      display: -webkit-box;
+
+      height: calc(@font-size-base * 1.5 * @lines-of-text);
+      line-height: 1.5;
+      -webkit-line-clamp: @lines-of-text;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
     }
 
     .cmp-application__links {
@@ -105,8 +116,32 @@
     .cmp-application__app-link,
     .cmp-application__qr-code {
       display: none;
+      opacity: 0;
+    }
+
+
+    .expand.cmp-application__container {
+
+      .cmp-application__description {
+        display: block;
+        /* Fallback for non-webkit */
+
+        height: 100%;
+        line-height: 1.5;
+
+      }
+
+      .cmp-application__app-link,
+      .cmp-application__qr-code {
+        display: block;
+        opacity: 1;
+        transition: all 0.4s;
+      }
     }
   }
+
+
+
 
 
   /* Tablet layout */

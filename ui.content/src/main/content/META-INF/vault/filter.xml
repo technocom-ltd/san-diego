@@ -25,5 +25,5 @@
   <!--  Filter secure pages proposal 2-->
   <filter root="/content/sandiego/secure-homepage" mode="replace" />
 
-  <filter root="/content/dam/sandiego" mode="replace" />
+  <filter root="/content/dam/sandiego" mode="merge" />
 </workspaceFilter>
