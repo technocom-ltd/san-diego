@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-07-30T14:23:58.786+07:00"
+        cq:lastModified="{Date}2019-08-01T09:52:40.029+07:00"
         cq:lastModifiedBy="admin"
         cq:styleIds="[1564038938386]"
         cq:template="/conf/sandiego/settings/wcm/templates/public-page-template-v2"
@@ -36,6 +36,21 @@
                     navigationRoot="/content/sandiego/landing-page-v2/v2"
                     skipNavigationRoot="true"
                     structureDepth="1"/>
+                <hero
+                    jcr:created="{Date}2019-08-01T09:51:23.959+07:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-08-01T09:51:23.959+07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="sandiego/components/content/public-page/it-guiding-page-v1/hero">
+                    <text
+                        jcr:lastModified="{Date}2019-08-01T09:51:40.302+07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="sandiego/components/content/core/text"
+                        text="&lt;h2>&lt;b>IT GUIDING PRINCIPLES&lt;/b>&lt;/h2>&#xd;&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xd;&#xa;"
+                        textIsRich="true"/>
+                </hero>
                 <responsivegrid
                     cq:styleIds="[1563011012274]"
                     jcr:created="{Date}2019-07-24T16:58:02.595+07:00"
@@ -59,7 +74,7 @@
                         cq:styleIds="[1563112711157,1563175775331]"
                         jcr:created="{Date}2019-07-24T17:00:34.439+07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-07-25T14:46:52.005+07:00"
+                        jcr:lastModified="{Date}2019-08-01T08:44:40.123+07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="sandiego/components/content/core/text"
@@ -74,303 +89,172 @@
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wcm/foundation/components/responsivegrid">
                         <cq:responsive jcr:primaryType="nt:unstructured"/>
-                        <text_1140661148
-                            cq:styleIds="[1564019558267]"
-                            jcr:created="{Date}2019-07-24T17:01:35.806+07:00"
+                        <accordion_text_box
+                            jcr:created="{Date}2019-08-01T08:45:57.717+07:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-07-25T08:53:09.452+07:00"
+                            jcr:lastModified="{Date}2019-08-01T08:45:57.717+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="sandiego/components/content/core/text"
-                            text="&lt;p>&lt;b>&lt;a href=&quot;https://www.google.com/&quot;>Technology Risk Management&lt;/a>&lt;/b>&lt;/p>&#xd;&#xa;"
-                            textIsRich="true">
-                            <cq:responsive jcr:primaryType="nt:unstructured">
-                                <default
-                                    jcr:primaryType="nt:unstructured"
-                                    width="3"/>
-                                <phone
-                                    jcr:primaryType="nt:unstructured"
-                                    width="6"/>
-                            </cq:responsive>
-                        </text_1140661148>
-                        <text
-                            cq:styleIds="[1564019558267]"
-                            jcr:created="{Date}2019-07-24T17:06:16.366+07:00"
+                            sling:resourceType="sandiego/components/content/public-page/it-guiding-page-v1/accordion-text-box">
+                            <image
+                                jcr:lastModified="{Date}2019-08-01T08:46:47.317+07:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="sandiego/components/content/core/image"
+                                alt="risk"
+                                altValueFromDAM="false"
+                                displayPopupTitle="false"
+                                fileReference="/content/dam/sandiego/public-pages/it-guiding-principles-1/risk.png"
+                                isDecorative="false"
+                                titleValueFromDAM="false"/>
+                            <text_1
+                                jcr:lastModified="{Date}2019-08-01T08:47:10.942+07:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="sandiego/components/content/core/text"
+                                text="&lt;p>Technology Risk Management&lt;/p>&#xd;&#xa;"
+                                textIsRich="true"/>
+                            <text_2
+                                jcr:lastModified="{Date}2019-08-01T08:48:39.340+07:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="sandiego/components/content/core/text"
+                                text="&lt;p>Enterprise-wide IT risk will be evaluated through standard policies, procedures, and a governance model to identify appropriate mitigations for the County as an enterprise.&lt;br>&#xd;&#xa;&lt;br>&#xd;&#xa;&lt;b>Rationale:&lt;/b>&lt;br>&#xd;&#xa;&lt;br>&#xd;&#xa;The tradeoffs between business value and risk must be considered at the enterprise level.&amp;nbsp; Evaluating and communicating acceptable levels of risk will ensure optimum protection of resources within the business and the County overall&lt;br>&#xd;&#xa;&lt;br>&#xd;&#xa;&lt;b>Implications:&lt;/b>&lt;br>&#xd;&#xa;&lt;br>&#xd;&#xa;· Business-specific technology risks will be managed at the appropriate level (e.g., by Governance bodies and working groups such as Cloud Review Committee) in accordance with enterprise-wide standards, policies, and procedures, and escalated to ITMC as appropriate&lt;br>&#xd;&#xa;&lt;br>&#xd;&#xa;· Criteria and thresholds will be defined so independent oversight will occur on technology implementation projects.&lt;br>&#xd;&#xa;&lt;br>&#xd;&#xa;· The solution architecture process will define the solution that meets the business unit’s acceptable risk standard in balance with other factors, including cost and functionality.&lt;/p>&#xd;&#xa;"
+                                textIsRich="true"/>
+                        </accordion_text_box>
+                        <accordion_text_box_1557983171
+                            jcr:created="{Date}2019-08-01T08:47:39.190+07:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-07-25T08:53:17.120+07:00"
+                            jcr:lastModified="{Date}2019-08-01T08:47:39.190+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="sandiego/components/content/core/text"
-                            text="&lt;p>&lt;b>&lt;a href=&quot;https://www.google.com/&quot;>IT Investment Management &amp;amp; Governance&lt;/a>&lt;/b>&lt;/p>&#xd;&#xa;"
-                            textIsRich="true">
-                            <cq:responsive jcr:primaryType="nt:unstructured">
-                                <default
-                                    jcr:primaryType="nt:unstructured"
-                                    width="3"/>
-                                <phone
-                                    jcr:primaryType="nt:unstructured"
-                                    width="6"/>
-                            </cq:responsive>
-                        </text>
-                        <text_1099991847
-                            cq:styleIds="[1564019558267]"
-                            jcr:created="{Date}2019-07-25T08:43:45.121+07:00"
+                            sling:resourceType="sandiego/components/content/public-page/it-guiding-page-v1/accordion-text-box">
+                            <image
+                                jcr:lastModified="{Date}2019-08-01T08:48:01.288+07:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="sandiego/components/content/core/image"
+                                alt="investment"
+                                altValueFromDAM="false"
+                                displayPopupTitle="false"
+                                fileReference="/content/dam/sandiego/public-pages/it-guiding-principles-1/save-money.png"
+                                isDecorative="false"
+                                titleValueFromDAM="false"/>
+                            <text_1
+                                jcr:lastModified="{Date}2019-08-01T08:48:14.949+07:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="sandiego/components/content/core/text"
+                                text="&lt;p>IT Investment Management &amp;amp; Governance&lt;/p>&#xd;&#xa;"
+                                textIsRich="true"/>
+                            <text_2
+                                jcr:lastModified="{Date}2019-08-01T08:48:32.429+07:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="sandiego/components/content/core/text"
+                                text="&lt;p>Enterprise-wide IT risk will be evaluated through standard policies, procedures, and a governance model to identify appropriate mitigations for the County as an enterprise.&lt;br>&#xd;&#xa;&lt;br>&#xd;&#xa;&lt;b>Rationale:&lt;/b>&lt;br>&#xd;&#xa;&lt;/p>&#xd;&#xa;"
+                                textIsRich="true"/>
+                        </accordion_text_box_1557983171>
+                        <accordion_text_box_1710494030
+                            jcr:created="{Date}2019-08-01T08:48:53.836+07:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-07-25T08:53:21.363+07:00"
+                            jcr:lastModified="{Date}2019-08-01T08:48:53.836+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="sandiego/components/content/core/text"
-                            text="&lt;p>&lt;a href=&quot;https://www.google.com/&quot;>&lt;b>Enterprise IT Costs&lt;/b>&lt;/a>&lt;/p>&#xd;&#xa;"
-                            textIsRich="true">
-                            <cq:responsive jcr:primaryType="nt:unstructured">
-                                <default
-                                    jcr:primaryType="nt:unstructured"
-                                    width="3"/>
-                                <phone
-                                    jcr:primaryType="nt:unstructured"
-                                    width="6"/>
-                            </cq:responsive>
-                        </text_1099991847>
-                        <text_857051115
-                            cq:styleIds="[1564019558267]"
-                            jcr:created="{Date}2019-07-25T08:44:58.497+07:00"
+                            sling:resourceType="sandiego/components/content/public-page/it-guiding-page-v1/accordion-text-box">
+                            <image
+                                jcr:lastModified="{Date}2019-08-01T08:49:15.765+07:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="sandiego/components/content/core/image"
+                                alt="costs"
+                                altValueFromDAM="false"
+                                displayPopupTitle="false"
+                                fileReference="/content/dam/sandiego/public-pages/it-guiding-principles-1/budget.png"
+                                isDecorative="false"
+                                titleValueFromDAM="false"/>
+                            <text_1
+                                jcr:lastModified="{Date}2019-08-01T08:49:27.091+07:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="sandiego/components/content/core/text"
+                                text="&lt;p>Enterprise IT Costs&lt;/p>&#xd;&#xa;"
+                                textIsRich="true"/>
+                            <text_2
+                                jcr:lastModified="{Date}2019-08-01T08:49:41.974+07:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="sandiego/components/content/core/text"
+                                text="&lt;p>Enterprise-wide IT risk will be evaluated through standard policies, &#xd;&#xa;procedures, and a governance model to identify appropriate mitigations &#xd;&#xa;for the County as an enterprise.&lt;br>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xd;&#xa;"
+                                textIsRich="true"/>
+                        </accordion_text_box_1710494030>
+                        <accordion_text_box_1701119652
+                            jcr:created="{Date}2019-08-01T08:49:47.038+07:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-07-25T08:53:24.694+07:00"
+                            jcr:lastModified="{Date}2019-08-01T08:49:47.038+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="sandiego/components/content/core/text"
-                            text="&lt;p>&lt;a href=&quot;https://www.google.com/&quot;>&lt;b>Reuse, Buy, Build&lt;/b>&lt;/a>&lt;/p>&#xd;&#xa;"
-                            textIsRich="true">
-                            <cq:responsive jcr:primaryType="nt:unstructured">
-                                <default
-                                    jcr:primaryType="nt:unstructured"
-                                    width="3"/>
-                                <phone
-                                    jcr:primaryType="nt:unstructured"
-                                    width="6"/>
-                            </cq:responsive>
-                        </text_857051115>
-                        <text_696393499
-                            cq:styleIds="[1564019558267,1563112684784]"
-                            jcr:created="{Date}2019-07-25T08:57:55.552+07:00"
+                            sling:resourceType="sandiego/components/content/public-page/it-guiding-page-v1/accordion-text-box">
+                            <image
+                                jcr:lastModified="{Date}2019-08-01T08:50:02.886+07:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="sandiego/components/content/core/image"
+                                alt="cart"
+                                altValueFromDAM="false"
+                                displayPopupTitle="false"
+                                fileReference="/content/dam/sandiego/public-pages/it-guiding-principles-1/shopping-cart.png"
+                                isDecorative="false"
+                                titleValueFromDAM="false"/>
+                            <text_1
+                                jcr:lastModified="{Date}2019-08-01T08:50:14.958+07:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="sandiego/components/content/core/text"
+                                text="&lt;p>Reuse, Buy, Build&lt;/p>&#xd;&#xa;"
+                                textIsRich="true"/>
+                            <text_2
+                                jcr:lastModified="{Date}2019-08-01T08:50:32.001+07:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="sandiego/components/content/core/text"
+                                text="&lt;p>Enterprise-wide IT risk will be evaluated through standard policies, procedures, and a governance model to identify appropriate mitigations for the County as an enterprise.&lt;br>&#xd;&#xa;&lt;br>&#xd;&#xa;&lt;b>Rationale:&lt;/b>&lt;br>&#xd;&#xa;&lt;br>&#xd;&#xa;The tradeoffs between business value and risk must be considered at the enterprise level.&amp;nbsp; Evaluating and communicating acceptable levels of risk will ensure optimum protection of resources within the business and the County overall&lt;br>&#xd;&#xa;&lt;/p>&#xd;&#xa;"
+                                textIsRich="true"/>
+                        </accordion_text_box_1701119652>
+                        <accordion_text_box_421127685
+                            jcr:created="{Date}2019-08-01T08:50:44.988+07:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-07-25T09:01:45.391+07:00"
+                            jcr:lastModified="{Date}2019-08-01T08:50:44.988+07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="sandiego/components/content/core/text"
-                            text="&lt;p>&lt;a href=&quot;https://www.google.com/&quot;>&lt;b>Enterprise Architecture&lt;/b>&lt;/a>&lt;/p>&#xd;&#xa;"
-                            textIsRich="true">
-                            <cq:responsive jcr:primaryType="nt:unstructured">
-                                <default
-                                    jcr:primaryType="nt:unstructured"
-                                    behavior="newline"
-                                    width="3"/>
-                                <phone
-                                    jcr:primaryType="nt:unstructured"
-                                    width="6"/>
-                            </cq:responsive>
-                        </text_696393499>
-                        <text_441290830
-                            cq:styleIds="[1564019558267,1563112684784]"
-                            jcr:created="{Date}2019-07-25T08:59:36.958+07:00"
-                            jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-07-25T09:01:49.560+07:00"
-                            jcr:lastModifiedBy="admin"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="sandiego/components/content/core/text"
-                            text="&lt;p>&lt;b>&lt;a href=&quot;https://www.google.com/&quot;>County Standards Compliance&lt;/a>&lt;/b>&lt;/p>&#xd;&#xa;"
-                            textIsRich="true">
-                            <cq:responsive jcr:primaryType="nt:unstructured">
-                                <default
-                                    jcr:primaryType="nt:unstructured"
-                                    width="3"/>
-                                <phone
-                                    jcr:primaryType="nt:unstructured"
-                                    width="6"/>
-                            </cq:responsive>
-                        </text_441290830>
-                        <text_1597763317
-                            cq:styleIds="[1564019558267,1563112684784]"
-                            jcr:created="{Date}2019-07-25T09:00:07.367+07:00"
-                            jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-07-25T09:01:53.583+07:00"
-                            jcr:lastModifiedBy="admin"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="sandiego/components/content/core/text"
-                            text="&lt;p>&lt;b>&lt;a href=&quot;https://www.google.com/&quot;>Service Levels&lt;/a>&lt;/b>&lt;/p>&#xd;&#xa;"
-                            textIsRich="true">
-                            <cq:responsive jcr:primaryType="nt:unstructured">
-                                <default
-                                    jcr:primaryType="nt:unstructured"
-                                    width="3"/>
-                                <phone
-                                    jcr:primaryType="nt:unstructured"
-                                    width="6"/>
-                            </cq:responsive>
-                        </text_1597763317>
-                        <text_1866632620
-                            cq:styleIds="[1564019558267,1563112684784]"
-                            jcr:created="{Date}2019-07-25T09:00:35.710+07:00"
-                            jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-07-25T09:01:57.710+07:00"
-                            jcr:lastModifiedBy="admin"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="sandiego/components/content/core/text"
-                            text="&lt;p>&lt;b>&lt;a href=&quot;https://www.google.com/&quot;>Technology Adoption&lt;/a>&lt;/b>&lt;/p>&#xd;&#xa;"
-                            textIsRich="true">
-                            <cq:responsive jcr:primaryType="nt:unstructured">
-                                <default
-                                    jcr:primaryType="nt:unstructured"
-                                    width="3"/>
-                                <phone
-                                    jcr:primaryType="nt:unstructured"
-                                    width="6"/>
-                            </cq:responsive>
-                        </text_1866632620>
-                        <text_869750321
-                            cq:styleIds="[1563112684784,1564019558267]"
-                            jcr:created="{Date}2019-07-25T09:02:16.690+07:00"
-                            jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-07-25T09:02:58.858+07:00"
-                            jcr:lastModifiedBy="admin"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="sandiego/components/content/core/text"
-                            text="&lt;p>&lt;b>&lt;a href=&quot;https://www.google.com/&quot;>Innovation and Continuous Improvement&lt;/a>&lt;/b>&lt;/p>&#xd;&#xa;"
-                            textIsRich="true">
-                            <cq:responsive jcr:primaryType="nt:unstructured">
-                                <default
-                                    jcr:primaryType="nt:unstructured"
-                                    width="3"/>
-                                <phone
-                                    jcr:primaryType="nt:unstructured"
-                                    width="6"/>
-                            </cq:responsive>
-                        </text_869750321>
-                        <text_2142774117
-                            cq:styleIds="[1563112684784,1564019558267]"
-                            jcr:created="{Date}2019-07-25T09:03:06.192+07:00"
-                            jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-07-25T09:03:40.280+07:00"
-                            jcr:lastModifiedBy="admin"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="sandiego/components/content/core/text"
-                            text="&lt;p>&lt;b>&lt;a href=&quot;https://www.google.com/&quot;>Lifecycle Management&lt;/a>&lt;/b>&lt;/p>&#xd;&#xa;"
-                            textIsRich="true">
-                            <cq:responsive jcr:primaryType="nt:unstructured">
-                                <default
-                                    jcr:primaryType="nt:unstructured"
-                                    width="3"/>
-                                <phone
-                                    jcr:primaryType="nt:unstructured"
-                                    width="6"/>
-                            </cq:responsive>
-                        </text_2142774117>
-                        <text_1292232985
-                            cq:styleIds="[1564019558267,1563112684784]"
-                            jcr:created="{Date}2019-07-25T09:03:44.243+07:00"
-                            jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-07-25T09:44:05.461+07:00"
-                            jcr:lastModifiedBy="admin"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="sandiego/components/content/core/text"
-                            text="&lt;p>&lt;a href=&quot;https://www.google.com/&quot;>&lt;b>User Experience&lt;/b>&lt;/a>&lt;/p>&#xd;&#xa;"
-                            textIsRich="true">
-                            <cq:responsive jcr:primaryType="nt:unstructured">
-                                <default
-                                    jcr:primaryType="nt:unstructured"
-                                    width="3"/>
-                                <phone
-                                    jcr:primaryType="nt:unstructured"
-                                    width="6"/>
-                            </cq:responsive>
-                        </text_1292232985>
-                        <text_2049052049
-                            cq:styleIds="[1564019558267,1563112684784]"
-                            jcr:created="{Date}2019-07-25T09:44:12.851+07:00"
-                            jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-07-25T09:44:51.750+07:00"
-                            jcr:lastModifiedBy="admin"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="sandiego/components/content/core/text"
-                            text="&lt;p>&lt;b>&lt;a href=&quot;https://www.google.com/&quot;>Development Practices&lt;/a>&lt;/b>&lt;/p>&#xd;&#xa;"
-                            textIsRich="true">
-                            <cq:responsive jcr:primaryType="nt:unstructured">
-                                <default
-                                    jcr:primaryType="nt:unstructured"
-                                    width="3"/>
-                                <phone
-                                    jcr:primaryType="nt:unstructured"
-                                    width="6"/>
-                            </cq:responsive>
-                        </text_2049052049>
-                        <text_431524271
-                            cq:styleIds="[1563112684784,1564019558267]"
-                            jcr:created="{Date}2019-07-25T09:45:04.321+07:00"
-                            jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-07-25T09:47:00.102+07:00"
-                            jcr:lastModifiedBy="admin"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="sandiego/components/content/core/text"
-                            text="&lt;p>&lt;b>&lt;a href=&quot;https://www.google.com/&quot;>Enterprise Information Management&lt;/a>&lt;/b>&lt;/p>&#xd;&#xa;"
-                            textIsRich="true">
-                            <cq:responsive jcr:primaryType="nt:unstructured">
-                                <default
-                                    jcr:primaryType="nt:unstructured"
-                                    offset="0"
-                                    width="3"/>
-                                <phone
-                                    jcr:primaryType="nt:unstructured"
-                                    width="6"/>
-                            </cq:responsive>
-                        </text_431524271>
-                        <text_1466610638
-                            cq:styleIds="[1563112684784,1564019558267]"
-                            jcr:created="{Date}2019-07-25T09:47:09.065+07:00"
-                            jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-07-25T09:47:37.286+07:00"
-                            jcr:lastModifiedBy="admin"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="sandiego/components/content/core/text"
-                            text="&lt;p>&lt;b>&lt;a href=&quot;https://www.google.com/&quot;>Third Party Access&lt;/a>&lt;/b>&lt;/p>&#xd;&#xa;"
-                            textIsRich="true">
-                            <cq:responsive jcr:primaryType="nt:unstructured">
-                                <default
-                                    jcr:primaryType="nt:unstructured"
-                                    width="3"/>
-                                <phone
-                                    jcr:primaryType="nt:unstructured"
-                                    width="6"/>
-                            </cq:responsive>
-                        </text_1466610638>
-                        <text_1573975189
-                            cq:styleIds="[1563112684784,1564019558267]"
-                            jcr:created="{Date}2019-07-25T09:48:17.290+07:00"
-                            jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-07-25T09:50:01.276+07:00"
-                            jcr:lastModifiedBy="admin"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="sandiego/components/content/core/text"
-                            text="&lt;p>&lt;b>&lt;a href=&quot;https://www.google.com/&quot;>Business Continuity and Disaster Recovery&lt;/a>&lt;/b>&lt;/p>&#xd;&#xa;"
-                            textIsRich="true">
-                            <cq:responsive jcr:primaryType="nt:unstructured">
-                                <default
-                                    jcr:primaryType="nt:unstructured"
-                                    width="3"/>
-                                <phone
-                                    jcr:primaryType="nt:unstructured"
-                                    width="6"/>
-                            </cq:responsive>
-                        </text_1573975189>
+                            sling:resourceType="sandiego/components/content/public-page/it-guiding-page-v1/accordion-text-box">
+                            <image
+                                jcr:lastModified="{Date}2019-08-01T08:50:59.839+07:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="sandiego/components/content/core/image"
+                                alt="list"
+                                altValueFromDAM="false"
+                                displayPopupTitle="false"
+                                fileReference="/content/dam/sandiego/public-pages/it-guiding-principles-1/list-3.png"
+                                isDecorative="false"
+                                titleValueFromDAM="false"/>
+                            <text_1
+                                jcr:lastModified="{Date}2019-08-01T08:51:08.072+07:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="sandiego/components/content/core/text"
+                                text="&lt;p>County Standards Compliance&lt;/p>&#xd;&#xa;"
+                                textIsRich="true"/>
+                            <text_2
+                                jcr:lastModified="{Date}2019-08-01T08:51:20.617+07:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="sandiego/components/content/core/text"
+                                text="&lt;p>Enterprise-wide IT risk will be evaluated through standard policies, procedures, and a governance model to identify appropriate mitigations for the County as an enterprise.&lt;br>&#xd;&#xa;&lt;br>&#xd;&#xa;&lt;b>Rationale:&lt;/b>&lt;br>&#xd;&#xa;&lt;br>&#xd;&#xa;The tradeoffs between business value and risk must be considered at the enterprise level.&amp;nbsp; Evaluating and communicating acceptable levels of risk will ensure optimum protection of resources within the business and the County overall&lt;br>&#xd;&#xa;&lt;/p>&#xd;&#xa;"
+                                textIsRich="true"/>
+                        </accordion_text_box_421127685>
                     </responsivegrid>
-                    <text_1658720041_copy
-                        jcr:created="{Date}2019-07-30T14:23:49.306+07:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-07-30T14:23:52.453+07:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="sandiego/components/content/core/text"
-                        text="&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;"
-                        textIsRich="true"/>
                     <teaser
                         cq:styleIds="[1564471320004]"
                         jcr:created="{Date}2019-07-30T14:19:29.123+07:00"
